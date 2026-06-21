@@ -1,0 +1,61 @@
+[
+  {
+    "local_path": "cases/covid/files/scott_alexander_covid_debate.txt",
+    "url": "https://www.astralcodexten.com/p/your-covid-questions-answered",
+    "author": "Scott Alexander",
+    "date": "2024-03-28",
+    "content_type": "text"
+  },
+  {
+    "local_path": "cases/covid/files/response_to_scott_alexander.txt",
+    "url": "https://blog.rootclaim.com/covid-origins-debate-response-to-scott-alexander/",
+    "author": "Jonathan (Rootclaim)",
+    "date": "2024-04-01",
+    "content_type": "text"
+  },
+  {
+    "local_path": "cases/covid/files/judge_will_decision.txt",
+    "url": "https://drive.google.com/file/d/1YhmkYB32RpGsXvQTsX4xZ0Yul1wiwh8Z/view",
+    "author": "Judge Will",
+    "date": "2024-03-28",
+    "content_type": "text"
+  },
+  {
+    "local_path": "cases/covid/files/judge_eric_decision.txt",
+    "url": null,
+    "author": "Judge Eric Stansifer",
+    "date": "2023-12-18",
+    "content_type": "text"
+  },
+  {
+    "local_path": "cases/covid/files/michael.txt",
+    "url": "https://michaelweissman.substack.com/p/an-inconvenient-probability-v57",
+    "author": "Michael Weissman",
+    "date": "2024-03-14",
+    "content_type": "text"
+  },
+  {
+    "local_path": "cases/covid/files/youtube_Y1vaooTKHCM.txt",
+    "url": "https://www.youtube.com/watch?v=Y1vaooTKHCM",
+    "author": "Rootclaim",
+    "date": "2023-12-30",
+    "content_type": "video",
+    "title": "First Rootclaim Debate on Covid Origins, part 1 — opening arguments for a natural origin of Covid"
+  },
+  {
+    "local_path": "cases/covid/files/youtube_KdORmvU8MLI.txt",
+    "url": "https://www.youtube.com/watch?v=KdORmvU8MLI",
+    "author": "Rootclaim",
+    "date": "2023-12-30",
+    "content_type": "video",
+    "title": "First Rootclaim Debate on Covid Origins, part 2 — opening arguments for lab leak"
+  },
+  {
+    "local_path": "cases/covid/files/youtube_d1dbfoK8nSE.txt",
+    "url": "https://www.youtube.com/watch?v=d1dbfoK8nSE",
+    "author": "Rootclaim",
+    "date": "2023-12-30",
+    "content_type": "video",
+    "title": "First Rootclaim Debate on Covid Origins, part 3 — discussion and judges' questions"
+  }
+]

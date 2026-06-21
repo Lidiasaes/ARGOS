@@ -1,0 +1,58 @@
+{
+  "cases/covid/files/scott_alexander_covid_debate.txt": {
+    "role": "commentary",
+    "method": "haiku",
+    "label": "Scott Alexander",
+    "author": "Scott Alexander",
+    "url": "https://www.astralcodexten.com/p/your-covid-questions-answered"
+  },
+  "cases/covid/files/response_to_scott_alexander.txt": {
+    "role": "rebuttal",
+    "method": "rule",
+    "label": "Jonathan (Rootclaim)",
+    "author": "Jonathan (Rootclaim)",
+    "url": "https://blog.rootclaim.com/covid-origins-debate-response-to-scott-alexander/"
+  },
+  "cases/covid/files/judge_will_decision.txt": {
+    "role": "judge_decision",
+    "method": "rule",
+    "label": "Judge Will",
+    "author": "Judge Will",
+    "url": "https://drive.google.com/file/d/1YhmkYB32RpGsXvQTsX4xZ0Yul1wiwh8Z/view"
+  },
+  "cases/covid/files/judge_eric_decision.txt": {
+    "role": "judge_decision",
+    "method": "rule",
+    "label": "Judge Eric Stansifer",
+    "author": "Judge Eric Stansifer",
+    "url": "cases/covid/files/judge_eric_decision.txt"
+  },
+  "cases/covid/files/michael.txt": {
+    "role": "commentary",
+    "method": "rule",
+    "label": "Michael Weissman",
+    "author": "Michael Weissman",
+    "url": "https://michaelweissman.substack.com/p/an-inconvenient-probability-v57"
+  },
+  "cases/covid/files/youtube_Y1vaooTKHCM.txt": {
+    "role": "debate_transcript",
+    "method": "rule",
+    "label": "First Rootclaim Debate on Covid Origins, part 1 — opening arguments for a natural origin of Covid",
+    "author": "Rootclaim",
+    "url": "https://www.youtube.com/watch?v=Y1vaooTKHCM"
+  },
+  "cases/covid/files/youtube_KdORmvU8MLI.txt": {
+    "role": "debate_transcript",
+    "method": "rule",
+    "label": "First Rootclaim Debate on Covid Origins, part 2 — opening arguments for lab leak",
+    "author": "Rootclaim",
+    "url": "https://www.youtube.com/watch?v=KdORmvU8MLI"
+  },
+  "cases/covid/files/youtube_d1dbfoK8nSE.txt": {
+    "role": "debate_transcript",
+    "method": "rule",
+    "label": "First Rootclaim Debate on Covid Origins, part 3 — discussion and judges' questions",
+    "author": "Rootclaim",
+    "url": "https://www.youtube.com/watch?v=d1dbfoK8nSE"
+  }
+}

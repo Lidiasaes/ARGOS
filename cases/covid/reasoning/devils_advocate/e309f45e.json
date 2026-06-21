@@ -1,0 +1,9 @@
+{
+  "strongest_counterargument": "This claim characterizes what a specific debater's argument 'depends on' rather than evaluating whether the HSM cluster actually is unlikely under lab leak. The attestors are primarily Rootclaim (an interested party in their own debate) and the judge summarizing one side's position—neither constitutes independent empirical validation that the zoonosis case truly 'depends entirely' on this point, as opposed to being supported by multiple convergent lines of evidence (molecular clock, lineage diversity, environmental samples, spatial clustering patterns).",
+  "counterargument_type": "scope_limitation",
+  "what_would_refute_this_counterargument": "A formal decision-tree or sensitivity analysis showing that removing the 'HSM cluster as improbable coincidence' premise causes the zoonosis posterior probability to collapse to near-equiprobable levels, while other zoonosis evidence (lineages A/B geography, molecular dating, animal samples) remains constant.",
+  "revised_confidence": "medium",
+  "revised_confidence_rationale": "The claim accurately describes how one advocate framed their case in a specific debate context, but the sources don't establish whether this is actually the evidential load-bearing premise of the scientific zoonosis hypothesis broadly, versus one rhetorical framing in adversarial debate.",
+  "the_thing_nobody_is_saying": "The claim conflates 'what argument strategy did one debater employ' with 'what does the scientific hypothesis actually rest upon'—if the zoonosis case can survive without treating HSM as dispositive evidence, then characterizing it as 'depending entirely' on this reveals more about debate tactics than scientific epistemology.",
+  "claim_id": "e309f45e"
+}

@@ -1,0 +1,118 @@
+{
+  "evaluations": [
+    {
+      "criterion_id": "general_methodological_transparency",
+      "status": "red_flag",
+      "evidence_quote": "I've recreated this code. If you want to see it with like different bandwidths, you could ask me after the debate and I could show a comparison there.",
+      "reviewer_note": "This is a debate transcript, not a formal methods section. Methods are described conversationally with references to recreated code and arbitrary parameter choices (bandwidth of 3 km) without systematic documentation of analytical decisions, data sources, or validation procedures.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "data_collection_procedures",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "The speaker references multiple data sources (WHO report, Chinese videos, hospital records, DRASTIC researchers) but provides no systematic description of data collection procedures, inclusion/exclusion criteria, or search strategies.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "case_definition",
+      "status": "red_flag",
+      "evidence_quote": "Um those two are not the very first. The very first is Wei Guixian. And then after that, it's uh it's two more vendors. So, you know, four out of the first five work there.",
+      "reviewer_note": "No formal case definition is provided. The speaker conflates 'first known case,' 'first hospitalized case,' and 'first case sick enough that we noticed' without clear operational definitions or diagnostic criteria.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "sampling_strategy",
+      "status": "red_flag",
+      "evidence_quote": "We don't have full ascertainment of these market cases. Wei Guixian is just the first known case. She's not patient zero... Some people are asymptomatic. Some people have a mild case.",
+      "reviewer_note": "The speaker acknowledges ascertainment bias and incomplete sampling but does not describe any systematic sampling strategy. The analysis relies on convenience samples of hospitalized or detected cases.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "statistical_methods",
+      "status": "declared",
+      "evidence_quote": "the odds are you know, it's P equals uh 0.034 that they'd be that close of all these other great odds of possible locations... the odds, if you pick them at random that they'd both be that close are um 0.001.",
+      "reviewer_note": "P-values are reported for spatial clustering analysis, and kernel density estimation with Gaussian functions is mentioned, though with acknowledged arbitrary parameter choices (bandwidth).",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "bias_assessment",
+      "status": "declared",
+      "evidence_quote": "Um so, the the big question here is was COVID everywhere or was there some sort of bias that led us to only find it the market?... But it's also the hospitals that are independently finding these cases.",
+      "reviewer_note": "The speaker explicitly addresses ascertainment bias concerns and attempts to rule out selection bias by examining independent hospital records, though the assessment is informal rather than systematic.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "peer_review_status",
+      "status": "not_applicable",
+      "evidence_quote": null,
+      "reviewer_note": "This is a debate transcript, not a peer-reviewed publication. The speaker references peer-reviewed work by Worobey and others but this source itself has no peer review status.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "data_availability",
+      "status": "red_flag",
+      "evidence_quote": "You could easily have solved this puzzle if China had tested everybody at the market for antibodies... Uh they either they never did that or they never shared that data. And they could have also just, you know, asked detailed interviews of these people and that would have solved it, too. But we've never heard of those interviews.",
+      "reviewer_note": "The speaker explicitly notes that critical data (antibody tests, detailed interviews) are unavailable or not shared, representing a major data accessibility problem that undermines the analysis.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "conflict_of_interest",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No conflicts of interest are declared in this debate format, though this would not typically be expected in an oral debate transcript.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "temporal_sequence_documentation",
+      "status": "declared",
+      "evidence_quote": "I think it's she started knowing she was sick on the 10th, but the bad fever started on the 11th... that patient actually got sick on December 16th, and that was just a recording error.",
+      "reviewer_note": "The speaker provides detailed temporal documentation of early cases, including corrections to dating errors and symptom onset timelines, though based on secondary sources rather than primary data access.",
+      "quote_verified": true
+    }
+  ],
+  "red_flag_hits": [
+    {
+      "pattern": "missing_data_acknowledgment",
+      "evidence_quote": "You could easily have solved this puzzle if China had tested everybody at the market for antibodies... Uh they either they never did that or they never shared that data... But we've never heard of those interviews.",
+      "reviewer_note": "Critical data gaps are acknowledged including missing antibody testing, unreleased interview data, and incomplete case ascertainment, which fundamentally limit the strength of conclusions.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "informal_methodology",
+      "evidence_quote": "And people dug into this over time. And uh it was actually two DRASTIC researchers, uh I think this was Brian Reed and Francisco that first noticed that uh that patient actually got sick on December 16th",
+      "reviewer_note": "The analysis relies heavily on informal investigations by citizen researchers (DRASTIC) and the speaker's own translations of Chinese videos, rather than systematic methodology with documented protocols.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "arbitrary_analytical_choices",
+      "evidence_quote": "And I think they used a bandwidth of 3 km there to come up with their centering technique. There's some arbitrariness there.",
+      "reviewer_note": "The speaker explicitly acknowledges arbitrariness in key analytical parameters (kernel density bandwidth) without providing justification for specific choices or sensitivity analyses.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "debate_format_limitations",
+      "evidence_quote": "Um I'd have to produce some raw heat maps for you to to explain this better. I don't have the slide for that. But we can get into that.",
+      "reviewer_note": "The debate format inherently limits methodological transparency and detail, with the speaker unable to provide complete documentation or respond to technical questions with prepared materials.",
+      "quote_verified": true
+    }
+  ],
+  "source_id": "cases/covid/files/youtube_Y1vaooTKHCM.txt",
+  "source_label": "First Rootclaim Debate on Covid Origins, part 1 — opening arguments for a natural origin of Covid",
+  "methodology_score": 0.293,
+  "score_rationale": "Score 0.293 (deterministic): weighted declared 3.0/9.0 (base 0.333); 3/9 criteria declared, 2 not_declared, 4 red_flag; 4 pattern hits (penalty capped); ceiling 0.5.",
+  "score_breakdown": {
+    "applicable": 9,
+    "not_applicable": 1,
+    "declared": 3,
+    "not_declared": 2,
+    "red_flag_criteria": 4,
+    "red_flag_hits": 4,
+    "weighted_declared": 3.0,
+    "weighted_total": 9.0,
+    "base_ratio": 0.333,
+    "confidence_ceiling": 0.5,
+    "methodology_score": 0.293
+  },
+  "score_computed_by": "deterministic_v1"
+}

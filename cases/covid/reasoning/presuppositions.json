@@ -1,0 +1,115 @@
+[
+  {
+    "presupposition": "Early case detection patterns accurately reflect actual transmission patterns rather than surveillance artifacts",
+    "what_breaks_if_false": "All claims about HSM being the epicenter (ce564797, e309f45e) collapse if the observed clustering is merely an artifact of where and how testing was conducted. The entire Bayesian analysis treating HSM location as strong evidence would be invalid.",
+    "vulnerability": "high",
+    "vulnerability_rationale": "Multiple contested claims (e1ee4beb, cf6510fa) directly argue that surveillance bias shaped detection patterns. The fact that Dr. Zhang's discovery on Dec 26-27 (804787e3) preceded systematic testing means the initial search strategy was formed based on incomplete information and SARS-1 analogy, creating selection bias.",
+    "how_to_test": "Retrospective serological surveys of stored blood samples from December 2019 across Wuhan, stratified by geographic location and market connection. Compare seroprevalence patterns to reported case patterns. If they diverge significantly, surveillance bias is confirmed.",
+    "implicated_claims": [
+      "ce564797",
+      "e309f45e",
+      "a0c36b5b",
+      "306b7d23",
+      "510baa92",
+      "ccb11477"
+    ]
+  },
+  {
+    "presupposition": "The first detected cluster represents or approximates the actual first outbreak cluster",
+    "what_breaks_if_false": "If substantial community transmission preceded HSM detection, then claims about HSM being the epicenter (ce564797) and the geographic coincidence arguments (5e67b483) become meaningless. The pandemic could have started elsewhere in Wuhan weeks earlier, with HSM simply being where detection happened to occur.",
+    "vulnerability": "high",
+    "vulnerability_rationale": "Claim 07973e69 suggests 90 cases before the first HSM case, and claim 08f075da notes half of first 40 cases had no market connection. The asymptomatic/mild case rate for COVID-19 means early transmission could easily go undetected. Detection was triggered by unusual CT scan patterns, not community screening.",
+    "how_to_test": "Phylogenetic molecular clock analysis using all available early sequences to estimate TMRCA (time to most recent common ancestor). Compare estimated pandemic start date to first detected HSM cases. Sewage archive testing from November-December 2019 across Wuhan districts.",
+    "implicated_claims": [
+      "ce564797",
+      "e309f45e",
+      "078ce8e0",
+      "510baa92",
+      "ccb11477"
+    ]
+  },
+  {
+    "presupposition": "Seafood markets as outbreak locations in other countries/times are comparable reference classes for assessing HSM probability",
+    "what_breaks_if_false": "Claims d7c36efa and 10e5b7a6 about other market outbreaks lose evidential value if these later outbreaks occurred under different surveillance conditions, with different population immunity, or with fundamentally different transmission dynamics than a naive population first encounter. This undermines the argument that HSM clustering is unsurprising.",
+    "vulnerability": "medium",
+    "vulnerability_rationale": "Later outbreaks (Xinfadi, Thailand, Singapore) occurred when COVID-19 was a known entity with established testing protocols and surveillance systems actively looking for cases. The comparison assumes markets are equivalent detection environments across radically different epidemiological contexts (zero-COVID surveillance vs. initial emergence).",
+    "how_to_test": "Detailed comparison of surveillance protocols and case ascertainment methods between HSM (December 2019) and later market outbreaks (2020). Calculate detection delay distributions and testing trigger criteria for market vs. non-market cases in each outbreak. Test whether later outbreaks showed similar fractions of unlinked cases.",
+    "implicated_claims": [
+      "d7c36efa",
+      "10e5b7a6",
+      "529a370f",
+      "eda89776",
+      "a0c36b5b"
+    ]
+  },
+  {
+    "presupposition": "Bayesian likelihood ratios can be reliably estimated for unique historical events with incomplete evidence",
+    "what_breaks_if_false": "The entire quantitative framework (claims ccb11477, 306b7d23, 510baa92) collapses if the probability estimates are too uncertain or subjective to meaningfully distinguish between hypotheses. The '1 in 300' odds become meaningless if the true confidence intervals span orders of magnitude.",
+    "vulnerability": "high",
+    "vulnerability_rationale": "The methodology context notes average methodology score of 0.25 with confidence ceiling of 0.5, suggesting low-quality mixed evidence. Probability estimates like '1% for p(HSM|Lab Leak,Wuhan)' (306b7d23) rely on subjective judgment about counterfactuals that never occurred. No ground truth exists to calibrate these estimates.",
+    "how_to_test": "Elicit probability estimates from multiple independent expert teams using identical evidence bases. Measure inter-rater reliability and examine whether confidence intervals overlap meaningfully. Conduct sensitivity analysis showing how final odds ratios change across plausible ranges of each input probability. If final conclusions are highly sensitive to uncertain inputs, the framework is unreliable.",
+    "implicated_claims": [
+      "ccb11477",
+      "306b7d23",
+      "a0c36b5b",
+      "e309f45e",
+      "510baa92"
+    ]
+  },
+  {
+    "presupposition": "Absence of detected animal reservoir at HSM or supply farms reflects true absence rather than insufficient sampling or testing",
+    "what_breaks_if_false": "Claim 526d2cc3 (no positive animals inconsistent with wildlife involvement) loses force if sampling was inadequate, animals were removed before testing, or the intermediate host species was not among those tested. The zoonotic pathway could still be valid.",
+    "vulnerability": "medium",
+    "vulnerability_rationale": "Market was sanitized January 1, 2020 (claim 525bc87d) before comprehensive sampling could occur. Many animals were likely sold/consumed before outbreak recognition. Testing protocols may not have targeted the specific species or tissues where virus replication occurs. SARS-1 intermediate host (palm civets) took months to identify.",
+    "how_to_test": "Meta-analysis of animal sampling protocols at HSM: which species were tested, sample sizes, tissue types, PCR sensitivity, and timing relative to market closure. Compare to successful intermediate host identification efforts for other zoonotic diseases. Model the probability of detection given various sampling scenarios.",
+    "implicated_claims": [
+      "526d2cc3",
+      "4d017e5e"
+    ]
+  },
+  {
+    "presupposition": "The spatial distribution of cases within HSM can reliably distinguish between superspreading importation and zoonotic spillover",
+    "what_breaks_if_false": "Contested claim a81636f1 (uniform distribution favors superspreading over spillover) becomes uninformative if both scenarios could produce similar spatial patterns given market layout, human movement patterns, and stochastic transmission. The spatial evidence would then be neutral rather than discriminating.",
+    "vulnerability": "medium",
+    "vulnerability_rationale": "Limited understanding of early transmission dynamics, small sample sizes of confirmed cases, and potential surveillance bias in which stalls were tested all confound spatial interpretation. Claim 358c38fe notes superspreading events show high randomness. Without agent-based transmission modeling, intuitions about expected spatial patterns may be unreliable.",
+    "how_to_test": "Agent-based transmission modeling of both scenarios (spillover from specific stall vs. superspreading from infected visitor) given actual HSM layout, visitor flow patterns, and stall density. Generate predicted spatial distributions under each scenario and compare to observed patterns using statistical tests. Assess whether scenarios are distinguishable given sample size.",
+    "implicated_claims": [
+      "a81636f1",
+      "fa216eb8",
+      "529a370f"
+    ]
+  },
+  {
+    "presupposition": "WIV's documented research capabilities accurately reflect their actual technical capacity to create SARS-CoV-2-like viruses",
+    "what_breaks_if_false": "Claim e56fa56e (sequence data points to lab involvement) and fa84cafd (WIV capability assessment) both depend on knowing what WIV could actually do. If undocumented capabilities existed or published papers misrepresent technical sophistication, the probability calculations for lab leak scenarios are wrong.",
+    "vulnerability": "high",
+    "vulnerability_rationale": "Research institutions may have unpublished capabilities, dual-use equipment, or collaborations not reflected in open literature. The DEFUSE proposal was not funded, but similar work could have occurred. Chinese government restrictions on information flow make capability assessment dependent on incomplete evidence. Absence of evidence is not evidence of absence.",
+    "how_to_test": "Systematic review of all WIV publications, equipment inventories, staff expertise, and collaboration networks. Expert assessment of what techniques could be performed with documented resources. Interview researchers familiar with WIV operations. However, this fundamentally cannot eliminate uncertainty about undocumented work.",
+    "implicated_claims": [
+      "e56fa56e",
+      "fa84cafd"
+    ]
+  },
+  {
+    "presupposition": "Population density corrections in epidemiological analyses adequately control for differential case ascertainment across geographic areas",
+    "what_breaks_if_false": "The contested claims about whether Worobey's data is confounded by population density (e971c17a, 921ad384) matter for interpreting geographic clustering. If population density is an inadequate proxy for true ascertainment probability (which also depends on healthcare access, testing availability, social network structure), then geographic analyses may be systematically biased.",
+    "vulnerability": "medium",
+    "vulnerability_rationale": "Population density is a crude proxy. Healthcare access, socioeconomic status, travel patterns, and social connectivity all affect case detection but may not correlate linearly with density. The HSM area may have had differential surveillance intensity regardless of residential population density.",
+    "how_to_test": "Obtain data on healthcare facility locations, testing center accessibility, and actual testing rates by geographic area in December 2019-January 2020. Compare spatial distribution of testing capacity to spatial distribution of cases. Conduct sensitivity analysis showing how conclusions change under different ascertainment correction models.",
+    "implicated_claims": [
+      "e971c17a",
+      "921ad384"
+    ]
+  },
+  {
+    "presupposition": "The reference class for assessing 'geographic coincidence' of WIV and outbreak is well-defined and includes appropriate comparison cases",
+    "what_breaks_if_false": "Claim 5e67b483 (geographic coincidence of pandemic starting in Wuhan is surprising under zoonosis) requires a valid reference class to be meaningful. If the denominator is wrong (e.g., how many cities have coronavirus research labs vs. wet markets vs. both), the probability calculation is arbitrary.",
+    "vulnerability": "medium",
+    "vulnerability_rationale": "Multiple plausible reference classes exist: Chinese cities with BSL-4 labs, cities with coronavirus research, cities with wildlife markets, or global locations with any combination. The choice dramatically affects the probability. Also, Wuhan is a major transportation hub and population center, which independently increases outbreak detection probability.",
+    "how_to_test": "Enumerate all plausible reference classes and calculate coincidence probabilities under each. Assess whether choice of reference class affects conclusions. Compare to base rates: what fraction of emerging infectious disease outbreaks occur in cities with relevant research facilities purely by chance given global distribution of both?",
+    "implicated_claims": [
+      "5e67b483",
+      "e309f45e"
+    ]
+  }
+]

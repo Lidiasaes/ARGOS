@@ -1,0 +1,923 @@
+{
+  "case": "covid",
+  "relations": [
+    {
+      "from_id": "ccb11477",
+      "to_id": "d31f259d",
+      "type": "explains",
+      "rationale": "The final posterior odds ratio of 3.6E-3 mathematically corresponds to the approximately 1 in 300 probability statement for lab leak origin.",
+      "strength": 0.95,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "ccb11477",
+      "to_id": "510baa92",
+      "type": "supports",
+      "rationale": "The final odds ratio of 3.6E-3 (roughly 1:300 against lab leak) provides quantitative Bayesian support for SARS-CoV-2 being substantially more likely of zoonotic origin.",
+      "strength": 0.95,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "bb01c6c9",
+      "to_id": "5d51ea67",
+      "type": "supports",
+      "rationale": "Both judges independently ruling in favor of zoonosis constitutes the decisive evidence that the zoonotic origin hypothesis won the debate.",
+      "strength": 0.9,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "318e168f",
+      "to_id": "a0c36b5b",
+      "type": "supports",
+      "rationale": "The reduction of claimed 10,000x Bayes factor to less than 5x directly supports the claim that HSM cluster provides negligible evidence for zoonosis.",
+      "strength": 0.85,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "7a1459a2",
+      "to_id": "306b7d23",
+      "type": "supports",
+      "rationale": "Multiple independent methods yielding p(HSM|Lab Leak,Wuhan) exceeding 1% with estimates of 5-10% validates and extends the conservative 1% assignment.",
+      "strength": 0.85,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "059c537b",
+      "to_id": "318e168f",
+      "type": "explains",
+      "rationale": "The low conditional probability of 3-5% for HSM given zoonosis (because multiple wildlife markets existed) explains why the Bayes factor reduces from 10,000x to less than 5x.",
+      "strength": 0.8,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "24d3bd59",
+      "to_id": "a0c36b5b",
+      "type": "supports",
+      "rationale": "Rootclaim's assignment of only 2x evidential weight to the HSM cluster directly affirms the claim that it provides negligible evidence for zoonosis.",
+      "strength": 0.85,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "e309f45e",
+      "to_id": "6b80cb96",
+      "type": "supports",
+      "rationale": "The claim that zoonosis depends on HSM being an unlikely coincidence under lab leak is consistent with Peter Miller's case depending on the improbability of lab leak first appearing at a wet market.",
+      "strength": 0.8,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "39b2269a",
+      "to_id": "e309f45e",
+      "type": "supports",
+      "rationale": "Scott Alexander's 94% lab-leak probability without HSM evidence demonstrates that the zoonosis hypothesis indeed depends entirely on the HSM cluster as extreme coincidence.",
+      "strength": 0.85,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "c29db12a",
+      "to_id": "5e67b483",
+      "type": "supports",
+      "rationale": "Both sides agreeing on ~1% probability for Wuhan as emergence location validates the view that Wuhan is a surprising coincidence for zoonotic coronavirus pandemic origin.",
+      "strength": 0.8,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "0d55b76f",
+      "to_id": "7a1459a2",
+      "type": "undermines",
+      "rationale": "Judge Eric's assessment finding Rootclaim's market model inadequate challenges the validity of their multiple independent methods claiming p(HSM|Lab Leak,Wuhan) exceeds 1%.",
+      "strength": 0.75,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "8ca9c020",
+      "to_id": "510baa92",
+      "type": "supports",
+      "rationale": "Scott Alexander's dramatic shift from 50-50 to 90-10 favoring zoonosis after the debate provides independent observational support for the claim that SARS-CoV-2 is substantially more likely of zoonotic origin.",
+      "strength": 0.85,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "135cc3d2",
+      "to_id": "730b660e",
+      "type": "supports",
+      "rationale": "Demaneuf and De Maistre's 1:1 to 4:1 lab-to-non-lab odds estimate falls within the broader range of 4.4 to 165 documented by Weissman, providing independent corroboration of similar Bayesian estimates.",
+      "strength": 0.75,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "14c30c8b",
+      "to_id": "135cc3d2",
+      "type": "supports",
+      "rationale": "Historical evidence of at least one lab-origin pandemic (1977 A/H1N1) establishes non-negligible base rates that justify Demaneuf and De Maistre's inclusion of lab-related scenarios in their odds calculations.",
+      "strength": 0.7,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "3f227e4f",
+      "to_id": "48872967",
+      "type": "supports",
+      "rationale": "The claim that markets were not common SARS1 spillover locations supports the low probability (<1%) assigned to HSM being just one of many similar market clusters, as both challenge the predictive power of the market-cluster evidence.",
+      "strength": 0.65,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "75fa7587",
+      "to_id": "48872967",
+      "type": "explains",
+      "rationale": "The comparative probability tables methodology provides the analytical framework used to arrive at the specific <1% probability estimate for multiple seafood market clusters.",
+      "strength": 0.7,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "75fa7587",
+      "to_id": "135cc3d2",
+      "type": "explains",
+      "rationale": "The comparative probability tables methodology explains the technical approach underlying Demaneuf and De Maistre's likelihood ratio analysis that produced their odds estimates.",
+      "strength": 0.65,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "1da344e5",
+      "to_id": "c632b88f",
+      "type": "contradicts",
+      "rationale": "Peter Miller's trajectory toward 90%+ confidence against lab leak directly contradicts the claim that incorporating debate evidence strengthened the lab-leak probability estimate.",
+      "strength": 0.8,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "14c30c8b",
+      "to_id": "730b660e",
+      "type": "supports",
+      "rationale": "The historical pandemic data establishing non-negligible lab accident base rates provides empirical grounding for the Bayesian estimates discussed in the 4.4 to 165 odds range.",
+      "strength": 0.7,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "3f227e4f",
+      "to_id": "c632b88f",
+      "type": "supports",
+      "rationale": "The argument that markets lack strong predictive power from SARS1 precedent supports the claim that debate evidence strengthened lab-leak probability by weakening the zoonosis case.",
+      "strength": 0.6,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "48872967",
+      "to_id": "c632b88f",
+      "type": "supports",
+      "rationale": "The very low probability assigned to alternative market clusters being missed supports the strengthening of lab-leak probability by eliminating a potential zoonosis explanation.",
+      "strength": 0.65,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "730b660e",
+      "to_id": "c632b88f",
+      "type": "undermines",
+      "rationale": "The fact that most Bayesian estimates in the 4.4 to 165 range were made by people favoring zoonosis suggests debate evidence may not have uniformly strengthened lab-leak probability across independent analysts.",
+      "strength": 0.6,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "135cc3d2",
+      "to_id": "c632b88f",
+      "type": "supports",
+      "rationale": "Demaneuf and De Maistre's base estimate of 4:1 lab-to-non-lab odds provides quantitative support for the claim that analysis strengthened lab-leak probability.",
+      "strength": 0.7,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "75fa7587",
+      "to_id": "3f227e4f",
+      "type": "explains",
+      "rationale": "The comparative probability tables methodology explains how the Bayes factor assessment regarding markets and SARS1 spillover patterns was formally analyzed.",
+      "strength": 0.65,
+      "subfield": "Bayesian likelihood ratio analysis"
+    },
+    {
+      "from_id": "986d420c",
+      "to_id": "68e8028f",
+      "type": "supports",
+      "rationale": "The documentary evidence of research plans involving furin cleavage site insertion directly supports the characterization of DEFUSE as central evidence for the lab leak hypothesis.",
+      "strength": 0.85,
+      "subfield": "DEFUSE proposal methodology"
+    },
+    {
+      "from_id": "bfe22871",
+      "to_id": "986d420c",
+      "type": "supports",
+      "rationale": "The specific excerpts documenting proposed methodologies provide the documentary foundation for the broader claim about research plans involving furin cleavage site insertion and WIV collaboration.",
+      "strength": 0.9,
+      "subfield": "DEFUSE proposal methodology"
+    },
+    {
+      "from_id": "9713f518",
+      "to_id": "fa84cafd",
+      "type": "requires",
+      "rationale": "The assessment of WIV's capability to execute DEFUSE-style research logically depends on knowing what activities were actually proposed for WIV in the DEFUSE document.",
+      "strength": 0.8,
+      "subfield": "DEFUSE proposal methodology"
+    },
+    {
+      "from_id": "fa84cafd",
+      "to_id": "68e8028f",
+      "type": "undermines",
+      "rationale": "Judge Will's conclusion that WIV's low capability to execute DEFUSE work weighs against lab leak undermines the characterization by Judge Eric that DEFUSE represents central evidence for lab leak.",
+      "strength": 0.75,
+      "subfield": "DEFUSE proposal methodology"
+    },
+    {
+      "from_id": "238a48b1",
+      "to_id": "68e8028f",
+      "type": "supports",
+      "rationale": "The judge's summary of the proposal's evidential significance reinforces its characterization as central to evaluating the lab leak hypothesis.",
+      "strength": 0.7,
+      "subfield": "DEFUSE proposal methodology"
+    },
+    {
+      "from_id": "986d420c",
+      "to_id": "9713f518",
+      "type": "supports",
+      "rationale": "The documentary evidence of proposed activities provides the factual basis for identifying which specific research activities would have involved WIV.",
+      "strength": 0.85,
+      "subfield": "DEFUSE proposal methodology"
+    },
+    {
+      "from_id": "fa84cafd",
+      "to_id": "986d420c",
+      "type": "undermines",
+      "rationale": "The conclusion that WIV had lower capability to execute the proposed research weakens the evidential weight of the DEFUSE proposal as documentary evidence for what actually occurred.",
+      "strength": 0.7,
+      "subfield": "DEFUSE proposal methodology"
+    },
+    {
+      "from_id": "bfe22871",
+      "to_id": "9713f518",
+      "type": "supports",
+      "rationale": "The excerpts documenting specific methodologies provide the textual evidence for determining which activities were designated for WIV.",
+      "strength": 0.8,
+      "subfield": "DEFUSE proposal methodology"
+    },
+    {
+      "from_id": "9713f518",
+      "to_id": "68e8028f",
+      "type": "supports",
+      "rationale": "The specification of WIV's proposed role in the research activities strengthens the proposal's relevance as central evidence for lab leak hypothesis.",
+      "strength": 0.75,
+      "subfield": "DEFUSE proposal methodology"
+    },
+    {
+      "from_id": "238a48b1",
+      "to_id": "fa84cafd",
+      "type": "requires",
+      "rationale": "Evaluating the evidential significance of the DEFUSE proposal necessarily depends on assessing WIV's actual capability to execute the proposed work.",
+      "strength": 0.7,
+      "subfield": "DEFUSE proposal methodology"
+    },
+    {
+      "from_id": "fa84cafd",
+      "to_id": "238a48b1",
+      "type": "explains",
+      "rationale": "The assessment of WIV's low capability to execute DEFUSE work provides the mechanism for understanding why the proposal's evidential significance might be limited.",
+      "strength": 0.75,
+      "subfield": "DEFUSE proposal methodology"
+    },
+    {
+      "from_id": "bfe22871",
+      "to_id": "238a48b1",
+      "type": "requires",
+      "rationale": "Summarizing the evidential significance of the proposal requires having the actual excerpts that document what was proposed.",
+      "strength": 0.8,
+      "subfield": "DEFUSE proposal methodology"
+    },
+    {
+      "from_id": "1ea50e49",
+      "to_id": "3a4fa882",
+      "type": "supports",
+      "rationale": "Patient testimony from Mr. Chen directly provides the evidentiary basis for the claim that his case was hospital-acquired on December 16 rather than community-acquired on December 8.",
+      "strength": 0.9,
+      "subfield": "early cluster analysis"
+    },
+    {
+      "from_id": "3a4fa882",
+      "to_id": "39e3f1f6",
+      "type": "contradicts",
+      "rationale": "If Mr. Chen's infection occurred on December 16 in a hospital, he cannot have been an earlier case than the market-associated cases that began around December 10-11.",
+      "strength": 0.85,
+      "subfield": "early cluster analysis"
+    },
+    {
+      "from_id": "1279ec71",
+      "to_id": "39e3f1f6",
+      "type": "undermines",
+      "rationale": "Double-counting the December 8th case and Mr. Chen as separate cases weakens the reliability of analysis that treats Mr. Chen as an independent early case.",
+      "strength": 0.75,
+      "subfield": "early cluster analysis"
+    },
+    {
+      "from_id": "1467861d",
+      "to_id": "03569133",
+      "type": "supports",
+      "rationale": "Wei Guixian's December 10 illness date provides temporal context confirming that the December 11 wet market vendor was indeed very early in the pandemic timeline.",
+      "strength": 0.8,
+      "subfield": "early cluster analysis"
+    },
+    {
+      "from_id": "191696e6",
+      "to_id": "d6b1d84b",
+      "type": "supports",
+      "rationale": "WHO's finding of zero positives among 92 pre-market pneumonia cases strengthens the claim that the first genuine cases had wet market connections by eliminating earlier false positives.",
+      "strength": 0.75,
+      "subfield": "early cluster analysis"
+    },
+    {
+      "from_id": "07973e69",
+      "to_id": "d6b1d84b",
+      "type": "contradicts",
+      "rationale": "A paper reporting 90 cases before the first wet market case directly contradicts the claim that the first case and half of the first 40 cases had wet market connections.",
+      "strength": 0.8,
+      "subfield": "early cluster analysis"
+    },
+    {
+      "from_id": "aa75da9c",
+      "to_id": "2c99e608",
+      "type": "supports",
+      "rationale": "Rootclaim's error about when the December 8th case occurred demonstrates why accurately determining when and where the outbreak started is essential for proper analysis.",
+      "strength": 0.7,
+      "subfield": "early cluster analysis"
+    },
+    {
+      "from_id": "fa18fe9b",
+      "to_id": "07973e69",
+      "type": "undermines",
+      "rationale": "If few or no early Weibo cases actually existed in December, this weakens the reliability of claims about 90 pre-market cases that may depend on such sources.",
+      "strength": 0.65,
+      "subfield": "early cluster analysis"
+    },
+    {
+      "from_id": "d6b1d84b",
+      "to_id": "ce564797",
+      "type": "supports",
+      "rationale": "The finding that the first case and half of the first 40 cases had wet market connections provides direct empirical support for the claim that the market epicenter location is evidence against lab leak.",
+      "strength": 0.85,
+      "subfield": "early cluster analysis"
+    },
+    {
+      "from_id": "56b0085d",
+      "to_id": "ce564797",
+      "type": "undermines",
+      "rationale": "Negative tests at the geometric center of positive samples (the mahjong room) raises questions about the precision of spatial clustering analysis supporting the market epicenter claim.",
+      "strength": 0.6,
+      "subfield": "early cluster analysis"
+    },
+    {
+      "from_id": "5bf8acb4",
+      "to_id": "ce564797",
+      "type": "supports",
+      "rationale": "Spatial visualization showing meaningful clustering at Huanan market beyond population density alone provides additional evidence for the market as the outbreak epicenter.",
+      "strength": 0.7,
+      "subfield": "early cluster analysis"
+    },
+    {
+      "from_id": "2bb03a1d",
+      "to_id": "1467861d",
+      "type": "supports",
+      "rationale": "The December 30 emergency notice about 27 hospitalized patients provides institutional confirmation that the outbreak timeline beginning around December 10 was substantial enough to trigger official response.",
+      "strength": 0.65,
+      "subfield": "early cluster analysis"
+    },
+    {
+      "from_id": "d7c36efa",
+      "to_id": "10e5b7a6",
+      "type": "supports",
+      "rationale": "The specific documented outbreaks in Thailand, Singapore, Xinfadi, and Dalian markets during zero-COVID periods provide concrete evidence for the broader pattern of seafood market clusters appearing after zero-infection periods.",
+      "strength": 0.9,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "299b35bf",
+      "to_id": "529a370f",
+      "type": "supports",
+      "rationale": "The Thailand seafood market outbreak after six months of zero infections demonstrates that seafood markets can serve as superspreader locations independent of pandemic origin, supporting HSM's environmental superspreading potential.",
+      "strength": 0.85,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "10e5b7a6",
+      "to_id": "902607aa",
+      "type": "explains",
+      "rationale": "The repeated pattern of seafood market outbreaks following zero-COVID periods establishes that HSM possesses environmental features making early cluster formation probable under any origin mechanism, not just zoonosis.",
+      "strength": 0.8,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "907f5fc1",
+      "to_id": "358c38fe",
+      "type": "contradicts",
+      "rationale": "The negative binomial distribution with predictable superspreading patterns contradicts the claim that superspreading events exhibit high randomness and lack predictable spatial patterns.",
+      "strength": 0.75,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "d9120745",
+      "to_id": "2bd95b58",
+      "type": "supports",
+      "rationale": "The claim of identical epidemiological patterns between Xinfadi and Huanan directly reinforces the specific observation that Xinfadi was traced to imported seafood at a single stall with similar spatial clustering.",
+      "strength": 0.85,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "fa216eb8",
+      "to_id": "a81636f1",
+      "type": "contradicts",
+      "rationale": "Xinfadi's concentrated heat map on the specific stall with infected seafood contradicts the claim that HSM's uniform spatial distribution across the west side is more compatible with superspreading than a single spillover point.",
+      "strength": 0.7,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "529a370f",
+      "to_id": "e6cce0f0",
+      "type": "undermines",
+      "rationale": "If HSM's environmental characteristics make it a high-probability superspreader location regardless of origin, this weakens the question of whether COVID exhibits special epidemiological attraction to HSM beyond random superspreading.",
+      "strength": 0.8,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "a529224d",
+      "to_id": "a585ca6e",
+      "type": "supports",
+      "rationale": "The finding that a study's 1676 supposedly superior sites were based on false assumptions supports the claim that only large hospitals are plausible alternative superspreading locations to HSM.",
+      "strength": 0.7,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "13295ef5",
+      "to_id": "529a370f",
+      "type": "explains",
+      "rationale": "The daily return of approximately 1,000 vendors creating repeated reinfection cycles provides a specific mechanism explaining why HSM possessed high superspreading potential regardless of pandemic origin.",
+      "strength": 0.75,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "a6c49508",
+      "to_id": "d9120745",
+      "type": "supports",
+      "rationale": "The Xinfadi outbreak's 73.9% market linkage and concentration in the seafood section provides empirical support for the claim of identical epidemiological patterns between Xinfadi and Huanan markets.",
+      "strength": 0.8,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "244fadbb",
+      "to_id": "299b35bf",
+      "type": "supports",
+      "rationale": "The specific similarity that Thailand's earliest case was a shrimp vendor reinforces the broader epidemiological significance of the Thailand seafood market outbreak as parallel evidence to HSM.",
+      "strength": 0.75,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "cda86093",
+      "to_id": "902607aa",
+      "type": "explains",
+      "rationale": "Rootclaim's market model proposing that market conditions increase COVID clustering probability under both scenarios provides the theoretical framework explaining why p(HSM|Lab Leak,Wuhan) must account for HSM's environmental features.",
+      "strength": 0.85,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "df02106c",
+      "to_id": "954cbcef",
+      "type": "supports",
+      "rationale": "The Thailand seafood market outbreak with 689 cases reinforces the pattern that seafood markets with shrimp vendors can be index cases for major clusters.",
+      "strength": 0.75,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "954cbcef",
+      "to_id": "df02106c",
+      "type": "supports",
+      "rationale": "The shrimp vendor as index case in Thailand mirrors the Huanan Market pattern, demonstrating a recurrent phenomenon in seafood market superspreading.",
+      "strength": 0.75,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "def5109f",
+      "to_id": "966b60f0",
+      "type": "supports",
+      "rationale": "Poor ventilation at Huanan market suggests specific environmental conditions are necessary for superspreading, supporting that most locations lack these conditions.",
+      "strength": 0.65,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "966b60f0",
+      "to_id": "def5109f",
+      "type": "requires",
+      "rationale": "The claim that most locations aren't amenable to superspread logically depends on specific environmental factors like poor ventilation being necessary.",
+      "strength": 0.7,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "def5109f",
+      "to_id": "df02106c",
+      "type": "explains",
+      "rationale": "Poor ventilation conditions provide a mechanism explaining how the Thailand seafood market could generate such a large outbreak spike.",
+      "strength": 0.6,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "96d2540d",
+      "to_id": "966b60f0",
+      "type": "undermines",
+      "rationale": "Rootclaim's errors on visitor numbers undermine the credibility of their broader analysis about location comparisons and superspreading suitability.",
+      "strength": 0.55,
+      "subfield": "seafood market superspreading dynamics"
+    },
+    {
+      "from_id": "a3749ee1",
+      "to_id": "cf6510fa",
+      "type": "contradicts",
+      "rationale": "Scott Alexander's claim that authorities only began deliberately seeking market connections on December 30 after the first 40 cases directly contradicts the claim that surveillance bias led to overdetection of market-connected cases in the earliest cases.",
+      "strength": 0.85,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "ca35bf91",
+      "to_id": "b885fb4d",
+      "type": "supports",
+      "rationale": "Judge Will's evidence that retrospective throat swabs found no SARS-CoV-2 before HSM outbreak supports Scott Alexander's claim that purported pre-market cases are artifacts rather than genuine community cases.",
+      "strength": 0.8,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "e467772e",
+      "to_id": "b885fb4d",
+      "type": "supports",
+      "rationale": "Judge Will's evidence that routine blood draws showed no seropositivity before HSM outbreak reinforces Scott Alexander's argument that pre-market cases are not genuine community transmission.",
+      "strength": 0.8,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "6e57e8b5",
+      "to_id": "5cd89f7f",
+      "type": "supports",
+      "rationale": "Judge Will's finding of zero antibody-positive cases in 3,850 Wuhan blood samples from September-December 2019 supports Scott Alexander's claim that observed January 2020 data is consistent with early December start.",
+      "strength": 0.75,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "26a9824d",
+      "to_id": "3b398b7c",
+      "type": "supports",
+      "rationale": "Judge Will's evidence of no positive throat swabs in 2019 but nine in 2020 supports Scott Alexander's claim that the 92 unusual pneumonias identified by WHO were ruled out as COVID-19.",
+      "strength": 0.7,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "b85bf2b4",
+      "to_id": "ac8e57e1",
+      "type": "supports",
+      "rationale": "Judge Will's evidence that ILI samples and blood draws found no seropositivity prior to HSM outbreak supports the claim that early case search data should be unbiased and not ignored.",
+      "strength": 0.75,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "090c6cb3",
+      "to_id": "cf6510fa",
+      "type": "supports",
+      "rationale": "Scott Alexander's evidence that a case was only detected because a hospital worker relative recognized symptoms despite no market connection illustrates how surveillance bias against non-market cases could occur.",
+      "strength": 0.7,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "eda89776",
+      "to_id": "1332539e",
+      "type": "undermines",
+      "rationale": "Rootclaim's evidence that seafood markets repeatedly formed early clusters across multiple countries undermines Peter Miller's reasoning that the market was just one random location among 10,000 in Wuhan.",
+      "strength": 0.75,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "66e06342",
+      "to_id": "d25877d7",
+      "type": "explains",
+      "rationale": "Rootclaim's explanation that Xinfadi's 21-fold larger size and rapid shutdown accounts for its different case-to-market ratio provides a mechanism for why the Xinfadi outbreak pattern differs from HSM.",
+      "strength": 0.65,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "94946add",
+      "to_id": "b85bf2b4",
+      "type": "explains",
+      "rationale": "Judge Will's methodological claim that absence of seropositivity is stronger than self-reported positives explains why the ILI samples and blood draw evidence should be weighted more heavily.",
+      "strength": 0.7,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "a2610246",
+      "to_id": "cf6510fa",
+      "type": "undermines",
+      "rationale": "The claim that Rootclaim's theory about pre-January 18th case search bias is incorrect because cases were found after January 18th undermines the broader surveillance bias argument.",
+      "strength": 0.65,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "a2c9b778",
+      "to_id": "f895f884",
+      "type": "undermines",
+      "rationale": "Rootclaim's evidence that HSM was one of four wildlife markets in Wuhan undermines the calculation treating the HSM vendor as one of 1000 out of 10 million residents by reducing the relevant denominator.",
+      "strength": 0.7,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "c2bb2d70",
+      "to_id": "29d4185c",
+      "type": "explains",
+      "rationale": "Low detection probability of early isolated cases explains why Baidu search data showed very little signal of coronavirus symptoms prior to December 2019.",
+      "strength": 0.75,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "c2bb2d70",
+      "to_id": "ce3a589c",
+      "type": "explains",
+      "rationale": "Low detection probability of early cases explains why excess mortality signal only appeared in early 2020 in Wuhan and was very small in broader Hubei.",
+      "strength": 0.7,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "e1ee4beb",
+      "to_id": "fcd3183a",
+      "type": "explains",
+      "rationale": "Selective screening practices based on market connection directly addresses whether detection bias explains the concentration of early cases at Huanan Seafood Market.",
+      "strength": 0.85,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "525bc87d",
+      "to_id": "e1ee4beb",
+      "type": "supports",
+      "rationale": "The sanitization and closure of the market on January 1 coincides with the period when market-based screening criteria would have been actively applied.",
+      "strength": 0.65,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "804787e3",
+      "to_id": "e1ee4beb",
+      "type": "contradicts",
+      "rationale": "Dr. Zhang Jixian's discovery was based on unusual CT scans reminiscent of SARS-1, not market connection, suggesting detection was not solely driven by market-based screening.",
+      "strength": 0.7,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "b16ff4a7",
+      "to_id": "e1ee4beb",
+      "type": "supports",
+      "rationale": "The illogical shopping pattern of the first known patient supports the claim that market connection was artificially emphasized in early case detection.",
+      "strength": 0.75,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "650ea7d1",
+      "to_id": "921ad384",
+      "type": "undermines",
+      "rationale": "Reliability concerns about retrospectively entered Weibo data undermine claims based on matching Weibo data to population density patterns.",
+      "strength": 0.6,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "921ad384",
+      "to_id": "e971c17a",
+      "type": "contradicts",
+      "rationale": "Rootclaim's own analysis shows Weibo data matches population density, yet they incorrectly claimed Worobey's data is confounded by population density.",
+      "strength": 0.8,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "29d4185c",
+      "to_id": "ce3a589c",
+      "type": "supports",
+      "rationale": "Baidu search data showing little signal prior to December 2019 aligns with excess mortality appearing only in early 2020, both suggesting limited pre-December circulation.",
+      "strength": 0.8,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "650ea7d1",
+      "to_id": "fcd3183a",
+      "type": "undermines",
+      "rationale": "Reliability concerns about retrospectively entered Weibo data weaken evidence that might be used to assess early detection bias patterns.",
+      "strength": 0.55,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "c2bb2d70",
+      "to_id": "e1ee4beb",
+      "type": "supports",
+      "rationale": "General low detection probability of early isolated cases provides the underlying mechanism enabling selective screening practices to create differential detection rates.",
+      "strength": 0.7,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "804787e3",
+      "to_id": "525bc87d",
+      "type": "supports",
+      "rationale": "Dr. Zhang's recognition of unusual cases on December 26-27 provides context for why market sanitization and sampling occurred just days later on January 1.",
+      "strength": 0.65,
+      "subfield": "surveillance bias in outbreak detection"
+    },
+    {
+      "from_id": "e1537996",
+      "to_id": "d245f365",
+      "type": "supports",
+      "rationale": "The exponential growth calculations showing COVID could not have circulated substantially before early December directly reinforces the claim that lack of pre-HSM circulation evidence implies early HSM infections were at or near the index case.",
+      "strength": 0.85,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "e1537996",
+      "to_id": "5796d944",
+      "type": "explains",
+      "rationale": "The epidemiological impossibility of substantial pre-December circulation based on doubling time provides the mechanistic basis for why the zoonotic origin side won the argument on lack of prior circulation evidence.",
+      "strength": 0.8,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "c577c6f6",
+      "to_id": "c3e10a7a",
+      "type": "supports",
+      "rationale": "The quantified estimate that Wuhan's share of zoonotic wet market risk is less than 1/1000 directly reinforces the broader claim that Wuhan has significantly fewer spillover interfaces than other Chinese locations.",
+      "strength": 0.9,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "c71261a0",
+      "to_id": "c577c6f6",
+      "type": "explains",
+      "rationale": "The empirical count of only 17 small wildlife shops in Wuhan provides the evidentiary foundation for calculating Wuhan's substantially lower pandemic risk share.",
+      "strength": 0.85,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "526d2cc3",
+      "to_id": "4d017e5e",
+      "type": "contradicts",
+      "rationale": "The Rootclaim assertion that absence of positive animal samples is inconsistent with wildlife involvement directly opposes Peter Miller's argument that this absence is not significant evidence against zoonotic origin.",
+      "strength": 0.8,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "0f545a5f",
+      "to_id": "7850c95c",
+      "type": "supports",
+      "rationale": "The statistical demonstration of spatial clustering at Xinfadi mirroring Huanan patterns provides empirical support for the claim that market-origin patterns recur across different contexts.",
+      "strength": 0.85,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "71ac4d13",
+      "to_id": "19886686",
+      "type": "supports",
+      "rationale": "The SARS-1 case data showing only 1 of 9 wildlife-connected cases involved markets (versus 7 restaurant chefs) empirically reinforces that markets were lower priority spillover locations in preparedness frameworks.",
+      "strength": 0.75,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "71ac4d13",
+      "to_id": "fd5d8adb",
+      "type": "supports",
+      "rationale": "The historical SARS-1 evidence showing restaurants dominated over markets as spillover locations supports the claim that markets were identified as only one of twelve potential spillover sites, not the primary interface.",
+      "strength": 0.7,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "9b2d5b69",
+      "to_id": "87d09b0d",
+      "type": "requires",
+      "rationale": "The presence of wild or exotic live animals at the market is a necessary precondition for correlations between animal DNA and SARS-CoV-2 positivity to constitute evidence for zoonotic transmission pathways.",
+      "strength": 0.75,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "db2a8888",
+      "to_id": "8836d90b",
+      "type": "explains",
+      "rationale": "The claim that genomic features alone cannot differentiate natural and lab spillover explains why spatial location of the index case becomes critical evidence requiring formal modeling to evaluate competing hypotheses.",
+      "strength": 0.8,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "84943bc0",
+      "to_id": "4d017e5e",
+      "type": "undermines",
+      "rationale": "The Rootclaim argument that raccoon dog and wildlife identification reflect hindsight bias weakens Peter Miller's position by challenging whether the HSM wildlife evidence should update zoonotic probability.",
+      "strength": 0.7,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "c0b36018",
+      "to_id": "23bcba76",
+      "type": "undermines",
+      "rationale": "The absence of positive infections or rumors among animal vendors presents evidence difficult to reconcile with zoonotic spillover, potentially weakening the basis for Judge Will's conclusion that Peter presented the superior case for zoonotic origin.",
+      "strength": 0.65,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "c0824ca3",
+      "to_id": "8b0f8bdd",
+      "type": "contradicts",
+      "rationale": "The extensive failure to find wildlife spillover evidence at HSM contradicts the claim that the market contained raccoon-dogs known to harbor high viral loads.",
+      "strength": 0.75,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "1226ecf7",
+      "to_id": "8b0f8bdd",
+      "type": "undermines",
+      "rationale": "The explanation that the virologist photographed HSM simply because it was Wuhan's largest market undermines the significance of documenting raccoon-dogs as a prior risk indicator.",
+      "strength": 0.7,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "edf21528",
+      "to_id": "22287a94",
+      "type": "supports",
+      "rationale": "The small size of Wuhan's wildlife shops reinforces the claim that wildlife consumption is geographically concentrated elsewhere, making Wuhan less likely for spillover.",
+      "strength": 0.8,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "bc1a07b4",
+      "to_id": "24eea744",
+      "type": "explains",
+      "rationale": "The requirement for population density to sustain outbreaks explains why the market became the first big cluster while other cases failed to mature into super-spreader events.",
+      "strength": 0.7,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "0aa91d4a",
+      "to_id": "22287a94",
+      "type": "supports",
+      "rationale": "SARS-1 data showing rural or unknown spillover locations supports the pattern that wildlife-related spillovers occur in regions with concentrated wildlife consumption rather than urban centers like Wuhan.",
+      "strength": 0.65,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "c0824ca3",
+      "to_id": "24eea744",
+      "type": "supports",
+      "rationale": "The lack of wildlife spillover evidence at HSM supports the claim that the market was a super-spreader location rather than the origin point, consistent with cases spreading elsewhere in Wuhan.",
+      "strength": 0.7,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "22287a94",
+      "to_id": "edf21528",
+      "type": "requires",
+      "rationale": "The claim about wildlife consumption being concentrated in southern China logically depends on Wuhan having smaller wildlife shops as a reflection of lower local demand.",
+      "strength": 0.6,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "ee920406",
+      "to_id": "abea210d",
+      "type": "undermines",
+      "rationale": "The acknowledgment that phylogenetic data alone would not disfavor general zoonotic origin undermines the strength of expert consensus supporting zoonotic spillover, as it suggests the data is ambiguous.",
+      "strength": 0.5,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "1226ecf7",
+      "to_id": "abea210d",
+      "type": "undermines",
+      "rationale": "The revelation that the virologist visited HSM opportunistically rather than based on risk assessment undermines the expert judgment that led to consensus on zoonotic origin centered at that market.",
+      "strength": 0.55,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "0aa91d4a",
+      "to_id": "24eea744",
+      "type": "supports",
+      "rationale": "SARS-1 data showing multiple spillover cases with unknown connections supports the pattern of cases spreading widely without all maturing into clusters.",
+      "strength": 0.6,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "bc1a07b4",
+      "to_id": "22287a94",
+      "type": "undermines",
+      "rationale": "The claim that pandemics preferentially start in high-density cities undermines the argument that Wuhan's lower wildlife consumption concentration makes it unlikely as a spillover location.",
+      "strength": 0.65,
+      "subfield": "viral spillover epidemiology"
+    },
+    {
+      "from_id": "edf21528",
+      "to_id": "c0824ca3",
+      "type": "supports",
+      "rationale": "The small size of Wuhan's wildlife shops supports the finding that extensive searches failed to find spillover evidence, as smaller operations present lower absolute risk.",
+      "strength": 0.7,
+      "subfield": "viral spillover epidemiology"
+    }
+  ],
+  "stats": {
+    "groups": 10,
+    "proposed": 114,
+    "added_to_graph": 114,
+    "skipped_duplicate": 0
+  }
+}

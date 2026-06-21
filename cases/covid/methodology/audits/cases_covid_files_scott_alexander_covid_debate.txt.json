@@ -1,0 +1,104 @@
+{
+  "evaluations": [
+    {
+      "criterion_id": "general_methodological_transparency",
+      "status": "red_flag",
+      "evidence_quote": "I am not convinced that this Bayesian calculation is even an appropriate way to estimate the relative posterior probability of Z and LL; it just seemed fair that after criticizing Rootclaim's calculations at length I should make an attempt at it myself.",
+      "reviewer_note": "The author explicitly acknowledges uncertainty about whether the analytical method used is appropriate, undermining methodological validity. This is a commentary/analysis piece, not primary research with declared methods.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "analytical_framework_specification",
+      "status": "red_flag",
+      "evidence_quote": "I am skeptical that the Bayesian decision making/evaluation methods are any more 'objective' than [intuitive reasoning]. I think they maximize legibility, not objectivity, and tend to hide the intuitive/heuristic portion in the data inclusion step and values, where it's harder to see",
+      "reviewer_note": "The judge (quoted approvingly) expresses fundamental skepticism about the analytical framework's validity, stating it may hide rather than reveal bias. The piece critiques rather than applies systematic methodology.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "data_sources_identification",
+      "status": "declared",
+      "evidence_quote": "Dr. Jesse Bloom's investigation of the wet market samples, considered the final and most conclusive, failed to find a clear connection between COVID and raccoon-dogs or any other animals.",
+      "reviewer_note": "Some data sources are identified (e.g., Jesse Bloom's investigation, health data on cancer rates), though this is primarily a debate summary rather than primary data analysis.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "bias_assessment",
+      "status": "red_flag",
+      "evidence_quote": "However, I am unsure that it's a good strategy for a human given our cognitive limitations, and doubly unsure it's truly being used (in the dispassionate sense) where the outcome is social desirability/fame/Twitter likes.",
+      "reviewer_note": "The text acknowledges bias risks but does not systematically address them; instead suggests the analytical method may be performative rather than objective, with outcomes driven by social incentives.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "reproducibility_documentation",
+      "status": "declared",
+      "evidence_quote": "You can see the judges' own summary of their reasoning here (Will, Eric)... but you can see Saar's version here, and Peter's starting at 45:33 of this video.",
+      "reviewer_note": "Links to source materials and detailed reasoning are provided, allowing some degree of reproducibility/verification, though this is a secondary analysis of a debate rather than primary research.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "uncertainty_quantification",
+      "status": "declared",
+      "evidence_quote": "the joke goes that you do Bayesian reasoning by doing normal reasoning while muttering 'Bayes, Bayes, Bayes' under your breath. Nobody - not the statisticians, not Nate Silver, certainly not me - tries to do full Bayesian reasoning on fuzzy real-world problems. They'd be too hard to model.",
+      "reviewer_note": "Uncertainty and limitations of Bayesian methods on real-world problems are explicitly discussed, though the overall approach remains informal and editorial rather than systematic.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "peer_review_status",
+      "status": "not_applicable",
+      "evidence_quote": null,
+      "reviewer_note": "This is a blog post/commentary piece analyzing a debate, not a research article subject to peer review.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "conflict_of_interest_declaration",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No conflicts of interest are declared. The author's stance and involvement in prediction markets related to the debate outcome are not disclosed as potential conflicts.",
+      "quote_verified": null
+    }
+  ],
+  "red_flag_hits": [
+    {
+      "pattern": "inappropriately_casual_inference",
+      "evidence_quote": "You'd make some philosophical mistake converting the situation into numbers, then end up much worse off than if you'd tried normal human intuition.",
+      "reviewer_note": "The text explicitly warns against formal quantitative reasoning on complex problems, suggesting informal intuition may be superior—contrary to rigorous methodological standards.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "methodological_skepticism_without_alternative",
+      "evidence_quote": "At the fundamental rules of the universe level, Bayesian analysis must be the best way to evaluate evidence. However, I am unsure that it's a good strategy for a human given our cognitive limitations",
+      "reviewer_note": "Expresses deep skepticism about whether the stated analytical method is practically valid while not proposing a systematic alternative, leaving the analytical foundation uncertain.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "prediction_market_as_evidence",
+      "evidence_quote": "Manifold agreed with the judges. There was a prediction market on who would win. It started out 70-30 in favor of lab leak. As the videos came out, zoonosis started doing better and better.",
+      "reviewer_note": "Uses prediction market outcomes as a form of validation, which conflates market sentiment with evidentiary weight—markets reflect beliefs, not necessarily truth.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "social_incentive_contamination",
+      "evidence_quote": "doubly unsure it's truly being used (in the dispassionate sense) where the outcome is social desirability/fame/Twitter likes",
+      "reviewer_note": "Explicitly acknowledges that social media incentives may contaminate the analytical process, but does not provide methodological controls to address this issue.",
+      "quote_verified": true
+    }
+  ],
+  "source_id": "cases/covid/files/scott_alexander_covid_debate.txt",
+  "source_label": "Scott Alexander",
+  "methodology_score": 0.389,
+  "score_rationale": "Score 0.389 (deterministic): weighted declared 3.0/7.0 (base 0.429); 3/7 criteria declared, 1 not_declared, 3 red_flag; 4 pattern hits (penalty capped); ceiling 0.5.",
+  "score_breakdown": {
+    "applicable": 7,
+    "not_applicable": 1,
+    "declared": 3,
+    "not_declared": 1,
+    "red_flag_criteria": 3,
+    "red_flag_hits": 4,
+    "weighted_declared": 3.0,
+    "weighted_total": 7.0,
+    "base_ratio": 0.429,
+    "confidence_ceiling": 0.5,
+    "methodology_score": 0.389
+  },
+  "score_computed_by": "deterministic_v1"
+}

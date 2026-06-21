@@ -1,0 +1,29 @@
+{
+  "source_id": "cases/covid/files/michael.txt",
+  "main_thesis": "Robust Bayesian analysis that systematically updates prior probabilities with evidence weights can objectively determine whether SARS-CoV-2 originated from a lab leak, which is crucial for assessing future research risks.",
+  "sub_theses": [
+    "The origins question warrants renewed analysis because circumstances have changed both the balance of evidence and the consequences of evaluating that evidence",
+    "Bayesian methodology is superior to categorical thinking because it weights each piece of evidence quantitatively without requiring any single piece to be 'dispositive' or granting 'null hypothesis' status",
+    "Prior probability estimates of lab leak risk and zoonotic spillover risk should be systematically incorporated and updated rather than subjectively asserted",
+    "Hierarchical Bayes and Robust Bayesian techniques can account for uncertainty in both evidence weights and prior probabilities",
+    "The conclusion matters primarily for future research policy regarding dangerous gain-of-function work, not for assigning political blame"
+  ],
+  "methodological_stance": "Employs explicit Bayesian updating with hierarchical techniques to handle subjective uncertainties, emphasizing transparency about how priors and likelihood ratios are chosen while remaining 'explicitly ready for correction based on improved reasoning or new evidence.'",
+  "targets": [
+    "Analyses that grant categorical 'null hypothesis' superiority to any origin theory",
+    "Approaches requiring single pieces of evidence to be 'dispositive'",
+    "Polarized discourse that ties origins questions to political packages",
+    "Positions that would use origins conclusions to justify under-regulation of dangerous lab work or opposition to public health measures"
+  ],
+  "key_questions_addressed": [
+    "What is the prior probability that a pandemic starting in Wuhan would originate from a lab leak given WIV's proximity and research activities, versus from natural zoonotic spillover?",
+    "Does the early cluster of COVID-19 cases at Huanan Seafood Market provide strong evidence for zoonotic origin versus being explained by surveillance bias or market conditions conducive to superspreading?"
+  ],
+  "textual_anchors": [
+    "robust Bayesian analysis, a systematic way of updating beliefs",
+    "none are granted categorical qualitative superiority as 'null hypotheses'",
+    "Each piece of evidence gets some quantitative weight",
+    "hierarchical Bayes techniques to take into account the uncertainty",
+    "explicitly ready for correction based on improved reasoning or new evidence"
+  ]
+}

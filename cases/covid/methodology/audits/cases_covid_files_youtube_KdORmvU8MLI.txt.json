@@ -1,0 +1,124 @@
+{
+  "evaluations": [
+    {
+      "criterion_id": "general_methodological_transparency",
+      "status": "red_flag",
+      "evidence_quote": "we make sure to have all the evidence all the hypothesis uh we make sure to account for um dependencies between the evidence... we always try to find the best explanation for the evidence under each hypothesis... and then we quantify how these uh best explanations um um measure up and and then we can feed it into the formula",
+      "reviewer_note": "The source describes a proprietary probabilistic methodology but provides no reproducible specification of how evidence is quantified, how dependencies are modeled, or what 'the formula' entails. Claims of systematic approach without methodological transparency.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "data_sources_documentation",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No specific data sources, databases, or evidence collection procedures are documented. The presentation references 'evidence' generically without identifying what constitutes the evidentiary base.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "bias_mitigation",
+      "status": "red_flag",
+      "evidence_quote": "we always tealman each hypothesis okay we always try to find the best explanation for the evidence under each hypothesis rather than attacking one evidence and supporting the other one like most people do",
+      "reviewer_note": "While claiming to steelman both hypotheses, the presentation is explicitly one-sided ('opening arguments for lab leak') and demonstrates confirmation bias by selecting prior case studies where their method 'proved correct,' creating survivorship bias.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "uncertainty_quantification",
+      "status": "declared",
+      "evidence_quote": "something else important that we do is we we assess the reliability of own estimates kind of a sensitivity analysis so we make sure to take ranges on every number we uh we use and and look at the high high range and low range and see that we uh and see how how that affects our the the confidence in our conclusions",
+      "reviewer_note": "The source explicitly mentions sensitivity analysis using ranges for estimates, though the specific implementation is not detailed.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "prior_probability_justification",
+      "status": "declared",
+      "evidence_quote": "we will start with the priors uh we will find there that zunis is probably a more common cause for uh pandemics but actually LA are more frequent than people previously believed and the recent Advan advances in gain of function increase the pandemic risk",
+      "reviewer_note": "The source acknowledges the need to establish prior probabilities and indicates they will address both zoonotic baseline rates and lab leak frequencies, though the justification is promised rather than presented.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "likelihood_ratio_calculation",
+      "status": "declared",
+      "evidence_quote": "we will be looking at at the odds and every time we see evidence we'll try to estimate how it affects both hypothesis by by how much it Narrows each",
+      "reviewer_note": "The HIV test example demonstrates understanding of Bayesian updating via likelihood ratios, and they indicate this approach will be applied to COVID evidence, though specific calculations are not provided in this excerpt.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "model_validation",
+      "status": "red_flag",
+      "evidence_quote": "so in both of these cases uh we went against what authorities mainstream uh opinions were and were eventually proven correct... we turn out to be correct in both of these cases",
+      "reviewer_note": "The source presents only two cherry-picked success cases (Israel murder, Syria chemical attack) without discussing failures, false positives, or systematic validation. This is classic survivorship bias masquerading as model validation.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "peer_review_status",
+      "status": "red_flag",
+      "evidence_quote": "I think PD science is great in in bringing evidence in assessing it but when you need to integrate from multiple disciplines that's something that doesn't happen well in in preview science uh that is a process we actually don't have today",
+      "reviewer_note": "The source explicitly dismisses peer review as inferior to their approach, presenting an adversarial stance toward standard scientific validation rather than complementary engagement.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "conflict_of_interest",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No disclosure of funding sources, organizational affiliations, or potential conflicts of interest related to Rootclaim's commercial interests or debate stakes.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "reproducibility",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No data files, code, probability tables, or dependency structures are provided. The 'formula' is referenced but not specified, making independent reproduction impossible.",
+      "quote_verified": null
+    }
+  ],
+  "red_flag_hits": [
+    {
+      "pattern": "cherry_picking_prior_successes",
+      "evidence_quote": "I'm going to go quickly on two cases in which we went against what authorities mainstream uh opinions were and were eventually proven correct... we turn out to be correct in both of these cases",
+      "reviewer_note": "Selective presentation of only successful predictions without discussing failures, base rates of success, or cases where the method failed. Classic survivorship bias presented as methodological validation.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "dismissal_of_mainstream_science",
+      "evidence_quote": "I disagree I think PD science is great in in bringing evidence in assessing it but when you need to integrate from multiple disciplines that's something that doesn't happen well in in preview science",
+      "reviewer_note": "Positions peer-reviewed science as fundamentally inadequate compared to their proprietary method, rather than engaging with it constructively or acknowledging complementary roles.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "proprietary_black_box_methodology",
+      "evidence_quote": "the model is proven it's a formula it's not about there's no Ai No algorithms here once you agree about the numbers there's only one solution and that has been known for over a century",
+      "reviewer_note": "Claims mathematical rigor ('proven formula') but provides no specification of the model, how evidence is quantified, or how dependencies are handled. Obscures methodology behind appeals to authority.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "advocacy_framing_in_scientific_presentation",
+      "evidence_quote": "okay SAR take it away okay thank you so I'll be presenting uh the case by root claim um our conclusion is labli",
+      "reviewer_note": "The presentation is explicitly framed as 'opening arguments for lab leak' in a debate format, not as objective analysis. This is advocacy methodology, not scientific inquiry.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "unsubstantiated_certainty_claims",
+      "evidence_quote": "the genetics in sopy 2 and espe especially the specific way in which the frame cleage site appears in the Gen are highly unlikely to occur in nature and they're very natural for lab manipulation uh so that brings us close to certainty",
+      "reviewer_note": "Claims to reach 'close to certainty' (97%+) on a contested scientific question using undisclosed quantification methods, without presenting the actual evidence or calculations.",
+      "quote_verified": true
+    }
+  ],
+  "source_id": "cases/covid/files/youtube_KdORmvU8MLI.txt",
+  "source_label": "First Rootclaim Debate on Covid Origins, part 2 — opening arguments for lab leak",
+  "methodology_score": 0.25,
+  "score_rationale": "Score 0.250 (deterministic): weighted declared 3.0/10.0 (base 0.3); 3/10 criteria declared, 3 not_declared, 4 red_flag; 5 pattern hits (penalty capped); ceiling 0.5.",
+  "score_breakdown": {
+    "applicable": 10,
+    "not_applicable": 0,
+    "declared": 3,
+    "not_declared": 3,
+    "red_flag_criteria": 4,
+    "red_flag_hits": 5,
+    "weighted_declared": 3.0,
+    "weighted_total": 10.0,
+    "base_ratio": 0.3,
+    "confidence_ceiling": 0.5,
+    "methodology_score": 0.25
+  },
+  "score_computed_by": "deterministic_v1"
+}

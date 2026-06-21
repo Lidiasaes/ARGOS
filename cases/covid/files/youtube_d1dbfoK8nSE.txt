@@ -1,0 +1,4152 @@
+# YouTube transcript — First Rootclaim Debate on Covid Origins, part 3 — discussion and judges' questions
+# URL: https://www.youtube.com/watch?v=d1dbfoK8nSE
+# Author: Rootclaim
+# Date: 2023-12-30
+so how's this going to work you're going
+to you're going to manually switch the
+chest clock for us every time we so okay
+thanks and we're starting with your
+questions what was the
+decision I think we were started I was
+goingon to say some things in their
+Buttle and I'm not planning to talk
+forever I just okay I was going to do
+the five minutes or less I don't know um
+are we okay with
+that or do we want the judges to go for
+it
+okay um yeah so I want to start with uh
+Shin fatti Market uh because we're in
+disagreement on that and that's just one
+of the last things you were talking
+about um it sounded like you were saying
+that's uh that's like Community
+transmission that shows up in a market
+is that correct
+sir I'm not trying to understand the
+question I mean it's we're saying it's
+the market was the next um major cluster
+since lockdown yeah but like do you
+think it's so it's in Beijing do you
+think the virus is going around Beijing
+among people but then it shows up at the
+market because markets are likely place
+for uh outbreaks to yeah so probably a
+few people a few people got infected and
+when it got to the market amplification
+was uh was faster okay so I I actually
+hadn't read that much about this until I
+saw your slide so I read a bunch of
+papers about this this weekend and um it
+was traced to um Seafood at the market
+it was traced to imported Seafood in one
+stall um and then when it got out of the
+market the cases
+clustered on the market and when you do
+statistical um centering techniques you
+get this is not exactly the same kernel
+density estimate that they did in warie
+but you get the same result that the
+outside cases cluster on the market so
+we only have two data points now it's
+juanan and shin but they show the same
+patterns that you get some Animal
+product that comes into a market and it
+spreads outside in similar ways and
+um and you get clustering within the
+market it's a little better in Shin
+fatti you know it's it's a really nice
+heat map on the stall that the seafood
+the infected Seafood was traced to and
+all that imported salmon tested positive
+but you do have additional hotspots so
+it's not 100% clear um there's some
+papers that judges can read about the
+infected salmon and uh you gave some
+numbers about like um you gave there's
+more cases in chinfa and the ratio is
+higher um I looked it up chinfa is the
+biggest Market in in Beijing and and
+actually all of Asia it's 21 times
+larger than the juanan market it's got
+20 times as many visitors assuming the
+10,000 number you you said it's 200,000
+visitors there um also they shut it down
+really fast I think the cases were
+detected June 11th uh they closed the
+market 2 days later they shut the
+schools they canceled flights so the
+ratio is going to be higher because you
+detect detected a lot more Market link
+cases when you shut down the outbreak
+really fast um so I don't think that's I
+don't think that proves what you're
+saying I think it actually is a really
+great similarity to the juanan seafood
+market um but just in general I wanted
+to um talk about probabilistic arguments
+and I think it's funny that you came up
+with it's like one in 100,000 against
+zunos and I came up with it's like 60
+billion in favor of zunos and but we
+both did is we just multiplied numbers
+together so there's still human bias
+here which is you decide which numbers
+you multiply together and there's a huge
+possibility for confirmation bias there
+where you get attached to one Theory and
+you only pick uh the numbers for that
+theory um I don't know how we resolve
+this when we have two completely
+different probabilistic estimates I
+think what we need to do is factchecking
+to figure out which numbers are
+important and I think your your
+presentation showed why the root claim
+might be going in the wrong direction
+here is you don't do factchecking and
+there's a bunch of cases where you
+messed up here you said that this
+December 8th case was happened before
+the market outbreak both sides of the
+debate disagree with that you you got
+the two visitors wrong you're focused on
+these early weeo cases when there really
+aren't many or maybe any of those in
+December um you said War's data is
+confounded by population density uh you
+have some theory for why the cas search
+was biased because it was um before
+January 18th but actually the cases were
+found after January 18th so that there
+could be some source of bias but it's
+not that and you ignored the early case
+search where it should be unbiased
+because it hadn't been identified yet um
+the excess days you said something about
+90 missing early cases um I can talk
+about why that's not true um you've also
+said it's irrelevant when Co started and
+I don't think that's true I mean when
+you want to sorry Peter can you go back
+to the previous slide um this one yeah
+the one where you were making
+claims about fact checking I just hadn't
+finished reading this one yes sorry uh
+no yeah that one thank you um
+retrospect okay I'm going to be
+interested to hear what SAR has to say
+about this thank you I I think these are
+the kind of facts that we need to go to
+go over because we can't do a
+probabilistic argument until we know
+what the Right facts are we need to know
+which facts to put numbers onto we can't
+just start with the numbers um and I
+think when is start is actually really
+important because you want to know where
+and when those are like the two
+questions I started looking at when I
+was trying to figure this out um and
+there's a lot of little things like the
+December 8th case that you missed but
+then two slides later you're talking
+about Mr Chen on December 16th that's
+the same guy but you didn't notice that
+you've double labeled the same case as
+far as I could tell that might have just
+been misspeaking um you talked about
+this Texas Sharpshooter fallacy and I
+think this is actually a great metaphor
+but I don't I think this also applies to
+the maong room to the toilets Theory to
+a lot of these things um to this this
+weebo data where you describe this as
+unbiased and I think there's a bias
+you're missing which is that you've got
+to have like 20 different ways you can
+map the data in Wuhan and most of them
+are going to say north side of the river
+but you're going to find one that says
+souths side of the river and the people
+who are doing motivated reasoning are
+going to latch onto the one that says
+Southside that's where the bias comes in
+um when you actually look at that data
+it's from February it's people putting
+the dates in retrospective ly three
+entered December that's kind of weird
+that could just be old people fat
+fingering the date um we don't know
+which of these three points are from
+December you know it could be the three
+points right there
+um I tried to find a copy of that data I
+couldn't even find December points in it
+I only found January
+points uh the weebo data in general I
+totally agree with your point that this
+matches the population density of the
+city this is webo this is density I
+think this elderly density but that's
+not true for the um early cases you can
+match these Contours of the early cases
+and they don't match the density this is
+the clearest way I found to show it
+which is you just draw the points on it
+and you know that probably explains the
+stuff here um I don't think it explains
+the cluster there I think there's still
+a meaningful pattern there so I I guess
+I just want I'll stop there I don't want
+to talk the whole time I want to
+understand why you think the case search
+is
+biased what are your best best arguments
+there
+are why what is bi why the early case
+searches you think it it just looks like
+it's centered on the market but it's not
+actually right so so suppor
+to to I need to change the
+clock
+right or when he's asking this time I
+don't know I thought I thought Peter was
+still asking you as part of in so he has
+he's asking it's this time okay I don't
+remember the okay so well I can just
+talk for 30 minutes but I think it'd be
+a better discussion to like you know
+here's a disagreement why do you think
+it's biased when I think it's unbiased
+okay so so to understand uh when we say
+biased we're not saying that the market
+is just a random place okay we're
+definitely accepting that it is a sorry
+coun against my time while he
+answers I don't know what what are the
+rules so in the that's um in the rules
+it says if you ask a As I understood it
+Peter if you ask a question of SAR um
+the time counts against you because you
+have the floor you can yield the floor
+and have him start his rebuttal and
+answer that question I would be tot well
+so there's two incentives here one is I
+could just give 30 rebuttal and that's
+going to be a crappy debate or I can say
+here's a point I'd like you to respond
+to this and yield uh and I guess he
+could switch to a completely different
+point if he wants but I don't I don't
+want to lose all my time just based on
+he's answering questions when I'm trying
+to have a discussion so I think we need
+to resolve
+that I'm fine with switching the time if
+that's okay with you SAR I I either I'm
+gonna do one of two things here I'm
+either just gonna say a bunch of
+complaints or I'm G to yield but I'm not
+going to give him my time while he
+answers his questions or answers my
+questions um
+totally I mean if if if a the idea is
+that I answer a specific question then
+are
+don't let's go that it'll be a good
+discussion I yield my time here's what
+I'd like you to talk about but obviously
+you can talk about anything okay so I I
+will I will answer maybe in a different
+order so um first of all the most
+important thing is about the billion
+versus uh 100,000 probabilities um yes
+many people do probalistic models and
+get very extreme numbers okay in the
+case of the in the case of the murder we
+analyzed we had
+some um law professor who did an
+analysis and showed that it's uh one in
+200 million uh probability that the
+person in jail is not the murderer right
+he he by the way today he agrees he was
+wrong so uh doing bad for balistic
+calculations is very easy uh what we do
+is is we go through a very careful
+methodology where we go we steal man
+each hypothesis find the best
+explanation look for dep pendencies look
+for the best uh numbers give give a low
+range and a high range and uh and
+integrate all the numbers to something
+that is uh uh that is robust so it's
+important to understand we not saying
+it's a 1 to
+100,000 um probability the result we
+have was I don't remember it's 99%
+that's one in 100 the one in 100,000 is
+how much you need to shift the data in
+order to pass 50% because remember we
+you do have all these uh safety measures
+right so as you uh it's not enough if
+99% doesn't mean one in 100 and if you
+give one in 100 it's you you win you
+need to you need to go over all the
+safety measures and that that's one one
+in 100 times okay so that's in general
+about the
+probabilities um yeah we're we're
+perfectly perfectly fine in getting some
+facts wrong uh we corrected some numbers
+based on your analysis and perfectly
+fine that we will will correct more
+numbers and eventually concede that um
+um zunos is most likely we don't have a
+problem with this method just uh point
+out any mistakes you see and we will
+correct uh at this point we the the
+amount of evidence is so strong I can't
+see that happening but sure that's
+that's a that uh about specific things
+you said about Chen if you go back to
+the recording I said specifically that
+some say eight some say 16 this is not
+settled it's not 16 is not settled it's
+based on an interview with that is not
+clear who who they're talking about uh
+translated we F saying 16 it's not an
+issue but notice that uh when I said 16
+I mentioned that some say it's eight
+they not uh neglect that sorry I must
+missed that okay um about uh Majong
+being uh Sharpshooter uh no maang starts
+from lots of testimonies of people
+saying it starts from the evidence it's
+not starts does didn't start from
+looking for uh what could match it
+started from the evidence of many people
+saying the first uh cases were margin
+players um I I agree about what he said
+about the south side and the North side
+or east or west side uh in WBO what we
+the data we brought about wi being in
+the center we explicitly said this is
+not something we believe in this is just
+showing you how easy it is to uh ch iic
+data we we're agreeing with you this
+that's sharpshoot a fallacy to claim
+that WBA supports wi the idea was to
+show how much you can play with the data
+and and how uh how unreliable these
+these things are
+[Music]
+um the the thing about W being uh later
+cases sure um however want to remember
+that the whole the whole idea of the of
+the market analysis is that cases do
+spread geographically right so uh you we
+accept that cases spread geographically
+in uh gradually or we don't so if if the
+whiteo data centers on the population
+Center then that's evidence against it
+being the market so uh we need to decide
+whether the the centering works or not
+and it's very important to understand
+about the bias we are not claiming the
+market is a random place we're saying
+it's a significant super spal location
+due to the its feature
+okay and it's it's uh definitely a place
+where a significant number of uh cases
+were probably not 33% as claimed because
+there is the bias biases of
+um uh Market being noticed by people by
+Health worker because it's it's been a
+criteria because contact tracing every
+there a lot of things that will age all
+of things that make the market more
+likely to be noticed but we're not
+saying it's not important we're saying
+it's one of the main super spread
+locations we and we even okay saying
+this is the the first big cluster we
+fine with that just just say that there
+were many other cases in spread around
+the city that didn't mature into uh
+super spreader event that's all a yield
+I mean how many other cases do you would
+you estimate there were so let's say
+December 13th you've got these five
+hospitalized cases at the market that I
+pointed out you know for our workers
+On's a repeat visitor and so you have
+more cases than that probably because
+those are hospitalized but how many
+cases do you think are in Wuhan on that
+date a yield um I don't have a specific
+estimate but probably um mid December I
+don't know probably it's probably 10 20%
+of the cases are in the market maybe
+less I don't I need I need to think if
+you need an exact I do need an exact
+number because I clarify how is what
+what exactly do you need so this is
+December December 13th so there's the
+market and you think there's lots of
+Elsewhere in
+Wuhan
+hospitalizations yeah let's say
+hospitalization you want to know how
+many cases in overall in the world at
+that time in Wuhan yeah it's the same
+thing okay and we'll try to get that
+okay no can you can you answer that on
+the
+spot even
+order order our magnitude do you I mean
+do you
+I would say five to 10 times more so
+five to 10 times five so it's 25 to 50
+cases or 25 to 50
+hospitalizations so no so remember that
+the market is older population so if you
+want it in cases yeah probably 50 to 100
+I don't know right it's not something I
+can do if there if there's a 100 cases
+and the hospitalization rate of covid is
+5% then you've already proved it's the
+market
+this is an addition to the maret so I
+would say if you want I say five
+hospitalizations in addition to the five
+in the market but really you're you're
+you're trying to get something that I'm
+not claiming to have the entire model of
+the outbreak in my head what we do is we
+look carefully at data and do
+probalistic analysis and collect
+information and correct when there are
+mistakes there's no use trying to push
+me to think it's you're thinking it's
+double that we said there's five
+hospitalizations in the market and five
+outside the market it's just a guess I
+can or you think the next session I can
+give you numbers in session three I
+can't give you something off my head now
+it's not it's not how we work we don't
+we it's not it's not about okay it's not
+about us being smart it's about the
+methodology let me just explain why this
+matters so here's a model we know how
+fast Co doubles the epidemic doubles
+it's about 3.5 days so that's two
+doublings per week so let's say you know
+let's get it's 50 cases at the market or
+50 cases total on that date
+hospitalizations it's 2 to three and
+then you can apply these doublings
+forwards and backwards so you can figure
+out when it started November 15th
+roughly November 22nd maybe so that
+lines up with P cars model pretty well
+and you can apply it forwards to when
+the Wuhan lock down started and these
+numbers they're correct to about a
+factor of two now you can also do this
+with oh and so here's here's you know
+cases and the lock down and you can cut
+this it's like an exponential curve
+until it hits
+123 and then you can fit an exponential
+curve to that data and it's you know R
+2999 it's a great model um and then it
+slows down when the lock down happens
+now try a thousand cases on that day you
+project it forwards and you get 10 times
+as many deaths as actually happened in
+Wuhan so it can't be 10 times as many
+you the market needs to be like all the
+cases or substantial fraction of the
+cases and if you went even more crazy
+like 10,000 cases on December 13th
+you're going to end up with 400,000
+deaths in Wuhan by the time the
+lockdowns and you're this is bigger than
+any death total of anywhere in the world
+um and even even this one I think once
+the all lockdowns are done it's going to
+be worse death total than any City that
+hit the world um and you say that got
+hit by Co so this is actually case where
+human reasoning fails people don't
+understand exponential math intuitively
+they think oh September origin November
+origin doesn't really matter you know
+it's just going to sputter along but
+every time Co gets somewhere it either
+goes extinct right away or blows up
+exponentially and a difference of a
+month is a factor of 256 in cases two
+months is 65,000 and if your model can't
+distinguish between like October and
+November it's you're ignoring a huge
+fraction of the data model doesn't
+explain that very well and so we can
+bound how biased either you know if it's
+if we go back to the one that works
+where let's say it's 50 cases two to
+three you know maybe it's really 100
+cases and five or at the market
+something like that and maybe it's more
+HS because they're older that would work
+then it's like every case is at the
+market so you can still have a lab
+origin you know because you've had 50
+cases by then and case number one could
+have come from the lab and he just went
+straight to the market that's possible
+but is highly
+improbable and you can't have the
+scenario where it's just all over Wuhan
+because it doesn't fit with the map and
+I mean I you know I'm not just making up
+these doubling numbers I've looked these
+up over multiple sources I've checked
+them by fitting the data and Excel
+myself um yeah I
+yield U I'm going to interrupt before
+SAR has a chance to speak um one of your
+slides I think you were showing real
+data can you clarify if that was uh
+cases or detected cases and if so like
+how big of a
+disparity this slide this is detected
+cases which I which are mostly
+hospitalizations honestly at that point
+okay do you have any notion of roughly
+how big a disparity is between detected
+cases and actual cases it's roughly on
+it's on order of magnitude of the
+hospitalization rate okay so you think
+the the real numbers are 20 times what's
+in this plot yeah something like that
+okay thank you that's what I wanted ask
+and here what SAR has to
+say sure so so again it's important to
+understand our position uh we're not
+saying that the market is not important
+we're not saying that the infection
+there is like the general population
+Wuhan we're not saying it's all of a
+Wuhan lot of infection that's not what
+we're saying we're saying that the
+evidence shows that even though the
+market was an early super spading event
+it was not due to an animal okay at the
+whole analysis I walked through in the
+end of my uh my part was about showing
+that the evidence doesn't doesn't match
+the uh doesn't match the the the
+hypothesis in a way that would support
+an animal being the one bringing it to
+the market so um so that so it's one to
+to attack what actually we're saying not
+uh not something that other people are
+saying so we are definitely willing to
+accept that the market is a major event
+now uh a lot of the data you showed this
+data I'm seeing for the first time so
+it's hard for me to uh to respond so
+I'll I'll I'll look at because you
+didn't fact check like these are basic
+things you should know from the
+exponential math and wo you should know
+the case numbers and the death numbers
+if you're trying to understand how it
+started sorry I I shouldn't be so
+aggressive can maybe let's talk about
+the majang room a little bit um you this
+is this is my time now Sor okay okay yes
+so
+um uh yeah so so it's one understand
+what we're claiming about the about the
+market uh so a lot of the data I I
+haven't seen it's new to me I need to we
+need to analyze it takes time um and
+maybe maybe we'll find it convincing I'm
+not saying anything but at this point I
+can't respond to to a lot of it first
+instinct about what you said about the
+exponentials uh being uh un uh uh
+unintuitive so I think what's missing
+there I need to verify I think what's
+missing there is you're forgetting what
+is the importance of a closed location
+with ideal uh um ideal conditions by the
+way your your screen is still shared I
+don't if you care um so when you have a
+uh closed area with uh uh with the
+whatever with the majang room with the
+per ventilation with the humidity with
+the older population when you have that
+closed area with repeat visitors coming
+to the same place every day you will
+have a much higher exponent within that
+than than other than than in the rest of
+the city okay so saying that
+if there are more cases outside the
+market that would mean there would be 10
+million dead or something like that is
+not a correct interpretation of
+exponentials you need to take into
+account there are different these are
+different exponentials inside the market
+and outside the market a
+yield uh just to be clear I did present
+an exponential model already this is
+paric car's model uh from number of
+cases in hospitalizations this doesn't
+go past uh much past January 1st but so
+you I'd like to I'd like to try
+to um I think both ask a question and
+resolve a um the kind of contention over
+this point so if I'm understanding
+correctly and this I will ask both of
+you to respond to in this context but it
+seems like both of you agree that the
+market is an early super spreader event
+or an early cluster event whatever you
+want to call it there is if I'm
+understanding your position uh correctly
+SAR um you're obvious or you're thinking
+that or presenting evidence that that's
+due to some event could be mang could be
+an individual person going to one of the
+mang Halls it could be something else
+but regardless of how it happens you
+agree that that's probable or you agree
+that that's the cluster event you think
+it's much more probable that that's due
+to uh ultimately not an animal but
+agreed there Peter you're claiming that
+it's uh the kind of difference in
+probabilities there or the probability
+that you would see emerge at the market
+if it wasn't via an animal is pretty low
+or or you know or if there weren't I
+think an additional part of your
+analysis is if there weren't a
+significant number of other circulating
+cases which is why you're trying to
+press SAR on the question of where those
+other cases are um is that a fair
+understanding of your position I'm
+saying that the simple exponential model
+explains that there can't be a lot of
+cases outside the market and um I'm not
+saying it rules out a lab leak because
+if you do have 50 cases patient zero
+could be at the market Market but this
+is why I have the factor of 10,000 in my
+analysis because it really just needs to
+go straight from the lab to the market
+Without Really spreading anywhere else
+um and that's such an unlikely
+coincidence and you can come up with
+some other reason why it it went to the
+market it's not the animals it's the
+mang room or whatever and we can and
+should discuss those things but I think
+you really bound it in which lab leak
+theories you can make and you can really
+rule out that like it's everywhere and
+it's only because they looked at the
+market theory
+totally it seems like if I'm yeah it
+feels like those are that is not deeply
+in contention here sar's numbers at
+least what he has said seem um within
+the realm of what I would presume the
+error is in many of these estimates
+where we're we're asking about one or
+two cases but it seems like you guys
+don't disagree a significant amount
+about those early cases I understand the
+importance of them I'm not uh making
+light of that um but it seems like maybe
+let me POS this is a
+question your exponential model
+obviously that's very very
+um uh I guess sensitive to small changes
+in numbers do you think that the
+accuracy of the data that you have uh
+for the number of cases when and where
+they are um allow you to make the like
+that there's not a very large error bar
+in the timing like basically like do you
+think parar at all uh is completely
+accurate I guess par car used a more
+sophisticated model to show the same
+thing and I thought about this a lot and
+that's why I came up with the two
+doublings a week because it fits the
+data almost perfectly in terms of the
+actual model and it's the kind of thing
+you can just wrap your head around
+whereas if I just show this graph of
+here's what this scientist came up with
+you can say that scientist is motivated
+you know he wants it to not be the lab
+that's math that's code who can
+understand that but anyone can multiply
+by four so and you can that to come up
+with pretty much the same
+answer um that's why I went with that
+and I think it gets the point across
+most uh okay I've asked a bunch Eric and
+there's uncertainty in P car's model too
+I should say you know he and all these
+like because it doesn't go exponential
+right away there is this possibility of
+stuttering transmission um between a not
+going extinct and a going exponential um
+but that's like it it can't do that for
+long so that's really where you get your
+your that and like the doubling time is
+you know there's a tiny bit of
+uncertainty on that um so you you mix
+all that and you're not you're going to
+get down to the exact week but you can
+definitely get down to the like the
+month it's not September and you can't
+be off by a factor of 10 a number of
+cases and and stuff like that you maybe
+you're off five Factor
+too do you want me to answer as well
+or totally if you yeah so just to say a
+word so I basically agree with your uh
+disc destion to to be more accurate we
+we think there were a few more maybe one
+two three more um super spreader
+locations at the same time but were not
+noticed due to that however our model
+the the market analysis that we did does
+not require that so I'm willing to just
+say the market was the first Super
+spread location and it doesn't Chang
+changes the numbers at all in so I'm
+fine just considering that point the
+market is the only location um but it's
+very very important to understand about
+why this happens so the market has C
+certain conditions that make it uh much
+more likely to be an early super
+spreading location and that is that is
+because of the uh enclosed uh
+environment uh ventilation
+humidity uh repeat um uh population
+elder population all of that makes the
+exponent within that uh environment much
+higher than the the rest of the of the
+city
+and that and as we all know the you know
+the the base of the exponent is is a big
+change when uh when you when you uh
+expanded over a few weeks are you uh
+sorry can I follow up on that last
+comment you're making um so to reconcile
+both of of what both of you are saying
+into a single consistent story um I
+think what it looks like is imagine
+there are a hundred locations in Wuhan
+one of which is this market and the
+locations have different conditions and
+the market has very conducive conditions
+for contagion others do not um that um
+the virus started somewhere outside of
+the market in the lab leak um and people
+at all or many of these locations were
+exposed incidentally to some amount of
+virus and it is it only became a super
+spreading event yeah you cut off can you
+can you go back can you go back 10
+seconds sorry yes sorry um so out of a
+100 locations one amenable to
+transmission and 99
+not many of these locations had people
+exposed or maybe someone infected showed
+up one day or something like that but
+only one of them did this one infected
+person become a cluster of cases um it
+sounds like for the for the
+transmissibility in the market to be
+relevant you have to have someone sick
+show up at the market is what I'm saying
+yes of course yes so are you imagining
+that the virus started from a lab leak
+and a small number of sick people
+between them visited many locations and
+one of them is this
+Market yeah that's that's what I'm
+saying so the the lab worker has
+infected maybe a few close friends they
+went to several locations across uh the
+town they all infected more people but
+the people in the market or in the
+marang
+room they Amplified much quicker than
+all the rest okay so after three weeks
+they grew 100x and all the rest grew 10x
+okay that's that's the um yeah that was
+all I had for that question I have um
+many other questions I don't know if you
+want to move on to questions or if the
+two of you want to keep um talking about
+these points I'd like to ask a few more
+if that's okay you want to keep talking
+please go ahead thank you yeah um so I
+wanted to ask sorry he's focing on this
+maang room did you look up how many mang
+rooms there are in
+Wuhan uh we tried uh we couldn't find
+good data but in general maang rooms are
+very popular all across China it's a
+very very popular P time I found a paper
+on this um tried to get all the numbers
+they found 838 chest and card rooms in
+the study area and if you include other
+Leisure entertainment bars theaters
+cyber cafes karaoke they found almost
+3,000 places so what is special about
+this Majong room when there's 3,000 of
+these places and I found I can play a
+video of this also the Mong room is like
+a little closet in the market um it's
+tiny it's not frequented by visitors do
+you want me to play a video sure
+yeah um this
+is Francisco's
+Twitter um that's Peter emere I think
+this is the mang room I think this is
+this
+staircase that goes goes up to this um
+little tiny closet where people hang out
+um not 100% sure but that's that's the
+closest I can find to a video so you
+know the traffic to that is visitors
+only Outsiders aren't going to go to
+find that closet and if you look at all
+these other Leisure places it's going to
+be you know hugely more traffic to those
+it's going to be even lower than the one
+in 10,000 that I gave you why is this
+one important the important part is that
+it's four wet markets and this is the
+one with the most Wildlife shops a
+yield all right so
+um so first of all again this is new
+information I need to look at it um in
+general I don't I think uh I need to
+look back the data but I think there
+were
+definitely it was not small there were
+several people there uh visitors it was
+not uh it was not five people this was
+dozens of people um but the point is uh
+this was the combination of having a
+maang room plus a location where there's
+uh other other reasons for amplification
+now it's important to understand if if
+we didn't have any other evidence about
+the market I would say this is an
+interesting coincidence yeah this is
+like a one and 20 coincidence that's a
+big base Factor but the problem is you
+have all the evidence that doesn't
+support the market you don't have the
+animals you don't have the animal
+vendors you don't have the distribution
+you don't you don't have the uh RNA
+reads nothing supports that so the model
+I did at the end looks both of the
+coincidence and both of the evidence
+okay together they push they push the
+decision to be that an animal is not a
+reason if we didn't have the evidence if
+the evidence was neutral and not going
+against the market then definitely that
+was a significant uh factor that would
+maybe move it 20x that would be a
+significant coincidence
+yes I do you
+yield yeah you
+mute did you yield ah yeah sorry yeah
+okay so um did you know that they tested
+the maong table in the market and it
+tested
+negative uh yeah so I I uh I heard about
+that I never seen anything reliable to
+uh to confirm that but uh would love to
+see that's in the 2023 paper I put that
+in the links in my in my last
+presentation
+okay so again I need to check I remember
+asking people about that they said that
+there was maybe something but it's not
+reliable if you have a source I can now
+look at it yeah this is this is copied
+from the paper I pulled out that source
+so there are there are no positive
+samples from the maong room but you keep
+describing as like the hot spot in the
+market but there's no positive samples
+there and so this is a little late this
+is tested on February 20th so RNA
+degrades over time you could say maybe
+it's degraded too much to test positive
+but on February 15th the drains are
+still testing positive for shop 629 and
+they're still testing positive for the
+the other Wildlife shop and they're not
+testing positive anywhere else in the
+Market at that
+time yeah I need to look at it I mean
+the the idea is we're trying to do the
+debate in a way that the evidence is
+known beforehand so everyone can prepare
+um you know I I can't uh I mean it's
+public
+information what it's public information
+but I'll share I'll share all I know
+it's public but the idea was to try to
+share the information before I can look
+at it I I can only look at it and I
+don't know everything that's going to
+come up and I only have 90 minutes so I
+can't put you know three hours that's
+fine I'm I'm not not bling just saying
+that uh you can't expect to get the
+responsive for something that don't know
+so I'm not I'm not an expert in that
+field I'm just all they do is integrate
+the information into probalistic model I
+found one other picture of the so this
+is outside of the mang room um that you
+know it's that window right there well
+disinfecting the market and I actually
+found something interesting there's a
+sign on the wall and there's a character
+that got removed from the sign so I
+translated that it's this ding Shang
+blank Way Wholesale store and the
+missing character is probably y y way
+it's a wild taste it's a term for eating
+wild animals um and they took down this
+character elsewhere in the market
+because they didn't want to admit that
+they were selling wild animals so the
+mang room literally has the answer
+written on the outside of it and when
+they go in the w ho report we have
+another picture of it and they've taken
+the sign down entirely at that point I
+mean I'm not 100% saying that proves
+anything but I found that
+interesting um I think the logic moreid
+for this
+like there's millions of bathrooms in
+Wuhan why you know why is it the
+bathroom in the market that matters it's
+it's the wild animals in the market
+that's the unique
+thing I'd like to focus unless Sor you
+want to respond to that I'd like to ask
+a question quickly I agree that it's an
+interesting coincidence and it would be
+significant unless all the evidence uh
+wouldn't support it but but this this is
+Texas Sharpshooter fallacy because this
+is a heat map this is actually just over
+smooth Heat Map There's not actually
+positive samples there but they found
+that if you make this heat map hey you
+can plug the Mong room or the toilet
+right there and then say hey this is
+what caused the pandemic but that's
+seeing a pattern because you want to see
+the pattern because you want it to be
+AOW leak you don't want it to be the
+animals it's got to be something else
+therefore it must be the toilets but
+there's toilets
+everywhere yeah we so far we we're not
+claiming the toilets as a as the reason
+we you're claiming the uh the majang
+hall as a as a better reason uh and um
+yeah that's the and again if it would
+have been an interesting coincidence if
+the if the evidence was not against the
+market okay I'd like to focus this
+question Eric do you have some um I
+don't want to cut you off because I've
+been talking a bunch so um you first
+pass but otherwise I have a question
+about
+this um if you have a question about
+this go ahead I got lots of questions
+but not about this okay so then the the
+thing I want to this is Pier this is
+mainly you know regarding the evidence
+one of the things I've been struck by is
+how
+limited uh the environmental and animal
+sample sequencing data is and how even
+in those places where it does come up
+positive it's either very low um you
+know there's in some of those samples
+there's a couple of reads or they've got
+a CT value that's like 35 in the qpcr
+they've got things like that and in
+general you know you've got the five
+Hedgehogs that have it in one freezer
+and you've got different animals um I'm
+this is just I think an intuitive reason
+why there is skepticism about the um
+animal emergence and why it just like
+why have we not found more things
+environmentally or generally in animals
+can you speak to that broadly generally
+yeah I mean so there's a lot of goalpost
+shifting here to to begin with in as
+much as the Chinese said there were no
+live animals at the market during the
+who report so they were you know lying
+about that and then the lab League
+supporters they spent all of 2021 saying
+you know show us there's a raccoon dog
+we don't even know they were there
+because we have Eddie Holmes photo from
+2014 and what does that prove you know
+that's five years ago and then as soon
+as we suddenly got this data which China
+had been sitting on for three years and
+it showed that they're not only in the
+market but they're right there in that
+one shop um it was oh well that's not
+important because they're not positive
+or we can't we can't prove 100% you know
+there's no correlation or I kind of
+skimmed through this too fast in my
+presentation but there were a bunch of
+different reasons they didn't like it um
+Alina Chan said that the human DNA had
+been removed from the samples only
+leaving animal DNA and that wasn't the
+case and then they they claimed that the
+sample was not positive but it was
+actually it was a NGS positive but not
+PCR positive so that was sort of
+splitting errs because it's low low
+amount of data I mean low amount of
+reads which you're correct about so and
+SAR already mentioned this in his
+presentation he said even if a raccoon
+dog was infected that doesn't prove that
+the markets the source so you're going
+to get more gopl shifting if we can ever
+somebody comes up with a really clever
+way to analyze this data to prove that
+it was somehow one of those infected
+animals you can still shift the shift
+the goalpost on the lab leak Theory to
+say oh but uh person came into the lab
+in November and infected the market I
+understand that but like you're not
+debating all lab leaks you're debating
+what's presented here I think the thing
+that I'm trying to focus this on is I
+don't really care What alen chan says
+I'm trying to understand why they're you
+know given that an animal under the
+zootic theory produced this infection I
+would imagine there has to be a high
+prevalence of virus in at least some
+animal and I can understand that the
+Chinese have called the animals they've
+done things but every yeah every sample
+I've seen does not have a lot of virus
+why no that is a good question so um
+there's a you know this is Jesse Bloom's
+analysis really I prepared some slides
+for that because I thought we may talk
+about that and SAR talked about it and
+there's a a a number of issues here are
+um they sampled on multiple dates they
+went through on um January 1st and they
+looked for the Stalls with human cases
+and then they came back January 12th and
+they looked at the wildlife stalls um so
+those are later so you're going to find
+more RNA and the oh sorry this is the
+two um dates and why they took those
+samples and you can graph the reads over
+time and like color code these and the
+ones with a lot of reads were the ones
+taken on January 1st and there's less
+reads on January 12th um here's another
+way to graph it actually by date so read
+count on the first date is high recount
+on the second date is low and it keeps
+going lower so that's one one problem is
+it's not an Apples to Apples comparison
+if you look at January 1st and 12th on
+the same plot and uh Jesse's
+correlations do that like when he does
+this when it's all dates and it says you
+know it's not Wildlife uh that's
+comparing both of them this one is um
+only January 12th and you do actually
+find a few animals that come out the top
+the list like the porcupines and the
+hedgehogs have a good correlation if you
+only look at the comparable
+samples um and yeah you can break them
+up this way like if you only look at the
+January 1st ones human comes out with
+the highest correlation if you only look
+at the January 12th ones animals come
+out with the highest correlation and if
+you combine them you get kind of a
+meaningless result where it's like fish
+some weird stuff so um should we expect
+to see a correlation I mean for one
+thing the animals if they brought it to
+the market they were infected earlier so
+there's more time for it to degrade and
+the people who got infected on January
+30th are the one that's going to have
+the highest read um there's also some
+weird ways here where they only sequence
+certain samples so they sequence the
+negative samples in the wildlife stalls
+but they only sequenced uh and they
+sequenced all positives but included
+also the negatives to the wildlife
+Styles so that throws off your
+correlation uh the wildlife stalls are
+also um diverse they're selling a ton of
+different animals so you're going to get
+like a bamboo rat and a raccoon dog um
+there so if you do look at only this
+correlation you you do get the porcupine
+and the hedgehogs are the best
+correlation of anything if you're
+comparing only the animal sampling day
+um is it a porcupine based on that math
+I don't know I don't think you can
+actually conclude which animal it is
+from the if I if I could tell you which
+animal it was I'd be publishing this in
+nature not having this debate you know
+this is is a really important question
+in the world um Bloom said
+that there were like only one relevant
+sample um but he left out four covid
+positive samples which had Hedgehog DNA
+from that table um he also did this 20%
+Criterion and if you don't do that it's
+hard to hit the 20% threshold because
+every shop is selling five animals and
+he also included the Ates which are the
+fish not just the mammal so it's really
+hard to hit the 20% threshold on that
+totally yeah I mean I'm I'm I'm with you
+100% I'm hearing what you're saying but
+like if you go back to that table there
+like they sequence this to a depth of 1
+time 108 I looked at that and they're
+getting 124 reads I think that that's
+where the kind of like I like I think
+there's just some there's something
+unusual about that low a number I'm not
+saying that it proves anything either
+way I was just hoping that there was
+something that you know you had seen in
+that because that's like I just a wild
+yeah I mean really the market argument
+is there's this really great evidence
+linking it to the market you know this
+110,000 coincidence and this Market is
+just like zootic spill over Disneyland
+and that's why you would expect a
+zoonosis there I don't think the data
+can actually tell you which animal it is
+uh and also we know that they're Co
+susceptible you know raccoon dogs can
+get and transmit Co and and SARS so the
+animal are there and the shop they were
+in tested positive five times and that's
+our best lead relative to you know it's
+the toilets or it's the Mong room um
+yeah it's really low reads in that one
+sample um Jesse said hey why how's that
+differ to the other one that said
+zero and the one that he actually P I
+figured out which one he picked was Zero
+there are zero other NE or positive
+samples in that one shop so I don't know
+why he picked that like if one of the
+ones has a one read but it's also in a
+shop that has five reads and the drains
+test positive and the drains test
+positive again uh that means more to me
+like if it was just one read and nothing
+else had happened in that shop I would
+look at it differently um the
+correlation like people can move around
+the market but the caged animals can't
+so the human virus should always be a
+stronger signal that's gone everywhere
+but the raccoon dogs are stuck in cages
+so if it's if one shop is infected does
+like that raccoon dog necessarily infect
+every raccoon dog in the market because
+that's that's mostly what Jesse proved
+is that if it is raccoon dogs it's it's
+only testing positive in one raccoon dog
+shop though there there may be raccoon
+dogs in other shops that are negative
+and I don't know what your model is
+whether they should all be infected or
+not that makes sense I I just want to
+pause there that gives me plenty of what
+I was asking for Eric why don't you go
+ahead okay um I think I'll start with a
+question for SAR uh all uh for all my
+questions I'm H I'm interested in what
+both of you have to say but I'm going to
+Target at one person and if the other
+person wants to or but um and you want
+to spend your time on that go ahead I'm
+going to start with my second heaviest
+question which is um in your uh beijan
+analysis uh you give a an update of 12
+times in the impartial column for um the
+Wuhan location if I understand correctly
+uh and I want to understand um correctly
+that this is that you're not double
+counting you're not getting credit for
+the 12 times in two different places in
+your analysis um
+and uh
+so um in a very simplistic manner
+imagine that there are um 12 cities and
+Wuhan is the only one doing gain of
+function research so if it shows up at
+in Wuhan we get a 12 times Factor but um
+what I want to know and I don't know is
+if in these other 11 cities um there
+might be other processes that are not
+gain of function going on either in Labs
+maybe something nothing to do with labs
+and that if the pandemic had instead
+started in
+changdu then we could be having this
+exact same debate today but instead of
+it being the lab leaking of gain of
+function Theory it's the something else
+that's specific to changu so if if every
+city has something specific to it that
+you can make a tailored pandemic
+origin then um then you get the 12x in
+two different places you get it once
+where you explicitly listed it and you
+get a second time when we narrowed from
+12 different theories to focus on lab
+leaking and function which is implicit
+by the existence of this debate um I
+don't know if there are these other
+theories so I'm interested to hear what
+you have to say about
+that yeah yeah sure
+so first of first of all it's important
+to realize that I don't think anyone is
+contesting the wav is
+especially active especially risky
+that's uh they do have the bsl4 this
+this is this is a place that is uh uh
+doing much much larger scale of uh
+rology research and the special
+function having said that
+um it's the there's no double counting
+here because at other points we do talk
+about the specifics of wi work okay we
+we go specifically for the diffuse
+proposal we go specifically for the
+interests of the researchers there so if
+uh if it was if we had the exact same
+virus in a different city and it would
+ma then it would match the wiv
+activity that would be evidence against
+so once you once you uh focus on wav
+okay and you and you look at the
+specific activity there then that's it
+then then Wuhan is is not double
+counted that clear or that makes sense I
+understand your
+argument um okay I'm assuming Peter has
+no comment I have a question for Peter I
+think we'll talk about double counting
+more in in session three I think there's
+many ways he where he might be doing it
+but I don't today I just want to figure
+out if it's the market and some some
+stuff like that okay like I think his
+priors are generally too high for for La
+Leakes we're off by a factor of roughly
+in terms of how and I think we need to
+establish lots of things like that um
+but again future
+discussion okay I have a a question for
+Peter um if I understand correctly on
+roughly slide 170 171 um you're talking
+about having uh two different
+spillovers uh from animal population to
+human
+population um and uh that seems unlikely
+to me and uh to explain why we imagine
+that in this environment there
+are a very large number of different
+viruses present in the animals in the
+wildlife either specifically in the um
+seafood market or generically across the
+globe um it seems like a an
+overwhelmingly massive coincidence for
+the same virus to transfer from animals
+to
+human at the same time twice um it seem
+why couldn't a different virus have
+spilled over the next day or something
+like that oh that that's an that's an
+easy question I mean because that that
+virus is the one that infects humans so
+like we already established a point this
+in my presentation there was a bamboo
+rat Corona virus in the same shop that
+had a foreign cleavage site and it's
+from Southern China so that proves that
+you know viruses can get across China um
+and for Cleavage sites are relatively
+normal though depends you know whether
+it's sarico virus or whatever but the
+bamboo rat virus didn't spill over
+because it's not it doesn't have the
+right ace2 binding it doesn't have the
+right the right stuff to get into humans
+but once you do find a virus that has
+that right stuff it's exceedingly likely
+that it's going to infect more than one
+person
+um does that make sense or I can give
+more metaphor and this is what we expect
+with like Ms had multiple spillovers to
+humans it's completely normal um and we
+can see this actually when Co spilled
+over into mink it spilled back into
+humans and uh the humans are the red in
+these trees and the mink are blue so
+once it gots on a mink farm it does
+repeat spillovers back into the people
+working on the mink farm so we know
+that's that's
+normal the mink farm is is different
+because um once it's been spreading
+among humans it's had time to adapt um I
+imagine that after a a species jump
+there has to be a period of uh quite
+intense and strong adaptation as it has
+to adjust to the new host um and after
+it's adapted favorably to humans and
+then it goes back to minks I can imagine
+in that circumstance it's much easier to
+get back into humans again okay so
+that's the question of is it pre-adapted
+and that's really a debate to question
+whether whether it had this accelerated
+Evolution when it's spilled over or
+whether it was pre-adapted to people and
+that's an interesting argument that
+could be in favor of the lab as assar
+points out you know is it pre-adapted
+because they worked on that or is it
+just pre-adapted by chance so what I'm
+positing is that it has sufficient pre
+adaptation to infect people for whatever
+random reasons because it's this one in
+a million virus or whatever but there's
+millions of viruses in nature so there's
+bound to be one of them and once you do
+get that virus uh it's going to spill
+over multiple times the the actual spill
+over event isn't something magical it's
+just it could already do that but once
+it's in the shop it can do that multiple
+times um I mean there's I don't know if
+I love this metaphor but I think this is
+Joel wortheim on the also on the par car
+paper who talks about it being like uh
+you know Mount Everest is hard to climb
+and we went thousands of years you know
+our whole species without ever managing
+to climb it but when we we finally did
+climb it we climbed it twice in a day
+you know so you could say what are the
+odds that that would happen twice well
+you have all the conditions in place you
+finally figured out how to do it so two
+versus one is not a big
+deal
+Eric I think you're muted Oh no you're
+not uh Sor did you want to uh respond to
+Peter directly or I have a related
+question for you I can go straight to
+that uh no I agree that uh you should
+expect multiple skill overs once there's
+a virus uh infecting U Wildlife
+population okay um so s on your slide 20
+uh we're talking about SARS one at this
+point um first something really quick uh
+you mentioned that there were four um
+lab leaks but on the side 20 I only see
+three lab leaks yeah one of them
+infected two two lab workers uh two
+weeks apart do you know which lab that
+is that's the I think that's the Beijing
+one one that's marked China 2004 yeah I
+think it's one that one and by the way
+that's an important uh reference point
+because uh the whole lineage a lineage B
+is a lot of uh
+um uh is making a lot
+of um carries a lot of weight in the
+zumos
+claims uh we do not think these are two
+separate lineages but even if there are
+two separate lineages we do have a case
+where that happened we have two
+infections two weeks apart which is
+about that's one or two mutations so um
+so that that in itself is not strong
+evidence of uh against that LE but we'll
+discuss that session too yeah that's it
+um and then relevant to that can can I
+just point out we we are in disagreement
+on the number of SARS spills overs I it
+would take me time to get an exact
+number but I think it's I think it's
+more than three like of these first
+seven SARS cases none of these are
+epidemiologically linked between these
+different cities and um even in the last
+SARS outbreak that happened in 2004 I
+think it's four cases but they're not
+connected to each other um I'd have to
+go back over these papers to get an
+exact number but I think it's more than
+three
+okay um and then related to that I'm
+looking at still slide 20 where you have
+the three um spillover events you show
+uh if I understand correctly so
+chronologically of the six events on
+this Slide the very first one is the
+November 2002 event where a farmer
+presumably um got sick with SARS onean
+from an animal if I'm looking at this
+correctly uh and then um it transmitted
+from the farmer to the labs where the
+lab leaks happen
+via you know research on SARS one um uh
+and then these two other spillover
+events that happen chronologically later
+are we saying that the viruses that
+spilled over there are descended from
+the November 2002 spillover virus or
+they just independent they've been
+circulating among animal populations
+entirely I'm trying to understand so you
+have the cets constantly working on this
+virus infecting each other
+mutating that's happening every now and
+then a CET infects a human sometime
+nothing's nothing happens sometimes
+secondary infections continue and then
+you get an event um in parallel
+scientists are constantly collecting
+samples from usually from people but
+also from the cetes working with them on
+the lab and then getting infected and uh
+infecting other people
+sometimes okay so you're saying that the
+three spellements you've listed on the
+slide are not destined from each
+other um I don't
+think obiously we don't know should they
+shouldn't be because all of these were
+controlled all of these were eventually
+found and isolated so nothing the sense
+from these three okay um yeah please go
+ahead you mind if I just clarify on that
+my understanding of these events were
+these were all laboratory stocks that
+were passaged you know they took they
+popped them out of their liquid nitrogen
+freezer and they did something with them
+in these three is that incorrect is
+there some more transmission I thought
+these were all lab stocks that um yeah
+they were passaging or doing experiments
+with I didn't look into the exact
+experiments that caused the infection
+but it's not the critical thing is it
+that I'm trying to understand and just
+making sure I didn't misunderstand is
+it's not there was when they traced
+these transmission strains or sorry when
+they traced these lab acquired infection
+events they all start in the lab or
+there's some potential that they started
+where
+an environmental sample came to the lab
+circulated and then went back
+out environmental s uh I don't think so
+I think this these are all results of
+experiments um I'm not disputing that
+there are SARS lab leaks I don't think
+they're from outside sorry I'm not
+disputing you that the these are SARS
+lab
+leaks I'm sorry I can't hear you're not
+what I'm not disagreeing that these are
+s okay I'm saying you can have point
+they didn't come from civit outside the
+lab if that's what you're asking
+will can I focus can I ask um Eric one
+more question while we have SAR slides
+up here um okay I apologize for this
+being uh pedantic and uh possibly
+Elementary but I think that I need to
+understand this well and I think it will
+help the audience as well understand it
+I'd like to actually share my screen and
+just go through your kind of initial
+calculations SAR um
+so let
+me
+not wow that's so annoying okay well
+let's see if this
+works can you see this uh guys yep okay
+so I just want to make sure that my
+understanding of this is correct and I
+apologize if this is stup stupid or
+incorrect so these are uh screenshots
+from the slid SAR on the
+calculations and we've got I've just
+reproduced it in the Excel sheet so
+we've got the these cells are you trying
+to estimate the probability of a lab
+leak is the lab leak is a proximal cause
+given that we've seen a pandemic using
+data sources that are different uh types
+of outbreaks and things like that is
+that uh
+correct yes okay that's correct and then
+then these are your final estimates of
+the probability of lab leak updated for
+this adjustment of growth and then you
+get the rounded you just take these and
+round them down to produce that is that
+correct no no no no no no the the two
+the two line um row 12 and 13 these are
+the conditional
+probabilities of Wuhan being the
+location given zunis and given
+labc okay so it's P1
+given LL and P1 given Z this is P1 given
+LL L and above it's p w given Z and it's
+not 1020 30 it's 10% 20% 30% right yeah
+that was just me I was quickly preparing
+this so right so so now you take the
+probabilities you had before you apply
+the condition probabilities you
+normalize and you get the new numbers
+totally okay thank you that is all um
+I need okay thank
+you okay shall I give another question
+for
+Peter um I'm looking at SL page slide 27
+of yours um so here we're talking about
+rural versus Urban um you say based on
+this paper which I took a quick look at
+um that the virus is 30 times more
+likely to go extinct in in a rural area
+um the paper is using uh would
+understand correctly is what's called a
+sapphire model which is a sort of more
+extended version of the
+seir um model this is a this is a box
+model where you say some people are
+susceptible some people are infected
+some people recovered and you imagine
+probabilities of flowing between the
+different boxes um this is obviously a
+very simplistic model that um is it's
+limit it
+doesn't I believe such models are not
+very helpful for
+quantitatively understanding outbreaks
+they're very helpful for understanding
+um how different factors influence an
+outbreak like they're good as a um a
+framework for understanding what's
+relevant to an outbreak but they're hard
+for like predicting you know how many
+people will be sick in two months and
+stuff like that um now in the paper the
+author writes that um if they imagine
+that a rule people in a rural area have
+half to a fourth as many connections as
+a person in an urban area and you just
+plug it into the model then the
+probability of um of not going extinct
+goes down by a factor of 30 and this is
+a completely trivial result because um
+the model has um I don't want to say no
+complexity um but it's it's very obvious
+if you lower one of the parameters you
+get a lower result um it seems to be
+that um this whole claim that it's more
+common in urban areas is entirely rooted
+on this unsourced assumption people in
+roller areas have P connections I have
+to I mean it makes amount of sense but I
+sort of would like to see more of an
+argument um if we're going to get a 30
+times uh Factor here in this probability
+calculation I like to see more than ah
+ruler people have half as many
+connections yeah that's a good question
+um and so first off uh SAR and I are not
+in dispute over this anymore he's
+already Incorporated that fact in and
+he's important a few other things he
+pointed out like it could happen in Lao
+or Vietnam or something like that I did
+not include those in my calculation he's
+correct I probably should have I don't
+know if the cuisine differs there but
+for the most part the population there
+is much smaller than China so it doesn't
+it's not really going to be a big
+increase overall um but if we are going
+to argue over this um we could do it
+empirically and we could point out that
+the people in these regions have a serop
+positivity to SARS viruses um like there
+was a study on unan villagers which had
+like 3% serah positivity but you don't
+have Pandemic starting in unan um and
+it's hard to get the exact numbers
+because there aren't a lot of pandemics
+we only have SARS and SARS 2 and in both
+of them they started in big cities and
+not on these Farms so the data we do
+have says they always start in big
+cities even though the majority of the
+people that infected by Ser positivity
+is overwhelmingly higher so I mean if
+you just do it in ratio of antibodies
+it's going to actually be a lot more
+than
+30X um I have not actually like worked
+with this model it's just kind of
+confirming the obvious based on that
+data okay so a few things if I
+understand correctly um SAR used a two
+times Factor um and you're using a 30
+times factor to represent essenti no I'm
+using a two times Factor I'm just ruling
+out the I'm saying because it's a 30X
+Factor I ruled out the half of the
+population that's Rural and I got I see
+yes that makes sense that's a two times
+as well yeah
+I uh and then when you said um we've
+observed the pandemic start in cities
+and not rural areas when you say start
+are we talking about the first observed
+cluster are we talking about where the
+spillover event happened what do we mean
+first observed cluster we never observed
+a spillover event for SARS we have no
+idea where SARS started there's some
+they found um unan cave baths with a
+virus that's 96% similar um and it took
+it took five years of surveillance on
+one cave to find that um and you know
+rot claim is always saying you can't use
+any evidence unless you have a
+comparative data set everywhere so by
+his reasoning we haven't looked at any
+other caves for 5 years we have no idea
+where the actual virus is it could be in
+Hub it could be a different unan cave uh
+based on that connection XI Jang Lee has
+a hypothesis that it's built over in
+unan and got to guangju but it's there
+was never a unan case for SARS there was
+never a unan infected C for SARS um I
+came up with an argument it might have
+started in Hub but you know we don't
+have the bats there that are close
+enough um the difference with Co is that
+we do think we have the spill over and
+that's actually pretty rare for a
+disease okay and um related to this
+um uh I'm not quite sure exactly how to
+phrase this question but um you're
+saying urban areas are more likely than
+rural
+I'm trying to what I'm trying to get at
+is um is this the same phenomenon for
+when we've we've been looking at all
+these population maps of Wuhan and I
+can't help but notice that um the market
+is basically the most urban area of the
+city um I mean are we is it the same
+phenomenon where we talked you said you
+know what's the chance that the a
+randomly selected person being sick is
+so close to the market well if the
+Market's the urban are and you think
+Urban is more likely than
+rural is that a bias or is that
+not I don't know if you have that 30X
+within a
+city um let me share my screen again so
+a couple things the SARS cases um I
+think R claim said it was a farmer in uh
+Fon I looked that up the very first case
+he wasn't like a civet farmer or
+anything uh it's hard to clear be clear
+on his occupation um he he had animal
+contact but that was he cooked food
+which was chicken a cat and snake um and
+then these other ones like only one of
+them has civid exposure so it's pretty
+hard to know how any of these SARS
+outbreaks started um only that they were
+in cities um as far as the uh density
+question um I think I put those up
+earlier um yeah so this is this is my
+argument there the hananon market is a
+bullseye on
+the
+market um and it's not a bullseye
+on if it was like right in the middle of
+this area then maybe you'd have a better
+case for that um I do think there's some
+evidence that you're like seeing more
+cases in those heat clusters but there's
+no there's no population density right
+there
+um and also it's you know it's a place
+that has has something that can create a
+pandemic if this was like a movie
+theater right there I wouldn't be
+arguing for zoonosis you know because it
+doesn't have something that you need a
+market or a lab I guess or China says
+you can get frozen food but there's not
+you know a Mong room all by itself can't
+create a pandemic you know a Mong room
+nearby raccoon dogs
+can't
+yield okay will do you want to do some
+questions or else I can just keep
+going I have one question that might
+take a little bit more time I'd like to
+go sorry I'd like to go through the
+animal versus other um piece that you
+had in your slides because that was a
+fairly complex analysis and I um going
+to be honest I need more time to absorb
+it but I'd like to talk through it again
+and ask some specific
+questions I also am going to have
+questions about that so um after you go
+I'll follow with
+related totally you can just jump in so
+um my understanding of this is okay so
+this is part of the steel Manning the
+case we're going to construct the best
+possible case here for what it would
+look like under zoonosis for the um
+pandemic to emerge in the market
+ultimately you conclude that uh even
+under um zoonosis it's the pandemic did
+not it started at the market but for
+other reasons and that's because of a
+variety of different factors is that
+just like the General yes okay so maybe
+on the next
+slide
+um so the no animal vendors and I
+apologize because I feel like I've seen
+this claim multiple times but I don't
+understand no animal veters were
+infected um is that do you both agree on
+that or do you think that there was
+animal uh do we think that animal
+vendors were expected like this it seems
+like Peter had data that said animal
+vendors were infected or maybe like can
+you guys just clear that one up for me
+my opinion is we we can't prove that
+because none of them were tested uh none
+of them you know there's no antibody
+testing and you only find Co you find 19
+out of 20 Co or sorry you find one out
+of 20 Co cases and the other 19 are
+missed so okay so the first the five
+people that you were those initial cases
+were
+were yeah yeah but you know absence of
+evidence is not evidence of
+absence um okay okay and then going
+um so you say sorry you say that there's
+one positive raccoon dog sample but
+there's only one read and negative
+correlation overall Peter shares the
+evidence of the you know um uh stall I
+believe 829 or 825 where there were like
+five positive um like frozen samples it
+seems like this analysis discounts that
+why uh so I need to look back into it I
+think this is about having the 20%
+threshold or not but I'm not sure I'm
+sure Peter would remember what's the
+difference but uh I can check it okay
+but it's but globally the it's just the
+like this you would not feel would
+significantly affect the analysis
+whether or not there was five or 10 or
+something like that order in in general
+the important thing is that there is
+less uh sarce sarce two reads in the
+associated with uh Wildlife Peter
+brought an interesting uh point about it
+possibly being due to an out effect due
+to different timings we'll need to look
+into that I doubt this will be enough
+because we're talking about an animal
+sitting in a cage for days with SARS
+2 you will need to detect that
+significant amount but I'll need to look
+I'll wait to get all the all the new
+slides when he shares them and I'll look
+into it
+okay that makes sense and then final
+question skip two slides down to the
+final animal
+estimate okay so the bang Hall has this
+very high positivity rate um it looks
+like it's um you know you you all differ
+on why the high positivity rate is there
+or or what's going on um in there what
+is your estimate of how much more likely
+it is to spread in the market in the
+Jong Hall versus other areas uh what's
+your yeah probability estimate there or
+or what's your Factor like let's say a
+mall versus the maang hall or a mall
+versus Wuhan Market in
+general so here the the majang uh
+evidence it's not only it's existing is
+the fact that there many cases that's
+given only 32 40% so it's not that big
+so 2.5 to
+3x um
+I think I think the market is a likely
+super spread location for multiple
+reasons that that a list not only the
+majan call the majan call is I think is
+uh is one of the contributing
+factors but I think okay totally
+understand I think I asked the question
+poorly but this is building on Eric's
+earlier question so imagine that sick
+researchers visit a 100 different
+locations the probability that uh you
+know Co is able to take hold in in the
+Wuhan Market in general versus the
+majang hall versus a random mall I think
+that's what I'm asking you to estimate
+if that is reasonable within the
+framework all right so so the factors
+we're looking for are um high traffic so
+um where is that high traffic so that is
+that's basically that there's a large
+probability that the lab worker would
+get there second is that we have
+permanent residence that will amplify
+locally having this
+uh make making this place noticeable
+otherwise it's just people infecting all
+over town so you don't don't notice it
+and the other is having the enclosed per
+ventilation in the elderly population
+would make
+the the the exponent higher right so it
+will grow faster so I think there are
+not many places that meet all of those
+um I think that uh seeing chin f as the
+next outbreak is um is interesting Peter
+made a very good point about it being
+traced to uh frozen food that's fine but
+I assume there's also deliveries of uh
+contaminated withar to going to many
+places in China this is still the place
+that Amplified it so I think I think
+there's something about uh these areas
+that uh that uh are good uh good app
+ification
+environments okay so let me dig in that
+makes a lot of sense but let me dig in
+more there so my mental conception is
+probably wrong of the market my mental
+conception is that ventilation is
+reasonably High you both agree that
+ventilation in these markets is very low
+is that a a point of share uh agreement
+like the amount of air turnover per unit
+time
+is like it's a closed Market this is not
+an Open Air Market yes this is a this is
+a closed building
+yes I don't I don't think I agree with
+that I don't think like compare this to
+a bar or restaurant I think the
+ventilation is much much worse in the
+person-to person transmission those are
+much more enclosed spaces or the
+university I don't understand how he's
+ring out universities here he says it's
+because they're young um so I guess you
+wouldn't find them but you can still
+have spread and you have residents there
+you have professors and you have
+students that come to class every day so
+you have people you have repeat visitors
+uh you could say it wouldn't be found
+because the people are young but we
+already established with the exponential
+math that there aren't a lot of
+undetected cases there's really just
+these like 100 cases in these five
+hospitalized so you really still have to
+pick did it is the first Super spreader
+a restaurant is it a university is it
+the market you only really get one of
+them okay to um continue to focus in on
+this so I get okay so we have
+disagreement about what the probability
+is of spreading given that you're in um
+the market and what factors are there
+what do you think about the train
+station located close by S like I think
+of that as again this is intuitive and
+when I was doing my own research when I
+was you know trying to avoid getting
+covid I looked at Air Handlers in trains
+versus Air Handlers in you know Hep
+filtered airplanes and it seemed like I
+could find no worse spot than a train to
+be in during um uh Co just given the
+amount of air turnover per unit time so
+do you think it is worse than a train do
+you think someone just didn't make it to
+a train or like is the mang room
+possibly worse can you compare it in
+that in that context uh my so I think a
+majang groom is is worse than a train or
+a bar I think a train or a bar is worse
+than the market but the important thing
+is that train doesn't have the repeat
+visitors the repeat population so yeah
+so so the lab worker went to the train
+infected three people next to him but
+that's it these people are in three are
+in three different locations across the
+town they don't meet again to start the
+amplification in a close in a close
+environment okay so they're they're
+infecting people in different places
+right and the places they're infecting
+are not as high uh exponent as the
+market so you have the people returning
+to the same high exponent
+location and that's that's what gives
+you the amplification because if you
+just infect people on the train okay so
+you infect on the train five people
+instead of three people that you do in
+the market cool but still still uh
+they're not gone they're now gone and
+they're now working in they're now
+infecting people in low exponent
+locations or zero they're not infecting
+anyone right so you need to have this
+this repetition this the cycle that uh
+feeds itself this feedback loop okay
+that is not intuitive to me in the sense
+that if you so I understand what you're
+saying where if having um if there are
+transmission TR uh trains for lack of a
+better word the end of transmission
+train occurs because people board the
+train and they go elsewhere and they're
+not in a permissible environment that
+makes sense but I think of like almost
+every pandemic planning scenario I can
+think of or every kind of you know
+doomsday scenario it's somebody gets on
+it's there's a dissemination event where
+you get on a train you go somewhere and
+you spread out a whole bunch of
+different places to back that intuition
+up I guess I would say that if you get
+repeat visitors to the same location in
+kind of a standard sir model more and
+more of those people become resist IST
+your transmission probability should go
+down or at least the number of hosts who
+are at risk goes down so it seems to me
+like a train getting people on a train
+would be a much much more likely yeah uh
+I think what he's saying is you you are
+never going to have a monthlong cluster
+on a train right like he's not denying
+people can get sick on the train but
+they're not going to be a cluster that
+extends over multiple weeks on a
+specific
+train but why would you so I think the
+thing that I'm asking is if but you can
+yourself yeah yeah now we're debating
+about um is that is that a fair answer
+Sor to what is was Eric saying yeah yeah
+I think maybe I'll try to make uh like a
+more clear simulation of that the
+diagram that actually shows what happens
+uh yeah but the idea is that uh you want
+the people returning to the same um
+location with high infectivity so people
+on the train they're they're they're
+there just for one hour in the high in
+intivity environment and then they're in
+in the average but in the market you
+have the same people in the high
+infectivity environment all the time
+even if for one hour the Trin is more
+this is repeat day after day for many
+hours so that's I think that's much more
+um important in terms of the long-term
+exponent okay I understand it's the
+probability of producing a cluster okay
+right I think the the disre you're
+talking will about the total number of
+cases and sar's talking about the chance
+of a specific cluster showing up gotcha
+y thank you can can I just bring up one
+point again that might have been missed
+we keep talking about the maang room as
+like this uh heat the cluster or The Hot
+Spot there were no positive samples in
+the maang room what we have is an over
+smooth heat map that points to the mang
+room if you look at it that way but the
+actual samples were in the shops and if
+you average enough of those samples
+together the average centroid
+is the Mong
+room point point taken I think the thing
+I mean I think I was trying to get to
+this earlier the fact that like even the
+most abundant sample that has been found
+of a sampled animal was 130 reads at one
+e to the eth correct you know or 1 E8
+like I just it doesn't seem
+particularly likely that you would even
+if the mang room was a very important
+place that had a bunch of spreading that
+environmental samples would come up
+positive do you disagree with that um I
+think if it was I mean the Stalls where
+people were infected had samples in them
+and the wildlife shops had samples in
+them that lingered until February but
+the maong room didn't have any at all
+and I'm not saying that people didn't go
+in there and cough or or even that there
+didn't occurs some human to human
+transmission I'm just saying that people
+are misinterpreting a heat map to say
+that the samples were there when there
+were actually no samples there and this
+is funny because we also have this heat
+map of the cases outside the market
+which points right at the market and
+they object to that because they think
+you can't use that kind of logic but
+within the market the heat map points to
+something the maong room that they want
+to be the location and they think that's
+a good argument so that that's pure
+motivated reasoning to say this style of
+analysis doesn't work outside the market
+does work inside the market um and the
+center of the heat map outside we know
+it's the market because the first five
+cases were there so it's just confirming
+that with the heat map if the first five
+cases were in the Mong room of course
+that analysis would be good but it's
+really just this Texas Sharpshooter
+fallacy of we don't want it to be the
+market we want it to be the lab so what
+can we put in that spot and they tried
+the toilets and then they tried the Mong
+room and also as I point out with shim
+fatti Market you can confirm the
+bullseye on Market cases with
+Shati that also has the
+centering I can pull up more heat Maps
+if if you want me to show them on the
+screen confirm the actual Bullseye is
+shop 629 which had the most positive
+samples that's what I and the the ratio
+is low the positivity is low I don't
+know why that is I think it might be
+because the animals were sampled earlier
+could be because animals I don't know
+shed less in people I don't I really
+don't know why that is I I think it's
+amazing that DNA can confirm you know
+this is 12 days after the Market's been
+closed and maybe like more than a month
+after the spillovers happened and you
+can still use modern DNA technology to
+figure out which animals were in that
+shop shop and where they were infected
+and I think we kind of expect more than
+we should from these results from this
+technology I don't I I mean it'd be
+great if if you could just run a test
+that's you know spits out the name of
+the animal but that might be expecting
+too
+much I think I hear what you're saying I
+my the majority of my uh background was
+in NGS used for microbial samples so I
+have
+deep kind of knowledge of the inner
+workings of how that works and what the
+that's why I'm so focused on it is that
+this is is that so that's I mean
+yeah I just want to comment that we do
+have
+multiple testimonies of Majong players
+being the early cases so it's not just
+an environmental
+sample but the very first case was not
+and you maybe picked uh four and five
+were maybe majang players so that's not
+what introduced it to the
+market I provided the translated
+interview with Wan she doesn't play
+maang so it was there before I mean
+maybe you could find an earlier mang
+player if you
+looked yeah I assume she's not the first
+case
+yes so what brought it into the
+market we don't know what is the what is
+the very first patient zero in the
+market but it's under lab leak it would
+be a person we don't know if the person
+is the lab worker it's someone he plays
+mang with if it's family we don't know
+but uh uh the fact that so many cases
+are mang players is something that is
+worth paying attention
+to Eric did you have questions on that
+analysis on oh you're
+muted I had questions about the animal
+versus other slides on slide 75 um if
+you're you're done talking about asking
+about that will is this this one or um
+okay
+so uh yes uh so actually can you go to
+the next slide please um if I understand
+correctly the I'm not going to nitpick
+the numbers here that's not what I'm
+asking I want to understand what the
+numbers mean um so we have um two
+hypotheses you pH the animal hypothesis
+and the other hypothesis um and several
+observations which trying to figure out
+if these observations are consistent
+with hypotheses um are each of these
+probabilities this is probability of
+that observation given this hypothesis
+is that correct yeah so we're saying
+okay I'm telling you uh there's a market
+and an animal brought a virus there in
+how many cases would you expect this to
+happen in how many cases would you
+expect this to happen so that is that is
+basically what these numbers say
+probability of the evidence given the
+hypothesis animal okay um and then um
+imagine this evidence to be uncorrelated
+with other with each other um at the end
+we can multiply all these together and
+we get a a total probability of all of
+the evidence given the
+hypothesis um I think that's correct I
+might want to double check that um and
+then you get a final probability of a
+small number um and I thought you were
+going to do the same thing on the other
+um hypothesis so we have the hypothesis
+for animals and we get this conditional
+probability and hypothesis for other and
+I was expecting you to go through the
+same lines of evidence and say
+probability of observing this given the
+hypothesis probability observing this
+given this hypothesis and the end
+multiplying and getting um two different
+probabilities and then you can do the
+ratio between them um but in the others
+you're listing you chose different
+evidence the two things so like um I'll
+explain I'll explain so yeah so the idea
+is that all of these are expected under
+other right I don't don't need to
+estimate the probability that we won't
+have uh high high infections among
+animal vendors because that's there's no
+reason to expect that right so I don't
+need to reduce this uh this hypothesis
+for evidence that is what is expected if
+there's no animal
+right um so are you saying that there's
+a uh 100% probability that
+um uh sorry I'm I'm looking at SL 76
+yeah um is there 100% probability that
+biased data is Center on the market but
+unbiased isn't conditional on
+other right so it's um you put
+50 so what we do here is we uh take the
+um the important aspect of the the
+evidence not the specific so having this
+pattern in general is something we say
+yeah is 100% under uh under other now
+not not that I'm also giving it 100%
+here in the conservative estimate right
+so course it's not 100% because all
+kinds of things can happen but in this
+in the essence of uh what this evidence
+can you put mute Peter please so in the
+essence of what this evidence is then um
+yeah it's
+100% okay I I I mean uh I think it's
+it's really hard to pin down good
+numbers so I imagine having a a leeway
+of you know a factor of two here and
+there I understand um so in the animal
+all these things we're talking about 50%
+30% Factor 2 factor three um and I I
+mean I'm not I'm not ready to accept
+them as 100% in the other category and
+so you got all these factors of two
+piling up and innocently individually
+they look innocent you multiply them
+together and suddenly you have a
+0.81% probability um I just I just feel
+like there's more um diligence needed to
+justify this comparison that that's all
+I understand what you're saying so so
+this is something I should have
+explained so it's not it's not the
+probability of this specific evidence as
+described but in in in the essence in
+the way that we have evidence that is
+inconsistent with an animal what is the
+probability that we would have evidence
+inconsistent with an animal in this
+field that's a probability I'm talking
+about the whole the whole possibility
+and then it's of course 100% so I'm
+asking you what is the probability you
+would get evidence inconsistent with an
+animal when there's no animal that's
+100% so I need to I need to clarify that
+this is not the probability of the exact
+evidence but the probability that this
+evidence would not be consistent with an
+animal okay and I guess um I did have
+one last thing on this line which is on
+um slide 78 uh we're talking about the
+location super
+spreader um you have the numbers time 10
+increase conservatively times four I
+mean I those are not probabilities um
+what are
+they
+I'm yeah so this is um so this is the
+the conditional probability on the other
+hypothesis so it's I should put it over
+there but it kind of makes it weird so
+um basically what saying is that um so
+this was about what this was
+[Music]
+about yeah saying that the HSM is very
+very rare but we're saying no it has a
+lot of features that make it uh make it
+a good uh super spal location especially
+when we consider this as a nonlinear
+thing right so if a slight advantage to
+the market over 3 weeks would be a huge
+Advantage so um yeah so we're saying
+that what is the probability
+um that the first Super spread
+location uh would have these
+uh would have these features if it's uh
+if it's an animal right so you can think
+of it as like
+um if there's an animal infecting there
+then these become less important because
+the animal can uh because the animal can
+can drive the infection uh there's a
+source
+if there's uh if there if it's not an
+animal then these things become
+important okay so become more important
+so the question is what is the
+probability of having all these
+features it's much more likely if
+there's no animal okay if the reason is
+that a person got there then we need
+these things to happen if it's an animal
+then we need them less okay so that is
+10x 4X is the ratio between theseal
+probabilities okay so I should think of
+this as a 10% in the other column yeah
+maybe 5% and 50% something like that
+yeah numbers that
+are yeah your your Compu
+ratio um and I guess um while I'm
+grilling you on the what these numbers
+mean um I have one my my main question
+I'm most interested in understanding is
+not specific um to uh Co Origins at all
+um which is uh your motivation behind
+this you set out from the very beginning
+is to um sort of demonstrate a technique
+of thinking about and approaching
+problems which I think could be called
+sort of aasan reasoning I don't know if
+you have another label you want to use
+probabilistic inference is the word we
+use probabilistic inference and you said
+far better than any human uh inference
+method which is a very bold claim um and
+what I want to here is I want to hear
+some justification because this is um
+either
+justification uh in general or
+justification specific to this
+application because
+um so as a mathematician you know I'm
+used to you start
+with uh some things you know to be true
+and you make logical deductions end you
+end up with something you know to be
+true I and I'm ready to accept that in
+the real world it's not so easy uh you
+have you're never sure at any point it
+it becomes um much harder to uh try to
+use these deductive reason in the real
+world uh and I'm ready to accept um you
+know Bas I think we're all ready to
+accept Bas theorem um for uh as a
+computational tool in cases where we
+know all the probabilities it's like we
+know the prior probability is 10% we
+know the update is
+2.5 and then we can compute given a
+little trouble uh the correct new
+probability um and I do and I will
+accept that it's very
+useful as a framework for understanding
+you know like is this evidence important
+you know put a number on it and then be
+like oh I guess it was only a 1.1 maybe
+I maybe this evidence shouldn't be
+important I shouldn't think about it too
+much and maybe this evidence there's a
+one and 12 chance that's that's actually
+quite important um so I am very happy to
+accept this approach as um a way of you
+know of uh building understanding with
+uh and you know forcing people to commit
+to probabilities and stuff like that um
+I'm not ready to dive
+into I can compute some numbers and get
+a numerical answer at the end um so yeah
+I'd like to imagine like suppose all of
+these numbers were correct does that
+mean you're conclusion is correct so I I
+don't have like one specific question I
+want you to say is your method right is
+what I want to
+know right yeah
+so so I think the main point to to bring
+across here is that this is about being
+less wrong okay so it's not that this is
+perfect it's that this is a methodology
+that has
+been uh thought about very carefully uh
+a lot of
+U
+potential uh weaknesses were identified
+and accounted for it has stood the test
+of time I think we've have track record
+of being in a minority opinion several
+times and
+winning um but most importantly is that
+people are very bad at this okay so
+people are very bad when you when you
+give them a lot of evidence and there's
+a lot of
+uncertainty they just just mess up badly
+they just get get very uh I mean there's
+you know we can do some riddles and
+demonstrate but people will will go way
+off on probabilities that's why people
+don't use that because they try a bit
+and then they see that it doesn't work
+so this is about going through the exact
+weaknesses and identifying why people
+fail in probabilities and making sure
+that doesn't happen so we make sure we
+don't uh filter evidence and make sure
+we uh count the prior probability and we
+make sure we
+try to get numbers that are justifiable
+and if not then we give them a wide
+range um so it's it's a about not double
+counting and making sure you account for
+dependency so there's a lot of that and
+sometimes you make mistakes but if you
+do this you weigh better than than what
+a human a human can do that that is the
+that is the claim
+so um
+yeah okay can I add yeah go ahead as a
+question so one of the things I've been
+struggling with too in evaluating the
+Frameworks are I think is maybe adjacent
+to Eric so not as intelligent perhaps um
+is the how should I treat the
+assessments of other people obviously
+you shared three basian assessments that
+gave high probability of a lab leak it
+seems like my reading of the you know
+intelligence Community um is that its
+majority nonlab it's majority zoonosis
+they have access to evidence that we do
+not um like I could I could construct
+some rather intuitive scenarios in which
+they have a better estimate than
+anything we can do here how should I
+treat that kind of claim or how should
+that factor into my assessment of your
+claims or this
+method right so so we found very clearly
+that having good inference is far more
+important than having uh good evidence
+okay so yeah if you have a Smoking Gun
+that happens one in a 100 cases okay
+cool but usually that doesn't happen and
+usually you need to be um it's much more
+important that you understand the
+evidence you have than uh having a bit
+more evidence so first of all I'm not
+sure the intelligence Community does
+have any evidence here because uh as we
+see they they do try to leak it and it
+doesn't seem very strong I mean we we
+agree with Peter that the claim of three
+sick workers is not reliable enough we
+we have very bad experience with
+evidence that's based on Anonymous
+sources so we don't do that uh we have
+an experience of beating intelligence
+agencies so um we know that um I myself
+have the experience there and they know
+it's at the end of the day just people
+writing documents it's not they don't
+have the uh any advanced inference
+system compared to people they actually
+have a a lot of biases so one bias is
+that they because they have secret
+information they overweight that so be
+they they think because others don't
+have it then it it it's therefore
+stronger but it's not I mean it's
+doesn't matter that's a secret another
+thing is that in general these
+groups uh they suffer suffer from uh
+group thing they suffer from political
+biases people who choose to spend their
+life in intelligence agency are
+usually not um your
+typical um
+unbiased uh person they would they would
+be mostly patriotic they would be
+exposed to information that is mostly
+about we good they them bad so General I
+have little appreciation for
+intelligence agency um I
+mean I don't know if that that's
+convincing that's a lot of experience I
+can I can go into more examples but
+that's that's my experience um something
+that Eric said before that was important
+I didn't for uh what was the previous uh
+question about oh uh yeah that about uh
+it was important I forgot never mind m i
+remember okay do you want me to go over
+what I said to you before no no I
+remember it's about the how to trust the
+numbers and they had something to say
+about it but never
+mind should I ask Peter a question while
+you're thinking about
+that oh yeah I don't I know if it I
+don't know if it will come back to me or
+not okay um so
+I I I could talk about some of this
+stuff too I have thoughts
+about analysis I mean SAR keep saying
+that there's a steel Manning the cases
+but for every one of these points I can
+come up with a reason why it's about
+100% why each of these happen or close
+to 100% I mean that would be steel
+Manning it um you know I I actually have
+some slides going over each of these I
+don't want to waste all my time going
+over if this is important or or if we
+extend this to the extra 30 minutes or
+whatever I can do that um what I really
+is is like coming up with every reason
+possible not to believe this case and
+not adding similar factors for the lab
+because if I wrote out a similar
+analysis for the lab I'd have to put a
+factor on like okay this employee got
+infected but they didn't infect any of
+their co-workers and they didn't infect
+any other place and then they made it
+seamlessly across town and I think you
+can make any of these analyses support
+what you want if you just add enough
+factors of two and I'll probably do this
+in the second debate honestly to cuz I
+think there's a bunch of ways in which I
+don't think the virus looks engineered
+and I can say why would they do this why
+would they do that why would they put
+this amino acid in and if you put enough
+of those in I'm down to like one in a
+billion odds that they made this
+particular virus or I'll give an exact
+number in the next debate so I think
+this is very um a fragile method of
+coming up with the truth because it's
+entirely sensitive on these you know
+factors of two or other approximate
+numbers and the number that you add um
+I'd also add that he was talking about
+group think that three other Bean
+analysises I'll actually go over all of
+those in the third debate these are all
+like drastic Community there's a huge
+amount of group think because you get
+status in this community for
+contributing to the lab leak Theory and
+you have to make the same kind of
+analysis um I'm sure there's other well
+there's all kinds of published papers
+saying that this is not the most likely
+outcome even though there's a few people
+in this community that all say the same
+thing so uh I prepared to uh you know be
+skeptical of s specific numbers that are
+going into this calculation but I am
+interested Peter um if you have uh a
+critique of the the method of the
+overall technique I'll I'll be looking
+forward to any critiques you have to
+make of these specific
+ones uh so when I asked SAR about um you
+know is sorry what did you call
+probabilistic inference is this a good
+technique I'd like to hear critiques of
+this technique if you have them Peter oh
+sure yeah I mean I think a lot maybe on
+a future date if you're the on time a
+lot of a lot of the things he's saying
+can apply to his own work as writing
+some of these down while he's going
+other than steel Manning thing he talked
+about like trapped priors and how he was
+saying people lat onto xenosis I don't
+think that's true at all because you can
+look at 2020 polls and about half of
+people little less maybe 40% I can look
+up a poll thought it was a lab leak
+before we even had all this evidence all
+this diffuse Grant because that's just I
+was trying to demonstrate this earlier
+when I said um look at all these other
+labak theories it's a normal human
+tendency to want to blame humans for
+things that go wrong in the world and so
+then there's a trap fryer where you've
+latched on to that and you look for any
+reason why you're correct that the lab I
+mean there's other like when he went
+over the paper and said these four
+authors are motivated there were I
+forget 20 authors and he picked the four
+that were the proximal origin guys but
+he also Al could have picked um Michael
+Warby who suspected lab leak and really
+tried to disprove it um he could have
+picked Maran Copans who was on The Who
+team and even after the who
+investigation she thought maybe there
+were outbreaks before the market um
+because the data was inconclusive and
+there was that December 8th case and
+stuff like that so there's lots of other
+nonmotivated authors we don't even know
+if these first four are motivated um you
+could also talk about like um did you
+read the Christian Anderson so messages
+sir um not all of them some okay so
+Christian at one point mentions what his
+priors are and there and so he says it's
+a 50% odds if you count its location
+Wuhan and there's a furing cleavage site
+in it I think those are the things it's
+5050 lab leak and so if that was his
+rational prior at that point like it
+looks engineered and it's in Wuhan but
+then you add the market evidence on top
+of that and also the EV evidence he's
+done into like the backbone isn't a
+known backbone and the fur and cleavage
+site is out of frame and there's a
+ProLine and an alanine and all these
+weird engineering choices you can see
+how he's not lying he just started 50/50
+and then he found evidence that dropped
+his prior to you know much lower
+value yeah but but
+he that is but they did say at at
+certain times that this they they don't
+know how this could not be engineered so
+may it's okay that they learned how it
+is but saying
+internally that this looks very
+suspicious and then ridiculing outside
+people who say the same is problematic
+that's that's all I'm
+saying I and I don't know I mean I I say
+things privately that I don't say
+publicly in terms of all kinds of things
+I was uh you know the thinking about the
+Nancy Pelosi Paul Pelosi attack thing I
+never public that thing that came up in
+the news where you know was the attacked
+from outside Ider or was that his friend
+something like that I had to look at the
+details I initially suspected who knows
+maybe that's true but I didn't go on
+Twitter saying you know this is what I
+think and there's always things that you
+say because they're socially acceptable
+and there's also things you wonder about
+just because who knows this is a weird
+thing I'm going to look at it briefly
+and if you're a scientist and you know
+what horrible consequences are going to
+come if you come out immediately saying
+I think it's a lab leak maybe you're
+going to do the two weeks of
+investigation that they did to actually
+prove that it's not a lab leak before
+you make those explosive
+claims I understand but still you you
+it's not about having Secrets it's about
+you don't ridicule other people for
+thinking what you thought initially you
+can say oh yeah that's that is a very
+interesting uh possibility here's why we
+thought it initially but changed our
+mind but I I don't think this is a very
+important and to be clear I thought I
+thought it was true I thought it was
+5050 for a long time and I'm not
+ridiculing anyone that believes this
+because it confused me and you know half
+the world is confused but I think
+they're confused because there's a lot
+of Bad actors pushing um bad theories
+about this there's a lot of motivated
+reasoning there's a lot of outright lies
+like the making up still not uh yeah
+it's still okay I
+don't sure uh so just a few responses so
+uh about so the thing I forgot to say
+before is uh I agreed that the
+probalistic inference is this is tough
+to uh chew um it's new I don't expect it
+to be um immediately convincing in the
+last session I will take all of the
+probalistic stuff and turn it into
+something intuitive okay so uh you don't
+have to rely on this alone this is not
+the only claim I'll be making I will
+turn it into something intuitive but the
+the idea is once you go through the
+probalistic inference process then you
+can turn it correctly into something
+intuitive and I think in General to
+understand what we're doing when you
+when you do probabilistic inference the
+question you're trying to answer is
+Which
+hypothesis is based on uh things
+happening that are more rare okay the
+the the hypothesis that says in order
+for us to be correct the things that
+need to happen don't occur frequently in
+the past is the lower probability one
+that's basically all this is about it's
+about being able to deduct from the past
+to the to the to the present and do
+doing it in a way that is uh as as much
+as possible free from uh biases and
+fallacies so after we do the whole
+probalistic analysis I can then convert
+it into this uh intuitive uh framework
+and I think it will be much clearer that
+point uh to just two comments about um
+uh things Peter said about tra prior I
+want to be clear everyone has tra prior
+so the fact that the lab leak is the
+correct
+uh result does not mean that people that
+claim lab leak are doing it correctly
+they're doing it for the wrong reasons
+so everyone uses trap prior everyone has
+this everyone has this problem this is
+not uh this is not only the wrong people
+making mistakes everyone is making the
+mistakes and
+then sometimes people happen to be on
+the right side so um I'm not trying to
+claim that uh lab League proponents are
+free from biases mistake or anything
+like that
+um yeah the rest is not important um
+I've asked a lot of questions uh I still
+have no shortage of questions uh will if
+you want to put in a few uh also I can
+either start skipping questions for
+Peter or we can extend the
+time I'm open
+to let's get let's get to the point
+where it's zero and then the
+sign I would like to ask one for SAR
+here on the kind of General I think one
+of the difficulties is there are
+competing methods of coming to these
+conclusions like I think I can
+articulate all of Peter's claims in a
+probabilistic inference fashion like I
+don't think there's any I think you all
+are not disagreeing on that being a
+reasonable method the question is what
+gets included and what gets um excluded
+there um in terms of the
+calculations um I'd like to have you
+know one of the perhaps easy biases is
+to believe the zunos because can as you
+said before I can come to kind of an
+intuitive picture of how that works it
+passes from a bat to something I can see
+the person in you know taking the train
+going to the Wuhan Market I kind of
+focused some of my questions on your
+proposal about trying to build for
+myself a similarly intuitive and simple
+picture of how it might work in um you
+know in your model and I think you kind
+of wanted to say like we don't take a
+position on how it might have happened
+whether or not it's you know uh left via
+or whether there was an environmental
+exposure that led to a lab leak etc etc
+so that's the backdrop of this question
+what I want to ask is what has to be
+true about the activities that were
+going on at
+wi um to make the production of the SARS
+Co 2 probable so you cited a statistic
+that said it was you know Dr baric says
+it's $6,000 to create a novel virus the
+diffus proposal doesn't get funded how
+many viruses did they have to make what
+did they have to do such that one like
+this
+leaked give me a little bit more about
+how you think that occurred okay so
+first of all I think that's a great
+question to ask Yuri next session will
+he will be he will be able to do it much
+better from memory uh but basically we
+already know they collected and
+sequenced many viruses in nature so they
+already have that in the database so
+going ahead and and trying to um trying
+to find the ones with the best uh ace2
+binding that's not a big deal that's
+something that they can do they already
+have what they need yeah it costs money
+of course but that's what they do that's
+that's their job uh and and basically
+what I have here is the these are
+basically the the activities that will
+result in SARS
+2 so that makes I guess that makes sense
+but I'm thinking kind of
+the I'm trying to constrain or I'm
+trying to build a picture of what how
+much how surprised should I be like okay
+so let's say that wi had1 billion and
+they were doing Golden Gate assemblies
+and mixing every Spike and every ace2
+together I would not be particularly
+surprised that they came up with a very
+infectious virus it doesn't bear on the
+question of whether it leaked but I
+wouldn't be surprised about that but
+given that their Grant wasn't funded and
+we agree that it's fairly expensive to
+do this and given my knowledge of how
+researchers operate where you know you
+can get some stuff done without a grant
+but you can't get a large genetic
+engineering project give me a scenario
+or give me a constraint or reject the
+idea that I can constrain the analysis
+in that way it just seems like they
+would have to spend a bunch of money to
+produce this thing um they didn't get
+their Grant funded it seems like that
+would go against the probability that
+this was actually uh you know mix and
+match Golden Gate assembly something
+happens okay right so um so first of all
+the important thing is that we know
+there are bad viruses in nature with
+with the ace with the
+RBD uh similar to SARS 2 so we know we
+know those exist with the this level of
+A2 match so it's all about whether the
+in the 180 viruses they sequence whether
+it's there or not okay once they're
+there
+then how how uh how costly it is to to
+find it you can start with uh
+simulations that could be that could be
+cheap and then you then you then you go
+uh in vitro so um I don't know exactly
+how much this will cost uh we can look
+into it it's very probable that they got
+they took the same uh proposal and gave
+it to the Chinese government and got it
+funded um I don't
+know but we do know that people are
+there doing their job and we do know
+that is the kind of stuff that is they
+find interesting in
+2019 so yeah I expect this would this
+could happen I mean not 100% but 1.2%
+per year sure okay so that I understand
+what you're saying one
+more to sharpen it I guess even more it
+seems like that explanation relies on
+one of those that the SARS kov 2 being a
+direct Chimera or it seems like the
+probability is high highest under that
+explanation that is direct Chimera so
+you so if that's not true but would you
+agree that the more intermediate steps
+are required the more there has to be a
+funding source the more there should be
+some sort of paper trail something like
+that like what I'm trying to get you to
+do is to constrain how much of a project
+this had to be right so currently so we
+don't know if it's a camera or not uh
+probably
+not but basically what we know is if you
+take banel 52 a virus that exists in
+nature and put an FCS in it you're
+pretty much at SARS 2 that is that is
+not a lot of steps so this is a a virus
+that exists in nature you just plug in
+uh the FCS as as the it is now and
+you're done you don't need to do
+anything else this this becomes
+infectious lab the lab worker gets it
+under bsl2 and that's it so there's not
+uh that much genetic engineering going
+on
+here inter okay I I think this is for
+Yuri much better keep it keep it for the
+next session totally yeah absolutely
+go okay uh a few last few of my starred
+questions for SAR um now in Peter's
+presentation he not just um gave a
+critique of the lab League Theory but he
+also critiqued uh The credibility of
+some of the people putting forth the lab
+League Theory um
+and and I so on the one hand you know
+you don't want to be in the company of
+Steve Bannon and Rudy this is not good
+company but on the other hand what does
+it matter what other people are saying
+what matters is what you're saying right
+um I want to
+know do you feel like you need to
+respond to Peter's criticism of of other
+laque theories of other proponents of
+theory do do you feel like you're in Bad
+Company do you feel like your word
+stands uh strength on its
+own uh right so of course uh we we we
+propose a specific hypothesis with which
+is the Steelman of the laic uh position
+we compare it to the Steelman of the
+xenosis uh position we don't care what
+anyone else says um we have been in many
+cases supporting people that are very
+Fringe uh it's just the way the world is
+so truth is hard it's not always with
+the people you like sometimes the people
+who don't like got it and again it's all
+by chance I mean everyone is using bad
+inference so it's not that uh there's no
+no good reason why this happens one time
+that way and another time the other way
+um we don't care what people say we
+don't use that um maybe if if if I'll
+have a few minutes left uh that they
+need to just talk freely then I can go
+about go through my uh um my responses
+to Pet's um Pet's um deck and you can
+see like we have this happening all the
+time human inference signore like
+whenever whenever the claim is about
+some people say something that's fine we
+don't it's not something that affects
+the probability of the hypothesis okay I
+people will say weird things always let
+me let me jump in there so I saw these
+in the human inference ignored but what
+struck me is and I think this gets to
+one of Peter's questions is the you rely
+on the
+1977 the Russian flu the h N1 Russian
+flu as a evidence or or as uh your prior
+for flu that seems totally human
+inference-based it seems like the um
+like I found competing theories about
+what caused that you say lab leak but
+that seems totally human inference like
+how do you how do you not have to be
+accountable for
+that um good point I agree
+um yeah So eventually at at the bottom
+level you need to use human inference
+the whole idea of this process is to
+break down the very intractable
+questions into smaller pieces where
+human inference is generally not that
+bad um so if uh whether we should have
+counted 1977 maybe as a half case
+instead of one case that could be that
+could have been a mistake and we should
+fix that I'm sure there are other
+mistakes I'm sure there are places where
+we we too conservative and we need to
+bring the numbers up the idea is that
+you give this uh way both sides and make
+sure that you leave room for all the all
+the mistakes and eventually you get a
+number that is uh robust here it's
+important that we have uh to this point
+the prior plus plus the WV activity and
+Wuhan we have two different methods that
+reach very similar numbers and I
+think um I mean I can maybe I stand
+corrected but I think they don't look
+very uh biased or um uh motivated I'm
+sure I'm sure Peter will be able to show
+where I'm wrong here but I think these
+are two methods that are
+generally um balanced Steelman both
+sides um but yeah let's let's see maybe
+maybe I'm
+wrong okay um I can respond right now if
+go ahead if you want I need to share my
+slides
+out
+um is that up
+yeah uh so I thought this my mic's on
+yeah so the calculation on the left
+isn't bad um it does Miss two human
+coron virus that happens since SARS 2
+but you know that's not huge I think the
+AL the Wuhan might be a little higher
+than 1.5 um the lab leak rate I looked
+this up in a few papers they said about
+1 in 500 per lab per year you know maybe
+you can make that higher if you think
+the wi is unsafe but I don't think
+you're going to make a 100 times higher
+but maybe you know you need to have
+proof for that claim um I think the odds
+they have a secret starting virus are
+much lower than that I don't actually
+know where this 180 unpublished viruses
+come from we need to talk about this uh
+defuse as written couldn't make SARS too
+I found a video clip of Yuri Dyan even
+agreeing with this he says you have to
+go beyond what's written in the diffuse
+Grant to create SARS Cove 2 because it's
+done in an abnormal backbone um and
+there's also these other things like the
+front cleavage site doesn't look natural
+it's hard to find a way to culture it
+successfully um and so yeah the the 15%
+seems way too high and the the 50% seems
+way too high and there's a bunch of
+other factors you can add in this and
+and also pandemic starting on Wuhan
+that's like 30% versus 40% but that's
+not that's not a big deal um but I think
+there's a lot we can argue about here
+that you're missing
+yield okay I'll give a quick response so
+uh one500 is the general uh studies
+about generally lab leak those that are
+found um here we're talking about the
+situation where we already went through
+uh the whole the the steps and we have
+sarce 2 and we have someone working on
+it on BS 2
+I can easily say that why this is close
+to 100% infection but I think 50 15% is
+pretty uh pretty conservative so this is
+a very different uh case compared to the
+general background of people working
+with viruses this these are people
+working with an extremely contagious
+virus in a in very bad conditions
+specifically not protecting their
+respiratory tract and about the FCS
+backbone all of that that's discussed
+next session did the these are um these
+are evidence that are not uh in the
+model at that point so maybe they
+increase maybe they decrease this is
+just the evidence up to that
+point that was actually going to be
+exactly my question which is um uh I
+understand not protecting respiratory
+tract is a bad idea but um what lab
+procedures would be air sizing or
+getting the virus into the air if I
+imagine most people are working with the
+virus in like bulk liquid or um not in I
+don't see how the virus gets into the
+air to breathe in I want to understand
+how that happens so uh one thing they
+describe is working with um is infecting
+animals with the viruses they uh they
+produce so that's that's a very easy way
+to get it I'm not I don't know enough
+about um other procedures uh Ur could
+probably give you a good uh good
+sense I think that's unfortunately easy
+I think it is okay having having stuck
+myself with a couple of needles and um
+with a couple of pathogens you
+know um okay uh I guess related to that
+um I recall in your analysis are you
+gave the factor of 4X for the
+bsl2 um which I sort of quibbled with a
+little bit at the time um I think I can
+better explain my quibble now which is
+um are you saying that um other viruses
+is are getting studied in Greater safety
+is that what that's representing because
+your prior probability that a release um
+that a pandemic has caused by a lab leak
+already takes into account the general
+safety that people works with viruses
+and Labs um so if they worked with um
+SARS kov 2 with bios safy level two but
+they work with everything else also bios
+safety level two then shouldn't that
+already be
+accounted so it's a good point that the
+priors
+describ situations which were probably
+less safe than normal so that's a good
+point uh but I think here we're talking
+about something that is uh far more
+extreme so this is um so this is
+something that should probably be at
+least BSL 3 and it wasn't bsl2 so uh
+remember that SARS has escaped from BSL
+3 and bsl4 right so these are these are
+tricky viruses um I think giving this
+factor is uh makes sense
+um try to maybe substantiate it harder
+so the forx represents increased
+probability of lab leak of this specific
+virus compared to a typical virus yeah
+no not a typical virus compared to virus
+that leaked in the past so which those
+were Al also safety breaches right so
+it's not compared of course uh SAR 2 in
+bsl2 is probably a thousand times worth
+than just what's happening now in any
+normal virology lab it's that's that's
+crazy but uh compared to uh compared to
+um compared to press SLB leaks okay so
+4X and and 2x
+conservatively okay I'm down to pretty
+much my small questions so will if you
+have anything else you want want to do
+before we run out their
+time I have one kind of high level
+question
+um which I OPP to both of you which is
+um and you can refuse to answer but I
+think I want to know what the most
+important three claims you think you
+need to win are so I can understand
+where I'm thinking about the evidence as
+presented versus where you all are
+thinking about the evidence as presented
+and perhaps this is something that
+occurs at the next debate or we need to
+extend time but I'd like to understand
+what you think the three most important
+claims are for each of you that you need
+to
+win if you have questions that need to
+take presidence Eric that's
+fine i' I'd like more time for that or
+say that for next
+debate okay I could give some ideas so I
+think we are um not that far um I think
+not that far in priors so if it's 20% or
+8% it's fine uh we're not that far about
+uh Wuhan as a location it's also
+fine uh I think the important points
+would
+be
+um our claim that the market with all
+the evidence around it makes it an
+unlikely PA zero location that's
+something that's probably important
+to uh to
+determine um we will probably probably
+be a big issue about whether the fering
+cleavage site insertion is natural or
+not um that is something that is uh I
+think it's
+like very very strong evidence uh we're
+we're putting it it's something pretty
+conservative but it's it could easily be
+a,x uh
+evidence
+um what else could be
+important and I'm most interested in
+just this debate s oh for this one yeah
+the market I think is the the only thing
+that's
+[Music]
+really it's really a big issue here um
+yeah prior probably probably uh we can
+improve a bit but I don't think we're
+that far apart and the location pretty
+similar
+so yeah Market the market is big the big
+thing where there are claim that the
+evidence of the market is so problematic
+that it's better to just assume that
+it's uh a coincidence than than an
+animal will do you want to finish any
+other questions you have and then I'll
+just use the rest of the time okay all
+you um so I got two minutes Peter um can
+I use can I use my two for some closing
+statements or are we I think you should
+decide now if we're extending because
+otherwise I'm going to want to use my
+time differently uh I'd be happy to talk
+about like a 15 minute each extension
+how do you feel
+sir it's h 3:00 a.m. already that's the
+10
+minutes we'll have other times to
+talk that's the 10
+minutes uh I mean okay uh sorry 10
+minutes total or 10 minutes each each
+okay and maybe we won't use it hopefully
+I'll try to go quickly um so uh Peter I
+got a few sort of related questions I'll
+just give it all my
+time no ask me your question okay so I
+want to talk about the significance of
+the most recent common ancestor um uh
+it's a it's a moving Target um literally
+because um as time goes on and different
+lines die out the most using common
+ancestor gets bumped up further and
+further um so there's a few points where
+I'm unclear you know are we talking
+about the most recent common ancestor of
+you know the cases that existed in uhan
+in early January talking about the most
+recent con common ancestor of cases
+today are we talking about you know the
+first spillover is is there a reason why
+um it seems to be that you've you're
+arguing that the market is both the
+first major cluster and where the
+spillover itself happened although you
+don't seem 100% sure but you think
+that's the most likely explanation so is
+there a reason we should be getting a
+cluster of cases where the spillover
+happened um and I'm going to round this
+out with one last thing which is um you
+have uh you're arguing the case the
+evidence shows it's impossible that a
+September say origin happened because of
+the long uh time lag and uh I'm not
+completely convinced that the evidence
+shows that decisively um because I'm it
+it seems unlikely to me that the virus
+was circulating at a very low level
+without going extinct and without
+creating any great outbreaks for two
+months passing from person to person at
+a low level um but I mean but a pandemic
+is a really rare event so I don't think
+it's to me completely out of the
+question that the process to get a
+pandemic involved some rare things that
+go along now obviously if the virus
+emerged in humans in September and was
+as contagious as it was in January then
+yeah I'm I'm accepting that's impossible
+but it's possible that the virus that
+first hit humans was much less
+contagious it passed at a low level
+miraculously didn't go extinct but
+picked up some mutations that made it
+more contagious among humans and this is
+independently whether we're talking
+about zoonotic or labak that um when it
+first passed into humans it might have
+rapidly become more contagious so that's
+sort of a bunch of related things and I
+just want to know what topics you what
+thoughts you have to do what thoughts
+you have about the relationship between
+when the spillover happened and when the
+first cluster showed up um yeah uh for
+some reason I'm having trouble sharing
+my screen again so I do have some more
+slides for this but we've seen a lot of
+slides already
+um most recent common ancestor is a
+moving Target um like if you if you did
+it now I think you would find like the
+Omron first case would be the most
+common ancestor because everything else
+is other than cryptic lineages
+everything else is gone um but it's it's
+quite stable until Omron emerges if you
+try it at any point between the you know
+Market outbreak and then you get the
+same result um and could you have
+cryptic Transmission in Wuhan for two
+months I can work out the exact odds for
+you based on these models it's extremely
+unlikely um but you know depends on your
+model can you have cryptic transmission
+elsewhere in China and then it suddenly
+hops to Wuhan on a
+train um maybe I haven't thought too
+heavily on that uh we don't see like
+this rapid um Evolution once it jumps
+over into people and we'll talk about
+that at the second debate uh it seems um
+but also it doesn't it doesn't rapidly
+evolve like when it spills over into
+mink or deer so that's probably just
+like this generalist property of the
+virus that that both allowed it to spill
+over but also allowed it to not mutate
+that much it did have some early
+adaptations actually though it had the
+um d64 d614g mutation and the that
+enhanced the fern cleavage site that
+happened very quickly and had a great
+Improvement in the efficacy of the virus
+so that that argues both against
+prolonged culturing of the virus and all
+lab and prolonged transmission of the
+virus in humans um can I propose may I
+propose a scenario to think so um
+imagine that the virus that spilled over
+in September um did not look like the
+vir any of the early samples that we
+have today um and it spread with a very
+low but positive growth and maybe it
+spread in multiple places in China maybe
+it spread in multiple places in uhan and
+then then it it happened to reach the
+market around the same time it developed
+a very positive mutation that blew it up
+I think you gave a doubling time of like
+every 3.5 days or you know a small
+number of days so that scenario is
+inconsistent with a lab leak because if
+you're saying it has this fur and
+cleavage site and this ace2 binding
+you're definitely that that virus is
+ready to go so the if the lab did do
+that it's not going to circulate for two
+months uh I just want to understand if
+this is consistent with any
+explanation some natural explanation
+where yeah where it circulates widely
+and then it suddenly gains the F
+cleavage site in the market um yeah I
+I'd have to think about that some more
+but off the top of my head I don't see
+why that's impossible I don't see why
+that's more likely but yeah so so this
+this the ancestral virus would still
+exists it just be rapidly outcompeted by
+The Descendant virus and then all
+evidence the ancestral virus is lost and
+left here but I guess it so something
+important about par car simulations
+about the polytomies the the two basil
+polytomies that's the the pattern um
+which is where you have this root so
+like your roots lineage B and you have a
+bunch of mutations um coming off of that
+route uh and so you can tell what the uh
+most recent common ancestor is because
+it's it's the base of that polytomy um
+and so if it was actually like lineage a
+and lineage B can both be the base uh
+there's Arguments for both but like
+there's this other argument for proove 2
+which we're going to talk about in the
+second debate where that's one mutation
+even further to the the bat side and I'm
+going to say that's a reversion and
+they're going to say that's ancestral
+and like that really can't easily be the
+most recent common ancestor because if
+that was it then the the base of the
+polytomy would be brov to not line
+B
+okay let's see if I have any questions
+for SAR that
+I've
+um all something really quick um s do
+you disagree or are you happy with um
+the distinction that Peter made about um
+a super spreading vent versus a cluster
+he said that this Market was not a
+supering it was a
+cluster is this important to you do you
+have an opinion no no I think I agree uh
+if I recall correctly super spreading
+means that there's one person doing all
+the work I don't think is that is that
+was that the distinction Peter whether
+it's one person or just the
+location um I don't know if that factors
+into our models it's definitely it's
+definitely a slow burn through the
+market not a super spreader in my
+opinion I guess we're in agreement on
+that and this is about uh this is about
+how rapid it was um I have no idea I
+didn't look into that it's not like one
+person from the lab goes into the maang
+room and then suddenly it's 60 cases
+it's one week there's three and then the
+next week there's six okay like that and
+it's weird if that's that Slow Burn is
+happening at the market but not anywhere
+else in Wuhan that's why that's why I
+think it's not a super spare location I
+think it's really that's the only place
+that slow burs happening it sounds like
+there's not a disagreement anyhow I just
+wanted to make sure you had a chance to
+say something in case you disagreed with
+what Peter was saying I'm not sure if
+this maybe I'm maybe I'm missing
+something so um yeah it doesn't seem
+like the market has has happened like
+with one person infecting 60 in one day
+that doesn't seem to be a case um but
+definitely the market conditions uh
+created a higher exponent in the market
+that's that's my that's our thought I I
+I don't see any disagreement between you
+there
+um okay uh another thing for s I think
+at one point around slide 49 um you were
+critiquing certain papers that are
+against the uh lab Theory um and uh you
+know I ahead of time I don't understand
+the significance of these papers so um I
+have a sort of a dual question here is
+one is um do you think that the accuracy
+of these paper papers is important to
+Peter's argument and the other is um do
+you have critiques with the papers
+Beyond critiques with the um authors of
+the papers like do you see specific
+problems with the papers or you're just
+concerned about the author's method
+because the the
+39 39 let me share let me share it I
+wrote down slide 49 let me just look at
+it um this slide I guess 47 oh okay okay
+so just a this is about F cleavage size
+being an a focus of orology this is I
+don't have any critique of these papers
+this is just to show a pattern uh slide
+47 4 this this one yes so you mention
+these papers and then you go on to give
+messages that the authors of these
+papers gave yes uh and you're concerned
+about the accuracy of these papers I'm
+wondering if you're you have concerns
+within the P within the substance yes so
+the substance is all of these things
+this is lots of lots of uh uh things
+that go against the paper so that's this
+okay I understand yeah and this this is
+just about uh saying you need to be very
+careful with when there's like heavy
+data
+analysis uh by people who want a certain
+conclusion to be correct whether
+intentionally or not that's all okay um
+on slide 51 you said before January 18th
+they needed a connection to the market
+for a
+diagnosis um and and I want to know um
+when did that start because obviously at
+some point they didn't know about the
+market um so there must have been a
+starting period
+when and and also um I think I think
+this whole thing started December 31st I
+don't remember and maybe Peter Peter
+seems to be much better memory than me
+who is um who is beholden to these
+recommendations is this like a specific
+Hospital is doing this is this all of
+China is so I think what happens is they
+they they send like a kind of message to
+all all hospitals that this is something
+that's going on pay
+attention um this was from the CDC I
+think the CDC issued
+a issued this message I need to I need
+to check it can you can you clarify a
+question I'll I'll ask it answer it um I
+guess the the trouble is that I'm not
+clear uh so
+both of you at many different points um
+talk about you know the cases that we
+know about cases we know about at the
+time cases we know about
+retrospectively and the the sampling
+biases and I think it's it's actually
+quite hard for me to get a handle on
+where there are sampling biases and what
+the source of the sampling biases are
+and I
+I I just in general I want to have a
+better idea of exactly and this is
+related to the fact that many of the
+times both of you showed maps of like
+case counts um and I'm never sure like
+what times I were talking about cases in
+December I were talking about cases
+through the whole um Wuhan
+outbreak okay so I tell you my my
+impression so we we Tred to dig into
+early cases and it's it's a mess I mean
+there's so much information so so many
+contradictions there's this uh there's
+this 200 paper reports just about early
+cases each Hospital what
+happened this is not something thing we
+we think is uh is reasonable to to
+analyze with
+confidence and I don't think it's
+important because initially we thought
+the market was an important
+coincidence at this point we're fine
+with saying that the market is the only
+big cluster at the time so it doesn't
+really matter so um yeah so we can we
+can just accept that and we don't care
+about uh biases or no yeah okay and then
+I guess I was going to ask um a few
+slides later you talked about someone
+who's diagnosed only because of a
+relative I guess you're saying this is
+not
+important um I was I was I want talk
+about CH yes uh so this is a bit
+difference so there's a difference
+between saying that uh the market is the
+only cluster that's one thing and there
+it's very different from saying that the
+market is everything okay so we're
+definitely saying that the market that
+there there are a significant number of
+cases outside the market okay that's
+definitely something we're saying just
+saying they didn't manage to create a
+big cluster anywhere okay so definitely
+Chen is important because Chen shows you
+have someone pretty early which cannot
+be connected to the market and we and we
+know the bias we know why he was noticed
+because he has a friend in the central
+hospital and the central hospitals are
+the ones that have the the better
+sequencing abilities right so we think
+this case illustrates that there
+are a few dozen cases at least around
+Wuhan that no one knows about just a
+quick quick question do you know when
+the first case outside of Wuhan was
+SAR uh I don't remember now it's Beijing
+on December
+17th so if he can get to Beijing in six
+days and that guy was actually Market
+linked is how we know about it so we're
+sure it's expired from the market but if
+it can get you know across China and six
+days or seven days I think it can make
+it across Wuhan in one day less than
+that yeah but don't think it's weird
+that there's someone who was to the
+market and then went to Beijing that
+that happens the question is we have
+someone who says I'm not going anywhere
+I'm just living at a suburb yeah and
+can't can't point to anything that's
+related to the market and and he's uh 16
+or a December case question been
+spreading for it's been spreading for a
+few weeks so you you don't think there
+will be any cases in town that aren't
+Market
+linked um I'm not saying they won't be
+I'm saying that the fact that we have
+this case and we know in that case
+specifically there's a good reason why
+we know about it because they go to
+Central
+Hospital that's a coincidence that you
+need to point out because why don't we
+have three other cases in Suburban
+clinics right but it seems like you're
+going out out of your way to ignore the
+174 cases but you're focusing on the one
+case has Pro dis proen this this is this
+is all of December right by December 16
+I don't think we have 174
+right
+correct so he's maybe the first
+nonmarket linked and there's always
+going to be a first Market non-market
+linked yeah sure of course there going
+to be a first non-market link but it
+happens to be the one where he has a a
+good reason to go to the Cal Hospital
+which other would not so that is a sign
+if it was in the market it would be 100
+to One cases that aren't linked you know
+this proves that it's really that's the
+thing if there's 100 cases and there's
+five hospitalized at the market then
+it's the market because that's the
+hospitalization
+rate and if it's not 100 cases if it's a
+thousand cases then you should expect a
+lot more non-market Link at that point
+in
+time right but if it's
+200 sure yeah you can make up some
+okay number that fits in that it's not
+about making up a number that's
+what the only question I had is do you
+know when he was
+diagnosed uh yeah I can look at that I'm
+assuming he wasn't diagnosed on December
+16th because nobody knew what Co was on
+December
+16th so so he must have been diagnosed
+retrospectively it wasn't a very look at
+up continue in the me okay um let's see
+and I would Eric if you're okay I would
+argue that we move towards clo giving
+closing unless you have some other
+pressing pressing bits okay let me just
+we're pushing up on 6:15 now or I mean 6
+hours 15 minutes okay Shen was sequenced
+on December 26 I don't know if that's
+considered diagnosis but he was
+sequenced so I assume the uh that's
+that's good enough um one last small
+question on slide 85 you talk about
+assar talks about um breach of
+containment was is more likely during
+the move of um of the uhan CC uh and I
+just want to know if you have any
+information about um whether bat coronav
+viruses would have been involved in this
+move because it sounded like from what
+Peter said that there there wouldn't in
+which case the move should not be
+significant in that respect
+um I if you have any information about
+like materials being moved not just
+people that would be relevant to the Bri
+containment um is this to me the
+question is to me yes um I don't no we
+were just hypothesizing that that such a
+move would be disruptive in that sense
+um we don't have specific information
+and again this is like really like the
+last line of the defense um I don't know
+if I'm going to get there but I can I
+can try and see if there's I don't know
+how we can find
+like can find online but I just want to
+make sure that everything potentially
+contentious gets
+challenged so okay um okay and then I
+guess I have a few small questions on
+one R through for Peter if you're okay
+before we switch to sorry one thing I
+just wanted to answer of your previous
+question the question about bias my
+claim is that the search was um on bias
+before December 29th um in the early
+hospitals because no one has publicly
+announced that there's the connection
+and I'm saying that the the search is
+biased after December 29th for some
+period and you can tell that that the
+percent Market cases go up actually
+Market linked and then on January 18th
+um then they remove the market linked
+and the percentage goes back down again
+so I'm saying it's um more or less
+unbiased after that and I also pointed
+out that
+127 of the 174 were diagnosed after that
+was removed um you can still you know
+hypothesize some other form of bias and
+it's hard because it has to fit the
+whole part where most of the cases they
+find are unlined and many of them or
+some of them at least are very far away
+so I don't really know what form of bias
+would find that um also War's paper
+considered every form of bias as one of
+their arguments they tried just
+sequentially removing the cases closest
+to the market to see how many you could
+remove before the association was lost
+and you could remove um I have a slide
+you can remove like half to 2third
+depending on how you're doing the math
+here before you lose the association and
+it just matches equally well with the
+population density Center so even if you
+could imagine there's some other form of
+bias it it's still has to be extremely
+strong before it's relevant
+okay um so Peter quick question and
+maybe this is more appr for next session
+um do you have any thoughts on whether
+um the Wuhan Institute of biology might
+have been inadequately handling
+materials that were
+contagious um because this was important
+to sar's argument that the situation is
+there for a lab leak I want to know do
+you agree um I don't know I think it's
+probably exaggerated but I don't think
+my argument really relies on that I
+think most of my argument is the strong
+the many lines of reasoning that show
+that the most recent common ancestor is
+at the market and the geographical
+association with the market the early
+cases with the market um multiple lines
+of reasoning linking the outbreak to the
+market not the lab and then you just
+have this very rare Coincidence of how
+it got there um and then on the lab side
+in week two I'm going to point out
+things like all their work was done in
+uh different backbones like normally
+they plug us Spike into a wi1 backbone
+because they're concerned with SARS
+viruses and they want to know what
+happens if you tweak SARS um things like
+that and the F CLE site doesn't look
+natural so I don't think my argument is
+really going to rely too heavily on I
+know what their exact um procedures were
+okay um and I
+think oh also they do this work in
+pseudo viruses frequently which can't
+infect people that's something that's
+neglected in this debate the whole like
+gain of function is rising you also need
+to account for the fact that we have
+advanced um experimental techniques like
+pseud of viruses where you can do more
+experimentation safer um okay we'll
+probably hear more about that next time
+I guess and then my last question the
+next time yet um is uh
+you claimed you attributed sub
+significance to the fact that SARS one
+and SARS 2 spilled over in the same
+month and um I want to know if there a
+reason why spillover then should be
+seasonal as opposed to
+just um the I wrote one and 12 in my
+probabilities and that's that's
+definitely too high I I figured we were
+going to negotiate that down happy to
+say one and six I think SAR even said
+one and four and I wasn't trying to like
+pull one over on you guys I I was ready
+to argue that down I could make the same
+argument November versus December um it
+is important to realize that Co is not a
+particularly seasonal virus um um it can
+spread in summer I just caught it in
+summer um and it could leak at any month
+of the year so we're looking for every
+piece of evidence we can that's a small
+one you know I don't I don't think that
+factor of four I think there's a problem
+here in that both SAR and I think our
+arguments are very strong and it would
+take this overwhelming evidence to
+overturn them and I don't know if we're
+going to end this debate actually um not
+believing that at the rate we're going
+but I'm optimistic that we can make some
+progress and seeing you know where we
+both agree and disagree I just that was
+a a slight um distinction I'm making I'm
+not asking about whether Co is seasonal
+I'm asking whether spill of urbin should
+be seasonal and I'm not aware of any
+particular reason they should be well so
+on the on the Human Side it would
+remember how we we boosted cities
+because of the density um and
+deprioritized rural areas so you also
+are going to have um higher transmission
+rates in Winter and uh and that that's
+going to be an extra Factor on that 38
+um and that that might be why even
+though it could spill over multiple
+times but it's going to stick better as
+a pandemic in Winter I say um I I'm a
+little reluctant because I feel like
+biology has not definitively come to
+understand exactly why flu virus and so
+on are seasonal and um to go from flu
+virus is seasonal
+to covid pandemic and spillover seasonal
+I'd feel better about it understood
+where we started yeah we don't so we we
+only have a few data points and actually
+hku1 seems to also be a winter in China
+thing but you know that one's really
+hard to contract Trace so we don't know
+it as well as SARS or SARS 2 so if you
+want to drop the factor of four I'm not
+going to be angry if you want to drop
+the factor of 10,000 because SAR says
+the markets equally likely to be the
+animals or the maong room then I've done
+a bad job making my case today and or we
+need to talk about that more
+I want to ask there just because I
+thought the I thought there was a basis
+of the claim I thought it was a bat
+immune system claim for spillover
+likelihood or transmissibility
+likelihood did I like not that it's
+important but did I miss I guess if more
+bats are sick then more spillover can
+happen is that that's what I thought me
+I'm trying I'm trying to understand the
+coincidence and I don't know if it's
+important I did I did find papers
+explaining that the there is a sharp
+spike in B seasonality in like September
+October and and un I believe was the
+cave they were looking
+at okay not not super important I don't
+know how fast it gets from bass to Bass
+to intermediate to humans so I you know
+there's a lot of unknowns here and we
+don't know that for SARS we don't know
+that for Co we don't know that we don't
+even know the intermediate for hku
+on okay uh well thank you for your
+patience with all my questions that was
+most of
+them so uh if you want to give any
+closing
+arguments uh me sure I have two minutes
+let me see if I can share my screen
+again um can I can you yield the screen
+SAR or
+whoever um I so I think this is one of
+the key things that we were talking
+about and I I don't think SAR is steel
+Manning here um like
+so the first point
+15% I worked that out in the xia xia
+paper seven of 17 shops are this market
+so yeah I could say it could be another
+Market there's four of them this one is
+actually the one with the most shops um
+but you could call that you know lower
+41% and I don't see why TCM hospitals
+are relevant restaurants maybe depends
+um he said you know no infected vendor
+when really it's one of seven for the
+SARS outbreak so and this is even harder
+to contact Trace um no animals were
+tested so I don't know what the
+relevance of not finding a animal is or
+no relevant animals um best explanation
+he's ignored the two
+spillovers uh one minute every excuse of
+bias he's come up with has fallen apart
+so far as far as I can tell so I don't
+understand why he's still using that um
+lineage a
+um yeah uh and the the maang board you
+know
+is not relevant as far as I've
+demonstrated so steel Manning these and
+not giving these 100% necessarily but
+just making up as many examples why you
+don't like it I don't think is a
+convincing argument against it um what
+do I have 30
+seconds um yeah I think he's making up a
+lot of numbers here and I I went over
+this one this would be good to keep
+working I'll know in the next debate
+because these are really important and I
+would close with a quote from Mark Twain
+uh there are three kinds of lies lies
+damned lies and
+statistics will you're muted but I'm
+assuming you're handing control over to
+s yes sorry 8 minutes and 32
+seconds and sorry just to be clear I
+think if there's leftover time when
+you're done with conclusion you'll just
+have it the next
+time sorry what what do you suggest I
+was saying if there's left over time uh
+from your concluding marks then we'll
+just adjust it next
+time uh no like I'll just I'll just um
+go quickly over my I'll go over quickly
+over my comments on uh clock over my
+comments on
+uh uh Peter's presentation so just uh
+uh go over the main uh
+problems um yeah so there was there were
+some issues about
+Wuhan uh being claimed to be an
+unlikely uh that that L people claim Wan
+is an likely we're not saying that we're
+just saying it's one of uh it's an equal
+probability we give it
+um that's not
+important um it's want to do it's
+important to remember all the
+differences from sarce one that had
+multiple spillovers it had more genetic
+diversity at the start we'll discuss
+next
+time uh it's it's clear how it got to
+Bong we had the positive sample so
+important to look also at the
+differences are not these
+similarities um so there are several
+claims about that make uh making Hub
+especially likely I mean this in order
+to determine that we need to see
+an objective comparison of all the all
+the provinces under the parameters and
+see that H comes up I mean of course in
+retrospect you can find uh anything you
+want that is specific to
+HUB um what else is interesting
+here um yeah we the saying that wi is
+far for the market from the market it's
+it's not too important because we not we
+don't expect the lab to be where
+the where the uh infection starts but
+actually where the lab worker
+frequence uh we discussed this that we
+need to add other
+countries um
+yeah yeah so here we here we accepted
+this accepted the density and added to
+twox so that's a correction we
+made um yeah also uh so here here
+there's a claim that uh Hub is not
+Banning events this is for the time
+being and then later we see that the
+whole of China stopped Banning Wildlife
+after SARS 2 so probably you know these
+things a lot of these things that try to
+single out hub seem to me to be uh
+cherry-picked in
+retrospect uh I'm willing to be proven
+otherwise just need to see a process
+whereby you compare all the provinces
+and see what happens
+um
+okay okay this is an important one so uh
+this is the this is the calculation that
+uh eventually P does that goes to the
+billions um so want to see like so we
+did this very similar calculation that
+produces the 1.2% per year and
+the main differences
+are uh having a suitable virus so given
+what we know about Bal 52 and the
+missing unpublished viruses I think it's
+likely that they would have one uh it's
+probably it's a proba they create it
+because that's what diffuse says so once
+they decide to do
+diffuse then then it's uh they're likely
+to reach a virus like that um
+probability of a scate given bsl2 we
+discussed very likely and spreading in
+Wuhan uh make it across town to the
+market without spreading elsewhere we
+don't agree that is the that is the case
+uh and about uh the lab successfully
+hitting all the evidence we will discuss
+the behavioral evidence in the last uh
+uh last session but definitely we are
+not talking billions here this is
+something that is um pretty much likely
+uh important thing is that um Peter said
+that uh we're claiming that it happened
+in a bsl2 lab but we're saying bsl4
+is uh um um wfv having bsl4 makes Wuhan
+more unique so this is a very important
+distinction bsl4 is a proxy for the
+extend of rology research the fact that
+they have bsl4 in Wuhan means that
+that's an important hub for rology the
+fact that they specifically did SARS 2
+and bsl2 that makes the case worse not
+better doesn't doesn't bring up all the
+BSL 2s across China to be relevant it
+just the bsl4 is only an indication
+we're looking for an indication of how
+unique is Wuhan in that s in that sense
+bsl4 is an indication we're using much
+stronger um evidence for that in our
+analysis but just important to
+understand what bs4 is
+about
+um yeah so the work of wfv is much more
+significant than any of these
+so any case where you know ridiculing
+people who make weird
+labic uh theories that's fine with us
+people are weird that's
+not that's not a
+problem
+um yeah
+okay
+okay
+yeah so the the the example of using uh
+col for U uh for centering the source of
+the of epidemic this is very different
+because Cola isn't Airborne it doesn't
+have much human to human
+transmission many of these people were
+actually infected directly by the water
+pump yeah and it's also before we had
+Advanced transportation in cities so
+this whole case and equating it to to
+the centering of cases in huanan is
+is uh is very
+shaky
+um yeah so this these are many options
+we this is the option none of these is
+the option we uh reached at conditions
+the market make it a good super spending
+location there possibly one of several
+but there was noticed DUIs so the last
+sentence we're willing to concede it
+even though we think it's correct it's
+not
+important
+um
+okay talk about
+that
+um yeah so this is this this is like
+okay this is there's a lot of work to do
+in early cases um if if it comes down to
+that we'll probably need to have a whole
+session just in that it's very
+complicated um yeah we talked about
+that here this is uh we showed it as a
+table here you see it as a map that
+actually the District of the market is
+lower than its surrounding in terms of C
+positivity uh yeah we talked about the
+importance of taking into account the
+other map of all cause mortality not not
+only
+pneumonia
+uh
+okay yeah so the whole issue about uh
+the mo and valy has called
+yeah we're not doing that we our CC
+claim is very
+specific
+um yeah all the things about dates we
+don't find very important it could
+eventually come up to be important but
+uh we'll uh if if we get there um was
+interesting the fact that there wasn't
+any event that would uh could be an
+alternative to why Wuhan was important
+so we we didn't know that that's
+strengthen the case that wav is
+responsible compared to something
+else um yeah I think I'm running out of
+time there so
+um yeah that's about
+it see you in two weeks in my last six
+seconds all inference is human
+inference
+okay wow thank you very much this was uh
+quite the marathon session
+today um thanks that was fun thanks for
+the patience you guys are great that was
+that was awesome guys it's really cool
+to see um two people who put in so much
+work and um thank you s for making this
+contest this is like there's no place to
+like challenge these beliefs you know
+except on Twitter and Twitter
+conversation is terrible and un actually
+talk and like figure out what's right
+and wrong and I don't know thank you for
+challenging it's really it's you're the
+first one to ever ever Go the Distance
+only D enough huh we'll see we'll see
+okay um okay quickly

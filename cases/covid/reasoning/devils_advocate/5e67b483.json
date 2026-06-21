@@ -1,0 +1,9 @@
+{
+  "strongest_counterargument": "Wuhan is China's ninth-largest city with 11+ million people, a major transportation hub, and home to the Huanan Seafood Market which sold live wild animals—the exact conditions where zoonotic spillovers occur. The 'coincidence' dissolves when you realize that virology institutes are strategically located in regions with high zoonotic risk (near bat populations, wildlife trade routes, dense urban centers), making the geographic overlap expected rather than surprising under either hypothesis.",
+  "counterargument_type": "alternative_explanation",
+  "what_would_refute_this_counterargument": "A systematic analysis showing that WIV's location was NOT chosen based on regional zoonotic risk factors, combined with evidence that comparable Chinese cities with similar wildlife trade/population density but without BSL-4 labs had significantly lower prior coronavirus emergence, and demonstration that the specific emergence location within Wuhan (market vs. lab proximity) favors one hypothesis over the other.",
+  "revised_confidence": "medium",
+  "revised_confidence_rationale": "The claim accurately reports that 'some view this as surprising,' but the two attestors are engaged in debate/litigation contexts (not epidemiological analysis), and neither source demonstrates they controlled for the base rate of virology labs being located in high-risk zoonotic zones. The 'surprise' may reflect intuition rather than rigorous probabilistic reasoning about site selection.",
+  "the_thing_nobody_is_saying": "If we're doing Bayesian reasoning, we need the prior probability that a major virology institute would be located in a city that later experiences natural zoonotic spillover—but calculating this requires knowing whether lab placement correlates with zoonotic risk factors, which would make the 'coincidence' partially or fully explained by common cause rather than evidence for lab origin.",
+  "claim_id": "5e67b483"
+}

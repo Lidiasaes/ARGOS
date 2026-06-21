@@ -1,0 +1,104 @@
+{
+  "evaluations": [
+    {
+      "criterion_id": "general_methodological_transparency",
+      "status": "red_flag",
+      "evidence_quote": "what we do is is we go through a very careful methodology where we go we steal man each hypothesis find the best explanation look for dep pendencies look for the best uh numbers give give a low range and a high range and uh and integrate all the numbers to something that is uh that is robust",
+      "reviewer_note": "Methodology is described only in vague terms ('very careful methodology', 'integrate all the numbers') without concrete specification of how probabilistic calculations are performed, how dependencies are identified, or how ranges are determined. Claims robustness without demonstrating it.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "data_collection_procedures",
+      "status": "red_flag",
+      "evidence_quote": "I don't have a specific estimate but probably um mid December I don't know probably it's probably 10 20% of the cases are in the market maybe less I don't I need I need to think if you need an exact I do need an exact number... I would say five to 10 times more so five to 10 times five so it's 25 to 50 cases... if you want I say five hospitalizations in addition to the five in the market but really you're you're you're trying to get something that I'm not claiming to have the entire model of the outbreak in my head",
+      "reviewer_note": "Critical numerical estimates are improvised on the spot without reference to systematic data collection. When pressed for specifics, the debater admits to not having 'the entire model in my head,' indicating key claims lack documented evidentiary foundation.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "uncertainty_quantification",
+      "status": "red_flag",
+      "evidence_quote": "the result we have was I don't remember it's 99% that's one in 100 the one in 100,000 is how much you need to shift the data in order to pass 50%... at this point we the the amount of evidence is so strong I can't see that happening",
+      "reviewer_note": "Expresses extreme certainty (99%, 1 in 100,000) while simultaneously not remembering exact figures and admitting potential for factual errors. No discussion of uncertainty bounds, sensitivity analysis, or probabilistic reasoning validation.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "error_acknowledgment",
+      "status": "declared",
+      "evidence_quote": "yeah we're we're perfectly perfectly fine in getting some facts wrong uh we corrected some numbers based on your analysis and perfectly fine that we will will correct more numbers and eventually concede that um um zunos is most likely we don't have a problem with this method just uh point out any mistakes you see and we will correct",
+      "reviewer_note": "Explicitly acknowledges willingness to correct factual errors when identified, though this occurs in the context of multiple errors being pointed out during the debate.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "bias_handling",
+      "status": "red_flag",
+      "evidence_quote": "what we the data we brought about wi being in the center we explicitly said this is not something we believe in this is just showing you how easy it is to uh ch iic data we we're agreeing with you this that's sharpshoot a fallacy to claim that WBA supports wi the idea was to show how much you can play with the data",
+      "reviewer_note": "Acknowledges cherry-picking as a problem but simultaneously presents data that opponent identifies as suffering from selection bias (Weibo data, Texas Sharpshooter fallacy in their own analyses). Claims to recognize bias while engaging in contested selective use of evidence.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "fact_checking_verification",
+      "status": "red_flag",
+      "evidence_quote": "you don't do factchecking and there's a bunch of cases where you messed up here you said that this December 8th case was happened before the market outbreak both sides of the debate disagree with that you you got the two visitors wrong... you talked about this Texas Sharpshooter fallacy... but then two slides later you're talking about Mr Chen on December 16th that's the same guy but you didn't notice that you've double labeled the same case",
+      "reviewer_note": "Opponent identifies multiple factual errors including misidentification of cases, incorrect dates, double-counting individuals, and mischaracterization of data. These errors indicate inadequate fact-checking prior to presentation.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "probabilistic_reasoning_documentation",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "Despite making extreme probabilistic claims (1 in 100,000), no documentation is provided of how these probabilities were calculated, which priors were used, how independence assumptions were validated, or how the multiplication of probabilities was justified.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "source_quality_assessment",
+      "status": "red_flag",
+      "evidence_quote": "about Chen if you go back to the recording I said specifically that some say eight some say 16 this is not settled it's not 16 is not settled it's based on an interview with that is not clear who who they're talking about uh translated we F saying 16",
+      "reviewer_note": "Relies on unclear, untranslated interview sources without apparent quality assessment. Acknowledges uncertainty about source reliability ('not clear who they're talking about') but still incorporates into analysis.",
+      "quote_verified": true
+    }
+  ],
+  "red_flag_hits": [
+    {
+      "pattern": "extreme_certainty_without_documentation",
+      "evidence_quote": "the result we have was I don't remember it's 99% that's one in 100 the one in 100,000 is how much you need to shift the data in order to pass 50%... at this point we the the amount of evidence is so strong I can't see that happening",
+      "reviewer_note": "Expresses extreme probabilistic certainty (99%, 1:100,000 odds) while simultaneously unable to recall exact figures and lacking documented methodology for these calculations in the transcript.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "improvised_estimates_on_critical_parameters",
+      "evidence_quote": "I don't have a specific estimate but probably um mid December I don't know probably it's probably 10 20% of the cases are in the market maybe less... I would say five to 10 times more... it's just a guess",
+      "reviewer_note": "When questioned on fundamental parameters (number of cases at specific dates), provides improvised estimates admittedly not based on documented analysis, describing them as guesses.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "motivated_reasoning_admission",
+      "evidence_quote": "there's a huge possibility for confirmation bias there where you get attached to one Theory and you only pick uh the numbers for that theory",
+      "reviewer_note": "Opponent directly identifies confirmation bias as a problem in the probabilistic approach, noting selective multiplication of numbers that support preferred theory.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "factual_errors_undermining_claims",
+      "evidence_quote": "you don't do factchecking and there's a bunch of cases where you messed up here... you've double labeled the same case as far as I could tell",
+      "reviewer_note": "Multiple substantive factual errors identified including case misidentification, incorrect dates, and double-counting, indicating inadequate verification procedures despite making strong probabilistic claims dependent on factual accuracy.",
+      "quote_verified": true
+    }
+  ],
+  "source_id": "cases/covid/files/youtube_d1dbfoK8nSE.txt",
+  "source_label": "First Rootclaim Debate on Covid Origins, part 3 — discussion and judges' questions",
+  "methodology_score": 0.085,
+  "score_rationale": "Score 0.085 (deterministic): weighted declared 1.0/8.0 (base 0.125); 1/8 criteria declared, 1 not_declared, 6 red_flag; 4 pattern hits (penalty capped); ceiling 0.5.",
+  "score_breakdown": {
+    "applicable": 8,
+    "not_applicable": 0,
+    "declared": 1,
+    "not_declared": 1,
+    "red_flag_criteria": 6,
+    "red_flag_hits": 4,
+    "weighted_declared": 1.0,
+    "weighted_total": 8.0,
+    "base_ratio": 0.125,
+    "confidence_ceiling": 0.5,
+    "methodology_score": 0.085
+  },
+  "score_computed_by": "deterministic_v1"
+}

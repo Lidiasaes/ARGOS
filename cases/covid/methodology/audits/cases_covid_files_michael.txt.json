@@ -1,0 +1,23 @@
+{
+  "source_id": "cases/covid/files/michael.txt",
+  "source_label": "Michael Weissman",
+  "methodology_score": 0.0,
+  "score_rationale": "Score 0.000 (deterministic): weighted declared 0.0/0.0 (base 0.0); 0/0 criteria declared, 0 not_declared, 0 red_flag; 0 pattern hits (penalty capped); ceiling 0.5.",
+  "evaluations": [],
+  "red_flag_hits": [],
+  "parse_error": true,
+  "score_breakdown": {
+    "applicable": 0,
+    "not_applicable": 0,
+    "declared": 0,
+    "not_declared": 0,
+    "red_flag_criteria": 0,
+    "red_flag_hits": 0,
+    "weighted_declared": 0.0,
+    "weighted_total": 0.0,
+    "base_ratio": 0.0,
+    "confidence_ceiling": 0.5,
+    "methodology_score": 0.0
+  },
+  "score_computed_by": "deterministic_v1"
+}

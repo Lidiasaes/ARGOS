@@ -1,0 +1,27 @@
+{
+  "source_id": "cases/covid/files/youtube_KdORmvU8MLI.txt",
+  "main_thesis": "SARS-CoV-2 originated from a lab leak, determinable through rigorous Bayesian probability analysis that quantifies evidence strength across multiple disciplines rather than relying on peer-reviewed science or expert consensus.",
+  "sub_theses": [
+    "Intelligent people and institutions reach contradictory conclusions on COVID origins because they fail to properly integrate evidence across disciplines and fall prey to cognitive biases like ignoring prior probabilities and double-counting evidence",
+    "Peer-reviewed science is inadequate for multi-disciplinary integration problems like COVID origins, where process matters more than disciplinary expertise",
+    "Rootclaim's methodology of steel-manning each hypothesis, quantifying evidence strength probabilistically, and performing sensitivity analysis has proven superior to mainstream analysis in past cases",
+    "The zoonotic origin consensus exhibits the same patterns of analytical failure (base rate neglect, confirmation bias) that Rootclaim identified in previous cases where authorities were wrong"
+  ],
+  "methodological_stance": "Rootclaim employs explicit Bayesian probabilistic modeling with quantified likelihood ratios, steel-manning all competing hypotheses equally, accounting for evidence dependencies, and conducting sensitivity analysis on parameter ranges. This formalized approach is positioned as superior to intuitive expert judgment or peer review for complex multi-disciplinary questions.",
+  "targets": [
+    "Peer-reviewed science for multi-disciplinary integration",
+    "Current CDC leadership and mainstream scientific consensus on zoonotic origin",
+    "US intelligence agencies for reaching contradictory conclusions despite same evidence",
+    "Experts who claim 'dispositive evidence' or 'smoking guns' for zoonosis"
+  ],
+  "key_questions_addressed": [
+    "What is the prior probability that a pandemic starting in Wuhan would originate from a lab leak given WIV's proximity and research activities, versus from natural zoonotic spillover?"
+  ],
+  "textual_anchors": [
+    "our conclusion is labli",
+    "peer-reviewed science is great in bringing evidence but when you need to integrate from multiple disciplines",
+    "we always tealman each hypothesis",
+    "ignoring the pr probability",
+    "we turned out to be correct in both of these cases"
+  ]
+}

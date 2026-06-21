@@ -1,0 +1,28 @@
+{
+  "source_id": "cases/covid/files/response_to_scott_alexander.txt",
+  "main_thesis": "The Huanan Seafood Market early cluster provides negligible evidence for zoonotic origin (less than 5x rather than 10,000x), and once this evidentiary pillar is removed, the remaining evidence strongly supports lab leak as the most likely hypothesis.",
+  "sub_theses": [
+    "The conditional probability p(HSM|Lab Leak,Wuhan) is much higher than commonly assumed (>1% rather than 0.01-0.1%) because seafood markets repeatedly formed early clusters during zero-COVID periods in multiple countries",
+    "The conditional probability p(HSM|Zoonosis,Wuhan) is lower than assumed (3-5%) because markets are only one of many possible spillover locations and were not the primary warned interface for zoonotic events pre-2020",
+    "The true Bayes factor for HSM evidence is less than 5x for zoonosis rather than the claimed 10,000x, collapsing the single evidentiary leg supporting zoonosis over lab leak",
+    "Scott Alexander's own probability table shows he would flip to 94% lab-leak if the HSM cluster evidence were removed, demonstrating zoonosis conclusion depends entirely on this single misweighted piece of evidence"
+  ],
+  "methodological_stance": "Rootclaim employs rigorous Bayesian likelihood ratio analysis, calculating conditional probabilities p(Evidence|Hypothesis,Background) rather than relying on naive intuitions or rules-of-thumb. They emphasize comparing conditional probabilities under competing hypotheses given shared background knowledge (Wuhan outbreak) to determine true evidential weight.",
+  "targets": [
+    "Scott Alexander",
+    "Judge Will",
+    "Peter Miller's zoonosis position",
+    "Common probabilistic intuitions treating HSM as extreme coincidence under lab leak"
+  ],
+  "key_questions_addressed": [
+    "Does the early cluster of COVID-19 cases at Huanan Seafood Market provide strong evidence for zoonotic origin versus being explained by surveillance bias or market conditions conducive to superspreading?",
+    "How should the conditional probability p(HSM|Zoonosis,Wuhan) compare to p(HSM|Lab Leak,Wuhan) given observed patterns of COVID clusters at seafood markets in other countries during zero-COVID periods?"
+  ],
+  "textual_anchors": [
+    "early cluster of cases in the Huanan Seafood Market (HSM) is strong evidence for zoonosis",
+    "Scott will flip to 94% lab-leak",
+    "p(HSM|Zoonosis,Wuhan) to p(HSM|Lab Leak,Wuhan)",
+    "seafood markets and facilities repeatedly form early clusters",
+    "what was claimed to be 10,000x evidence...turns out to be less than 5x"
+  ]
+}

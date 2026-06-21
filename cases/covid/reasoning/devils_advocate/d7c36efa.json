@@ -1,0 +1,9 @@
+{
+  "strongest_counterargument": "Markets are high-traffic, high-surveillance locations where symptomatic cases are more likely to be detected and investigated than in residential or workplace settings, creating ascertainment bias. The claim that outbreaks 'originated' in markets confuses detection location with transmission origin—markets may simply be where community transmission was first noticed, not where it began, especially since pre-symptomatic and asymptomatic spread means the actual index case could have occurred days earlier in unmonitored settings.",
+  "counterargument_type": "methodological",
+  "what_would_refute_this_counterargument": "Genomic sequencing data showing market-associated cases were basal in phylogenetic trees for each outbreak, combined with contact tracing demonstrating no prior community cases; or controlled comparison studies showing outbreak detection rates in markets versus other congregate settings with equivalent surveillance intensity.",
+  "revised_confidence": "medium",
+  "revised_confidence_rationale": "The attestors appear to be debaters and a judge from the same proceeding, not independent researchers, and the very low methodology scores (0.00-0.50) suggest these are advocacy documents rather than systematic epidemiological investigations. 'First detected in' ≠ 'originated in' without ruling out surveillance bias.",
+  "the_thing_nobody_is_saying": "If markets genuinely cause superspreading through environmental conditions rather than just detecting it earlier, we should see market-origin outbreaks dominating globally, yet this pattern appears limited to specific Asian contexts—suggesting either unreported confounders (cold chain contamination, specific market practices) or that detection bias is being mistaken for causal evidence.",
+  "claim_id": "d7c36efa"
+}

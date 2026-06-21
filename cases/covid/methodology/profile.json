@@ -1,0 +1,59 @@
+{
+  "case": "covid",
+  "inquiry_type": "probabilistic_debate",
+  "domain_summary": "Case: covid",
+  "standardization_level": "low",
+  "applicable_guidelines": [],
+  "guidelines_missing": "No field-wide CONSORT/PRISMA equivalent — criteria from inquiry-type template",
+  "confidence_ceiling": 0.5,
+  "criteria": [
+    {
+      "id": "base_rate_justification",
+      "category": "reasoning",
+      "severity": "FATAL",
+      "question": "Are prior probabilities and base rates explicitly justified?",
+      "expert_rationale": "Debate conclusions hinge on priors; unanchored priors make likelihood ratios uninterpretable."
+    },
+    {
+      "id": "likelihood_ratio_validity",
+      "category": "statistics",
+      "severity": "FATAL",
+      "question": "Are likelihood ratios supported by cited evidence, not assertion?",
+      "expert_rationale": "Bayesian updates require defensible likelihoods tied to observable data."
+    },
+    {
+      "id": "conditional_independence",
+      "category": "reasoning",
+      "severity": "MAJOR",
+      "question": "Are conditional independence assumptions stated where composite updates are used?",
+      "expert_rationale": "Double-counting correlated evidence inflates confidence."
+    },
+    {
+      "id": "evidence_traceability",
+      "category": "inferential",
+      "severity": "MAJOR",
+      "question": "Can each key evidentiary claim be traced to a primary source?",
+      "expert_rationale": "Debate rhetoric without traceable evidence should not drive scores."
+    },
+    {
+      "id": "conflict_of_interest",
+      "category": "other",
+      "severity": "MINOR",
+      "question": "Are conflicts of interest or institutional stakes disclosed?",
+      "expert_rationale": "Adversarial debate contexts require transparency on incentives."
+    },
+    {
+      "id": "uncertainty_acknowledgment",
+      "category": "reasoning",
+      "severity": "MAJOR",
+      "question": "Are limits of evidence and model uncertainty explicitly acknowledged?",
+      "expert_rationale": "Overconfident verdicts without uncertainty bounds are methodological failures."
+    }
+  ],
+  "red_flags": [
+    "certainty without cited evidence",
+    "prior assumed without justification",
+    "double-counting the same observation"
+  ],
+  "profile_source": "fallback_template"
+}

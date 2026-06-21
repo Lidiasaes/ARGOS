@@ -1,0 +1,27 @@
+{
+  "source_id": "cases/covid/files/scott_alexander_covid_debate.txt",
+  "main_thesis": "The Rootclaim debate format provides a rigorous test of whether formalized Bayesian reasoning can resolve contentious real-world questions like COVID origins better than normal human intuition.",
+  "sub_theses": [
+    "Rootclaim's approach attempts something genuinely novel—applying full Bayesian probability calculations to fuzzy real-world problems that experts typically avoid quantifying",
+    "The debate serves as a high-stakes empirical test of whether monetary incentives and structured argumentation can overcome epistemic bias",
+    "Peter Miller's willingness to risk significant personal wealth despite no debate experience demonstrates the confidence level achievable through thorough investigation of the zoonosis case",
+    "The debate format (mutually-agreed judges, structured sessions, $100K stakes) creates conditions for revealing which position has stronger evidentiary support"
+  ],
+  "methodological_stance": "Scott Alexander adopts an observational, meta-analytical stance, examining the debate as a case study in epistemic methodology rather than directly arguing for either COVID origin theory. He is interested in whether formalized reasoning systems can outperform intuitive judgment on complex questions.",
+  "targets": [
+    "Contrarian bloggers who profit from promoting lab leak without rigorous evidence",
+    "The general practice of doing 'Bayesian reasoning by doing normal reasoning while muttering Bayes, Bayes, Bayes under your breath'",
+    "Steve Kirsch's anti-vaccine position (implicitly, through mention of bogged-down debate)"
+  ],
+  "key_questions_addressed": [
+    "What is the prior probability that a pandemic starting in Wuhan would originate from a lab leak given WIV's proximity and research activities, versus from natural zoonotic spillover?",
+    "Does the early cluster of COVID-19 cases at Huanan Seafood Market provide strong evidence for zoonotic origin versus being explained by surveillance bias or market conditions conducive to superspreading?"
+  ],
+  "textual_anchors": [
+    "uses Bayesian reasoning, a branch of math that explains the right way to weigh evidence",
+    "Nobody tries to do full Bayesian reasoning on fuzzy real-world problems",
+    "there seemed to be no incentive to defend zoonosis",
+    "I put in enough effort to know I'm probably correct there",
+    "a smart and unbiased person would vote for zoonosis with, say, 80% odds"
+  ]
+}

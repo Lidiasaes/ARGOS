@@ -1,0 +1,68 @@
+{
+  "central_questions": [
+    "Does the early cluster of COVID-19 cases at Huanan Seafood Market provide strong evidence for zoonotic origin versus being explained by surveillance bias or market conditions conducive to superspreading?",
+    "What is the prior probability that a pandemic starting in Wuhan would originate from a lab leak given WIV's proximity and research activities, versus from natural zoonotic spillover?",
+    "Did the Wuhan Institute of Virology have the capability to create SARS-CoV-2 through DEFUSE-style research or gain-of-function work?",
+    "How should the conditional probability p(HSM|Zoonosis,Wuhan) compare to p(HSM|Lab Leak,Wuhan) given observed patterns of COVID clusters at seafood markets in other countries during zero-COVID periods?",
+    "What is the evidential weight of the furin cleavage site in SARS-CoV-2 for lab origin versus natural evolution?"
+  ],
+  "subfields": [
+    "Bayesian likelihood ratio analysis",
+    "gain-of-function research",
+    "DEFUSE proposal methodology",
+    "viral spillover epidemiology",
+    "seafood market superspreading dynamics",
+    "furin cleavage site evolution",
+    "coronavirus phylogenetics",
+    "biosafety laboratory practices",
+    "surveillance bias in outbreak detection",
+    "conditional probability in epidemic origins"
+  ],
+  "key_entities": [
+    "Rootclaim",
+    "Saar Wilf",
+    "Peter Miller (tgof137)",
+    "Judge Will",
+    "Judge Eric Stansifer",
+    "Michael Weissman",
+    "Huanan Seafood Market (HSM)",
+    "Wuhan Institute of Virology (WIV)",
+    "DEFUSE proposal",
+    "Bayes factor",
+    "likelihood ratio",
+    "furin cleavage site",
+    "Scott Alexander",
+    "Astral Codex Ten",
+    "$100,000 debate challenge",
+    "p(HSM|Zoonosis,Wuhan)",
+    "p(HSM|Lab Leak,Wuhan)",
+    "Steve Kirsch",
+    "zero-COVID periods",
+    "early cluster analysis",
+    "prior odds ratio",
+    "posterior odds calculation",
+    "SARS-CoV-2 epicenter",
+    "wildlife market hypothesis",
+    "surveillance clustering",
+    "conditional probability given Wuhan outbreak"
+  ],
+  "debate_positions": [
+    "Lab Leak (Rootclaim/Saar): SARS-CoV-2 originated from research-related incident at WIV, with HSM cluster explainable by market conditions rather than zoonotic spillover",
+    "Zoonotic Origin (Peter Miller): SARS-CoV-2 arose from natural spillover at or near Huanan Seafood Market, with early case clustering providing strong evidence",
+    "Judge Will conclusion: Zoonotic origin substantially more likely (~1 in 300 odds for lab leak) based on WIV capability doubts and HSM epicenter evidence",
+    "Michael Weissman analysis: Methodological approach to Bayesian updating on COVID origins evidence"
+  ],
+  "anti_generic_examples": {
+    "too_generic": [
+      "Bayesian reasoning is better than intuitive reasoning for evaluating evidence",
+      "Lab leaks have happened before in history so they are possible",
+      "Emerging infectious diseases often come from wildlife markets in general"
+    ],
+    "appropriately_specific": [
+      "The probability of observing an early cluster at HSM given lab leak in Wuhan versus zoonosis in Wuhan should account for the observed pattern of COVID clusters appearing at seafood markets during zero-COVID periods in multiple countries",
+      "Judge Will calculated P0(LL)/P0(ZO) = 1.7E-3 and update ratio P(LL)/P(ZO) = 2.125, yielding final odds of 3.6E-3 for lab leak",
+      "Rootclaim's analysis claims that if the HSM early cluster evidence is removed, Scott Alexander's position would flip to 94% lab-leak based on the remaining evidence"
+    ]
+  },
+  "case": "covid"
+}

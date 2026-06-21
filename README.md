@@ -1,11 +1,3 @@
-<p align="center">
-  <img src="extra_documentation/ARGOS_WHITE.png" alt="ARGOS" width="480">
-</p>
-
-Epistemic analysis pipeline for document cases: extracts claims, presuppositions, cruxes, cross-source debate, and expert reasoning. **Not a summarizer.**
-
----
-
 ## How ARGOS works
 
 <p align="center">

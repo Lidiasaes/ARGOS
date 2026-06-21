@@ -4,6 +4,7 @@
   <img src="extra_documentation/ARGOS_new_clean.jpg" alt="ARGOS workflow: input → ingestion → structure → assessment → output" width="900">
 </p>
 
+Goal: epistemic analysis pipeline for document cases: extracts claims, presuppositions, cruxes, cross-source debate, and expert reasoning. **Not a summarizer.**
 The pipeline has five stages.
 
 ### 1. Input

@@ -1,0 +1,12 @@
+[
+    {
+      "local_path": "cases/use_case/files/source1.txt",
+      "bibliography": "cases/use_case/files/source1_references.txt",
+      "url": "https://example.com/publication/source1",
+      "title": "Example Publication Title",
+      "author": "Author Name 1, Author Name 2",
+      "date": "YYYY-MM-DD",
+      "content_type": "text",
+      "publication_status": "published"
+    }
+  ]

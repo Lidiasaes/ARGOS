@@ -1,3 +1,7 @@
+## Start here
+
+This file is a short overview only. For the full documentation, open **[ARGOS_ENTRY_POINT.md](ARGOS_ENTRY_POINT.md)**.
+
 ## How ARGOS works
 
 <p align="center">
@@ -62,8 +66,8 @@ The dashboard is not the complete knowledge package. For the full formal audit, 
 ## Quick start
 
 ```powershell
-cd "c:\Users\User\OneDrive\Desktop\ARGOS"
-.\.venv-win\Scripts\python.exe main.py --case fertility --step all
+cd "c:\your\path\ARGOS"
+.\.venv-win\Scripts\python.exe main.py --case use_case --step all
 ```
 
 Requires `ANTHROPIC_API_KEY` in `.env`. Python: `.\.venv-win\Scripts\python.exe`
@@ -181,7 +185,7 @@ Optional human override in `sources.json`:
 
 ---
 
-### Output examples (fertility)
+### Output examples (use_case)
 
 Minimal shape of each artifact so you know what to expect.
 
@@ -194,8 +198,8 @@ Minimal shape of each artifact so you know what to expect.
   "subfield": "endometrial microbiota",
   "evidential_weight": 0.85,
   "attestations": [
-    { "source_id": "cases/fertility/files/paper_a.txt", "quote": "..." },
-    { "source_id": "cases/fertility/files/paper_b.txt", "quote": "..." }
+    { "source_id": "cases/use_case/files/paper_a.txt", "quote": "..." },
+    { "source_id": "cases/use_case/files/paper_b.txt", "quote": "..." }
   ],
   "support_count": 2,
   "contradict_count": 0,
@@ -243,7 +247,7 @@ Minimal shape of each artifact so you know what to expect.
 }
 ```
 
-**Health report** (`reports/fertility_report.md`): `--step assess`:
+**Health report** (`reports/use_case_report.md`): `--step assess`:
 ```markdown
 ## 1. Question Map
 **Q1: What metabolically active microorganisms inhabit...** (**9615c0e1**)
@@ -254,7 +258,7 @@ Viability inference from RNA detection lacks validation...
 **Methodology audit** (`methodology/audits/*.json`): `--step methodology`:
 ```json
 {
-  "source_id": "cases/fertility/files/sample_microbiota_2021.txt",
+  "source_id": "cases/use_case/files/sample_microbiota_2021.txt",
   "methodology_score": 0.012,
   "evaluations": [{ "criterion_id": "biomass_quantification", "status": "not_declared", "reviewer_note": "..." }]
 }
@@ -375,10 +379,10 @@ What each step does, **where the prompt lives**, **what files to open**, and **w
 
 ```powershell
 # all four phases
-.\.venv-win\Scripts\python.exe main.py --case fertility --step reasoning
+.\.venv-win\Scripts\python.exe main.py --case use_case --step reasoning
 
 # one phase only
-.\.venv-win\Scripts\python.exe scripts\run_reasoning.py --case fertility --phase devils
+.\.venv-win\Scripts\python.exe scripts\run_reasoning.py --case use_case --phase devils
 ```
 
 **Code:** `episteme/reasoning/runner.py` orchestrates calls · `episteme/reasoning/context.py` builds graph input (no raw text).
@@ -630,13 +634,13 @@ Cases must be registered in [`episteme/config.py`](episteme/config.py) → `VALI
 **Currently registered:**
 
 ```
-covid · covid_small · covid_demo · lhc · eggs · fertility
+covid · covid_small · covid_demo · lhc · eggs · use_case
 ```
 
-Having `cases/fertility_eduard/` is **not enough**. Without registration you get:
+Having `cases/use_case_eduard/` is **not enough**. Without registration you get:
 
 ```
-error: argument --case: invalid choice: 'fertility_eduard' (choose from ...)
+error: argument --case: invalid choice: 'use_case_eduard' (choose from ...)
 ```
 
 **To register a new case:**
@@ -651,7 +655,7 @@ error: argument --case: invalid choice: 'fertility_eduard' (choose from ...)
    ```
 2. Add to `VALID_CASES` in `episteme/config.py`:
    ```python
-   VALID_CASES = ["covid", "covid_small", "lhc", "eggs", "fertility", "my_case"]
+   VALID_CASES = ["covid", "covid_small", "lhc", "eggs", "use_case", "my_case"]
    ```
 3. Use `--case my_case` in all commands.
 
@@ -730,8 +734,8 @@ Peer-reviewed paper with reference sidecar:
 
 ```json
 {
-  "local_path": "cases/fertility/files/sample_microbiota_2021.txt",
-  "bibliography": "cases/fertility/files/sample_microbiota_2021_references.txt",
+  "local_path": "cases/use_case/files/sample_microbiota_2021.txt",
+  "bibliography": "cases/use_case/files/sample_microbiota_2021_references.txt",
   "url": "https://academic.oup.com/humrep/article/36/4/1021/6141565",
   "title": "Mapping the entire functionally active endometrial microbiota",
   "author": "Alberto Sola-Leyva, …",
@@ -807,37 +811,37 @@ No API cost.
 
 ## Full pipeline
 
-Replace `fertility` with your case name.
+Replace `use_case` with your case name.
 
 ```powershell
 cd "c:\your\path\ARGOS"
 
 # 1. CORE (order matters)
-.\.venv-win\Scripts\python.exe main.py --case fertility --step ingest
-.\.venv-win\Scripts\python.exe main.py --case fertility --step reconcile   # cross-paper merge → graph.json
-.\.venv-win\Scripts\python.exe main.py --case fertility --step structure
-.\.venv-win\Scripts\python.exe main.py --case fertility --step crystallize
+.\.venv-win\Scripts\python.exe main.py --case use_case --step ingest
+.\.venv-win\Scripts\python.exe main.py --case use_case --step reconcile   # cross-paper merge → graph.json
+.\.venv-win\Scripts\python.exe main.py --case use_case --step structure
+.\.venv-win\Scripts\python.exe main.py --case use_case --step crystallize
 
 # 2. FILTER (only if too many presuppositions)
-.\.venv-win\Scripts\python.exe scripts\case_stats.py --case fertility
-.\.venv-win\Scripts\python.exe scripts\filter_presuppositions.py --case fertility --dry-run
-.\.venv-win\Scripts\python.exe scripts\filter_presuppositions.py --case fertility
-.\.venv-win\Scripts\python.exe main.py --case fertility --step crystallize
+.\.venv-win\Scripts\python.exe scripts\case_stats.py --case use_case
+.\.venv-win\Scripts\python.exe scripts\filter_presuppositions.py --case use_case --dry-run
+.\.venv-win\Scripts\python.exe scripts\filter_presuppositions.py --case use_case
+.\.venv-win\Scripts\python.exe main.py --case use_case --step crystallize
 
 # 3. CROSS-SOURCE
-.\.venv-win\Scripts\python.exe main.py --case fertility --step relate
-.\.venv-win\Scripts\python.exe main.py --case fertility --step debate    # free, no API
+.\.venv-win\Scripts\python.exe main.py --case use_case --step relate
+.\.venv-win\Scripts\python.exe main.py --case use_case --step debate    # free, no API
 
 # 4. REPORT + METHODOLOGY
-.\.venv-win\Scripts\python.exe main.py --case fertility --step assess
-.\.venv-win\Scripts\python.exe main.py --case fertility --step methodology
+.\.venv-win\Scripts\python.exe main.py --case use_case --step assess
+.\.venv-win\Scripts\python.exe main.py --case use_case --step methodology
 
 # 5. OPTIONAL
-.\.venv-win\Scripts\python.exe main.py --case fertility --step hypothesis
-.\.venv-win\Scripts\python.exe main.py --case fertility --step reasoning
+.\.venv-win\Scripts\python.exe main.py --case use_case --step hypothesis
+.\.venv-win\Scripts\python.exe main.py --case use_case --step reasoning
 
 # 6. DASHBOARD (free)
-.\.venv-win\Scripts\python.exe scripts\build_dashboard.py --case fertility
+.\.venv-win\Scripts\python.exe scripts\build_dashboard.py --case use_case
 ```
 
 ---
@@ -879,9 +883,9 @@ Open **`config/local_only_cases.txt`**. One case name per line: must match the f
 
 ```text
 # Cases kept local only: not pushed to GitHub.
-fertility
-fertility_eduard
-fertility_dna
+use_case
+use_case_eduard
+use_case_dna
 
 # covid_small          ← commented out = will be pushed
 ```
@@ -1011,6 +1015,6 @@ cache/{case}/                    # outside cases/: API cache
 See **Outputs** table above. Quick verify:
 
 ```powershell
-.\.venv-win\Scripts\python.exe scripts\case_stats.py --case fertility
-.\.venv-win\Scripts\python.exe scripts\build_dashboard.py --case fertility
+.\.venv-win\Scripts\python.exe scripts\case_stats.py --case use_case
+.\.venv-win\Scripts\python.exe scripts\build_dashboard.py --case use_case
 ```

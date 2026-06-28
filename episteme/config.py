@@ -13,6 +13,11 @@ MODEL_SMART = "claude-sonnet-4-5"
 MAX_TOKENS_FAST = 1000
 MAX_TOKENS_SMART = 2000
 
+# Chunking tokens — separate from MAX_TOKENS_FAST because chunker
+# output is always a short JSON array (max 8 offsets ≈ 30 tokens).
+# 100 gives headroom without wasting budget.
+CHUNK_MAX_OUTPUT_TOKENS = 100
+
 # Chunking
 CHUNK_MAX_CHARS = 4000
 

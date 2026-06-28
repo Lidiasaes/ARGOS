@@ -3,7 +3,7 @@
 import json
 from pathlib import Path
 
-from episteme.config import BASE_DIR, CASES_DIR, CHUNK_MAX_CHARS, MODEL_FAST
+from episteme.config import BASE_DIR, CASES_DIR, CHUNK_MAX_CHARS, CHUNK_MAX_OUTPUT_TOKENS, MODEL_FAST
 from episteme.core.llm import call_llm
 from episteme.prompts import CHUNKER, DOC_SUMMARIZER
 
@@ -161,7 +161,7 @@ def chunk_text(raw: str) -> list:
         result = call_llm(
             CHUNKER.format(text=block),
             model=MODEL_FAST,
-            max_tokens=60,
+            max_tokens=CHUNK_MAX_OUTPUT_TOKENS,
             parse_json=True,
             label="chunking",
         )

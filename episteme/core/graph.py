@@ -8,6 +8,11 @@ from episteme.config import CASES_DIR
 from episteme.core.embeddings import embed, cosine_sim
 from episteme.core.node_schema import coerce_score
 
+VALID_RELATION_TYPES = frozenset({
+    "presupposes", "supports", "contradicts", "undermines",
+    "elaborates", "qualifies", "depends_on",
+})
+
 
 @dataclass
 class EpistemicNode:
@@ -69,8 +74,17 @@ def make_attestation(
     confidence: float = 0.5,
     source_type: str = "unknown",
 ) -> dict:
+    sid = (source_id or "").strip()
+    if not sid:
+        fallback = (source_url or author or "").strip()
+        if not fallback:
+            raise ValueError(
+                "make_attestation requires source_id, source_url, or author "
+                "to identify the source. Got all empty."
+            )
+        sid = fallback
     return {
-        "source_id": source_id,
+        "source_id": sid,
         "author": author,
         "date": date,
         "source_url": source_url,
@@ -276,15 +290,82 @@ class GraphStore:
         strength: float = 0.5,
         rationale: str = "",
         source: str = "",
-    ):
-        if source_id in self._nodes:
-            rel = {"type": relation_type, "target": target_id, "strength": strength}
-            if rationale:
-                rel["rationale"] = rationale
-            if source:
-                rel["source"] = source
-            self._nodes[source_id]["relations"].append(rel)
-            self._save()
+    ) -> bool:
+        """
+        Add a typed relation between two existing nodes.
+        Returns True if added, False if rejected by validation.
+
+        Rejects (silently, with bool return):
+          - source_id not in graph
+          - target_id not in graph (orphan reference)
+          - source_id == target_id (self-loop)
+          - relation_type not in VALID_RELATION_TYPES
+          - duplicate (type, target) pair on the same source node
+        """
+        if source_id not in self._nodes:
+            return False
+        if target_id not in self._nodes:
+            return False
+        if source_id == target_id:
+            return False
+        if relation_type not in VALID_RELATION_TYPES:
+            return False
+
+        existing_relations = self._nodes[source_id].get("relations", [])
+        for existing in existing_relations:
+            if existing.get("type") == relation_type and existing.get("target") == target_id:
+                return False
+
+        rel = {"type": relation_type, "target": target_id, "strength": strength}
+        if rationale:
+            rel["rationale"] = rationale
+        if source:
+            rel["source"] = source
+
+        self._nodes[source_id].setdefault("relations", []).append(rel)
+        self._save()
+        return True
+
+    def validate_invariants(self) -> dict:
+        """
+        Report structural integrity of the graph without modifying it.
+        Returns a dict with counts of each invariant violation.
+        Safe to call at the end of any pipeline step.
+        """
+        report = {
+            "self_loops": 0,
+            "duplicate_relations": 0,
+            "orphan_relations": 0,
+            "invalid_relation_types": 0,
+            "attestations_missing_source_id": 0,
+            "nodes_with_no_attestations": 0,
+            "total_nodes": len(self._nodes),
+            "total_relations": 0,
+        }
+        for node_id, node in self._nodes.items():
+            relations = node.get("relations", [])
+            report["total_relations"] += len(relations)
+            seen_pairs = set()
+            for rel in relations:
+                rtype = rel.get("type")
+                target = rel.get("target")
+                if target == node_id:
+                    report["self_loops"] += 1
+                if target not in self._nodes:
+                    report["orphan_relations"] += 1
+                if rtype not in VALID_RELATION_TYPES:
+                    report["invalid_relation_types"] += 1
+                key = (rtype, target)
+                if key in seen_pairs:
+                    report["duplicate_relations"] += 1
+                seen_pairs.add(key)
+            atts = node.get("attestations") or []
+            if not atts and node.get("type") in ("claim", "evidence"):
+                report["nodes_with_no_attestations"] += 1
+            for att in atts:
+                if not (att.get("source_id") or "").strip():
+                    report["attestations_missing_source_id"] += 1
+        return report
 
     def get_neighbors(self, node_id: str, relation_type: str = None) -> list[dict]:
         node = self._nodes.get(node_id)

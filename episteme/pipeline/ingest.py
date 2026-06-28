@@ -8,6 +8,7 @@ from episteme.core.graph import GraphStore, make_node, make_attestation
 from episteme.core.llm import call_llm
 from episteme.core.embeddings import embed, cosine_sim
 from episteme.filters import passes_quote_gate, assess_specificity
+from episteme.filters.polarity import check_polarity, polarity_risk_level
 from episteme.profiles import ensure_case_profile, ensure_source_thesis
 from episteme.prompts import EXTRACTOR_V4
 from episteme.pipeline.sources import (
@@ -59,12 +60,18 @@ def run_ingestion(
     _save_source_roles(case, roles_by_id)
     chunks_processed = 0
     seen_chunk_embs = []
-    stats = {"added": 0, "dedup": 0, "attestations": 0, "flagged_ungrounded_quote": 0, "blocked_generic": 0, "blocked_illustrative": 0, "normalized_type": 0}
+    stats = {"added": 0, "dedup": 0, "attestations": 0, "flagged_ungrounded_quote": 0, "blocked_generic": 0, "blocked_illustrative": 0, "normalized_type": 0,
+             "polarity_high": 0, "polarity_conflict": 0, "polarity_low": 0,}
 
     for source in sources:
         sid = source_id(source)
         label = source.get("local_path") or source.get("url") or sid
         print(f"\n  -> {label}")
+
+        if not (sid or "").strip():
+            print(f"    [SKIP] Source has no local_path or url — cannot identify. "
+                  f"Source dict keys: {list(source.keys())}")
+            continue
 
         register_bibliography(case, source)
 
@@ -87,7 +94,12 @@ def run_ingestion(
         doc_context = cache.get_or_run("doc_summary", sid, lambda r=raw: summarize_document(r))
         print(f"    doc: {doc_context[:100]}...")
 
-        chunks = cache.get_or_run("chunks", sid, lambda r=raw: chunk_text(r))
+        from episteme.config import CHUNK_VERSION
+        chunks = cache.get_or_run(
+            "chunks",
+            f"{CHUNK_VERSION}::{sid}",
+            lambda r=raw: chunk_text(r),
+        )
         print(f"    {len(chunks)} chunks")
 
         if max_chunks is not None and chunks_processed >= max_chunks:
@@ -134,6 +146,18 @@ def run_ingestion(
 
                 ok, reason = passes_quote_gate(node_data, chunk)
                 quote_grounded = ok
+                polarity_result = check_polarity(node_data, cache, chunk_id)
+                p_risk = polarity_risk_level(polarity_result, node_data)
+                if p_risk == "high":
+                    stats["polarity_high"] += 1
+                    print(f"      [polarity HIGH] {polarity_result.get('reason', '')}: "
+                          f"{node_data.get('content', '')[:70]}")
+                elif p_risk == "conflict":
+                    stats["polarity_conflict"] += 1
+                    print(f"      [polarity CONFLICT] extractor vs haiku disagree: "
+                          f"{node_data.get('content', '')[:70]}")
+                elif p_risk == "low":
+                    stats["polarity_low"] += 1
                 if ok:
                     quote_key = "textual_evidence" if node_data.get("textual_evidence") else "supporting_quote"
                     if node_data.get(quote_key):
@@ -183,7 +207,12 @@ def run_ingestion(
                         abstraction_level=node_data.get("abstraction_level", "empirical"),
                         confidence=node_data.get("confidence", 0.5),
                         evidential_weight=node_data.get("evidential_weight") or None,
-                        relations=node_data.get("relations", []),
+                        # Extractor-proposed relations reference IDs that don't exist yet
+                        # (extractor sees a chunk in isolation, not the graph). These produce
+                        # self-loops and orphan targets. Discard them — real relations are built
+                        # by structure.py (presupposes) and reconcile.py (contradicts/supports)
+                        # which see the full graph and can resolve real node IDs.
+                        relations=[],
                         quote_exact=node_data.get("textual_evidence") or node_data.get("supporting_quote"),
                         textual_evidence=node_data.get("textual_evidence"),
                         key_question=node_data.get("key_question"),
@@ -193,12 +222,14 @@ def run_ingestion(
                         source_role=source_role,
                         counterargument=node_data.get("counterargument"),
                         is_rhetorical_move=bool(node_data.get("is_rhetorical_move")),
+                        attributed_to=node_data.get("attributed_to", "source_author"),
+                        polarity_risk=p_risk,
                         genericity_flag=False,
                         independence_score=None,
                         case=case,
                         agent_generated=False,
                         quote_grounded=quote_grounded,
-                        needs_review=spec_score < 0.3 or not quote_grounded,
+                        needs_review=spec_score < 0.3 or not quote_grounded or p_risk in ("high", "conflict"),
                     )
                     store.add_node(node)
                     new_nodes += 1
@@ -209,6 +240,13 @@ def run_ingestion(
         print(f"    {new_nodes} new nodes from this source")
 
     print(f"  Ingest stats: {stats}")
+
+    print("\n  -- GRAPH INVARIANTS (post-ingest) --")
+    invariants = store.validate_invariants()
+    for key, value in invariants.items():
+        if "total" in key or value > 0:
+            marker = "  " if "total" in key else "  ⚠ " if value > 0 else "  "
+            print(f"{marker}{key}: {value}")
 
 
 def _call_extractor_v4(

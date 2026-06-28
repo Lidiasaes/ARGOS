@@ -79,8 +79,12 @@ def run_structure(case: str, cache: Cache, store: GraphStore):
                     )
                     pid = store.add_node(pnode)
 
+                rejected = 0
                 for member_id in cluster["member_ids"]:
-                    store.add_relation(member_id, pid, "presupposes", 0.9)
+                    if not store.add_relation(member_id, pid, "presupposes", 0.9):
+                        rejected += 1
+                if rejected:
+                    print(f"    [structure] {rejected} presupposes relations rejected by validator")
 
     print("  Presuppositions extracted (batched + deduped).")
 
@@ -118,6 +122,13 @@ def run_structure(case: str, cache: Cache, store: GraphStore):
                     case=case,
                 )
                 store.add_node(dnode)
+
+    print("\n  -- GRAPH INVARIANTS (post-structure) --")
+    invariants = store.validate_invariants()
+    for key, value in invariants.items():
+        if "total" in key or value > 0:
+            marker = "  " if "total" in key else "  ⚠ " if value > 0 else "  "
+            print(f"{marker}{key}: {value}")
 
 
 def _find_contradicting_pairs(store: GraphStore) -> list:

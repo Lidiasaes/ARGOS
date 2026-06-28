@@ -46,12 +46,12 @@ def _group_candidates(store: GraphStore) -> dict[str, list[dict]]:
     groups: dict[str, list[dict]] = defaultdict(list)
     for ntype in ("claim", "evidence", "question"):
         for node in store.get_nodes_by_type(ntype):
-            if node.get("evidential_weight", 0) < RELATE_MIN_EW:
+            if (node.get("evidential_weight") or 0) < RELATE_MIN_EW:
                 continue
             sf = (node.get("subfield") or "").strip() or "_general"
             groups[sf].append(node)
     for sf in groups:
-        groups[sf].sort(key=lambda n: -n.get("evidential_weight", 0))
+        groups[sf].sort(key=lambda n: -(n.get("evidential_weight") or 0))
         groups[sf] = groups[sf][:RELATE_MAX_PER_SUBFIELD]
     return {k: v for k, v in groups.items() if len(v) >= 2}
 

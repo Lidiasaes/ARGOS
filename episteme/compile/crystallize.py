@@ -117,7 +117,7 @@ def _claim_centrality(node: dict) -> float:
     return (
         len(rels) * 1.0
         + presup_count * 2.0
-        + node.get("evidential_weight", 0) * 3.0
+        + (node.get("evidential_weight") or 0) * 3.0
         + (2.0 if node.get("needs_review") else 0)
     )
 
@@ -130,7 +130,7 @@ def rank_claims(store: GraphStore, n: int = MAX_RANKED_CLAIMS) -> list[dict]:
             "id": c["id"],
             "content": c["content"],
             "source_author": c.get("source_author", ""),
-            "evidential_weight": c.get("evidential_weight", 0),
+            "evidential_weight": c.get("evidential_weight") or 0,
             "centrality": round(_claim_centrality(c), 2),
             "relation_count": len(c.get("relations", [])),
             "needs_review": c.get("needs_review", False),

@@ -64,7 +64,8 @@ def run_assessment(case: str, cache: Cache, store: GraphStore):
 
     flagged = 0
     for node in store.get_all_nodes():
-        if node.get("evidential_weight", 0) < 0.3:
+        ew = node.get("evidential_weight")
+        if ew is not None and ew < 0.3:
             store.update_node(node["id"], {"needs_review": True})
             flagged += 1
     print(f"  Flagged {flagged} nodes with evidential_weight < 0.3")

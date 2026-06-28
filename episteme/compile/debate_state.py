@@ -53,7 +53,7 @@ def build_debate_state(case: str, store: GraphStore) -> dict:
             "canonical": node.get("content", ""),
             "type": node.get("type"),
             "subfield": node.get("subfield", ""),
-            "evidential_weight": node.get("evidential_weight", 0),
+            "evidential_weight": node.get("evidential_weight") or 0,
             "attestations": ensure_attestations(node),
             "support_count": fields.get("support_count", 0),
             "contradict_count": fields.get("contradict_count", 0),

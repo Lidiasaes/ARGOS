@@ -10,10 +10,14 @@ from itertools import combinations
 from episteme.config import (
     MODEL_FAST,
     RECONCILE_CONFLICT_TYPES,
+    RECONCILE_CONTRADICTION_MAX_SIM,
+    RECONCILE_CONTRADICTION_MIN_SIM,
+    RECONCILE_DETECT_CONTRADICTIONS,
     RECONCILE_HAIKU_CEILING,
     RECONCILE_MAX_SIM,
     RECONCILE_MIN_SIM,
     RECONCILE_NODE_TYPES,
+    RECONCILE_SHARED_QUESTION_MIN_OVERLAP,
 )
 from episteme.core.cache import Cache
 from episteme.core.embeddings import cosine_sim, embed
@@ -67,6 +71,30 @@ def _node_source_keys(node: dict) -> set[str]:
 def _cross_paper(a: dict, b: dict) -> bool:
     sa, sb = _node_source_keys(a), _node_source_keys(b)
     return bool(sa and sb and not sa.intersection(sb))
+
+
+def _node_authors(node: dict) -> set[str]:
+    """Normalized author set for a node (from attestations, falling back to
+    the legacy node-level source_author)."""
+    authors = {
+        (a.get("author") or "").strip().lower()
+        for a in ensure_attestations(node)
+        if (a.get("author") or "").strip()
+    }
+    if not authors:
+        sa = (node.get("source_author") or "").strip().lower()
+        if sa:
+            authors.add(sa)
+    return authors
+
+
+def _same_author(a: dict, b: dict) -> bool:
+    """True when both nodes are attributable to exactly the same author(s).
+    Candidate pairs are already cross-source, so 'same author + different
+    source' means one author contradicting themselves across documents —
+    a self_inconsistency rather than a cross-paper debate contradiction."""
+    aa, ab = _node_authors(a), _node_authors(b)
+    return bool(aa and ab and aa == ab)
 
 
 def _pair_has_conflict(store: GraphStore, a_id: str, b_id: str) -> bool:
@@ -288,16 +316,27 @@ def _haiku_verdict(
     b: dict,
     similarity: float,
     case_profile: dict | None,
-) -> str:
+) -> dict:
+    """
+    Returns dict with keys: verdict, reason, shared_question.
+    verdict in {"same", "compatible", "contradicts",
+                "quantitative_divergence", "distinct"}.
+
+    Note: changed from str to dict to preserve the haiku's reason and
+    shared_question fields for downstream logging and edge rationale.
+    """
     sa = ", ".join(sorted(_node_source_keys(a))) or "unknown"
     sb = ", ".join(sorted(_node_source_keys(b))) or "unknown"
     qa = (a.get("textual_evidence") or a.get("quote_exact") or "")[:300]
     qb = (b.get("textual_evidence") or b.get("quote_exact") or "")[:300]
     pair_key = "::".join(sorted([a["id"], b["id"]]))
 
+    # Cache key bumped to v3 because the prompt now offers a new verdict
+    # ("quantitative_divergence"); old v2 cached results never carry it
+    # and would silently keep classifying those pairs as "contradicts".
     result = cache.get_or_run(
         "agent",
-        f"reconcile::{pair_key}",
+        f"reconcile_v3::{pair_key}",
         lambda: call_llm(
             RECONCILE_PAIR_VERDICT.format(
                 debate_positions=_format_debate_positions(case_profile),
@@ -318,8 +357,146 @@ def _haiku_verdict(
         ),
     )
     if isinstance(result, dict) and not result.get("parse_error"):
-        return (result.get("verdict") or "distinct").lower()
-    return "distinct"
+        verdict = (result.get("verdict") or "distinct").lower()
+        if verdict not in (
+            "same", "compatible", "contradicts",
+            "quantitative_divergence", "distinct",
+        ):
+            verdict = "distinct"
+        return {
+            "verdict": verdict,
+            "reason": result.get("reason", ""),
+            "shared_question": result.get("shared_question", ""),
+        }
+    return {"verdict": "distinct", "reason": "parse error", "shared_question": ""}
+
+
+def _record_quantitative_divergence(
+    store: GraphStore,
+    a_id: str,
+    b_id: str,
+    sim: float,
+    reason: str,
+    shared_q: str,
+    edge_source: str,
+    stats: dict,
+) -> None:
+    """Record a non-conflict 'quantitative_divergence' relation: both
+    sources agree a phenomenon exists but report different magnitudes.
+    Kept out of the contradicts bucket so it never inflates contradiction
+    counts or flips epistemic_status to 'contested'."""
+    rationale = reason
+    if shared_q:
+        rationale = f"{reason} (shared question: {shared_q})"
+    added_a = store.add_relation(
+        a_id, b_id, "quantitative_divergence",
+        strength=sim,
+        rationale=rationale,
+        source=edge_source,
+    )
+    added_b = store.add_relation(
+        b_id, a_id, "quantitative_divergence",
+        strength=sim,
+        rationale=rationale,
+        source=edge_source,
+    )
+    if added_a or added_b:
+        stats["quantitative_divergence"] += 1
+        stats["quant_divergence_edges_added"] += int(added_a) + int(added_b)
+        print(f"    quant divergence ({sim:.3f}): "
+              f"{a_id[:8]} vs {b_id[:8]} — {reason[:90]}")
+
+
+_RECONCILE_EDGE_SOURCES = frozenset({
+    "reconcile_haiku",
+    "reconcile_contradiction_sweep",
+})
+
+
+def _clear_reconcile_edges(store: GraphStore) -> int:
+    """Remove edges previously created by reconcile so re-runs are
+    idempotent. Without this, a pair reclassified from "contradicts" to
+    e.g. "quantitative_divergence" or "self_inconsistency" would keep its
+    stale "contradicts" edge alongside the new one (different types are not
+    duplicates), silently defeating the refinement. Only edges tagged with
+    a reconcile source are touched; edges from other steps are preserved."""
+    removed = 0
+    for node in store.get_all_nodes():
+        rels = node.get("relations") or []
+        kept = [r for r in rels if r.get("source") not in _RECONCILE_EDGE_SOURCES]
+        if len(kept) != len(rels):
+            removed += len(rels) - len(kept)
+            store.update_node(node["id"], {"relations": kept})
+    return removed
+
+
+def _shared_question_overlap(shared_q: str, emb_a, emb_b) -> float | None:
+    """Min cosine similarity between the haiku's shared_question and each
+    node's content embedding. Returns None when it can't be computed
+    (no question, or embeddings unavailable) so callers can skip the
+    downgrade rather than penalize on missing data."""
+    if not shared_q or emb_a is None or emb_b is None:
+        return None
+    sq_emb = embed(shared_q)
+    if sq_emb is None:
+        return None
+    return min(cosine_sim(sq_emb, emb_a), cosine_sim(sq_emb, emb_b))
+
+
+def _record_contradiction(
+    store: GraphStore,
+    a: dict,
+    b: dict,
+    sim: float,
+    reason: str,
+    shared_q: str,
+    edge_source: str,
+    stats: dict,
+    emb_a=None,
+    emb_b=None,
+) -> bool:
+    """Record a contradiction, routing it to the right bucket:
+
+      - same author across documents      → "self_inconsistency"   (#2)
+      - abstract/unverifiable shared_q     → "weak_contradicts"     (#3)
+      - genuine cross-author disagreement  → "contradicts"
+
+    Only "contradicts" feeds the high-confidence crux signal; the other two
+    are kept separate so single-author flip-flops and coherence
+    hallucinations don't inflate the debate's contradiction metrics.
+    """
+    a_id, b_id = a["id"], b["id"]
+
+    if _same_author(a, b):
+        rel_type, stat_key, edge_key = (
+            "self_inconsistency", "self_inconsistency", "self_inconsistency_edges_added",
+        )
+    else:
+        rel_type, stat_key, edge_key = (
+            "contradicts", "haiku_contradicts", "contradicts_edges_added",
+        )
+        overlap = _shared_question_overlap(shared_q, emb_a, emb_b)
+        if overlap is not None and overlap < RECONCILE_SHARED_QUESTION_MIN_OVERLAP:
+            rel_type, stat_key, edge_key = (
+                "weak_contradicts", "weak_contradicts", "weak_contradicts_edges_added",
+            )
+
+    rationale = reason
+    if shared_q:
+        rationale = f"{reason} (shared question: {shared_q})"
+
+    added_a = store.add_relation(
+        a_id, b_id, rel_type, strength=sim, rationale=rationale, source=edge_source,
+    )
+    added_b = store.add_relation(
+        b_id, a_id, rel_type, strength=sim, rationale=rationale, source=edge_source,
+    )
+    if added_a or added_b:
+        stats[stat_key] += 1
+        stats[edge_key] += int(added_a) + int(added_b)
+        print(f"    {rel_type.upper()} ({sim:.3f}): "
+              f"{a_id[:8]} vs {b_id[:8]} — {reason[:90]}")
+    return added_a or added_b
 
 
 def _find_candidate_pairs(
@@ -341,6 +518,50 @@ def _find_candidate_pairs(
                 continue
             sim = cosine_sim(ea, eb)
             if RECONCILE_MIN_SIM <= sim <= RECONCILE_MAX_SIM:
+                pairs.append((sim, a["id"], b["id"]))
+    pairs.sort(reverse=True)
+    return pairs
+
+
+def _find_contradiction_candidate_pairs(
+    nodes: list[dict],
+    embeddings: dict[str, object],
+) -> list[tuple[float, str, str]]:
+    """
+    Cross-paper pairs in the contradiction similarity window.
+    Wider than the merge window because opposing claims sit at lower
+    similarity than paraphrases.
+
+    Skips pairs that:
+      - share at least one source (not cross-paper)
+      - involve rhetorical moves on either side
+      - have attributed_to != source_author on either side
+
+    Returns pairs sorted by similarity descending.
+    """
+    pairs: list[tuple[float, str, str]] = []
+    for i, a in enumerate(nodes):
+        if a.get("is_rhetorical_move"):
+            continue
+        if (a.get("attributed_to") or "source_author") != "source_author":
+            continue
+        ea = embeddings.get(a["id"])
+        if ea is None:
+            continue
+        for b in nodes[i + 1:]:
+            if b.get("is_rhetorical_move"):
+                continue
+            if (b.get("attributed_to") or "source_author") != "source_author":
+                continue
+            if a.get("type") != b.get("type"):
+                continue
+            if not _cross_paper(a, b):
+                continue
+            eb = embeddings.get(b["id"])
+            if eb is None:
+                continue
+            sim = cosine_sim(ea, eb)
+            if RECONCILE_CONTRADICTION_MIN_SIM <= sim <= RECONCILE_CONTRADICTION_MAX_SIM:
                 pairs.append((sim, a["id"], b["id"]))
     pairs.sort(reverse=True)
     return pairs
@@ -408,16 +629,33 @@ def run_reconcile(case: str, cache: Cache, store: GraphStore) -> dict:
 
     stats = {
         "candidates": 0,
+        "contradiction_candidates": 0,
         "auto_merge_pairs": 0,
         "haiku_pairs": 0,
         "haiku_merged": 0,
         "haiku_skipped": 0,
+        "haiku_contradicts": 0,
+        "contradicts_edges_added": 0,
+        "quantitative_divergence": 0,
+        "quant_divergence_edges_added": 0,
+        "self_inconsistency": 0,
+        "self_inconsistency_edges_added": 0,
+        "weak_contradicts": 0,
+        "weak_contradicts_edges_added": 0,
+        "contradiction_haiku_pairs": 0,
         "conflict_skipped": 0,
         "stance_skipped": 0,
         "large_components": 0,
         "nodes_merged": 0,
         "groups": 0,
+        "reconcile_edges_cleared": 0,
     }
+
+    # Idempotency: drop edges from prior reconcile runs before regenerating,
+    # so reclassified pairs don't accumulate stale + new edges.
+    stats["reconcile_edges_cleared"] = _clear_reconcile_edges(store)
+    if stats["reconcile_edges_cleared"]:
+        print(f"  Cleared {stats['reconcile_edges_cleared']} edges from a previous reconcile run")
 
     for ntype in RECONCILE_NODE_TYPES:
         nodes = store.get_nodes_by_type(ntype)
@@ -451,11 +689,30 @@ def run_reconcile(case: str, cache: Cache, store: GraphStore) -> dict:
                 stats["haiku_pairs"] += 1
                 if not a or not b:
                     continue
-                verdict = _haiku_verdict(cache, a, b, sim, case_profile)
+                verdict_result = _haiku_verdict(cache, a, b, sim, case_profile)
+                verdict = verdict_result["verdict"]
+                reason = verdict_result["reason"]
+                shared_q = verdict_result.get("shared_question", "")
+
                 if verdict in ("same", "compatible"):
                     merge = True
                     stats["haiku_merged"] += 1
                     print(f"    haiku merge ({sim:.3f}): {a_id[:8]} + {b_id[:8]} — {verdict}")
+                elif verdict == "contradicts":
+                    # Routes to contradicts / self_inconsistency /
+                    # weak_contradicts via validated add_relation (rejects
+                    # self-loops, duplicates, orphans).
+                    _record_contradiction(
+                        store, a, b, sim, reason, shared_q,
+                        "reconcile_haiku", stats,
+                        emb_a=embeddings.get(a_id),
+                        emb_b=embeddings.get(b_id),
+                    )
+                elif verdict == "quantitative_divergence":
+                    _record_quantitative_divergence(
+                        store, a_id, b_id, sim, reason, shared_q,
+                        "reconcile_haiku", stats,
+                    )
                 else:
                     stats["haiku_skipped"] += 1
 
@@ -468,6 +725,59 @@ def run_reconcile(case: str, cache: Cache, store: GraphStore) -> dict:
             stats["nodes_merged"] += merged
             stats["groups"] += len(ntype_groups)
             print(f"  {ntype}: merged {merged} nodes into {len(ntype_groups)} group(s)")
+
+    # ─── Contradiction sweep: wider similarity window ──────────────
+    # Run AFTER merges so we don't redundantly check pairs that just
+    # merged. Uses RECONCILE_CONTRADICTION_MIN_SIM (0.45) — below the
+    # merge floor — because polarity-opposed claims embed lower than
+    # paraphrases.
+    if RECONCILE_DETECT_CONTRADICTIONS:
+        for ntype in RECONCILE_NODE_TYPES:
+            nodes = store.get_nodes_by_type(ntype)
+            if len(nodes) < 2:
+                continue
+            embeddings = {n["id"]: embed(n.get("content", "")) for n in nodes}
+            cpairs = _find_contradiction_candidate_pairs(nodes, embeddings)
+            stats["contradiction_candidates"] += len(cpairs)
+
+            if not cpairs:
+                continue
+
+            print(f"\n  {ntype}: scanning {len(cpairs)} contradiction-candidate pairs "
+                  f"in [{RECONCILE_CONTRADICTION_MIN_SIM}, {RECONCILE_CONTRADICTION_MAX_SIM}]")
+
+            for sim, a_id, b_id in cpairs:
+                # Skip pairs already merged in this run (their nodes no
+                # longer exist) or already related via contradicts.
+                a = store.get_node(a_id)
+                b = store.get_node(b_id)
+                if not a or not b:
+                    continue
+                if _pair_has_conflict(store, a_id, b_id):
+                    continue
+
+                stats["contradiction_haiku_pairs"] += 1
+                verdict_result = _haiku_verdict(cache, a, b, sim, case_profile)
+                verdict = verdict_result["verdict"]
+                reason = verdict_result["reason"]
+                shared_q = verdict_result.get("shared_question", "")
+
+                if verdict == "quantitative_divergence":
+                    _record_quantitative_divergence(
+                        store, a_id, b_id, sim, reason, shared_q,
+                        "reconcile_contradiction_sweep", stats,
+                    )
+                    continue
+
+                if verdict != "contradicts":
+                    continue
+
+                _record_contradiction(
+                    store, a, b, sim, reason, shared_q,
+                    "reconcile_contradiction_sweep", stats,
+                    emb_a=embeddings.get(a_id),
+                    emb_b=embeddings.get(b_id),
+                )
 
     # Refresh epistemic fields on all reconcile-eligible nodes
     labeled = 0
@@ -489,7 +799,12 @@ def run_reconcile(case: str, cache: Cache, store: GraphStore) -> dict:
 
     print(
         f"\n  Reconcile: {stats['nodes_merged']} nodes absorbed into {stats['groups']} groups, "
-        f"{stats['multi_source_after']} multi-source nodes, {stats['conflict_skipped']} conflict skips, "
+        f"{stats['multi_source_after']} multi-source nodes, "
+        f"{stats['haiku_contradicts']} contradictions detected ({stats['contradicts_edges_added']} edges), "
+        f"{stats['weak_contradicts']} weak ({stats['weak_contradicts_edges_added']} edges), "
+        f"{stats['self_inconsistency']} self-inconsistencies ({stats['self_inconsistency_edges_added']} edges), "
+        f"{stats['quantitative_divergence']} quantitative divergences ({stats['quant_divergence_edges_added']} edges), "
+        f"{stats['conflict_skipped']} conflict skips, "
         f"{stats['stance_skipped']} stance skips, {pruned} attestations pruned"
     )
     return stats

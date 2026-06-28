@@ -11,6 +11,18 @@ from episteme.core.node_schema import coerce_score
 VALID_RELATION_TYPES = frozenset({
     "presupposes", "supports", "contradicts", "undermines",
     "elaborates", "qualifies", "depends_on",
+    # Not a conflict: both sources agree a phenomenon exists but report
+    # different magnitudes/frequencies. Kept separate from "contradicts"
+    # so it never inflates contradiction counts or contested status.
+    "quantitative_divergence",
+    # Same author contradicting themselves across documents — a source
+    # credibility signal, not a cross-paper debate contradiction. Kept out
+    # of the crux signal so a single author's flip-flops don't fake disputes.
+    "self_inconsistency",
+    # A "contradicts" whose haiku-invented shared_question has weak lexical/
+    # semantic overlap with the nodes — likely a coherence hallucination.
+    # Demoted from the high-confidence contradiction bucket.
+    "weak_contradicts",
 })
 
 

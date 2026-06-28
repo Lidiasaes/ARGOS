@@ -39,6 +39,23 @@ RECONCILE_HAIKU_CEILING = 0.75  # pairs below this need Haiku verdict
 RECONCILE_NODE_TYPES = ("claim", "evidence")
 RECONCILE_CONFLICT_TYPES = frozenset({"contradicts", "undermines"})
 
+# Contradiction detection — wider similarity window than merging.
+# Opposing claims on the same question often embed at lower similarity
+# than paraphrases (because polarity flips word distributions), so the
+# contradiction sweep needs a lower floor than merge candidates.
+RECONCILE_CONTRADICTION_MIN_SIM = 0.45
+RECONCILE_CONTRADICTION_MAX_SIM = 0.84
+RECONCILE_DETECT_CONTRADICTIONS = True
+
+# Shared-question validation (anti coherence-hallucination guard).
+# When Haiku returns "contradicts", it also invents a shared_question that
+# supposedly connects both nodes. If that question is too abstract to
+# overlap with either node's actual content, the contradiction is likely a
+# fabricated connection — we downgrade it to "weak_contradicts" so it stays
+# out of the high-confidence crux signal. Threshold = min cosine similarity
+# between the shared_question and each node's content embedding.
+RECONCILE_SHARED_QUESTION_MIN_OVERLAP = 0.5
+
 # Structure
 PHILOSOPHER_BATCH_SIZE = 6
 MAX_PRESUPPOSITIONS_PER_BATCH = 3

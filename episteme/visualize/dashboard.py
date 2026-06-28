@@ -366,13 +366,15 @@ def _claim_quote_fragments(
         if quote_count
         else '<span class="no-quote-inline">no quote</span>'
     )
+    _ew = node.get("evidential_weight")
+    _ew_display = "N/A" if _ew is None else f"{_ew:.2f}"
     template = (
         f'<template id="{quote_store_id}">'
         f'<div class="quote-panel-claim">'
         f'<p class="quote-panel-claim-id"><code>{_esc(claim_id)}</code> '
         f'<span class="type">{_esc(node.get("type", ""))}</span></p>'
         f'<p class="quote-panel-claim-text">{_esc(node.get("content", ""))}</p>'
-        f'<p class="quote-panel-meta">{_esc(author)} · ew={node.get("evidential_weight", 0):.2f}</p>'
+        f'<p class="quote-panel-meta">{_esc(author)} · ew={_ew_display}</p>'
         f"{_attestations_body(node, stance_guard)}"
         f"{relations_block}"
         f"</div></template>"
@@ -532,7 +534,7 @@ def _multi_source_cards(graph: dict, debate_by_id: dict[str, dict], limit: int =
             "canonical": gnode.get("content", ""),
             "type": gnode.get("type"),
             "attestations": atts,
-            "evidential_weight": gnode.get("evidential_weight", 0),
+                "evidential_weight": gnode.get("evidential_weight") or 0,
             "support_count": unique_attestation_source_count(atts),
             "contradict_count": gnode.get("contradict_count", 0),
             "epistemic_status": gnode.get("epistemic_status", ""),
@@ -1140,13 +1142,15 @@ def _build_cruxes_html(
                 if guard.attestation_conflicts_claim(att.get("quote") or "", node.get("content", "")):
                     stance_warn = " " + _badge_stance_conflict(in_attestations=True)
                     break
+            _ew = node.get("evidential_weight")
+            ew_str = f"{_ew:.2f}" if _ew is not None else "N/A"
             claims_html.append(
                 f'<div class="claim-card" id="claim-{_esc(claim_id)}" data-claim-id="{_esc(claim_id)}">'
                 f'<div class="claim-header">'
                 f'<code>{_esc(claim_id)}</code> '
                 f'<span class="type">{_esc(node.get("type"))}</span> '
                 f'<span class="author" title="{_esc(author)}">{_esc(author)}</span>'
-                f'<span class="ew">ew={node.get("evidential_weight", 0):.2f}</span>'
+                f'<span class="ew">ew={ew_str}</span>'
                 f'{stance_warn}'
                 f'{quote_btn}'
                 f"</div>"

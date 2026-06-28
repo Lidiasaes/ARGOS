@@ -22,5 +22,14 @@ def embed(text: str):
     return model.encode(text, normalize_embeddings=True)
 
 
+def embed_many(texts, batch_size: int = 64):
+    """Batch-encode a list of texts to normalized vectors. Returns None if the model
+    is unavailable. Shape: (len(texts), dim)."""
+    model = _get_model()
+    if model is None:
+        return None
+    return model.encode(list(texts), batch_size=batch_size, normalize_embeddings=True)
+
+
 def cosine_sim(a, b) -> float:
     return float(__import__("numpy").dot(a, b))

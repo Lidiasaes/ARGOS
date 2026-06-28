@@ -10,7 +10,7 @@ from episteme.pipeline import run_pipeline
 
 
 def main():
-    parser = argparse.ArgumentParser(description="EPISTEME — Epistemic Analysis System")
+    parser = argparse.ArgumentParser(description="ARGOS")
     parser.add_argument("--case", required=True, choices=VALID_CASES)
     parser.add_argument(
         "--step",
@@ -36,7 +36,7 @@ def main():
     args = parser.parse_args()
 
     chunks_label = f"max-chunks: {args.max_chunks}" if args.max_chunks else "all chunks"
-    print(f"\nEPISTEME — case: {args.case} | step: {args.step} | {chunks_label}\n")
+    print(f"\ARGOS | case: {args.case} | step: {args.step} | {chunks_label}\n")
     run_pipeline(
         case=args.case,
         step=args.step,

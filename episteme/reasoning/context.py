@@ -175,14 +175,14 @@ def classify_claims(case: str, store: GraphStore) -> tuple[list[dict], list[dict
         ranked = {rc["id"]: rc for rc in index.get("ranked_claims", [])}
         for cid in sorted(
             ranked.keys(),
-            key=lambda i: (-ranked[i].get("centrality", 0), -ranked[i].get("evidential_weight", 0)),
+            key=lambda i: (-ranked[i].get("centrality", 0), -(ranked[i].get("evidential_weight") or 0)),
         ):
             node = store.get_node(cid)
             if not node or node.get("type") not in ("claim", "evidence"):
                 continue
             if _is_contested(cid, debate_by_id):
                 contested_ids.add(cid)
-            elif cid not in settled_ids and node.get("evidential_weight", 0) >= 0.65:
+            elif cid not in settled_ids and (node.get("evidential_weight") or 0) >= 0.65:
                 settled_ids.append(cid)
 
         for crux in index.get("cruxes", []):
@@ -191,7 +191,7 @@ def classify_claims(case: str, store: GraphStore) -> tuple[list[dict], list[dict
                     contested_ids.add(cid)
                 elif cid not in settled_ids and cid not in contested_ids:
                     node = store.get_node(cid)
-                    if node and node.get("evidential_weight", 0) >= 0.5:
+                    if node and (node.get("evidential_weight") or 0) >= 0.5:
                         contested_ids.add(cid)
 
     settled_ids = [i for i in settled_ids if i and i not in contested_ids]
@@ -241,7 +241,7 @@ def devils_advocate_targets(settled: list[dict]) -> list[dict]:
     """Top settled claims for skeptical review — multi-source first."""
     ranked = sorted(
         settled,
-        key=lambda c: (-c.get("source_count", 0), -c.get("evidential_weight", 0)),
+        key=lambda c: (-c.get("source_count", 0), -(c.get("evidential_weight") or 0)),
     )
     return ranked[:MAX_DEVILS_TARGETS]
 

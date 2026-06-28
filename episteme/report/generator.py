@@ -68,6 +68,7 @@ def generate_report(case: str, store, cache=None) -> None:
         return
 
     report = f"# Epistemic Health Report: {case}\n\n" + "\n\n".join(parts)
+    report = _append_groundedness_note(report, store, index)
     REPORTS_DIR.mkdir(exist_ok=True)
     path = REPORTS_DIR / f"{case}_report.md"
     path.write_text(report, encoding="utf-8")
@@ -76,6 +77,28 @@ def generate_report(case: str, store, cache=None) -> None:
     if incomplete:
         status += f" ({incomplete} may still be incomplete — re-run with --reset-cache)"
     print(f"\n  Report saved: {path} ({len(report):,} chars, {status})")
+
+
+def _append_groundedness_note(report: str, store, index: dict) -> str:
+    """Audit the assembled report against the source graph and append a transparency
+    note. Never blocks report generation — degrades silently if embeddings are
+    unavailable or anything goes wrong."""
+    try:
+        from episteme.report.groundedness import audit_groundedness, build_transparency_note
+
+        graph = {n["id"]: n for n in store.get_all_nodes()}
+        audit = audit_groundedness(report, graph, index)
+        if not audit:
+            return report
+        print(
+            f"  Groundedness: {audit['explicit_pct']:.0f}% explicit-ID, "
+            f"{audit['ungrounded_pct']:.1f}% ungrounded, "
+            f"{audit['id_validity_pct']:.0f}% ID validity"
+        )
+        return report.rstrip() + "\n\n---\n\n" + build_transparency_note(audit) + "\n"
+    except Exception as e:  # pragma: no cover - defensive
+        print(f"  [warn] groundedness note skipped: {e}")
+        return report
 
 
 def _generate_section(case: str, section_num: int, section_title: str, compiled_json: str) -> str:

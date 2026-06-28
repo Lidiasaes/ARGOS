@@ -122,4 +122,4 @@ Replace `{case}` with your case folder name (e.g. `covid`, `my_case`). Cached LL
 
 ## Example case
 
-A preliminary run on a COVID-origins debate (judge ruling, papers, debate transcript) is included: open `cases/covid/dashboard.html` to see all four tabs populated end-to-end.
+A preliminary run on a COVID-origins debate (judge ruling, papers, debate transcript) is included: open `cases/covid/dashboard.html` to see all four tabs populated end-to-end. The Epistemic Health Report for the same case is at [`reports/covid_report.md`](reports/covid_report.md).

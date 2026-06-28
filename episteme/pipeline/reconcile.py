@@ -353,7 +353,7 @@ def _merge_groups(store: GraphStore, groups: dict[str, list[str]]) -> int:
             continue
         canonical_id = max(
             members,
-            key=lambda mid: (store.get_node(mid) or {}).get("evidential_weight", 0),
+            key=lambda mid: ((store.get_node(mid) or {}).get("evidential_weight") or 0),
         )
         for mid in members:
             if mid != canonical_id and store.get_node(mid):

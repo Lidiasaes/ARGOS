@@ -15,6 +15,9 @@ def _get_client():
         _client = anthropic.Anthropic()
     return _client
 
+# TODO: v.2.0.0 - Costs are hardcoded for now --> get from API
+# TODO: v.2.0.1 - Scalability: get from LITELLM, fastLLM provider for supporting multiple models.
+
 COST = {
     "input": {"haiku": 0.25, "sonnet": 3.0},
     "output": {"haiku": 1.25, "sonnet": 15.0},

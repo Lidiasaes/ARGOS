@@ -22,7 +22,6 @@ class EpistemicNode:
     argument_level: str
     abstraction_level: str
     confidence: float
-    evidential_weight: float
     agent_generated: bool
     human_reviewed: bool
     needs_review: bool
@@ -32,11 +31,12 @@ class EpistemicNode:
     conditions: list
     limitations: list
     genericity_flag: bool
-    independence_score: float
     case: str
     created_at: str
     quote_exact: Optional[str] = None
-    # v4 — automated specificity (no manual ontology)
+    evidential_weight: float | None = None
+    independence_score: float | None = None
+    # v4:  automated specificity (no manual ontology)
     subfield: str = ""
     specificity_score: float = 1.0
     key_question: Optional[str] = None
@@ -347,7 +347,7 @@ def make_node(type: str, content: str, source_url: str = "", **kwargs) -> Episte
         "argument_level": "direct",
         "abstraction_level": "empirical",
         "confidence": 0.5,
-        "evidential_weight": 0.5,
+        "evidential_weight": None,
         "agent_generated": False,
         "human_reviewed": False,
         "needs_review": False,
@@ -357,7 +357,7 @@ def make_node(type: str, content: str, source_url: str = "", **kwargs) -> Episte
         "conditions": [],
         "limitations": [],
         "genericity_flag": False,
-        "independence_score": 1.0,
+        "independence_score": None,
         "case": "",
         "created_at": datetime.now(timezone.utc).isoformat(),
         "quote_exact": None,
@@ -378,7 +378,8 @@ def make_node(type: str, content: str, source_url: str = "", **kwargs) -> Episte
     valid_fields = {f.name for f in EpistemicNode.__dataclass_fields__.values()}
     merged = {**defaults, **kwargs}
     merged["confidence"] = coerce_score(merged.get("confidence"), 0.5)
-    merged["evidential_weight"] = coerce_score(merged.get("evidential_weight"), 0.5)
+    if merged.get("evidential_weight") is not None:
+        merged["evidential_weight"] = coerce_score(merged.get("evidential_weight"), 0.5)
     filtered = {k: v for k, v in merged.items() if k in valid_fields}
     if not filtered.get("attestations"):
         quote = filtered.get("textual_evidence") or filtered.get("quote_exact")

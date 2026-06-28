@@ -59,6 +59,8 @@ Nothing in this stage calls the LLM. You are defining *what* ARGOS will read.
 .\.venv-win\Scripts\python.exe scripts\build_dashboard.py --case {case}
 ```
 
+**Also:** [`reports/{case}_report.md`](reports/) — Epistemic Health Report from `--step assess`.
+
 The dashboard is not the complete knowledge package. For the full formal audit, raw graph, case profile, source theses, and original papers, see [If you only open `dashboard.html`](#if-you-only-open-dashboardhtml) below.
 
 ---
@@ -154,7 +156,8 @@ The dashboard (`cases/{case}/dashboard.html`) is the **main reader UI**. It is n
 | Level | When | What | Who assigns |
 |-------|------|------|-------------|
 | **1: Role** | Ingest (upfront) | Structural document type: `primary_research`, `debate_transcript`, `judge_decision`, `rebuttal`, `commentary`, `review`, `unknown` | Deterministic rules on URL/author/title → Haiku if ambiguous → optional `"role"` in `sources.json` |
-| **2: Evidential weight** | Ingest (per claim) | `evidential_weight` on each extracted node | LLM extractor (already exists) |
+| **2: Evidential weight** | Ingest (per claim) | `evidential_weight` on each extracted node — `null` if the LLM extractor did not return it; never filled with a placeholder default | LLM extractor (`EXTRACTOR_V4`); nodes where the LLM omits it stay `null` until a dedicated assessment pass writes a real value |
+| **2b: Independence score** | *(not yet implemented)* | `independence_score` on each node — always `null`; reserved for a future cross-source independence analysis | Placeholder until implemented; was formerly a hardcoded `1.0` default |
 | **3: Epistemic importance** | Post-graph (after crystallize) | `unique_claims_count`, `high_value_unique`, `crux_exclusive_count`, `epistemic_risk`, `importance_tier` | Computed from graph + cruxes: **not pre-declared** |
 
 `role` is context only: does not gate ingest. `unknown` is valid. Relevance emerges: a paper with many unique high-value claims or exclusive crux anchors scores high `epistemic_risk` even if nobody labeled it important upfront.

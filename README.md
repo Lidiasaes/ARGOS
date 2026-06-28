@@ -25,7 +25,8 @@ Nothing in this stage calls the LLM. You are defining *what* ARGOS will read.
 **Pipeline steps:** `ingest` → `reconcile`
 
 - **Extract claims and evidence**: reads each source, chunks text, pulls claims, evidence nodes, and open questions into `graph.json`. Assigns structural `role` per source and `evidential_weight` per node.
-- **Reject unverified extractions and merge similar claims**: same-paper dedup at similarity ≥ 0.85 during ingest; cross-paper reconcile merges paraphrases (similarity 0.65–0.84) into canonical nodes with union attestations, `epistemic_status`, and junk/stance pruning.
+- **Reject unverified extractions and merge similar claims**: same-paper dedup at similarity ≥ 0.88 (`DEDUP_SIMILARITY_THRESHOLD` in `config.py`); cross-paper reconcile merges paraphrases (similarity 0.65–0.84) into canonical nodes with union attestations, `epistemic_status`, and junk/stance pruning.
+- **Polarity verification (v4.2)**: extractor sets `attributed_to`; ingest runs a cached Haiku check on `(textual_evidence, content)`. Nodes with `polarity_risk` `high` or `conflict` get `needs_review=true`.
 
 **Key outputs:** `cases/{case}/graph.json` · `profiles/case_profile.json` · `profiles/theses/*.json` · `compiled/source_roles.json`
 
@@ -354,7 +355,7 @@ What each step does, **where the prompt lives**, **what files to open**, and **w
 
 | Step | What it does | Prompt file(s) | Key constant(s) | Files to inspect | Dashboard tab |
 |------|--------------|----------------|-----------------|------------------|---------------|
-| **ingest** | **YouTube transcripts** (if `content_type: video` + YouTube URL, no local file). Then reads source texts, chunks, extracts claims/evidence/questions. Same-paper dedup at similarity ≥ 0.85. **Resolves structural `role` per source** (metadata rules → Haiku if ambiguous → optional `role` override in `sources.json`). | `episteme/pipeline/youtube_transcript.py`, `episteme/prompts/extraction.py`, `episteme/prompts/source_role.py` | `EXTRACTOR_V4`, `SOURCE_ROLE_CLASSIFIER`, … | `graph.json` (`source_role` on nodes) · `compiled/source_roles.json` · `files/youtube_*.txt` (auto) | Cruxes (claims later) |
+| **ingest** | **YouTube transcripts** (if `content_type: video` + YouTube URL, no local file). Section-aware chunking (`CHUNK_VERSION`); extracts claims/evidence with `attributed_to`; polarity check (`episteme/filters/polarity.py`). Same-paper dedup at ≥ 0.88. **Resolves structural `role` per source** (metadata rules → Haiku if ambiguous → optional `role` override in `sources.json`). | `episteme/pipeline/youtube_transcript.py`, `episteme/prompts/extraction.py`, `episteme/prompts/source_role.py`, `episteme/filters/polarity.py` | `EXTRACTOR_V4`, `SOURCE_ROLE_CLASSIFIER`, … | `graph.json` (`source_role`, `attributed_to`, `polarity_risk` on nodes) · `compiled/source_roles.json` · `files/youtube_*.txt` (auto) | Cruxes (claims later) |
 | **reconcile** | Merges cross-paper `claim`/`evidence` paraphrases (sim 0.65–0.84) into canonical nodes with union attestations. Sets `support_count`, `contradict_count`, `epistemic_status`. Prunes junk/stance-conflicting attestations. **Runs before structure.** | `episteme/prompts/reconcile.py` | `RECONCILE_PAIR_VERDICT` (Haiku for ambiguous 0.65–0.75 pairs) | `graph.json` (fewer nodes, multi-attestation) | **Debate** → Cross-paper canonical |
 | **structure** | Finds presuppositions behind claims; adds `presupposes` edges | `episteme/prompts/templates.py` | `PHILOSOPHER_BATCH`, `PHILOSOPHER_DISAMBIGUATION` | `graph.json` (nodes `type: presupposition`) | Cruxes → themes |
 | **crystallize** | Compresses graph → themes, chains, cruxes, `claim_clusters[]` (semantic groups at 0.75). **Runs source importance** (Level 3). | `episteme/prompts/templates.py` | `CRYSTALLIZE_CHAINS`, `CRYSTALLIZE_CRUXES` | `cases/{case}/compiled/index.json` · `compiled/source_importance.json` | **Cruxes** · **Debate** → Compression |
@@ -541,7 +542,7 @@ Example: `covid_small` was already run, you improved prompts, you want a **clean
 .\.venv-win\Scripts\python.exe scripts\invalidate_cache.py --case covid_small --level all
 ```
 
-Levels available: `raw`, `chunks`, `nodes`, `agent`, `trust`, `doc_summary`, `profiles`, or `all`.
+Levels available: `raw`, `chunks`, `nodes`, `agent`, `trust`, `doc_summary`, `profiles`, `polarity`, or `all`.
 
 **Step 2: remove derived outputs (keeps `sources.json` and `files/`):**
 
@@ -600,7 +601,7 @@ Remove-Item cases\covid_small\compiled\index.json -ErrorAction SilentlyContinue
 
 | Step changed | Invalidate level | Delete |
 |--------------|------------------|--------|
-| ingest / extract | `nodes`, `chunks`, `agent` | `graph.json`, `compiled/` |
+| ingest / extract | `nodes`, `chunks`, `polarity`, `agent` | `graph.json`, `compiled/` |
 | reconcile | `agent` (pair verdicts) | re-run reconcile on `graph.json`; then `debate` + dashboard |
 | structure | `agent` | presup nodes in graph* |
 | crystallize | `agent` | `compiled/index.json` |
@@ -637,7 +638,7 @@ Cases must be registered in [`episteme/config.py`](episteme/config.py) → `VALI
 **Currently registered:**
 
 ```
-covid · covid_small · covid_demo · lhc · eggs · use_case
+covid · covid_small · covid_demo · lhc · eggs · fertility
 ```
 
 Having `cases/use_case_eduard/` is **not enough**. Without registration you get:
@@ -658,7 +659,7 @@ error: argument --case: invalid choice: 'use_case_eduard' (choose from ...)
    ```
 2. Add to `VALID_CASES` in `episteme/config.py`:
    ```python
-   VALID_CASES = ["covid", "covid_small", "lhc", "eggs", "use_case", "my_case"]
+   VALID_CASES = ["covid", "covid_small", "covid_demo", "lhc", "eggs", "fertility", "my_case"]
    ```
 3. Use `--case my_case` in all commands.
 
@@ -950,7 +951,7 @@ ARGOS/
 │   ├── cli/main.py              # Argument parsing
 │   ├── config.py                # VALID_CASES, models, thresholds, QUOTE_REPAIR_MAX_CHARS
 │   ├── core/                    # graph, cache, llm, embeddings
-│   ├── filters/                 # quote_repair, junk_quote, quote_gate, genericity
+│   ├── filters/                 # quote_repair, junk_quote, quote_gate, genericity, polarity
 │   ├── pipeline/                # ingest, reconcile, structure, relate, assess, runner
 │   ├── compile/                 # crystallize, debate_state, references
 │   ├── methodology/             # criteria, audit, scoring
@@ -1008,7 +1009,7 @@ cases/{case}/
 └── bibliography/                # optional manifest
 
 cache/{case}/                    # outside cases/: API cache
-├── raw/ chunks/ nodes/ agent/ profiles/ doc_summary/ trust/
+├── raw/ chunks/ nodes/ agent/ profiles/ doc_summary/ trust/ polarity/
 ```
 
 ---

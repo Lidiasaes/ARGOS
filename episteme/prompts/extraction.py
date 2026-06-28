@@ -71,7 +71,8 @@ KEY ENTITIES: {key_entities}
 SOURCE THESIS:
 {source_thesis}
 
-FRAGMENT: {chunk}
+CHUNK (read metadata prefixes before extracting — see rule 8):
+{chunk}
 SOURCE ID: {source_id}
 SOURCE URL: {source_url}
 AUTHOR: {author}
@@ -89,6 +90,28 @@ DOCUMENT CONTEXT: {document_context}
 4. If you cannot find a verbatim quote supporting the node, do NOT include the node
 5. Reject field-level platitudes — nodes must mention case-specific entities or methods
 6. evidential_weight < 0.2 → omit
+
+7. ATTRIBUTION: For every node set attributed_to to indicate WHO makes this assertion:
+   - "source_author"      → the author of this source asserts this as true
+   - "opposing_position"  → the author attributes this to others in order to
+                            rebut it. Example: "critics claim X, but we show NOT-X"
+                            → X gets attributed_to="opposing_position"
+   - "reported_speech"    → author reports what others say without endorsement or rebuttal
+   CRITICAL: if fragment structure is "[position X] + [author rebuts X]",
+   then X must be attributed_to="opposing_position", never "source_author".
+   Only create claim/evidence nodes for what the SOURCE AUTHOR defends as true.
+
+8. CHUNK METADATA: The chunk may start with prefix lines — read them before extracting:
+   [SECTION: X | EPISTEMIC: Y] — calibrate abstraction_level and confidence:
+     "empirical_finding"  → abstraction_level=empirical, evidential_weight up to 0.9
+     "methodological"     → abstraction_level=methodological
+     "constrained"        → scope-limit the content ("...within X context")
+     "interpretive"       → abstraction_level=interpretive, confidence ≤ 0.7
+     "framing"            → inspect attributed_to carefully, likely reported_speech
+   [PRIOR CONTEXT: Y] — tail of the previous chunk, for polarity detection ONLY.
+   CRITICAL: textual_evidence MUST be verbatim from the MAIN CHUNK only.
+   Never quote from [PRIOR CONTEXT]. Use it only to detect whether the main
+   chunk argues FOR or AGAINST a position introduced in the prior context.
 
 ━━ TYPE (strict enum — no other values) ━━
 type MUST be exactly one of: claim | evidence | question | presupposition | gap
@@ -112,6 +135,8 @@ For each node:
 - supporting_quote: short phrase (max 15 words) from fragment, or null
 - counterargument: if attacking another position, one sentence on what it attacks (optional)
 - is_rhetorical_move: true | false (credibility/dismissal moves, not evidential substance)
+- attributed_to: "source_author" | "opposing_position" | "reported_speech"
+  Default "source_author" only when certain the author endorses this claim.
 
 Return {{"nodes": [...]}}. JSON only.
 """

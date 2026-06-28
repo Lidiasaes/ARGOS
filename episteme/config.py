@@ -44,7 +44,9 @@ PHILOSOPHER_BATCH_SIZE = 6
 MAX_PRESUPPOSITIONS_PER_BATCH = 3
 
 # Extraction v4 — anti-generic gates
-EXTRACTOR_VERSION = "v4.1"
+EXTRACTOR_VERSION = "v4.2"  # bump: attributed_to + section metadata
+CHUNK_VERSION = "v2"        # bump: section-aware overlap chunking
+POLARITY_CACHE_VERSION = "v1"
 MIN_QUOTE_CHARS = 20
 MIN_GROUNDING_RATIO = 0.45
 MIN_ENTITY_SPECIFICITY = 0.15  # for direct / empirical claims

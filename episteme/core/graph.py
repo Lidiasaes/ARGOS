@@ -55,6 +55,8 @@ class EpistemicNode:
     support_count: int = 0
     contradict_count: int = 0
     epistemic_status: str = ""
+    attributed_to: str = "source_author"
+    polarity_risk: str = "none"
 
 
 def make_attestation(
@@ -293,7 +295,10 @@ class GraphStore:
             relations = [r for r in relations if r["type"] == relation_type]
         return [self._nodes[r["target"]] for r in relations if r["target"] in self._nodes]
 
-    def node_exists_similar(self, content: str, threshold: float = 0.85) -> str | None:
+    def node_exists_similar(self, content: str, threshold: float = None) -> str | None:
+        if threshold is None:
+            from episteme.config import DEDUP_SIMILARITY_THRESHOLD
+            threshold = DEDUP_SIMILARITY_THRESHOLD
         if not self._nodes:
             return None
         new_emb = embed(content)
@@ -374,6 +379,8 @@ def make_node(type: str, content: str, source_url: str = "", **kwargs) -> Episte
         "support_count": 0,
         "contradict_count": 0,
         "epistemic_status": "",
+        "attributed_to": "source_author",
+        "polarity_risk": "none",
     }
     valid_fields = {f.name for f in EpistemicNode.__dataclass_fields__.values()}
     merged = {**defaults, **kwargs}

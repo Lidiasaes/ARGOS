@@ -14,7 +14,7 @@ def content_hash(payload) -> str:
 
 
 class Cache:
-    LEVELS = ["raw", "chunks", "nodes", "agent", "trust", "doc_summary", "profiles"]
+    LEVELS = ["raw", "chunks", "nodes", "agent", "trust", "doc_summary", "profiles", "polarity"]
 
     def __init__(self, case: str, reset: bool = False):
         self.case = case

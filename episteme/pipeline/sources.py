@@ -1,6 +1,7 @@
 """Source loading and content fetching."""
 
 import json
+import re
 from pathlib import Path
 
 from episteme.config import BASE_DIR, CASES_DIR, CHUNK_MAX_CHARS, CHUNK_MAX_OUTPUT_TOKENS, MODEL_FAST
@@ -142,38 +143,124 @@ def evaluate_source(source: dict, raw: str) -> dict:
     }
 
 
-def chunk_text(raw: str) -> list:
-    blocks = []
-    paragraphs = [p.strip() for p in raw.split("\n\n") if p.strip()]
-    current = ""
-    for p in paragraphs:
-        if len(current) + len(p) > CHUNK_MAX_CHARS:
-            if current:
-                blocks.append(current)
-            current = p
-        else:
-            current += "\n\n" + p
-    if current:
-        blocks.append(current)
+_SECTION_RE = re.compile(
+    r"^\s*("
+    r"abstract|introduction|background|"
+    r"methods?|materials?\s*(?:and\s+methods?)?|"
+    r"results?|findings?|"
+    r"discussion|conclusions?|limitations?|"
+    r"supplementary|acknowledgements?|references?|bibliography|"
+    r"\d+[\.\s]+(?:introduction|methods?|results?|discussion|conclusion)"
+    r")\s*$",
+    re.IGNORECASE,
+)
 
+_SECTION_EPISTEMIC = {
+    "results":      "empirical_finding — higher evidential weight",
+    "findings":     "empirical_finding — higher evidential weight",
+    "methods":      "methodological — describes procedure not finding",
+    "limitations":  "constrained — author flags scope restriction",
+    "discussion":   "interpretive — author inference, not raw data",
+    "introduction": "framing — may contain reported_speech of others",
+    "background":   "framing — may contain reported_speech of others",
+    "conclusion":   "synthesis — interpretive, check for overgeneralization",
+    "abstract":     "summary — verify claims against body sections",
+}
+
+
+def _detect_section(paragraph: str) -> str | None:
+    """Return section name if paragraph is a header line, else None."""
+    if _SECTION_RE.match(paragraph.strip()):
+        return paragraph.strip().title()
+    return None
+
+
+def _epistemic_hint(section: str) -> str:
+    key = section.lower().strip()
+    for k, v in _SECTION_EPISTEMIC.items():
+        if k in key:
+            return v
+    return "general — no specific epistemic weight"
+
+
+def chunk_text(raw: str) -> list:
+    """
+    Split raw document text into argumentative chunks.
+
+    Each chunk is prefixed with:
+      [SECTION: X | EPISTEMIC: Y]   — section metadata, always present
+      [PRIOR CONTEXT: ...]           — last 250 chars of previous block,
+                                       only on first chunk of each block,
+                                       for cross-boundary polarity detection.
+
+    EXTRACTOR RULE: textual_evidence must come from MAIN CHUNK only,
+    never from [PRIOR CONTEXT]. Prior context is for polarity disambiguation.
+    """
+    from episteme.config import CHUNK_MAX_CHARS
+
+    CONTEXT_OVERLAP_CHARS = 250
+
+    # Pass 1 — tag each paragraph with its section
+    paragraphs = [p.strip() for p in raw.split("\n\n") if p.strip()]
+    current_section = "Body"
+    tagged: list[tuple[str, str]] = []
+
+    for p in paragraphs:
+        section = _detect_section(p)
+        if section:
+            current_section = section
+            continue  # headers are metadata, not content
+        tagged.append((p, current_section))
+
+    # Pass 2 — accumulate into blocks respecting CHUNK_MAX_CHARS
+    blocks: list[tuple[str, str, str]] = []  # (text, section, prev_tail)
+    current_text = ""
+    current_tag = "Body"
+    prev_tail = ""
+
+    for p_text, p_section in tagged:
+        if current_text and (len(current_text) + len(p_text) > CHUNK_MAX_CHARS):
+            blocks.append((current_text, current_tag, prev_tail))
+            prev_tail = current_text[-CONTEXT_OVERLAP_CHARS:].strip()
+            current_text = p_text
+            current_tag = p_section
+        else:
+            if not current_text:
+                current_tag = p_section
+            current_text += ("\n\n" + p_text) if current_text else p_text
+
+    if current_text:
+        blocks.append((current_text, current_tag, prev_tail))
+
+    # Pass 3 — LLM argumentative split within each block
     chunks = []
-    for block in blocks:
+    for block_text, section_tag, ctx_prefix in blocks:
         result = call_llm(
-            CHUNKER.format(text=block),
+            CHUNKER.format(text=block_text),
             model=MODEL_FAST,
-            max_tokens=CHUNK_MAX_OUTPUT_TOKENS,
+            max_tokens=60,
             parse_json=True,
             label="chunking",
         )
         offsets = _normalize_chunk_offsets(result)
+        ep_hint = _epistemic_hint(section_tag)
+
         if offsets is not None:
-            boundaries = sorted(set([0] + offsets + [len(block)]))
-            for start, end in zip(boundaries, boundaries[1:]):
-                piece = block[start:end].strip()
-                if piece:
-                    chunks.append(piece)
+            boundaries = sorted(set([0] + offsets + [len(block_text)]))
+            for idx, (start, end) in enumerate(zip(boundaries, boundaries[1:])):
+                piece = block_text[start:end].strip()
+                if not piece:
+                    continue
+                header = f"[SECTION: {section_tag} | EPISTEMIC: {ep_hint}]"
+                if idx == 0 and ctx_prefix:
+                    header += f"\n[PRIOR CONTEXT: {ctx_prefix}]"
+                chunks.append(f"{header}\n\n{piece}")
         else:
-            chunks.append(block)
+            header = f"[SECTION: {section_tag} | EPISTEMIC: {ep_hint}]"
+            if ctx_prefix:
+                header += f"\n[PRIOR CONTEXT: {ctx_prefix}]"
+            chunks.append(f"{header}\n\n{block_text}")
+
     return chunks
 
 

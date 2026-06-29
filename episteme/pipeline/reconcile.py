@@ -434,12 +434,14 @@ def _record_quantitative_divergence(
         strength=sim,
         rationale=rationale,
         source=edge_source,
+        shared_question=shared_q,
     )
     added_b = store.add_relation(
         b_id, a_id, "quantitative_divergence",
         strength=sim,
         rationale=rationale,
         source=edge_source,
+        shared_question=shared_q,
     )
     if added_a or added_b:
         stats["quantitative_divergence"] += 1
@@ -537,9 +539,11 @@ def _record_contradiction(
 
     added_a = store.add_relation(
         a_id, b_id, rel_type, strength=sim, rationale=rationale, source=edge_source,
+        shared_question=shared_q,
     )
     added_b = store.add_relation(
         b_id, a_id, rel_type, strength=sim, rationale=rationale, source=edge_source,
+        shared_question=shared_q,
     )
     if added_a or added_b:
         stats[stat_key] += 1

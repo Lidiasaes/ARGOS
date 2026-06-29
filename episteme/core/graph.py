@@ -302,6 +302,7 @@ class GraphStore:
         strength: float = 0.5,
         rationale: str = "",
         source: str = "",
+        shared_question: str = "",
     ) -> bool:
         """
         Add a typed relation between two existing nodes.
@@ -313,6 +314,11 @@ class GraphStore:
           - source_id == target_id (self-loop)
           - relation_type not in VALID_RELATION_TYPES
           - duplicate (type, target) pair on the same source node
+
+        When provided, shared_question is persisted as a first-class field on
+        the edge so the proposition-collapse step can read it structurally
+        instead of regex-parsing it back out of the rationale. Dedup keys are
+        unchanged (still type+target).
         """
         if source_id not in self._nodes:
             return False
@@ -333,6 +339,8 @@ class GraphStore:
             rel["rationale"] = rationale
         if source:
             rel["source"] = source
+        if shared_question:
+            rel["shared_question"] = shared_question
 
         self._nodes[source_id].setdefault("relations", []).append(rel)
         self._save()

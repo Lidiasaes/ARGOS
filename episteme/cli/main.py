@@ -18,6 +18,7 @@ def main():
         choices=[
             "ingest",
             "reconcile",
+            "propositions",
             "structure",
             "crystallize",
             "importance",

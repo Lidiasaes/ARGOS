@@ -60,6 +60,12 @@ RECONCILE_DETECT_CONTRADICTIONS = True
 # between the shared_question and each node's content embedding.
 RECONCILE_SHARED_QUESTION_MIN_OVERLAP = 0.5
 
+# Proposition collapse (deterministic post-reconcile compile step)
+# Cosine threshold for grouping shared_question strings into a single
+# proposition. Short strings cluster tight; calibrate from the collapse
+# ratio report.
+PROPOSITION_CLUSTER_THRESHOLD: float = 0.78
+
 # Structure
 PHILOSOPHER_BATCH_SIZE = 6
 MAX_PRESUPPOSITIONS_PER_BATCH = 3

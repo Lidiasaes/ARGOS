@@ -32,6 +32,11 @@ def run_pipeline(
         from episteme.pipeline.reconcile import run_reconcile
         run_reconcile(case, cache, store)
 
+    if step == "propositions":
+        print("\n-- PROPOSITIONS (deterministic edge collapse) --")
+        from episteme.compile.propositions import run_propositions
+        run_propositions(case, store)
+
     if step == "relate":
         print("\n-- RELATE (cross-source) --")
         from episteme.pipeline.relate import run_relate

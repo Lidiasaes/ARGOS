@@ -39,6 +39,10 @@ RECONCILE_HAIKU_CEILING = 0.75  # pairs below this need Haiku verdict
 RECONCILE_NODE_TYPES = ("claim", "evidence")
 RECONCILE_CONFLICT_TYPES = frozenset({"contradicts", "undermines"})
 
+# Floor below which a `contradicts` edge is treated as weak; to be calibrated
+# from the observed strength distribution of contradicts edges.
+CONTESTED_MIN_CONTRADICTION_STRENGTH: float = 0.55
+
 # Contradiction detection — wider similarity window than merging.
 # Opposing claims on the same question often embed at lower similarity
 # than paraphrases (because polarity flips word distributions), so the

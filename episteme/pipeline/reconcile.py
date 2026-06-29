@@ -8,6 +8,7 @@ from collections import defaultdict
 from itertools import combinations
 
 from episteme.config import (
+    CONTESTED_MIN_CONTRADICTION_STRENGTH,
     MODEL_FAST,
     RECONCILE_CONFLICT_TYPES,
     RECONCILE_CONTRADICTION_MAX_SIM,
@@ -86,6 +87,13 @@ def _node_authors(node: dict) -> set[str]:
         if sa:
             authors.add(sa)
     return authors
+
+
+def _same_document(a: dict, b: dict) -> bool:
+    """True when the two nodes share at least one source key — i.e. they come
+    from the same document. A 'contradiction' between same-document nodes is
+    one document matching/qualifying itself, not a cross-paper dispute."""
+    return bool(_node_source_keys(a).intersection(_node_source_keys(b)))
 
 
 def _same_author(a: dict, b: dict) -> bool:
@@ -264,9 +272,19 @@ def _resolve_groups(
     return groups
 
 
-def _epistemic_status(support_count: int, contradict_count: int) -> str:
-    if contradict_count > 0:
+def _epistemic_status(
+    support_count: int,
+    strong_contradict_count: int,
+    weak_contradict_count: int,
+) -> str:
+    # contested_weak sits below contested but above supported/well_established:
+    # a deliberate, reversible design choice so weak (sub-floor or
+    # shared-question-hallucinated) contradictions still surface without
+    # masquerading as high-confidence disputes.
+    if strong_contradict_count > 0:
         return "contested"
+    if weak_contradict_count > 0:
+        return "contested_weak"
     if support_count >= 3:
         return "well_established"
     if support_count >= 2:
@@ -274,13 +292,32 @@ def _epistemic_status(support_count: int, contradict_count: int) -> str:
     return "single_source"
 
 
-def _contradicting_source_count(store: GraphStore, node_id: str) -> int:
-    sources: set[str] = set()
+def _contradicting_source_count(store: GraphStore, node_id: str) -> tuple[int, int]:
+    """Count UNIQUE source keys of nodes that contradict node_id, split into
+    strong and weak. Only `contradicts` / `weak_contradicts` edges count;
+    `self_inconsistency` and `quantitative_divergence` NEVER do.
+
+    Intentionally narrower than the old RECONCILE_CONFLICT_TYPES behavior:
+      - strong: type == "contradicts" AND strength >= floor
+      - weak:   type == "contradicts" AND strength <  floor, OR
+                type == "weak_contradicts"
+    """
+    strong_sources: set[str] = set()
+    weak_sources: set[str] = set()
     for node in store.get_all_nodes():
         for rel in node.get("relations", []):
-            if rel.get("target") == node_id and rel.get("type") in RECONCILE_CONFLICT_TYPES:
-                sources.update(_node_source_keys(node))
-    return len(sources)
+            if rel.get("target") != node_id:
+                continue
+            rtype = rel.get("type")
+            if rtype == "contradicts":
+                strength = rel.get("strength") or 0.0
+                if strength >= CONTESTED_MIN_CONTRADICTION_STRENGTH:
+                    strong_sources.update(_node_source_keys(node))
+                else:
+                    weak_sources.update(_node_source_keys(node))
+            elif rtype == "weak_contradicts":
+                weak_sources.update(_node_source_keys(node))
+    return len(strong_sources), len(weak_sources)
 
 
 def compute_epistemic_fields(store: GraphStore, node_id: str) -> dict:
@@ -288,11 +325,15 @@ def compute_epistemic_fields(store: GraphStore, node_id: str) -> dict:
     if not node:
         return {}
     support_count = unique_attestation_source_count(ensure_attestations(node))
-    contradict_count = _contradicting_source_count(store, node_id)
+    strong_contradict_count, weak_contradict_count = _contradicting_source_count(store, node_id)
     return {
         "support_count": support_count,
-        "contradict_count": contradict_count,
-        "epistemic_status": _epistemic_status(support_count, contradict_count),
+        # contradict_count keeps the strong count for backward compat with the dashboard.
+        "contradict_count": strong_contradict_count,
+        "weak_contradict_count": weak_contradict_count,
+        "epistemic_status": _epistemic_status(
+            support_count, strong_contradict_count, weak_contradict_count
+        ),
     }
 
 
@@ -467,7 +508,16 @@ def _record_contradiction(
     """
     a_id, b_id = a["id"], b["id"]
 
-    if _same_author(a, b):
+    # Defensive guard: shared source = one document matching/qualifying itself,
+    # not a cross-paper dispute. _find_*candidate_pairs already require
+    # _cross_paper, so this should be a no-op in normal flow; we keep it because
+    # a contested node in real data points to a path that bypassed that check.
+    # Routed to the same bucket/stats as the same-author case.
+    if _same_document(a, b):
+        rel_type, stat_key, edge_key = (
+            "self_inconsistency", "self_inconsistency", "self_inconsistency_edges_added",
+        )
+    elif _same_author(a, b):
         rel_type, stat_key, edge_key = (
             "self_inconsistency", "self_inconsistency", "self_inconsistency_edges_added",
         )
@@ -621,6 +671,75 @@ def prune_conflicting_attestations(
             if node.get("type") in RECONCILE_NODE_TYPES:
                 update_epistemic_fields(store, node["id"])
     return removed
+
+
+_STRENGTH_HIST_LO = 0.40
+_STRENGTH_HIST_HI = 1.00
+_STRENGTH_HIST_STEP = 0.05
+
+
+def contradiction_strength_report(store: GraphStore) -> dict:
+    """Deterministic diagnostic over all `contradicts` / `weak_contradicts`
+    edges. No LLM/network. Makes the strength-aware + intra-document hardening
+    observable: lists every contradiction edge with its strength and whether it
+    is intra-document / same-author, plus a coarse strength histogram and a few
+    headline counts."""
+    edges: list[dict] = []
+    buckets: dict[str, int] = {}
+    n_buckets = round((_STRENGTH_HIST_HI - _STRENGTH_HIST_LO) / _STRENGTH_HIST_STEP)
+    for i in range(n_buckets):
+        lo = _STRENGTH_HIST_LO + i * _STRENGTH_HIST_STEP
+        buckets[f"{lo:.2f}"] = 0
+
+    total_contradicts = 0
+    contradicts_below_floor = 0
+    intra_document_edges = 0
+    same_author_edges = 0
+
+    for node in store.get_all_nodes():
+        for rel in node.get("relations", []):
+            rtype = rel.get("type")
+            if rtype not in ("contradicts", "weak_contradicts"):
+                continue
+            target = store.get_node(rel.get("target", ""))
+            if not target:
+                continue
+            strength = rel.get("strength") or 0.0
+            intra = _same_document(node, target)
+            same_auth = _same_author(node, target)
+
+            edges.append({
+                "source_node": node["id"],
+                "target_node": target["id"],
+                "type": rtype,
+                "strength": strength,
+                "intra_document": intra,
+                "same_author": same_auth,
+            })
+
+            if rtype == "contradicts":
+                total_contradicts += 1
+                if strength < CONTESTED_MIN_CONTRADICTION_STRENGTH:
+                    contradicts_below_floor += 1
+            if intra:
+                intra_document_edges += 1
+            if same_auth:
+                same_author_edges += 1
+
+            clamped = min(max(strength, _STRENGTH_HIST_LO), _STRENGTH_HIST_HI - 1e-9)
+            idx = int((clamped - _STRENGTH_HIST_LO) / _STRENGTH_HIST_STEP)
+            idx = min(max(idx, 0), n_buckets - 1)
+            key = f"{_STRENGTH_HIST_LO + idx * _STRENGTH_HIST_STEP:.2f}"
+            buckets[key] += 1
+
+    return {
+        "edges": edges,
+        "strength_histogram": buckets,
+        "total_contradicts": total_contradicts,
+        "contradicts_below_floor": contradicts_below_floor,
+        "intra_document_edges": intra_document_edges,
+        "same_author_edges": same_author_edges,
+    }
 
 
 def run_reconcile(case: str, cache: Cache, store: GraphStore) -> dict:
@@ -797,6 +916,25 @@ def run_reconcile(case: str, cache: Cache, store: GraphStore) -> dict:
     )
     stats["multi_source_after"] = multi
 
+    # Deterministic diagnostic so the strength-aware + intra-document hardening
+    # is observable on every (free) rerun.
+    strength_report = contradiction_strength_report(store)
+    stats["contradiction_total_contradicts"] = strength_report["total_contradicts"]
+    stats["contradiction_below_floor"] = strength_report["contradicts_below_floor"]
+    stats["contradiction_intra_document_edges"] = strength_report["intra_document_edges"]
+    stats["contradiction_same_author_edges"] = strength_report["same_author_edges"]
+
+    nonzero_hist = {k: v for k, v in strength_report["strength_histogram"].items() if v}
+    print(
+        f"\n  Contradiction strength report: "
+        f"{strength_report['total_contradicts']} contradicts edges "
+        f"({strength_report['contradicts_below_floor']} below floor "
+        f"{CONTESTED_MIN_CONTRADICTION_STRENGTH}), "
+        f"{strength_report['intra_document_edges']} intra-document, "
+        f"{strength_report['same_author_edges']} same-author"
+    )
+    print(f"    strength histogram (0.05 buckets): {nonzero_hist or '{}'}")
+
     print(
         f"\n  Reconcile: {stats['nodes_merged']} nodes absorbed into {stats['groups']} groups, "
         f"{stats['multi_source_after']} multi-source nodes, "
@@ -813,6 +951,16 @@ def run_reconcile(case: str, cache: Cache, store: GraphStore) -> dict:
 def reconcile_summary(store: GraphStore) -> dict:
     """Counts by epistemic_status for dashboard/debug."""
     counts: dict[str, int] = defaultdict(int)
+    # Seed known statuses (incl. the new contested_weak tier) so they appear
+    # as explicit 0s rather than silently missing.
+    for status in (
+        "contested",
+        "contested_weak",
+        "well_established",
+        "supported",
+        "single_source",
+    ):
+        counts[status] = 0
     for ntype in RECONCILE_NODE_TYPES:
         for node in store.get_nodes_by_type(ntype):
             status = node.get("epistemic_status") or "unknown"

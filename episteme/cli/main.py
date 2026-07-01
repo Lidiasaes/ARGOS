@@ -21,6 +21,7 @@ def main():
             "propositions",
             "structure",
             "crystallize",
+            "crux_alignment",
             "importance",
             "relate",
             "debate",

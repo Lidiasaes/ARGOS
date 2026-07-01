@@ -70,7 +70,17 @@ def infer_inquiry_context(case: str, sources: list[dict], case_profile: dict | N
 
     positions = profile.get("debate_positions", [])
     if positions:
-        parts.append("Debate positions: " + "; ".join(positions[:3]))
+        position_strs = []
+        for p in positions[:3]:
+            if isinstance(p, dict):
+                name = p.get("name", "")
+                desc = p.get("description", "")
+                position_strs.append(f"{name}: {desc}".strip(": ") if name or desc else "")
+            else:
+                position_strs.append(str(p))
+        position_strs = [s for s in position_strs if s]
+        if position_strs:
+            parts.append("Debate positions: " + "; ".join(position_strs))
 
     source_types = []
     for s in sources:

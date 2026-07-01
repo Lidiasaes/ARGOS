@@ -66,6 +66,15 @@ RECONCILE_SHARED_QUESTION_MIN_OVERLAP = 0.5
 # ratio report.
 PROPOSITION_CLUSTER_THRESHOLD: float = 0.78
 
+# Crux alignment — strict dispute-mass coverage.
+# The lax coverage metric counts a contested proposition as covered if it is any
+# crux's best-match, even at Jaccard ~0.01 (a single shared claim). That can
+# nominally "cover" the dominant dispute with a spurious match. The strict
+# variant only counts a proposition as covered when its best-matching crux has
+# Jaccard >= this floor, i.e. a meaningful claim-set overlap rather than an
+# accidental one-claim brush.
+MIN_MEANINGFUL_JACCARD: float = 0.1
+
 # Structure
 PHILOSOPHER_BATCH_SIZE = 6
 MAX_PRESUPPOSITIONS_PER_BATCH = 3

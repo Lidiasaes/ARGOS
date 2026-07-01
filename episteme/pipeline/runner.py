@@ -31,7 +31,15 @@ def run_pipeline(
         print("\n-- RECONCILE (cross-paper) --")
         from episteme.pipeline.reconcile import run_reconcile
         run_reconcile(case, cache, store)
+        # Auto-chain: the proposition collapse is deterministic, $0 and read-only,
+        # and consumes exactly the conflict edges reconcile just produced — so we
+        # always run it right after reconcile to keep the proposition layer fresh.
+        print("\n-- PROPOSITIONS (auto: deterministic edge collapse) --")
+        from episteme.compile.propositions import run_propositions
+        run_propositions(case, store)
 
+    # Standalone re-run (e.g. after tweaking PROPOSITION_CLUSTER_THRESHOLD)
+    # without paying for a full reconcile.
     if step == "propositions":
         print("\n-- PROPOSITIONS (deterministic edge collapse) --")
         from episteme.compile.propositions import run_propositions
@@ -70,6 +78,18 @@ def run_pipeline(
     if step in ("crystallize", "all"):
         print("\n-- CRYSTALLIZE --")
         run_crystallize(case, cache, store)
+        # Auto-chain: aligning the freshly-built cruxes (index.json) against the
+        # deterministic propositions is $0, no-LLM and read-only — run it now so
+        # convergence / orphan signals are always available after crystallize.
+        print("\n-- CRUX ALIGNMENT (auto: cruxes vs propositions) --")
+        from episteme.compile.crux_alignment import run_crux_alignment
+        run_crux_alignment(case)
+
+    # Standalone re-run against existing compiled artifacts.
+    if step == "crux_alignment":
+        print("\n-- CRUX ALIGNMENT (cruxes vs propositions) --")
+        from episteme.compile.crux_alignment import run_crux_alignment
+        run_crux_alignment(case)
 
     if step == "importance":
         print("\n-- SOURCE IMPORTANCE (post-graph) --")

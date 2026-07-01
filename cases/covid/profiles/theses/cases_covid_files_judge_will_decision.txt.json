@@ -1,28 +1,30 @@
 {
   "source_id": "cases/covid/files/judge_will_decision.txt",
-  "main_thesis": "SARS-CoV-2 is substantially more likely to be of zoonotic origin than a product of lab leak, with approximately 1 in 300 odds for lab leak based on WIV capability doubts and HSM epicenter evidence.",
+  "main_thesis": "SARS-CoV-2 is substantially more likely to be of zoonotic origin than a product of intentional engineering, with approximately a 1 in 300 chance of lab leak.",
   "sub_theses": [
-    "The probability that WIV could carry out DEFUSE-style work is lower than Rootclaim claimed, constituting a major factor against lab leak",
-    "The epicenter being at Huanan Seafood Market provides strong evidence for zoonotic origin that cannot be adequately explained by lab leak scenarios",
-    "Rootclaim's evidence suffered from internal inconsistencies and misrepresentation of source material strength",
-    "Both Bayesian analysis (P0(LL)/P0(ZO) = 1.7E-3, update ratio 2.125) and synthesized scenario comparison converge on the same conclusion favoring zoonosis"
+    "The prior probability strongly favors zoonosis over lab leak for a pandemic starting in Wuhan (P0(LL)/P0(ZO) = 1.7E-3)",
+    "The HSM epicenter constitutes major evidence against lab leak, as it is the largest seafood market in central China and a plausible zoonotic spillover location",
+    "WIV's capability to carry out DEFUSE-style engineering work that would create SARS-CoV-2 is highly improbable",
+    "Rootclaim's evidence suffers from internal inconsistencies and misrepresentation of source material strength",
+    "Both informal synthesis and formal Bayesian analysis converge on the same conclusion favoring zoonosis"
   ],
-  "methodological_stance": "Judge Will employed dual independent methods: (1) synthesizing most plausible scenarios from presented evidence and background knowledge, then comparing dispassionately; (2) formal Bayesian analysis calculating prior odds and likelihood ratios for each evidence piece, modeled after Michael Weissman's approach, while acknowledging Bayesian methods maximize legibility rather than objectivity and hide intuitive/heuristic portions in data inclusion steps.",
+  "methodological_stance": "Judge Will employs dual independent methods: an informal synthesis of most plausible scenarios from presented evidence, and a formal Bayesian likelihood ratio analysis modeled after Michael Weissman's approach. He views Bayesian methods as maximizing legibility rather than objectivity, with bias hidden in data inclusion and value assignments.",
   "targets": [
-    "Rootclaim/Saar Wilf's lab leak position",
-    "Rootclaim's internal inconsistencies in assuming truth claim A in one part and not-A in another",
-    "Rootclaim's presentation of evidence strength by leaving out qualifying information"
+    "Rootclaim/Saar Wilf's lab leak arguments",
+    "Rootclaim's strategic use of inconsistent truth claims",
+    "Rootclaim's presentation of evidence strength without qualifying information"
   ],
   "key_questions_addressed": [
-    "Does the early cluster of COVID-19 cases at Huanan Seafood Market provide strong evidence for zoonotic origin versus being explained by surveillance bias or market conditions conducive to superspreading?",
-    "What is the prior probability that a pandemic starting in Wuhan would originate from a lab leak given WIV's proximity and research activities, versus from natural zoonotic spillover?",
-    "Did the Wuhan Institute of Virology have the capability to create SARS-CoV-2 through DEFUSE-style research or gain-of-function work?"
+    "Does the early cluster of COVID-19 cases at Huanan Seafood Market constitute strong evidence for zoonotic origin versus being explicable under lab leak?",
+    "Could the Wuhan Institute of Virology have conducted DEFUSE-style gain-of-function work to create SARS-CoV-2?",
+    "How should prior probabilities for lab leak versus zoonosis be established for pandemic origins in Wuhan specifically?",
+    "What is the conditional probability of observing the HSM cluster given a pandemic started in Wuhan under each hypothesis?"
   ],
   "textual_anchors": [
+    "P0(LL) / P0(ZO) = 1.7E-3",
     "approximately a 1 in 300 chance that SARS-CoV-2 was the result of a lab leak",
-    "major factors weighing against LL were the probability that WIV could carry out DEFUSE style work",
-    "the epicenter being HSM",
+    "major factors weighing against LL were the probability that WIV could carry out DEFUSE style work, and the epicenter being HSM",
     "multiple instances of internal inconsistency",
-    "P0(LL) / P0(ZO) = 1.7E-3"
+    "maximize legibility, not objectivity"
   ]
 }

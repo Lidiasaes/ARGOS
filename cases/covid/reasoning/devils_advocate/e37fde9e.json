@@ -1,0 +1,9 @@
+{
+  "strongest_counterargument": "The claim conflates 'hospitalization' with 'hospital testing' — in early 2020, many jurisdictions restricted COVID testing to hospitals/clinics regardless of symptom severity, making hospital-based testing completely normal for young adults with mild symptoms seeking diagnosis. The 'demographic implausibility' assumes healthcare-seeking behavior that only applied later in the pandemic when community testing became widely available.",
+  "counterargument_type": "methodological",
+  "what_would_refute_this_counterargument": "Documentation of testing availability and protocols in the specific jurisdiction and time period showing that: (1) community/non-hospital testing was readily accessible to the general public, (2) the individual had no legitimate reason to seek hospital-based testing given symptom severity, and (3) hospital testing was restricted to severe cases requiring admission or evaluation for admission.",
+  "revised_confidence": "medium-low",
+  "revised_confidence_rationale": "The two attestors appear to be engaged in direct debate with each other (not independent investigations), both sources have poor methodology scores (<0.32), and the core claim rests on an assumption about testing access patterns that varied dramatically by location and time during early pandemic chaos.",
+  "the_thing_nobody_is_saying": "This entire line of reasoning may be reverse-engineering suspicion from an outcome rather than establishing an actual contradiction — plenty of young, mildly symptomatic people got tested at hospitals in early 2020 simply because that's where tests were, and treating this as 'implausible' reveals more about the arguers' priors than about the actual statistical likelihood of the behavior.",
+  "claim_id": "e37fde9e"
+}

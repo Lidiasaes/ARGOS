@@ -1,0 +1,9 @@
+{
+  "strongest_counterargument": "The two attestors are adversarial debate participants likely drawing from the same underlying source material (Worobey et al. or WHO reports), making this effectively single-source evidence presented twice. More critically, 'contained stalls selling raccoon-dogs' conflates temporal claims: we need evidence these animals were present in late 2019 specifically, not just that such stalls existed at the market historically or were photographed at unspecified times, and neither source provides dated inventory documentation.",
+  "counterargument_type": "circular_citation",
+  "what_would_refute_this_counterargument": "Primary documentation showing raccoon-dogs physically present in the southwest corner during November-December 2019 specifically: dated vendor inventory records, veterinary inspection logs, or timestamped photographs/videos from that precise time window. Genetic material from raccoon-dogs collected from those specific stall locations would be extremely strong evidence.",
+  "revised_confidence": "medium-low",
+  "revised_confidence_rationale": "Both sources have poor methodology scores (<0.32) and are debate participants rather than primary investigators. The temporal specificity required for causal inference (animals present during the outbreak window) versus what's actually documented (animals sold at market generally) represents a critical evidential gap that multi-attestation doesn't resolve.",
+  "the_thing_nobody_is_saying": "If the primary evidence trail leads back to a single phylogeographic paper or market survey, the entire research community may be confidently repeating a claim whose temporal precision was never actually established—we might know raccoon-dogs were sold at the market without knowing they were there in the specific weeks that mattered.",
+  "claim_id": "8b0f8bdd"
+}

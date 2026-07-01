@@ -1,104 +1,177 @@
 {
   "evaluations": [
     {
-      "criterion_id": "general_methodological_transparency",
+      "criterion_id": "base_rate_reference_class",
       "status": "red_flag",
-      "evidence_quote": "I am not convinced that this Bayesian calculation is even an appropriate way to estimate the relative posterior probability of Z and LL; it just seemed fair that after criticizing Rootclaim's calculations at length I should make an attempt at it myself.",
-      "reviewer_note": "The author explicitly acknowledges uncertainty about whether the analytical method used is appropriate, undermining methodological validity. This is a commentary/analysis piece, not primary research with declared methods.",
+      "evidence_quote": "We start with the prior for Russian men ages 60-69 having cancer (14.32%, according to health data). We adjust for Putin's healthy lifestyle (-30% cancer risk) and lack of family history (-5%).",
+      "reviewer_note": "The Putin cancer example demonstrates arbitrary reference class selection without justification. For the actual COVID debate, no explicit prior probability or reference class is defined in the auditable text - only descriptions of participants' analyses exist without the foundational prior calculation being shown.",
       "quote_verified": true
     },
     {
-      "criterion_id": "analytical_framework_specification",
+      "criterion_id": "likelihood_ratio_conditional_specification",
       "status": "red_flag",
-      "evidence_quote": "I am skeptical that the Bayesian decision making/evaluation methods are any more 'objective' than [intuitive reasoning]. I think they maximize legibility, not objectivity, and tend to hide the intuitive/heuristic portion in the data inclusion step and values, where it's harder to see",
-      "reviewer_note": "The judge (quoted approvingly) expresses fundamental skepticism about the analytical framework's validity, stating it may hide rather than reveal bias. The piece critiques rather than applies systematic methodology.",
+      "evidence_quote": "Markets weren't a common spillover location in SARS1, so the zoonosis hypothesis hasn't 'called' this event in a way that should give them a high Bayes factor.",
+      "reviewer_note": "Likelihood ratios and Bayes factors are mentioned but never expressed as fully conditional probabilities P(E|H,Background) with explicit conditioning variables. The text refers to 'Bayes factor' without showing the actual conditional probability calculations required.",
       "quote_verified": true
     },
     {
-      "criterion_id": "data_sources_identification",
-      "status": "declared",
-      "evidence_quote": "Dr. Jesse Bloom's investigation of the wet market samples, considered the final and most conclusive, failed to find a clear connection between COVID and raccoon-dogs or any other animals.",
-      "reviewer_note": "Some data sources are identified (e.g., Jesse Bloom's investigation, health data on cancer rates), though this is primarily a debate summary rather than primary data analysis.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "bias_assessment",
-      "status": "red_flag",
-      "evidence_quote": "However, I am unsure that it's a good strategy for a human given our cognitive limitations, and doubly unsure it's truly being used (in the dispassionate sense) where the outcome is social desirability/fame/Twitter likes.",
-      "reviewer_note": "The text acknowledges bias risks but does not systematically address them; instead suggests the analytical method may be performative rather than objective, with outcomes driven by social incentives.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "reproducibility_documentation",
-      "status": "declared",
-      "evidence_quote": "You can see the judges' own summary of their reasoning here (Will, Eric)... but you can see Saar's version here, and Peter's starting at 45:33 of this video.",
-      "reviewer_note": "Links to source materials and detailed reasoning are provided, allowing some degree of reproducibility/verification, though this is a secondary analysis of a debate rather than primary research.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "uncertainty_quantification",
-      "status": "declared",
-      "evidence_quote": "the joke goes that you do Bayesian reasoning by doing normal reasoning while muttering 'Bayes, Bayes, Bayes' under your breath. Nobody - not the statisticians, not Nate Silver, certainly not me - tries to do full Bayesian reasoning on fuzzy real-world problems. They'd be too hard to model.",
-      "reviewer_note": "Uncertainty and limitations of Bayesian methods on real-world problems are explicitly discussed, though the overall approach remains informal and editorial rather than systematic.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "peer_review_status",
-      "status": "not_applicable",
-      "evidence_quote": null,
-      "reviewer_note": "This is a blog post/commentary piece analyzing a debate, not a research article subject to peer review.",
-      "quote_verified": null
-    },
-    {
-      "criterion_id": "conflict_of_interest_declaration",
+      "criterion_id": "evidence_stream_independence",
       "status": "not_declared",
       "evidence_quote": null,
-      "reviewer_note": "No conflicts of interest are declared. The author's stance and involvement in prediction markets related to the debate outcome are not disclosed as potential conflicts.",
+      "reviewer_note": "No discussion of conditional independence between evidence streams (market cluster, viral features, lab capabilities, etc.). The debate discusses multiple pieces of evidence but never addresses whether their likelihood ratios can be validly multiplied.",
       "quote_verified": null
+    },
+    {
+      "criterion_id": "null_hypothesis_enumeration",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "The text describes a binary framing (lab leak vs. zoonosis) but does not justify excluding intermediate hypotheses (accidental vs. intentional leak, different spillover mechanisms) or explain how the hypothesis space was partitioned.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "likelihood_ratio_sensitivity_bounds",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No uncertainty bounds or sensitivity ranges are provided for any likelihood ratios in the auditable text. Point estimates appear to be used throughout without quantified uncertainty.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "cited_evidence_match",
+      "status": "red_flag",
+      "evidence_quote": "Dr. Jesse Bloom's investigation of the wet market samples, considered the final and most conclusive, failed to find a clear connection between COVID and raccoon-dogs or any other animals.",
+      "reviewer_note": "Empirical claims are made without primary source citations. The Bloom investigation is mentioned but not cited, and the statistical claims about raccoon dogs vs. bass are presented without traceable source data.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "counterfactual_consistency",
+      "status": "declared",
+      "evidence_quote": "Markets weren't a common spillover location in SARS1, so the zoonosis hypothesis hasn't 'called' this event in a way that should give them a high Bayes factor.",
+      "reviewer_note": "This argument explicitly applies counterfactual reasoning about whether evidence would be interpreted symmetrically (what counts as a 'called' prediction). However, only one example is shown; systematic application is not demonstrated.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "rare_event_probability_calibration",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No calibration of extreme probabilities against historical base rates of analogous events (lab accidents, pandemic origins) is presented in the auditable text.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "temporal_sequence_exploitation",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No acknowledgment of which evidence was hypothesis-generating vs. confirmatory, or any penalty for researcher degrees of freedom or look-elsewhere effects.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "model_class_uncertainty",
+      "status": "declared",
+      "evidence_quote": "I am skeptical that the Bayesian decision making/evaluation methods are any more 'objective' than [intuitive reasoning]. I think they maximize legibility, not objectivity, and tend to hide the intuitive/heuristic portion in the data inclusion step and values, where it's harder to see",
+      "reviewer_note": "Judge Will explicitly acknowledges model uncertainty and questions whether Bayesian formalization improves over intuitive reasoning, noting that subjective choices are embedded in 'data inclusion step and values.'",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "debate_scope_boundary",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No explicit definition of what evidence types are in-scope vs. out-of-scope, or whether rules were applied symmetrically across both sides.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "judge_expertise_match",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "Judge identities (Will, Eric) are mentioned but their expertise in Bayesian methods AND virology/epidemiology is not documented, nor are conflicts of interest disclosed.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "posterior_concentration_diagnostic",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No diagnostics for posterior concentration or credible interval widths are presented. Final probability judgments are mentioned but not characterized for appropriate uncertainty.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "alternative_explanation_steel_manning",
+      "status": "declared",
+      "evidence_quote": "Peter: Raccoon-dogs were sold in various cages at various stalls, separated by air gaps big enough to present a challenge for COVID transmission, and there's no reason to think that one raccoon-dog would automatically pass it to all the others. The statistical analysis just proves there were many raccoon-dogs who didn't have COVID. But you only need one.",
+      "reviewer_note": "Peter's response directly engages the strongest version of the opposing statistical argument about raccoon dogs rather than dismissing it, showing some steel-manning. However, systematic application across all arguments is not demonstrated.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "replication_transparency",
+      "status": "red_flag",
+      "evidence_quote": "This exact presentation comparing both analyses is mine, but you can see Saar's version here, and Peter's starting at 45:33 of this video... I am not convinced that this Bayesian calculation is even an appropriate way to estimate the relative posterior probability of Z and LL",
+      "reviewer_note": "Calculations are referenced but not shown in sufficient detail for replication. The author mentions a table and refers to external links rather than presenting explicit numerator/denominator probabilities and calculation steps in the auditable text.",
+      "quote_verified": true
     }
   ],
   "red_flag_hits": [
     {
-      "pattern": "inappropriately_casual_inference",
-      "evidence_quote": "You'd make some philosophical mistake converting the situation into numbers, then end up much worse off than if you'd tried normal human intuition.",
-      "reviewer_note": "The text explicitly warns against formal quantitative reasoning on complex problems, suggesting informal intuition may be superior—contrary to rigorous methodological standards.",
+      "pattern": "Likelihood ratio presented without explicit numerator and denominator probabilities",
+      "evidence_quote": "Markets weren't a common spillover location in SARS1, so the zoonosis hypothesis hasn't 'called' this event in a way that should give them a high Bayes factor.",
+      "reviewer_note": "Bayes factors are discussed conceptually but never decomposed into P(E|H1) and P(E|H2) with explicit values.",
       "quote_verified": true
     },
     {
-      "pattern": "methodological_skepticism_without_alternative",
-      "evidence_quote": "At the fundamental rules of the universe level, Bayesian analysis must be the best way to evaluate evidence. However, I am unsure that it's a good strategy for a human given our cognitive limitations",
-      "reviewer_note": "Expresses deep skepticism about whether the stated analytical method is practically valid while not proposing a systematic alternative, leaving the analytical foundation uncertain.",
+      "pattern": "Prior probability stated without reference class justification or historical base rate",
+      "evidence_quote": "We start with the prior for Russian men ages 60-69 having cancer (14.32%, according to health data).",
+      "reviewer_note": "The example uses a prior but for COVID origins no prior probability calculation with justified reference class is shown in the auditable text.",
       "quote_verified": true
     },
     {
-      "pattern": "prediction_market_as_evidence",
-      "evidence_quote": "Manifold agreed with the judges. There was a prediction market on who would win. It started out 70-30 in favor of lab leak. As the videos came out, zoonosis started doing better and better.",
-      "reviewer_note": "Uses prediction market outcomes as a form of validation, which conflates market sentiment with evidentiary weight—markets reflect beliefs, not necessarily truth.",
+      "pattern": "Citation to secondary source when primary data exists",
+      "evidence_quote": "Dr. Jesse Bloom's investigation of the wet market samples, considered the final and most conclusive, failed to find a clear connection between COVID and raccoon-dogs",
+      "reviewer_note": "Bloom's investigation is described without citation to the primary source, and statistical claims are made without traceable data.",
       "quote_verified": true
     },
     {
-      "pattern": "social_incentive_contamination",
-      "evidence_quote": "doubly unsure it's truly being used (in the dispassionate sense) where the outcome is social desirability/fame/Twitter likes",
-      "reviewer_note": "Explicitly acknowledges that social media incentives may contaminate the analytical process, but does not provide methodological controls to address this issue.",
+      "pattern": "Phrase 'extreme coincidence' without quantification of base rate",
+      "evidence_quote": null,
+      "reviewer_note": "Not directly observed in auditable text, though conceptually similar reasoning appears without quantification.",
+      "quote_verified": null
+    },
+    {
+      "pattern": "Conditioning variables omitted from probability statements (writing P(E|H) when P(E|H,Background) is meant)",
+      "evidence_quote": "Markets weren't a common spillover location in SARS1, so the zoonosis hypothesis hasn't 'called' this event in a way that should give them a high Bayes factor.",
+      "reviewer_note": "Probability statements lack explicit conditioning on background knowledge like 'given that outbreak occurred in Wuhan' or other critical context variables.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "Model assumptions stated as facts rather than assumptions",
+      "evidence_quote": "About half of cancer patients lose their hair, and Putin hasn't, so we'll divide by two. On the other hand, Putin's face has gotten more swollen recently, which happens about six times more often to cancer patients than to others, so we'll multiply by six.",
+      "reviewer_note": "The Putin example treats model structure (how to update on swelling, hair loss) as if it were straightforward fact rather than modeling choices that require justification.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "Claim of 'Bayesian analysis' that lacks explicit prior, likelihood, and posterior calculation",
+      "evidence_quote": "I am not convinced that this Bayesian calculation is even an appropriate way to estimate the relative posterior probability of Z and LL; it just seemed fair that after criticizing Rootclaim's calculations at length I should make an attempt at it myself.",
+      "reviewer_note": "The text describes a Bayesian debate but the auditable portion does not contain the explicit prior→likelihood→posterior calculation sequence with numerical values.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "Judge decision based on 'persuasiveness' rather than explicit probability calculations",
+      "evidence_quote": "He said he independently tried both reasoning it out intuitively, and running the Bayesian analysis, and was relieved when these two methods returned the same result.",
+      "reviewer_note": "Judge Will used both intuitive reasoning and Bayesian analysis, suggesting the decision was not purely based on probability calculations but also on intuitive persuasiveness.",
       "quote_verified": true
     }
   ],
   "source_id": "cases/covid/files/scott_alexander_covid_debate.txt",
   "source_label": "Scott Alexander",
-  "methodology_score": 0.389,
-  "score_rationale": "Score 0.389 (deterministic): weighted declared 3.0/7.0 (base 0.429); 3/7 criteria declared, 1 not_declared, 3 red_flag; 4 pattern hits (penalty capped); ceiling 0.5.",
+  "methodology_score": 0.135,
+  "score_rationale": "Score 0.135 (deterministic): weighted declared 5.0/27.0 (base 0.185); 3/15 criteria declared, 8 not_declared, 4 red_flag; 8 pattern hits (penalty capped); ceiling 0.65.",
   "score_breakdown": {
-    "applicable": 7,
-    "not_applicable": 1,
+    "applicable": 15,
+    "not_applicable": 0,
     "declared": 3,
-    "not_declared": 1,
-    "red_flag_criteria": 3,
-    "red_flag_hits": 4,
-    "weighted_declared": 3.0,
-    "weighted_total": 7.0,
-    "base_ratio": 0.429,
-    "confidence_ceiling": 0.5,
-    "methodology_score": 0.389
+    "not_declared": 8,
+    "red_flag_criteria": 4,
+    "red_flag_hits": 8,
+    "weighted_declared": 5.0,
+    "weighted_total": 27.0,
+    "base_ratio": 0.185,
+    "confidence_ceiling": 0.65,
+    "methodology_score": 0.135
   },
   "score_computed_by": "deterministic_v1"
 }

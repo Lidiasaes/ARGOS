@@ -1,118 +1,165 @@
 {
   "evaluations": [
     {
-      "criterion_id": "general_methodological_transparency",
-      "status": "red_flag",
-      "evidence_quote": "I've recreated this code. If you want to see it with like different bandwidths, you could ask me after the debate and I could show a comparison there.",
-      "reviewer_note": "This is a debate transcript, not a formal methods section. Methods are described conversationally with references to recreated code and arbitrary parameter choices (bandwidth of 3 km) without systematic documentation of analytical decisions, data sources, or validation procedures.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "data_collection_procedures",
+      "criterion_id": "base_rate_reference_class",
       "status": "not_declared",
       "evidence_quote": null,
-      "reviewer_note": "The speaker references multiple data sources (WHO report, Chinese videos, hospital records, DRASTIC researchers) but provides no systematic description of data collection procedures, inclusion/exclusion criteria, or search strategies.",
+      "reviewer_note": "No explicit prior probabilities P0(H1)/P0(H2) are stated, and no reference class (e.g., 'all zoonotic spillovers in cities with wet markets' vs. 'all BSL-4 lab cities') is defined or justified with count data.",
       "quote_verified": null
     },
     {
-      "criterion_id": "case_definition",
+      "criterion_id": "likelihood_ratio_conditional_specification",
       "status": "red_flag",
-      "evidence_quote": "Um those two are not the very first. The very first is Wei Guixian. And then after that, it's uh it's two more vendors. So, you know, four out of the first five work there.",
-      "reviewer_note": "No formal case definition is provided. The speaker conflates 'first known case,' 'first hospitalized case,' and 'first case sick enough that we noticed' without clear operational definitions or diagnostic criteria.",
+      "evidence_quote": "the odds are you know, it's P equals uh 0.034 that they'd be that close of all these other great odds of possible locations. And and then we only have two um lineage A cases in December. And the and they're both similarly close. So, the odds, if you pick them at random that they'd both be that close are um 0.001.",
+      "reviewer_note": "Probability statements are presented as unconditional P(E) (odds of geographic clustering) without explicit conditioning on background information (e.g., P(clustering|zoonosis, Wuhan) vs. P(clustering|lab leak, Wuhan)). This is a likelihood calculation without the required conditional structure for valid Bayes factor.",
       "quote_verified": true
     },
     {
-      "criterion_id": "sampling_strategy",
+      "criterion_id": "evidence_stream_independence",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "Multiple evidence streams are presented (early case geography, hospital clustering, lineage geography, temporal spread patterns) but conditional independence between these is never argued or demonstrated. Geographic clustering and temporal spread are likely causally linked.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "null_hypothesis_enumeration",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "The argument addresses natural origin vs. implied lab leak but does not enumerate alternative hypotheses (e.g., different natural spillover locations, different lab leak scenarios, intermediate possibilities). The hypothesis space partitioning is not explicit.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "likelihood_ratio_sensitivity_bounds",
       "status": "red_flag",
-      "evidence_quote": "We don't have full ascertainment of these market cases. Wei Guixian is just the first known case. She's not patient zero... Some people are asymptomatic. Some people have a mild case.",
-      "reviewer_note": "The speaker acknowledges ascertainment bias and incomplete sampling but does not describe any systematic sampling strategy. The analysis relies on convenience samples of hospitalized or detected cases.",
+      "evidence_quote": "the odds are you know, it's P equals uh 0.034... the odds, if you pick them at random that they'd both be that close are um 0.001",
+      "reviewer_note": "Point estimates for probabilities (0.034, 0.001) are given without uncertainty bounds or sensitivity analysis. The kernel density bandwidth is mentioned as arbitrary (3 km) but no analysis shows how different bandwidths affect conclusions.",
       "quote_verified": true
     },
     {
-      "criterion_id": "statistical_methods",
+      "criterion_id": "cited_evidence_match",
       "status": "declared",
-      "evidence_quote": "the odds are you know, it's P equals uh 0.034 that they'd be that close of all these other great odds of possible locations... the odds, if you pick them at random that they'd both be that close are um 0.001.",
-      "reviewer_note": "P-values are reported for spatial clustering analysis, and kernel density estimation with Gaussian functions is mentioned, though with acknowledged arbitrary parameter choices (bandwidth).",
+      "evidence_quote": "this is the WHO report. Um 174 confirmed cases in December 2019... it was actually two DRASTIC researchers, uh I think this was Brian Reed and Francisco that first noticed that uh that patient actually got sick on December 16th, and that was just a recording error. And then Michael Worobey came to the same conclusion later.",
+      "reviewer_note": "Primary sources are cited (WHO report, Worobey's work, DRASTIC researchers) and specific claims are traced to their origins, including corrections to earlier data (December 8th vs. 16th case).",
       "quote_verified": true
     },
     {
-      "criterion_id": "bias_assessment",
+      "criterion_id": "counterfactual_consistency",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No explicit counterfactual reasoning is presented (e.g., 'would we cite market absence as evidence of concealment?' or 'would geographic clustering away from the market be interpreted differently?'). Symmetric skepticism is not demonstrated.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "rare_event_probability_calibration",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "The probabilities cited (0.034, 0.001) are not calibrated against known frequencies of analogous events (e.g., historical geographic clustering of spillovers, base rates of market-origin outbreaks). They appear to be model-derived without empirical anchoring.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "temporal_sequence_exploitation",
       "status": "declared",
-      "evidence_quote": "Um so, the the big question here is was COVID everywhere or was there some sort of bias that led us to only find it the market?... But it's also the hospitals that are independently finding these cases.",
-      "reviewer_note": "The speaker explicitly addresses ascertainment bias concerns and attempts to rule out selection bias by examining independent hospital records, though the assessment is informal rather than systematic.",
+      "evidence_quote": "One of these was sampled before there was any known ascertainment bias back in uh December 27th... before that date, it's it's greater than 50% with a link.",
+      "reviewer_note": "The speaker explicitly acknowledges temporal sequence, distinguishing evidence collected before vs. after December 29th alert and noting which findings preceded ascertainment bias. This shows awareness of look-elsewhere effects.",
       "quote_verified": true
     },
     {
-      "criterion_id": "peer_review_status",
+      "criterion_id": "model_class_uncertainty",
+      "status": "red_flag",
+      "evidence_quote": "The kernel density is um there's some parameters in this model. It's like you put a Gaussian, you know, bell curve on each point and then you you can play with the bandwidth there. So, if you had a really low bandwidth, it would just be this point cloud. If you had a really high bandwidth, it sort of averages the locations. And I think they used a bandwidth of 3 km there",
+      "reviewer_note": "Model choice (kernel density with specific bandwidth) is acknowledged as arbitrary but no quantification of how different reasonable modeling choices would affect conclusions. Single-model results presented without model uncertainty quantification.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "debate_scope_boundary",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "This is labeled as part 1 opening arguments, but explicit rules about what evidence types are admissible (peer-reviewed only, preprints, translations, secondary sources) are not stated.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "judge_expertise_match",
       "status": "not_applicable",
       "evidence_quote": null,
-      "reviewer_note": "This is a debate transcript, not a peer-reviewed publication. The speaker references peer-reviewed work by Worobey and others but this source itself has no peer review status.",
+      "reviewer_note": "This is the opening argument transcript; judge qualifications and conflicts of interest are not discussed in this portion of the debate.",
       "quote_verified": null
     },
     {
-      "criterion_id": "data_availability",
-      "status": "red_flag",
-      "evidence_quote": "You could easily have solved this puzzle if China had tested everybody at the market for antibodies... Uh they either they never did that or they never shared that data. And they could have also just, you know, asked detailed interviews of these people and that would have solved it, too. But we've never heard of those interviews.",
-      "reviewer_note": "The speaker explicitly notes that critical data (antibody tests, detailed interviews) are unavailable or not shared, representing a major data accessibility problem that undermines the analysis.",
+      "criterion_id": "posterior_concentration_diagnostic",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No final posterior probability is stated, and no credible intervals or concentration diagnostics are provided. The argument builds toward a conclusion but doesn't quantify final belief state.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "alternative_explanation_steel_manning",
+      "status": "declared",
+      "evidence_quote": "let's try a few other theories here. Um let's say it's the first super spreading event... So, is it it Oh, sorry. What I'm trying to convey here is um when you say super spreading event, that's usually like you go to an event and you get 50 people sick... But what's happening here is not doesn't look like super spreading.",
+      "reviewer_note": "The speaker explicitly considers and tests alternative explanations (super spreading event, first cluster) and evaluates them against evidence patterns, showing engagement with opposing interpretations.",
       "quote_verified": true
     },
     {
-      "criterion_id": "conflict_of_interest",
-      "status": "not_declared",
-      "evidence_quote": null,
-      "reviewer_note": "No conflicts of interest are declared in this debate format, though this would not typically be expected in an oral debate transcript.",
-      "quote_verified": null
-    },
-    {
-      "criterion_id": "temporal_sequence_documentation",
-      "status": "declared",
-      "evidence_quote": "I think it's she started knowing she was sick on the 10th, but the bad fever started on the 11th... that patient actually got sick on December 16th, and that was just a recording error.",
-      "reviewer_note": "The speaker provides detailed temporal documentation of early cases, including corrections to dating errors and symptom onset timelines, though based on secondary sources rather than primary data access.",
+      "criterion_id": "replication_transparency",
+      "status": "red_flag",
+      "evidence_quote": "I've recreated this code. If you want to see it with like different bandwidths, you could ask me after the debate and I could show a comparison there.",
+      "reviewer_note": "Code and calculations are mentioned but not provided in the presentation. Key numerical claims (0.034, 0.001 probabilities) lack sufficient detail to replicate. The offer to share code 'after the debate' indicates calculations are not transparent in the debate itself.",
       "quote_verified": true
     }
   ],
   "red_flag_hits": [
     {
-      "pattern": "missing_data_acknowledgment",
-      "evidence_quote": "You could easily have solved this puzzle if China had tested everybody at the market for antibodies... Uh they either they never did that or they never shared that data... But we've never heard of those interviews.",
-      "reviewer_note": "Critical data gaps are acknowledged including missing antibody testing, unreleased interview data, and incomplete case ascertainment, which fundamentally limit the strength of conclusions.",
+      "pattern": "Likelihood ratio presented without explicit numerator and denominator probabilities",
+      "evidence_quote": "the odds are you know, it's P equals uh 0.034 that they'd be that close... the odds, if you pick them at random that they'd both be that close are um 0.001",
+      "reviewer_note": "Probabilities are stated as single values without showing P(E|H1) and P(E|H2) separately. These appear to be P(E) under null models rather than likelihood ratios comparing hypotheses.",
       "quote_verified": true
     },
     {
-      "pattern": "informal_methodology",
-      "evidence_quote": "And people dug into this over time. And uh it was actually two DRASTIC researchers, uh I think this was Brian Reed and Francisco that first noticed that uh that patient actually got sick on December 16th",
-      "reviewer_note": "The analysis relies heavily on informal investigations by citizen researchers (DRASTIC) and the speaker's own translations of Chinese videos, rather than systematic methodology with documented protocols.",
+      "pattern": "Claim that evidence streams are 'independent' without conditional independence argument",
+      "evidence_quote": null,
+      "reviewer_note": "Multiple evidence streams (geographic clustering, hospital findings, temporal spread) are implicitly treated as separate lines of evidence without explicit independence claims, but independence is assumed in cumulative argumentation.",
+      "quote_verified": null
+    },
+    {
+      "pattern": "Different standards applied to evidence favoring each hypothesis (asymmetric skepticism)",
+      "evidence_quote": "We don't have full ascertainment of these market cases... Some people are asymptomatic. Some people have a mild case... They might also lie about their illness to avoid punishment... They either they never did that or they never shared that data.",
+      "reviewer_note": "Missing evidence (antibody testing, detailed interviews) is interpreted as compatible with natural origin, while similar data gaps on lab leak side might be interpreted as evidence of concealment. Symmetric treatment is not demonstrated.",
+      "quote_verified": false
+    },
+    {
+      "pattern": "Model assumptions stated as facts rather than assumptions",
+      "evidence_quote": "You can make genetic models based on the diversity of the early cases and those say when she got sick, there might be 25 cases, about 50% odds. It's probably less than 100 cases at that time.",
+      "reviewer_note": "Genetic model outputs are presented as factual estimates ('might be 25 cases') without explicitly stating underlying assumptions about mutation rates, generation times, or model structure.",
       "quote_verified": true
     },
     {
-      "pattern": "arbitrary_analytical_choices",
-      "evidence_quote": "And I think they used a bandwidth of 3 km there to come up with their centering technique. There's some arbitrariness there.",
-      "reviewer_note": "The speaker explicitly acknowledges arbitrariness in key analytical parameters (kernel density bandwidth) without providing justification for specific choices or sensitivity analyses.",
+      "pattern": "Round-number likelihood ratios (10x, 100x) without uncertainty bounds",
+      "evidence_quote": "the odds are you know, it's P equals uh 0.034... the odds, if you pick them at random that they'd both be that close are um 0.001",
+      "reviewer_note": "While not round numbers like 10x or 100x, these point estimates (0.034, 0.001) are presented with false precision (three significant figures) without uncertainty bounds or sensitivity analysis.",
       "quote_verified": true
     },
     {
-      "pattern": "debate_format_limitations",
-      "evidence_quote": "Um I'd have to produce some raw heat maps for you to to explain this better. I don't have the slide for that. But we can get into that.",
-      "reviewer_note": "The debate format inherently limits methodological transparency and detail, with the speaker unable to provide complete documentation or respond to technical questions with prepared materials.",
+      "pattern": "Citation to secondary source when primary data exists",
+      "evidence_quote": "it was actually two DRASTIC researchers, uh I think this was Brian Reed and Francisco that first noticed that uh that patient actually got sick on December 16th",
+      "reviewer_note": "DRASTIC researchers cited for case dating correction rather than the primary medical records or official corrected documentation. Though Worobey is mentioned as confirming, the primary source chain is unclear.",
       "quote_verified": true
     }
   ],
   "source_id": "cases/covid/files/youtube_Y1vaooTKHCM.txt",
   "source_label": "First Rootclaim Debate on Covid Origins, part 1 — opening arguments for a natural origin of Covid",
-  "methodology_score": 0.293,
-  "score_rationale": "Score 0.293 (deterministic): weighted declared 3.0/9.0 (base 0.333); 3/9 criteria declared, 2 not_declared, 4 red_flag; 4 pattern hits (penalty capped); ceiling 0.5.",
+  "methodology_score": 0.142,
+  "score_rationale": "Score 0.142 (deterministic): weighted declared 5.0/26.0 (base 0.192); 3/14 criteria declared, 7 not_declared, 4 red_flag; 6 pattern hits (penalty capped); ceiling 0.65.",
   "score_breakdown": {
-    "applicable": 9,
+    "applicable": 14,
     "not_applicable": 1,
     "declared": 3,
-    "not_declared": 2,
+    "not_declared": 7,
     "red_flag_criteria": 4,
-    "red_flag_hits": 4,
-    "weighted_declared": 3.0,
-    "weighted_total": 9.0,
-    "base_ratio": 0.333,
-    "confidence_ceiling": 0.5,
-    "methodology_score": 0.293
+    "red_flag_hits": 6,
+    "weighted_declared": 5.0,
+    "weighted_total": 26.0,
+    "base_ratio": 0.192,
+    "confidence_ceiling": 0.65,
+    "methodology_score": 0.142
   },
   "score_computed_by": "deterministic_v1"
 }

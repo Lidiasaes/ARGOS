@@ -1,126 +1,171 @@
 {
   "evaluations": [
     {
-      "criterion_id": "general_methodological_transparency",
-      "status": "declared",
-      "evidence_quote": "I made my decision with two 'independent' methods. In method one, I synthesized the most plausible scenario I could for each side using a combination of the presented evidence, my background, and reading the sources linked in each slide deck... In the second method, I carried out a Bayesian analysis as advocated by the LL side.",
-      "reviewer_note": "The judge explicitly describes two distinct analytical methods used for decision-making, providing substantial transparency about the evaluation process.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "data_sources_identification",
-      "status": "declared",
-      "evidence_quote": "I reviewed over 750 slides provided by the sides... Read/analyze only sources that were listed by the debaters... Rely on my own analysis only when I felt the debaters misrepresented their evidence or made a claim that wasn't supported by the cited evidence",
-      "reviewer_note": "Data sources are clearly identified as debate slides and references provided by debaters, with explicit constraints on what sources were consulted.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "analytical_assumptions_stated",
-      "status": "declared",
-      "evidence_quote": "Give the benefit of the doubt to each side's claims when the other side did not contest them... Not to be influenced by who I thought did the better 'debating' either rhetorically or strategically... I viewed this debate as a truth-seeking exercise with my vote reflecting what I found to be the most plausible origin of SARS-CoV-2, subject to the constraint that I would rely on (to the greatest degree possible) claims made by the debaters.",
-      "reviewer_note": "Multiple analytical assumptions and decision rules are explicitly stated, including treatment of contested vs. uncontested claims and approach to evaluating evidence.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "bayesian_prior_justification",
-      "status": "declared",
-      "evidence_quote": "In brief, I made a calculation of the base rate/prior distribution on the probability that a newly emerged virus like SARS-CoV-2 would have zoonotic or lab origins. This was converted to a likelihood ratio (probability of lab leak/probability of zoonotic origin)... P0(LL) / P0(ZO) = 1.7E-3",
-      "reviewer_note": "The judge explicitly describes the Bayesian prior calculation process and provides the specific prior ratio, though detailed justification is deferred to the linked spreadsheet.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "likelihood_ratio_calculations",
-      "status": "declared",
-      "evidence_quote": "For each additional piece of evidence (e.g. 'the furin cleavage site (FCS) in SARS-CoV-2 is the only FCS within the subgenus Sarbecovirus') I evaluated the probability of that argument under a LL or ZO. The final probability was then the product of the base ratio times all the other ratios... The product of my updates, I concluded P(LL) / P(ZO) = 2.125",
-      "reviewer_note": "Likelihood ratio methodology is described and the aggregate update factor is provided; individual calculations are referenced as being in the linked spreadsheet.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "bias_acknowledgment",
-      "status": "declared",
-      "evidence_quote": "I finished my decision via method 1 first. This obviously introduced bias, but I worked hard to guard against it... I ended up being more skeptical of the evidence that LL provided for two reasons... As a final note, I am not skilled in the Bayesian method, and I am sure I made significant mistakes.",
-      "reviewer_note": "The judge explicitly acknowledges potential sources of bias including method ordering, differential skepticism toward one side, and limitations in Bayesian expertise. [quote not verified in source text]",
+      "criterion_id": "base_rate_reference_class",
+      "status": "red_flag",
+      "evidence_quote": "One of the ways LL calculates the prior probability of a lab leak is by considering confirmed and suspected lab leaks... LL presented seven examples of lab leaks, of which five are one or more of: inapplicable to their theory of lab leak, technically so different as to be hard to compare, or wilfully imprecise.",
+      "reviewer_note": "Judge critiques LL's reference class construction as motivated and imprecise, but does not explicitly define or justify his own reference class for P0(LL)/P0(ZO)=1.7E-3, nor provide count data or denominator justification for this critical prior. [quote not verified in source text]",
       "quote_verified": false
     },
     {
-      "criterion_id": "expert_background_disclosure",
-      "status": "declared",
-      "evidence_quote": "I have a PhD in Microbiology and Immunology from Stanford. I have worked as a bioinformatician and microbiologist for the past 10 years, but I have focused almost exclusively on human commensal bacteria (the microbiome). My background as a scientist, both in academic settings, and running a startup, give",
-      "reviewer_note": "The judge provides clear disclosure of educational background and professional experience, including relevant domain expertise and areas of limitation.",
+      "criterion_id": "likelihood_ratio_conditional_specification",
+      "status": "red_flag",
+      "evidence_quote": "In summary, I think Wuhan was a reasonably unlikely place for a single SARS-CoV-2 zoonotic emergence. But, conditioned on occurring in Wuhan, I think the HSM is by far the most likely place for an outbreak.",
+      "reviewer_note": "Judge recognizes the need for conditional specification (conditioning on Wuhan), but likelihood ratios in the analysis are not systematically presented as P(E|H,Background) with Background explicitly enumerated for each evidence stream.",
       "quote_verified": true
     },
     {
-      "criterion_id": "quality_assessment_criteria",
-      "status": "declared",
-      "evidence_quote": "I ended up being more skeptical of the evidence that LL provided for two reasons. First, there were multiple instances of internal inconsistency. LL would assume truth claim A in one part of the debate, and then assume not A in another part of the debate... Second, I felt that the LL side misrepresented the strength of evidence by leaving out qualifying information.",
-      "reviewer_note": "Explicit criteria for evaluating evidence quality are stated, including internal consistency and completeness of evidentiary representation.",
+      "criterion_id": "evidence_stream_independence",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "The judge multiplies likelihood ratios to reach final posterior (product of updates), but nowhere argues or demonstrates that evidence streams (HSM cluster, FCS, WIV capabilities, blood bank samples, etc.) are conditionally independent given hypotheses.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "null_hypothesis_enumeration",
+      "status": "red_flag",
+      "evidence_quote": "I find that SARS-CoV-2 is substantially more likely to be of zoonotic origin than a product of intentional engineering... I concluded that there is approximately a 1 in 300 chance that SARS-CoV-2 was the result of a lab leak.",
+      "reviewer_note": "Binary framing (LL vs ZO) without enumeration or justification for excluding intermediate hypotheses (accidental natural virus leak, other labs, other cities with labs and markets, etc.). Posterior probabilities implicitly assumed to sum to 1 across only two hypotheses.",
       "quote_verified": true
     },
     {
-      "criterion_id": "sensitivity_analysis",
+      "criterion_id": "likelihood_ratio_sensitivity_bounds",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "Judge references a spreadsheet for Bayesian analysis but provides no uncertainty bounds or sensitivity ranges for any likelihood ratio in this document. No analysis of how alternative reasonable values affect the 1-in-300 conclusion.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "cited_evidence_match",
       "status": "declared",
-      "evidence_quote": "Had the two decision methods provided different answers I would have refined both until I could reach a consensus... Both my methods (described below) gave a similar result, with a slightly different emphasis on factors, and thus I concluded that zoonosis was the more likely cause of SARS-CoV-2.",
-      "reviewer_note": "The judge employed two independent analytical methods as a form of sensitivity analysis, noting they converged on similar conclusions.",
+      "evidence_quote": "I felt that the LL side misrepresented the strength of evidence by leaving out qualifying information... Read/analyze only sources that were listed by the debaters... Rely on my own analysis only when I felt the debaters misrepresented their evidence or made a claim that wasn't supported by the cited evidence",
+      "reviewer_note": "Judge explicitly checked primary sources against debater claims and flagged mismatches, particularly for LL side's lab leak examples. This demonstrates active verification of cited evidence match.",
       "quote_verified": true
     },
     {
-      "criterion_id": "uncertainty_quantification",
+      "criterion_id": "counterfactual_consistency",
       "status": "declared",
-      "evidence_quote": "I concluded that there is approximately a 1 in 300 chance that SARS-CoV-2 was the result of a lab leak... More time and practice would improve and refine my estimates... my decision in this debate is somewhere between 'I think SARS-CoV-2 more likely than not had a natural origin' and 'Based on the data presented by each of the sides in this debate, and ~70 hours of time spent evaluating and synthesizing those arguments/evidence, I think SARS-CoV-2 more likely than not had a natural origin'.",
-      "reviewer_note": "Uncertainty is quantified probabilistically (1 in 300) with acknowledgment of limitations and conditional framing of the conclusion.",
+      "evidence_quote": "LL would assume truth claim A in one part of the debate, and then assume not A in another part of the debate, depending on the strategic utility of A/ ⌐A.",
+      "reviewer_note": "Judge explicitly identifies and penalizes internal inconsistency in LL's arguments, demonstrating evaluation of counterfactual consistency and asymmetric reasoning patterns.",
       "quote_verified": true
     },
     {
-      "criterion_id": "reproducibility_documentation",
+      "criterion_id": "rare_event_probability_calibration",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "The P0(LL)/P0(ZO)=1.7E-3 prior (0.17% vs 99.83%) represents extreme probability claims, but no calibration against historical base rates of analogous events is provided or discussed in this document.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "temporal_sequence_exploitation",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No explicit discussion of whether evidence was used to generate vs. test hypotheses, nor any penalty for researcher degrees of freedom or look-elsewhere effects in post-hoc evidence selection.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "model_class_uncertainty",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "Judge uses a specific Bayesian model structure (modeled after Weissman) but does not acknowledge or quantify uncertainty about the modeling approach itself versus parameter uncertainty within that model.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "debate_scope_boundary",
       "status": "declared",
-      "evidence_quote": "The spreadsheet I used to justify/carry out each step in the Bayesian analysis is linked here (and discussed in section 3)... See the extended discussion in the cells for the update factor labeled 'P (HSM is first superspreader event in Wuhan| LL)'... See the extended discussion in the cells for the prior factor labeled 'P(WIV had an undisclosed backbone close enough to make SARS-CoV-2)'.",
-      "reviewer_note": "The judge references a detailed spreadsheet containing step-by-step Bayesian calculations, enabling reproducibility, though the spreadsheet itself is not provided in the auditable text.",
+      "evidence_quote": "Give the benefit of the doubt to each side's claims when the other side did not contest them... Read/analyze only sources that were listed by the debaters... Not to be influenced by who I thought did the better 'debating' either rhetorically or strategically",
+      "reviewer_note": "Judge explicitly defines scope rules for evidence inclusion (debater-listed sources only) and decision criteria (truth-seeking not rhetoric), though enforcement asymmetry is not fully addressed.",
       "quote_verified": true
     },
     {
-      "criterion_id": "limitations_acknowledged",
+      "criterion_id": "judge_expertise_match",
       "status": "declared",
-      "evidence_quote": "Because of this constraint I was not able to evaluate several lines of inquiry which I thought could have been valuable for both sides... I did not have time to evaluate the vast majority of the truth claims made... As a final note, I am not skilled in the Bayesian method, and I am sure I made significant mistakes... I am unsure that it's a good strategy for a human given our cognitive limitations",
-      "reviewer_note": "Multiple limitations are explicitly acknowledged including time constraints, inability to verify all claims, limited Bayesian expertise, and cognitive constraints on the method. [quote not verified in source text]",
-      "quote_verified": false
+      "evidence_quote": "I have a PhD in Microbiology and Immunology from Stanford. I have worked as a bioinformatician and microbiologist for the past 10 years... I am not skilled in the Bayesian method, and I am sure I made significant mistakes.",
+      "reviewer_note": "Judge discloses domain expertise (microbiology/immunology) and explicitly acknowledges limited expertise in Bayesian methods. No conflicts of interest disclosed.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "posterior_concentration_diagnostic",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "Final posterior of ~1 in 300 (99.7% credible for ZO) is highly concentrated, but no diagnostic check or justification for this narrow uncertainty given the complexity and limited data is provided.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "alternative_explanation_steel_manning",
+      "status": "declared",
+      "evidence_quote": "I synthesized the most plausible scenario I could for each side using a combination of the presented evidence, my background, and reading the sources linked in each slide deck.",
+      "reviewer_note": "Judge explicitly attempted to construct strongest versions of each side's case, though the execution focused more on critiquing LL's weak formulations than demonstrating steel-manning of LL's strongest arguments.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "replication_transparency",
+      "status": "not_declared",
+      "evidence_quote": "The vast majority of section 3 is found in the linked spreadsheet. Please see this for extended discussion... The spreadsheet I used to justify/carry out each step in the Bayesian analysis is linked here (and discussed in section 3).",
+      "reviewer_note": "Judge references an external spreadsheet for calculations but this document itself does not contain sufficient detail to replicate the P0(LL)/P0(ZO)=1.7E-3 or product of updates=2.125 calculations. Replication depends on external resource not audited here.",
+      "quote_verified": true
     }
   ],
   "red_flag_hits": [
     {
-      "pattern": "post_hoc_rationalization",
-      "evidence_quote": "I finished my decision via method 1 first. This obviously introduced bias, but I worked hard to guard against it. During my method 2 process, I did not make any intermediate calculations to make sure I was getting something that agreed with method 1.",
-      "reviewer_note": "The judge acknowledges potential for confirmation bias by completing the qualitative synthesis before the Bayesian analysis, though attempts to mitigate were described.",
+      "pattern": "Likelihood ratio presented without explicit numerator and denominator probabilities",
+      "evidence_quote": "The product of my updates, I concluded P(LL) / P(ZO) = 2.125",
+      "reviewer_note": "Combined likelihood ratio presented as point estimate without showing individual P(E|H1) and P(E|H2) values for each evidence stream in this document.",
       "quote_verified": true
     },
     {
-      "pattern": "motivated_reasoning_in_others",
-      "evidence_quote": "It appears to me that they concluded that a lab leak was most likely, and then post hoc prepared this presentation of the evidence... I suspect this is not the case. I think there is a level of epistemic closure here. Collectively, this seems to somewhat implicate the RootClaim method that 'avoids fundamental human reasoning errors'.",
-      "reviewer_note": "The judge explicitly identifies what appears to be motivated reasoning and post-hoc rationalization in one side's arguments, particularly regarding their prior calculations and evidence selection.",
+      "pattern": "Prior probability stated without reference class justification or historical base rate",
+      "evidence_quote": "P0(LL) / P0(ZO) = 1.7E-3",
+      "reviewer_note": "Critical prior stated as precise number (0.17% base rate for lab leak) without justification of reference class or empirical grounding in count data in this document.",
       "quote_verified": false
     },
     {
-      "pattern": "subjective_judgment_without_criteria",
-      "evidence_quote": "I synthesized the most plausible scenario I could for each side using a combination of the presented evidence, my background, and reading the sources... I compared these synthesized positions dispassionately, and got a sense for what I thought was correct in each key area. I then worked backwards to isolate what pieces I found most convincing",
-      "reviewer_note": "Method 1 relies substantially on subjective synthesis and intuition ('got a sense'), though the judge acknowledges this limitation and attempts to compensate with the Bayesian method.",
+      "pattern": "Claim that evidence streams are 'independent' without conditional independence argument",
+      "evidence_quote": "The final probability was then the product of the base ratio times all the other ratios.",
+      "reviewer_note": "Multiplication of likelihood ratios across evidence streams (FCS, HSM, WIV capabilities, blood samples, etc.) implicitly assumes conditional independence, but this assumption is never argued or tested.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "Posterior probability >95% or <5% without sensitivity analysis",
+      "evidence_quote": "I concluded that there is approximately a 1 in 300 chance that SARS-CoV-2 was the result of a lab leak.",
+      "reviewer_note": "99.7% posterior for zoonosis (0.3% for lab leak) represents extreme confidence but no sensitivity analysis showing robustness to alternative likelihood ratio values is presented.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "Model assumptions stated as facts rather than assumptions",
+      "evidence_quote": "At the fundamental rules of the universe level, Bayesian analysis must be the best way to evaluate evidence.",
+      "reviewer_note": "Judge states Bayesian supremacy as metaphysical fact rather than methodological assumption, while simultaneously acknowledging lack of Bayesian expertise and likely errors.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "Hypothesis space limited to two options without justification for exclusion of alternatives",
+      "evidence_quote": "I find that SARS-CoV-2 is substantially more likely to be of zoonotic origin than a product of intentional engineering.",
+      "reviewer_note": "Binary partition between 'zoonotic origin' and 'intentional engineering' excludes accidental leak of natural virus, research-related infection without engineering, non-WIV labs, and other materially plausible scenarios without justification.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "Claim of 'Bayesian analysis' that lacks explicit prior, likelihood, and posterior calculation",
+      "evidence_quote": "In the second method, I carried out a Bayesian analysis as advocated by the LL side... The spreadsheet I used to justify/carry out each step in the Bayesian analysis is linked here",
+      "reviewer_note": "While prior and posterior odds are stated, the actual Bayesian calculations are externalized to a referenced spreadsheet not included in the auditable text, making verification impossible from this document alone.",
       "quote_verified": true
     }
   ],
   "source_id": "cases/covid/files/judge_will_decision.txt",
   "source_label": "Judge Will",
-  "methodology_score": 0.5,
-  "score_rationale": "Score 0.500 (deterministic): weighted declared 12.0/12.0 (base 1.0); 12/12 criteria declared, 0 not_declared, 0 red_flag; 3 pattern hits (penalty capped); ceiling 0.5.",
+  "methodology_score": 0.209,
+  "score_rationale": "Score 0.209 (deterministic): weighted declared 7.0/27.0 (base 0.259); 5/15 criteria declared, 7 not_declared, 3 red_flag; 7 pattern hits (penalty capped); ceiling 0.65.",
   "score_breakdown": {
-    "applicable": 12,
+    "applicable": 15,
     "not_applicable": 0,
-    "declared": 12,
-    "not_declared": 0,
-    "red_flag_criteria": 0,
-    "red_flag_hits": 3,
-    "weighted_declared": 12.0,
-    "weighted_total": 12.0,
-    "base_ratio": 1.0,
-    "confidence_ceiling": 0.5,
-    "methodology_score": 0.5
+    "declared": 5,
+    "not_declared": 7,
+    "red_flag_criteria": 3,
+    "red_flag_hits": 7,
+    "weighted_declared": 7.0,
+    "weighted_total": 27.0,
+    "base_ratio": 0.259,
+    "confidence_ceiling": 0.65,
+    "methodology_score": 0.209
   },
   "score_computed_by": "deterministic_v1"
 }

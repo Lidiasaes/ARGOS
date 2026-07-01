@@ -1,0 +1,3481 @@
+[
+  {
+    "id": "prop_0000",
+    "question": "Does the Huanan Seafood Market cluster constitute strong evidence for zoonotic origin and against lab leak origin?",
+    "variants": [
+      "Are seafood/wet market epidemic clusters rare enough to serve as strong evidence for zoonotic origin, or are they common enough to be non-diagnostic of origin?",
+      "Can lab-based sources (whether CDC facility proximity or infected worker visits) adequately explain the observed pattern of cases at the Huanan Seafood Market cluster?",
+      "Can the concentration of early COVID-19 cases at the Huanan Seafood Market be attributed to zoonotic spillover at that location, or does it result from detection bias and other non-zoonotic explanations?",
+      "Can the lab leak hypothesis adequately explain the pattern and distribution of early COVID cases observed at the Huanan Seafood Market?",
+      "Did Huanan Seafood Market's environmental and epidemiological conditions facilitate the formation of the early COVID-19 case cluster observed there?",
+      "Did SARS-CoV-2 circulate in humans before the Huanan Seafood Market cluster, and what does the absence/presence of such evidence indicate about the origin?",
+      "Did SARS-CoV-2 circulate in other seafood markets prior to or alongside the HSM cluster, and what does the presence or absence of such evidence indicate about origin?",
+      "Did a significant epidemiological event (superspreading or case clustering driven by special market properties) occur at Huanan Seafood Market?",
+      "Did a significant superspreading or clustering event occur at Huanan Seafood Market in the early COVID-19 outbreak?",
+      "Did a significant superspreading or clustering event occur at Huanan Seafood Market?",
+      "Did a superspreading event occur at Huanan Seafood Market?",
+      "Did a superspreading event occur at the Huanan Seafood Market?",
+      "Did a superspreading event or significant early case cluster occur at Huanan Seafood Market?",
+      "Did a superspreading event or significant transmission cluster occur at the Huanan Seafood Market?",
+      "Did a superspreading or significant amplification event occur at Huanan Seafood Market?",
+      "Did early COVID-19 cases predominantly originate from or cluster around the Huanan Seafood Market?",
+      "Did isolated COVID cases circulate prior to the Huanan Seafood Market superspreading event?",
+      "Did the Huanan Seafood Market have access to animal species capable of harboring SARS-CoV-2 precursors from endemic virus regions?",
+      "Did the Huanan Seafood Market host a significant superspreading or outbreak-generating event that explains the case clustering observed there?",
+      "Did the Huanan Seafood Market outbreak exhibit a super-spreader event or explosive cluster pattern, or was it characterized by gradual case accumulation?",
+      "Did the Huanan Seafood Market outbreak exhibit a super-spreader event pattern or gradual incremental transmission?",
+      "Did the Huanan Seafood Market's animal trade represent a credible source or pathway for zoonotic spillover of SARS-CoV-2?",
+      "Did the Xinfadi outbreak show a market-centered cluster pattern similar to the Huanan Seafood Market (HSM) outbreak?",
+      "Did the concentration of early COVID cases at the Huanan Seafood Market reflect the market's actual epidemiological role as a spillover location, or was it an artifact of biased case detection and reporting?",
+      "Did the earliest SARS-CoV-2 infections originate at or near the Huanan Seafood Market?",
+      "Do early COVID-19 cases show a spatial clustering pattern centered on the Huanan Seafood Market?",
+      "Do early human case clusters at seafood/animal markets provide evidence for or against zoonotic spillover origins?",
+      "Do environmental samples from Huanan Seafood Market support the hypothesis of zoonotic spillover at that location?",
+      "Do other seafood market outbreaks (particularly Xinfadi) constitute relevant evidence supporting or relating to the Huanan Seafood Market as the origin point of SARS-CoV-2?",
+      "Do seafood market outbreak clusters indicate an external zoonotic source, or do markets inherently form clusters independent of spillover origin?",
+      "Do seafood market outbreak clusters provide strong evidence for natural spillover/zoonotic origin of SARS-CoV-2?",
+      "Do seafood/wet market clusters constitute strong evidence for zoonotic spillover origin of SARS-CoV-2?",
+      "Do the conditions and epidemiological patterns at Huanan Seafood Market support or undermine the zoonotic spillover origin hypothesis?",
+      "Do the earliest detected COVID cases provide evidence that the virus originated at or was first transmitted via the Huanan Seafood Market?",
+      "Do the earliest known COVID-19 cases cluster at the Huanan Seafood Market, and what does this pattern indicate about the origin location?",
+      "Do the early COVID-19 cases (particularly Chen, Connor Reed, and the broader HSM cluster) provide evidence for or against the Huanan Seafood Market as the spillover origin location?",
+      "Do the market conditions and animal evidence at Huanan Seafood Market support or undermine the hypothesis that SARS-CoV-2 had a zoonotic spillover origin?",
+      "Does evidence regarding the Huanan Seafood Market cluster and phylogenetic data (Proximal Origins paper) support zoonotic origin over lab leak as the origin of SARS-CoV-2?",
+      "Does the Chen case evidence support or undermine the hypothesis that SARS-CoV-2 originated from human-animal spillover at the Huanan Seafood Market?",
+      "Does the HSM (Huanan Seafood Market) cluster and market-connection pattern constitute strong evidence for natural zoonotic origin versus lab-leak origin?",
+      "Does the HSM (Huanan Seafood Market) cluster constitute strong, persuasive evidence for zoonotic origin of SARS-CoV-2?",
+      "Does the HSM (Huanan Seafood Market) cluster provide strong or meaningful discriminatory evidence between zoonotic and lab-leak hypotheses?",
+      "Does the HSM (Huanan Seafood Market) cluster represent genuine epidemiological concentration of early COVID cases, or is it primarily an artifact of biased case ascertainment and investigation?",
+      "Does the Huanan Seafood Market (HSM) cluster of cases reflect a real epidemiological pattern indicating market origin, or does it reflect biased case detection and reporting?",
+      "Does the Huanan Seafood Market (HSM) cluster reflect genuine epidemiological concentration of early cases, or is it primarily an artifact of ascertainment bias in case detection and reporting?",
+      "Does the Huanan Seafood Market being the early outbreak epicenter provide evidence for or against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market case cluster constitute strong/persuasive evidence for zoonotic origin of SARS-CoV-2?",
+      "Does the Huanan Seafood Market case cluster provide stronger evidence for zoonotic origin or is it compatible with lab leak scenarios?",
+      "Does the Huanan Seafood Market cluster (and similar market outbreak patterns like Xinfadi) constitute strong evidence for zoonotic origin versus lab leak origin?",
+      "Does the Huanan Seafood Market cluster and associated evidence more plausibly support zoonotic origin or lab leak origin?",
+      "Does the Huanan Seafood Market cluster and evidence of wildlife market conditions constitute strong or decisive evidence for zoonotic spillover origin?",
+      "Does the Huanan Seafood Market cluster and its characteristics provide strong evidence for zoonotic spillover origin at that location?",
+      "Does the Huanan Seafood Market cluster and its characteristics support or require a zoonotic spillover explanation?",
+      "Does the Huanan Seafood Market cluster and its relationship to viral phylogeny support or undermine the zoonotic/market-origin hypothesis?",
+      "Does the Huanan Seafood Market cluster and the lack of definitive wildlife spillover evidence at HSM constitute strong evidence for or against the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market cluster constitute decisive or strong evidence favoring zoonotic origin over lab leak?",
+      "Does the Huanan Seafood Market cluster constitute evidence for or against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market cluster constitute significant evidence against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market cluster constitute strong evidence against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market cluster constitute strong evidence for zoonotic origin and against lab leak origin?",
+      "Does the Huanan Seafood Market cluster constitute strong evidence for zoonotic origin rather than lab leak?",
+      "Does the Huanan Seafood Market cluster constitute strong evidence for zoonotic origin, or is it plausibly compatible with a lab leak scenario?",
+      "Does the Huanan Seafood Market cluster constitute strong evidence in favor of zoonotic origin?",
+      "Does the Huanan Seafood Market cluster constitute strong evidence supporting the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market cluster constitute strong/major evidence against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market cluster epicenter constitute strong evidence supporting the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market cluster epidemiological evidence favor zoonotic origin or is it equally consistent with lab leak origin?",
+      "Does the Huanan Seafood Market cluster epidemiology support zoonotic origin or lab leak origin?",
+      "Does the Huanan Seafood Market cluster evidence more strongly support zoonotic origin or is it compatible with lab leak origin?",
+      "Does the Huanan Seafood Market cluster evidence strongly support zoonotic origin over lab leak?",
+      "Does the Huanan Seafood Market cluster evidence support zoonotic or lab-leak origin of SARS-CoV-2?",
+      "Does the Huanan Seafood Market cluster evidence support zoonotic origin over lab-leak hypothesis?",
+      "Does the Huanan Seafood Market cluster location and associated evidence support zoonotic or lab-leak origin as more probable?",
+      "Does the Huanan Seafood Market cluster location constitute strong evidence for zoonotic origin versus being consistent with lab leak scenarios?",
+      "Does the Huanan Seafood Market cluster location constitute strong or valid evidence favoring zoonotic origin over lab leak?",
+      "Does the Huanan Seafood Market cluster location provide evidence for or against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market cluster location provide significant evidential weight for discriminating between zoonotic and lab-leak hypotheses?",
+      "Does the Huanan Seafood Market cluster location provide strong evidence for the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market cluster of early COVID-19 cases constitute strong or meaningful evidence for zoonotic origin?",
+      "Does the Huanan Seafood Market cluster of early COVID-19 cases constitute strong/valid evidence supporting zoonotic origin?",
+      "Does the Huanan Seafood Market cluster of early cases constitute strong or compelling epidemiological evidence for natural spillover origin?",
+      "Does the Huanan Seafood Market cluster of early cases provide strong evidence for zoonotic origin versus being consistent with lab leak?",
+      "Does the Huanan Seafood Market cluster of early cases provide strong or meaningful evidence for the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market cluster pattern (geometric center but negative samples) constitute evidence for or against zoonotic origin?",
+      "Does the Huanan Seafood Market cluster pattern (geometric center, environmental sampling results) constitute strong evidence for or against zoonotic spillover origin?",
+      "Does the Huanan Seafood Market cluster pattern and associated evidence support or contradict the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market cluster pattern and early index case evidence support or refute a zoonotic spillover origin?",
+      "Does the Huanan Seafood Market cluster pattern constitute compelling evidence for zoonotic origin rather than lab leak?",
+      "Does the Huanan Seafood Market cluster pattern constitute decisive evidence for zoonotic origin versus being compatible with lab leak?",
+      "Does the Huanan Seafood Market cluster pattern constitute evidence for zoonotic origin versus lab leak?",
+      "Does the Huanan Seafood Market cluster pattern constitute evidence supporting or refuting zoonotic origin?",
+      "Does the Huanan Seafood Market cluster pattern constitute meaningful evidence for or against a zoonotic origin of SARS-CoV-2?",
+      "Does the Huanan Seafood Market cluster pattern constitute strong evidence against the lab leak hypothesis, or can it be explained as negligible/non-probative under lab leak scenarios?",
+      "Does the Huanan Seafood Market cluster pattern constitute strong evidence favoring zoonotic origin over lab leak, or is it consistent with lab leak?",
+      "Does the Huanan Seafood Market cluster pattern constitute strong evidence for natural spillover origin at that location?",
+      "Does the Huanan Seafood Market cluster pattern constitute strong evidence for natural zoonotic origin versus lab leak?",
+      "Does the Huanan Seafood Market cluster pattern constitute strong evidence for or against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market cluster pattern constitute strong evidence for zoonotic origin versus lab leak origin?",
+      "Does the Huanan Seafood Market cluster pattern constitute strong evidence for zoonotic origin versus lab leak?",
+      "Does the Huanan Seafood Market cluster pattern constitute strong evidence for zoonotic spillover origin?",
+      "Does the Huanan Seafood Market cluster pattern provide evidence for or against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market cluster pattern provide evidence for zoonotic spillover origin versus alternative explanations (lab leak)?",
+      "Does the Huanan Seafood Market cluster pattern provide strong evidence favoring zoonotic origin over lab leak?",
+      "Does the Huanan Seafood Market cluster pattern provide strong evidence for zoonotic origin versus being explainable by market transmission dynamics independent of spillover?",
+      "Does the Huanan Seafood Market cluster pattern provide strong evidence for zoonotic origin versus lab leak?",
+      "Does the Huanan Seafood Market cluster pattern provide strong evidence requiring a zoonotic origin, or is it consistent with alternative origins (lab leak)?",
+      "Does the Huanan Seafood Market cluster pattern provide stronger evidence for zoonotic origin or is it compatible with lab leak scenarios?",
+      "Does the Huanan Seafood Market cluster pattern support lab leak or zoonotic origin?",
+      "Does the Huanan Seafood Market cluster provide decisive or dispositive evidence favoring zoonotic origin over lab leak?",
+      "Does the Huanan Seafood Market cluster provide evidence that requires or favors a zoonotic origin explanation?",
+      "Does the Huanan Seafood Market cluster provide evidence that supports zoonotic origin over lab leak?",
+      "Does the Huanan Seafood Market cluster provide meaningful discriminatory evidence regarding SARS-CoV-2 origins (lab leak vs. zoonosis)?",
+      "Does the Huanan Seafood Market cluster provide meaningful evidence supporting or constraining the lab leak hypothesis relative to zoonotic origin?",
+      "Does the Huanan Seafood Market cluster provide meaningful evidential weight for evaluating the zoonotic vs. lab leak hypotheses?",
+      "Does the Huanan Seafood Market cluster provide significant evidence favoring zoonosis over lab leak?",
+      "Does the Huanan Seafood Market cluster provide significant evidence for or against the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market cluster provide strong evidence favoring zoonotic origin over lab leak origin?",
+      "Does the Huanan Seafood Market cluster provide strong evidence for the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market cluster provide strong evidence for zoonotic origin of SARS-CoV-2?",
+      "Does the Huanan Seafood Market cluster provide strong evidence for zoonotic origin or is it compatible with lab leak scenarios?",
+      "Does the Huanan Seafood Market cluster provide strong evidence for zoonotic origin versus being compatible with lab leak?",
+      "Does the Huanan Seafood Market cluster provide strong evidential support (high Bayes factor) for the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market cluster provide strong evidential support for the zoonotic origin hypothesis over lab leak?",
+      "Does the Huanan Seafood Market cluster provide strong evidential support for the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market cluster provide strong or meaningful evidence discriminating between zoonotic origin and lab leak hypotheses?",
+      "Does the Huanan Seafood Market cluster provide strong or meaningful evidence for the zoonotic origin hypothesis versus the lab leak hypothesis?",
+      "Does the Huanan Seafood Market cluster provide strong or meaningful evidence in favor of the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market cluster provide strong or meaningful evidence relevant to evaluating the lab leak versus zoonosis hypotheses?",
+      "Does the Huanan Seafood Market cluster provide strong or meaningful evidence supporting the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market cluster provide strong, meaningful evidence that discriminates between zoonotic and lab leak hypotheses?",
+      "Does the Huanan Seafood Market cluster provide stronger evidence for zoonotic origin or is it compatible with lab leak origin?",
+      "Does the Huanan Seafood Market cluster represent a genuine epidemiological anomaly requiring explanation via zoonotic origin, or is it an expected baseline pattern that does not uniquely support zoonotic hypothesis?",
+      "Does the Huanan Seafood Market cluster represent genuine epidemiological concentration of early COVID cases, or is it an artifact of detection bias toward market-connected cases?",
+      "Does the Huanan Seafood Market cluster represent genuine epidemiological evidence of market-origin transmission, or is it an artifact of detection bias and investigator assumptions?",
+      "Does the Huanan Seafood Market cluster represent genuine evidence of market origin, or is it an artifact of biased case detection and reporting?",
+      "Does the Huanan Seafood Market cluster serve as strong evidence for zoonotic origin or is it compatible with lab leak scenarios?",
+      "Does the Huanan Seafood Market cluster's characteristics provide stronger support for zoonotic origin or lab leak origin?",
+      "Does the Huanan Seafood Market cluster's location and timing constitute strong evidence for zoonotic versus lab-leak origin?",
+      "Does the Huanan Seafood Market cluster/epicenter constitute strong or decisive evidence against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market cluster/epicenter location constitute strong evidence for zoonotic origin and against lab leak?",
+      "Does the Huanan Seafood Market cluster/epicenter provide substantial evidential weight for evaluating the lab leak versus zoonotic origin hypotheses?",
+      "Does the Huanan Seafood Market clustering pattern constitute strong evidence for zoonotic origin versus lab leak?",
+      "Does the Huanan Seafood Market early cluster constitute evidence favoring the lab leak hypothesis or the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market early cluster constitute strong evidence for zoonotic origin versus lab leak?",
+      "Does the Huanan Seafood Market emergence pattern constitute strong evidence for or against zoonotic origin of SARS-CoV-2?",
+      "Does the Huanan Seafood Market epicenter and cluster constitute evidence for or against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market epicenter and early cluster constitute evidence for or against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market epicenter and its characteristics provide strong evidence for the zoonotic origin hypothesis over the lab leak hypothesis?",
+      "Does the Huanan Seafood Market epicenter and outbreak pattern support or contradict the lab leak hypothesis?",
+      "Does the Huanan Seafood Market epicenter constitute strong evidence against the lab leak hypothesis (and thus for zoonotic origin)?",
+      "Does the Huanan Seafood Market epicenter constitute strong evidence against the lab-leak hypothesis, and how does it affect overall lab-leak probability?",
+      "Does the Huanan Seafood Market epicenter constitute strong evidence for natural zoonotic origin rather than lab leak?",
+      "Does the Huanan Seafood Market epicenter constitute strong evidence for or against the lab-leak hypothesis?",
+      "Does the Huanan Seafood Market epicenter constitute strong evidence for or against the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market epicenter evidence support the zoonotic origin hypothesis over the lab leak hypothesis?",
+      "Does the Huanan Seafood Market epicenter provide strong evidence supporting zoonosis and thereby arguing against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market epicenter/cluster constitute strong evidence for the zoonotic origin of SARS-CoV-2?",
+      "Does the Huanan Seafood Market epicenter/cluster constitute strong evidence for zoonotic origin and against lab leak origin?",
+      "Does the Huanan Seafood Market epicenter/cluster pattern constitute strong evidence against the lab leak hypothesis and support zoonotic origin?",
+      "Does the Huanan Seafood Market epicenter/clustering pattern constitute strong evidence in favor of the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market epidemiological cluster constitute strong evidence for zoonotic origin of SARS-CoV-2?",
+      "Does the Huanan Seafood Market epidemiological epicenter constitute significant evidence against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market evidence (cluster pattern and documented wildlife market conditions) provide meaningful support for the zoonotic origin hypothesis over lab leak?",
+      "Does the Huanan Seafood Market geographic pattern of positive samples constitute strong, reliable evidence about the origin of SARS-CoV-2?",
+      "Does the Huanan Seafood Market location of SARS-CoV-2's emergence provide strong evidence favoring zoonotic origin over lab leak origin?",
+      "Does the Huanan Seafood Market outbreak epicenter and related epidemiological evidence support or refute the lab leak versus zoonotic origin hypotheses?",
+      "Does the Huanan Seafood Market outbreak epicenter constitute strong evidence against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market outbreak location and cluster provide strong evidential support for or against the lab leak hypothesis?",
+      "Does the Huanan Seafood Market spatial clustering pattern constitute strong or decisive evidence for natural zoonotic origin via market spillover?",
+      "Does the Huanan Seafood Market's characteristics and history provide strong evidential support for the zoonotic origin hypothesis?",
+      "Does the Huanan Seafood Market's location and characteristics provide strong evidence for the zoonotic origin hypothesis over the lab leak hypothesis?",
+      "Does the Huanan Seafood Market's special characteristics and case clustering constitute strong evidence for natural zoonotic origin versus lab origin?",
+      "Does the Huanan market cluster (HSM) provide strong Bayesian evidence supporting the zoonotic origin hypothesis?",
+      "Does the Huanan seafood market cluster constitute strong evidence supporting the zoonotic origin hypothesis?",
+      "Does the Huanan seafood market cluster constitute strong or meaningful evidence for a zoonotic spillover origin?",
+      "Does the Huanan seafood market cluster pattern provide strong evidential support for the zoonotic origin hypothesis?",
+      "Does the Huanan seafood market cluster provide strong evidence for the zoonotic origin hypothesis of SARS-CoV-2?",
+      "Does the Huanan seafood market cluster provide strong evidential support (high Bayes factor) for the zoonotic origin hypothesis?",
+      "Does the Huanan seafood market's characteristics and history provide strong evidence for zoonotic spillover at that location?",
+      "Does the available epidemiological and phylogenetic evidence support or contradict the hypothesis that SARS-CoV-2 originated from spillover at the Huanan Seafood Market?",
+      "Does the clustering of SARS-CoV-2 cases at Huanan Seafood Market constitute meaningful evidence for zoonotic origin?",
+      "Does the clustering of SARS-CoV-2 cases at the Huanan Seafood Market constitute meaningful evidence for zoonotic origin?",
+      "Does the clustering of early COVID cases at or around the Huanan market reflect the true geographic origin of the pandemic, or does it reflect detection bias and selective investigation?",
+      "Does the clustering of early COVID-19 cases at Huanan Seafood Market provide strong, genuine evidence for zoonotic origin at that location?",
+      "Does the clustering of early confirmed cases at the Huanan Seafood Market constitute strong evidence for zoonotic origin versus being a detection artifact?",
+      "Does the concentration of SARS-CoV-2 cases at Huanan Seafood Market constitute evidence for or against zoonotic origin?",
+      "Does the concentration of detected COVID cases at Huanan Seafood Market constitute genuine evidence that the virus originated there, or is it an artifact of detection bias?",
+      "Does the concentration of early COVID cases at Huanan Seafood Market constitute strong evidence that SARS-CoV-2 originated from zoonotic spillover at that location?",
+      "Does the concentration of early COVID cases at Huanan Seafood Market constitute strong evidence that the virus originated there through zoonotic spillover?",
+      "Does the concentration of early COVID cases at the Huanan Seafood Market constitute reliable evidence for zoonotic origin, or is it biased/confounded by detection practices?",
+      "Does the concentration of early COVID cases at the Huanan Seafood Market provide strong evidence for zoonotic spillover origin versus lab leak origin?",
+      "Does the concentration of early COVID-19 cases at Huanan Seafood Market constitute evidence that zoonotic spillover occurred at that market location?",
+      "Does the concentration of early COVID-19 cases at Huanan Seafood Market constitute strong evidence for zoonotic spillover at that location?",
+      "Does the concentration of early COVID-19 cases at Huanan Seafood Market represent genuine epidemiological evidence of market origin, or is it explained by detection/reporting biases and comparative differences between markets?",
+      "Does the concentration of early COVID-19 cases at Huanan Seafood Market represent genuine epidemiological evidence of the outbreak origin, or is it primarily a detection/surveillance artifact?",
+      "Does the concentration of early COVID-19 cases at the Huanan Seafood Market constitute strong evidence for zoonotic origin?",
+      "Does the concentration of early COVID-19 cases at the Huanan Seafood Market represent genuine epidemiological evidence of zoonotic spillover at that location, or does it primarily reflect surveillance and diagnostic bias toward the market?",
+      "Does the concentration of early SARS-CoV-2 cases at Huanan Seafood Market constitute meaningful evidence for zoonotic origin?",
+      "Does the concentration of early cases at the Huanan Seafood Market provide strong evidence for zoonotic origin, or is it compromised by detection bias?",
+      "Does the concentration of early cases at the Huanan Seafood Market reflect the true geographic origin of SARS-CoV-2, or is this pattern artifacts of detection bias?",
+      "Does the concentration of outbreak cases at Huanan Seafood Market provide strong evidence for or against the zoonotic origin hypothesis?",
+      "Does the distribution and timing of early SARS-CoV-2 cases support or contradict a Huanan Seafood Market origin?",
+      "Does the emergence of SARS-CoV-2 at Huanan Seafood Market constitute strong evidence for zoonotic origin?",
+      "Does the empirical evidence from the Huanan Seafood Market (contamination patterns, animal samples) support or refute the hypothesis that SARS-CoV-2 originated from wildlife spillover at that location?",
+      "Does the epidemiological and animal sampling evidence from the Huanan Seafood Market support zoonotic origin of SARS-CoV-2?",
+      "Does the epidemiological and commercial evidence from the Huanan Seafood Market support or contradict the zoonotic spillover origin hypothesis?",
+      "Does the epidemiological and ecological evidence from the Huanan Seafood Market (HSM) cluster support or undermine the zoonotic origin hypothesis?",
+      "Does the epidemiological and environmental evidence from the Huanan Seafood Market (HSM) support or undermine the zoonotic spillover hypothesis?",
+      "Does the epidemiological and evidence pattern at the Huanan Seafood Market support or undermine the zoonotic origin hypothesis?",
+      "Does the epidemiological and phylogenetic evidence from the Huanan Market cluster support or undermine the hypothesis that SARS-CoV-2 originated via zoonotic spillover at the market?",
+      "Does the epidemiological and virological evidence from Huanan Seafood Market support the zoonotic origin hypothesis?",
+      "Does the epidemiological clustering of early COVID cases at the Huanan Seafood Market constitute reliable evidence for zoonotic origin, or is it primarily a product of detection bias?",
+      "Does the epidemiological clustering of early COVID-19 cases at Huanan Seafood Market constitute strong evidence for zoonotic origin at that specific location?",
+      "Does the epidemiological clustering of early COVID-19 cases at Huanan Seafood Market provide strong evidence for zoonotic spillover origin?",
+      "Does the epidemiological clustering pattern at the Huanan Seafood Market provide strong, reliable evidence that SARS-CoV-2 originated from zoonotic spillover at the market?",
+      "Does the epidemiological evidence (HSM location and early case distribution) support or refute the hypothesis that SARS-CoV-2 originated from spillover at the Huanan Seafood Market?",
+      "Does the epidemiological evidence from early COVID-19 cases (specifically HSM connections) support the conclusion that Huanan Seafood Market was the origin site?",
+      "Does the epidemiological evidence from the Huanan Seafood Market (HSM cluster and absence of animal vendor infections) support zoonotic origin or lab leak origin?",
+      "Does the epidemiological evidence from the Huanan Seafood Market (infections, proximity, vendor data) support a zoonotic origin more than a laboratory origin?",
+      "Does the epidemiological evidence from the Huanan Seafood Market cluster support or disfavor the zoonotic origin hypothesis?",
+      "Does the epidemiological evidence of early COVID-19 cases clustering around Huanan Seafood Market constitute valid evidence for market origin?",
+      "Does the epidemiological evidence of early cases clustering at Huanan Seafood Market provide strong support for zoonotic origin of SARS-CoV-2?",
+      "Does the epidemiological pattern and evidence from Huanan Seafood Market support or undermine the zoonotic origin hypothesis?",
+      "Does the epidemiological pattern at Huanan Seafood Market (case clustering and/or absence of animal vendor infections) support or contradict the zoonotic origin hypothesis?",
+      "Does the epidemiological pattern at Huanan Seafood Market support or contradict a zoonotic spillover origin?",
+      "Does the epidemiological pattern at the Huanan Seafood Market (HSM cluster location, absence of vendor infections) constitute stronger evidence for zoonotic spillover or for lab leak origin?",
+      "Does the epidemiological pattern at the Huanan Seafood Market (HSM cluster, absence of wildlife infection evidence) support or contradict the zoonotic origin hypothesis?",
+      "Does the evidence from Huanan Seafood Market (conditions, wildlife presence, infection patterns) support or undermine the zoonotic spillover hypothesis?",
+      "Does the evidence from the Huanan Seafood Market (HSM) and related findings support zoonotic origin or lab-leak origin of SARS-CoV-2?",
+      "Does the evidence from the Huanan Seafood Market (animal samples, wildlife trading activity, species present) support or undermine the hypothesis that SARS-CoV-2 originated from zoonotic spillover at that location?",
+      "Does the geographic and epidemiological pattern of outbreak epicenters at seafood markets (HSM, Thailand) constitute evidence for or against the zoonotic origin hypothesis?",
+      "Does the geographic clustering of early cases at Huanan Seafood Market constitute strong evidence against the lab leak hypothesis?",
+      "Does the geographic clustering of early cases at the Huanan Seafood Market provide strong evidence for the origin of SARS-CoV-2?",
+      "Does the geographic clustering of early confirmed cases at the Huanan Seafood Market constitute strong evidence for zoonotic origin and against lab leak origin?",
+      "Does the geographic clustering of positive environmental samples at Huanan Market near the raccoon-dog stall constitute strong evidence that SARS-CoV-2 originated from that market location?",
+      "Does the geographic clustering of positive environmental samples at Huanan Seafood Market around the raccoon-dog stall constitute strong evidence for a zoonotic spillover origin at that location?",
+      "Does the geographic clustering of positive samples at Huanan Seafood Market (centered near the raccoon-dog stall) constitute strong evidence against the lab leak hypothesis?",
+      "Does the geographic distribution and clustering of early COVID-19 cases around the Huanan Seafood Market constitute reliable evidence for or against the market as the origin site?",
+      "Does the geographic distribution of early COVID-19 cases (clustering at population center vs. market) provide meaningful evidence for or against the Huanan Seafood Market as the origin location?",
+      "Does the geographic location of SARS-CoV-2's emergence (Huanan Seafood Market in Wuhan) constitute strong evidence against the lab leak hypothesis?",
+      "Does the geographic pattern of positive environmental samples at Huanan Market constitute strong evidence for zoonotic origin versus lab leak?",
+      "Does the geographic pattern of positive samples at Huanan Market (centered near the raccoon-dog stall) constitute strong evidence for zoonotic origin?",
+      "Does the geographical clustering of early cases at the Huanan Seafood Market constitute strong evidence against the lab leak hypothesis?",
+      "Does the observed pattern of cases at the Huanan Seafood Market (geographic clustering, temporal distribution) support or refute the lab leak hypothesis?",
+      "Does the occurrence of a disease cluster at a seafood market constitute strong or meaningful evidence for zoonotic spillover origin?",
+      "Does the pattern of early cases connected to Huanan Seafood Market constitute strong evidence supporting zoonotic origin at that location?",
+      "Does the pattern of early infections at Huanan Seafood Market support zoonotic spillover or lab leak origin?",
+      "Does the pattern of evidence at the Huanan Seafood Market (animal sampling results and viral circulation timing) support or undermine the zoonotic origin hypothesis?",
+      "Does the pattern of evidence at the Huanan Seafood Market (presence/absence of certain findings) support or undermine the zoonotic origin hypothesis?",
+      "Does the pattern of high viral contamination at specific Huanan Seafood Market locations (HSM epicenter) constitute strong evidence for zoonotic spillover origin versus alternative explanations?",
+      "Does the pattern of infection evidence at the Huanan Seafood Market support or contradict the zoonotic origin hypothesis?",
+      "Does the pattern of infections at the Huanan Seafood Market (HSM) and absence of prior circulating virus support or contradict the zoonotic origin hypothesis?",
+      "Does the pattern of viral contamination and clustering at seafood/wildlife markets constitute strong evidence for natural zoonotic spillover origin at those locations?",
+      "Does the presence of an early cluster at a seafood market (HSM or Thailand) provide strong evidence for zoonotic spillover origin?",
+      "Does the presence of early COVID-19 clusters in seafood markets constitute strong evidence for zoonotic origin?",
+      "Does the presence of seafood/wildlife markets and their characteristics constitute valid evidence supporting a zoonotic spillover origin for SARS-CoV-2?",
+      "Does the seafood market hypothesis (whether HSM or multiple markets) adequately explain the observed clustering patterns of early COVID-19 cases?",
+      "Does the spatial and epidemiological distribution of early COVID-19 cases show clustering or concentration around the Huanan Seafood Market?",
+      "Does the spatial clustering and epidemiological pattern of early COVID cases at Huanan Seafood Market provide strong evidence for zoonotic spillover at that location?",
+      "Does the spatial clustering of cases around imported seafood at the Xinfadi/HSM market constitute strong or meaningful evidence for zoonotic origin?",
+      "Does the spatial clustering of cases at seafood markets constitute strong evidence supporting the zoonotic origin hypothesis?",
+      "Does the spatial clustering of cases at the Huanan Seafood Market (HSM) constitute evidence for or against zoonotic origin at that location?",
+      "Does the spatial clustering of cases at the Xinfadi seafood market provide strong evidence for natural zoonotic spillover origin at that market location?",
+      "Does the spatial clustering of early COVID-19 cases at Huanan Seafood Market constitute strong evidence supporting zoonotic origin?",
+      "Does the spatial location of the Huanan Seafood Market cluster and index cases constitute strong evidence favoring zoonotic origin over lab-leak origin?",
+      "Does the spatial location of the initial COVID-19 cluster (Huanan Seafood Market) serve as strong evidence for or against the zoonotic origin hypothesis?",
+      "Does the temporal and spatial clustering of early COVID cases at Huanan Seafood Market constitute evidence for zoonotic origin?",
+      "How likely is the Huanan Seafood Market / Wuhan's wet markets as the origin location for a zoonotic SARS-CoV-2 outbreak?",
+      "How many COVID cases occurred before or independent of the Huanan Seafood Market cluster?",
+      "How many COVID-19 cases occurred before the first documented case at the Huanan Seafood Market?",
+      "How many COVID-19 cases occurred before the first identified case linked to Huanan Seafood Market?",
+      "How many vendors at the Huanan Seafood Market were involved in the COVID-19 cluster?",
+      "How much evidential weight should physical contamination and early case clustering at the Huanan Seafood Market carry in determining whether COVID-19 had a zoonotic vs. lab-leak origin?",
+      "How much evidential weight should the Huanan seafood market cluster receive in assessing the zoonotic origin hypothesis?",
+      "How much evidentiary weight should the Huanan Seafood Market cluster carry in evaluating the lab leak versus zoonotic origin hypotheses?",
+      "How strong is the Huanan Seafood Market cluster as evidence for zoonotic origin of SARS-CoV-2?",
+      "Is Huanan Seafood Market epidemiologically distinctive (more conducive to early COVID cluster formation) compared to other large venues in Wuhan, or is it just one of many comparable locations?",
+      "Is Huanan Seafood Market the epidemiological epicenter/origin point of the COVID-19 outbreak in Wuhan?",
+      "Is Huanan Seafood Market uniquely or distinctively likely as the location of a zoonotic spillover event in Wuhan?",
+      "Is SARS-CoV-2 more likely to have originated from a lab leak or natural zoonotic spillover, and does the Huanan Seafood Market (HSM) cluster location strengthen or weaken the case for lab-leak origin?",
+      "Is SARS-CoV-2 more likely to have originated from natural zoonotic spillover at the Huanan Seafood Market or from a laboratory leak?",
+      "Is the Huanan Seafood Market (HSM) a plausible origin site for the SARS-CoV-2 outbreak?",
+      "Is the Huanan Seafood Market (HSM) cluster and physical evidence of viral contamination at the market strong evidence for natural zoonotic spillover origin?",
+      "Is the Huanan Seafood Market (HSM) cluster pattern reliable evidence for zoonotic origin at the market?",
+      "Is the Huanan Seafood Market cluster a reliable indicator of the true COVID-19 origin point, or is it an artifact of detection/reporting bias?",
+      "Is the Huanan Seafood Market cluster location strong evidence against the lab leak hypothesis?",
+      "Is the Huanan Seafood Market cluster location strong evidence for zoonotic origin or weak evidence against lab leak?",
+      "Is the Huanan Seafood Market cluster strong and valid evidence supporting zoonotic origin of SARS-CoV-2?",
+      "Is the Huanan Seafood Market cluster strong evidence favoring zoonotic origin over lab-leak origin?",
+      "Is the Huanan Seafood Market cluster strong evidence for zoonotic origin at the market, or is it a coincidence explainable by other factors?",
+      "Is the Huanan Seafood Market cluster strong evidence for zoonotic spillover at that location?",
+      "Is the Huanan Seafood Market cluster strong evidence supporting zoonotic origin of SARS-CoV-2?",
+      "Is the Huanan Seafood Market cluster strong, reliable evidence of zoonotic origin, or is it an artifact of surveillance/detection bias?",
+      "Is the Huanan Seafood Market cluster strong/reliable evidence against the lab leak hypothesis?",
+      "Is the Huanan market's characteristics and role in the case cluster strong evidence supporting the zoonotic origin hypothesis?",
+      "Is the available evidence consistent with a zoonotic origin of SARS-CoV-2 at the Huanan Seafood Market?",
+      "Is the concentration of confirmed cases at the Huanan Seafood Market reliable evidence of the market being the outbreak epicenter, or is it compromised by detection bias?",
+      "Is the concentration of early COVID cases at the Huanan Seafood Market a probable or improbable outcome under the lab leak hypothesis?",
+      "Is the concentration of early COVID cases at the Huanan Seafood Market strong evidence for zoonotic origin or does it fail to exclude lab leak?",
+      "Is the concentration of early COVID cases at the Huanan Seafood Market strong or weak evidence for zoonotic origin versus lab leak?",
+      "Is the concentration of early COVID-19 cases at the Huanan Seafood Market strong evidence for zoonotic spillover at that location?",
+      "Is the early clustering of COVID-19 cases at the Huanan Seafood Market strong evidence for or against zoonotic origin?",
+      "Is the epidemiological and evidence pattern at the Huanan Seafood Market consistent with a zoonotic spillover origin versus a laboratory source?",
+      "Is the presence or absence of animal evidence at Huanan Seafood Market consistent with animal-to-human transmission in the HSM outbreak?",
+      "Is zoonotic origin more probable than laboratory origin for SARS-CoV-2, and what is the evidential weight of the Huanan Seafood Market cluster in determining this probability?",
+      "Should the Huanan Seafood Market cluster be considered strong evidence supporting the zoonotic origin hypothesis?",
+      "Should the Huanan Seafood Market cluster be weighted as decisive or strong evidence favoring zoonotic origin over lab leak?",
+      "Should the Huanan Seafood Market's presence or the WIV's presence be the dominant factor in assessing the prior probability of zoonotic versus lab-leak origin for a Wuhan outbreak?",
+      "Should the Huanan seafood market (HSM) early cluster carry significant evidential weight in favor of the zoonotic origin hypothesis?",
+      "Should the Huanan seafood market cluster count as strong evidence for the zoonotic origin hypothesis, or is market involvement in early outbreaks too common to confer significant Bayesian support?",
+      "Should the concentration of early COVID cases in the Huanan Seafood Market be treated as strong or weak evidence for the zoonotic origin hypothesis?",
+      "Should the geographic clustering of early COVID cases at the Huanan Seafood Market (HSM) be treated as evidence constraining the plausibility of the lab leak hypothesis?",
+      "Under the lab leak hypothesis, how likely or unlikely was it that the initial outbreak would emerge at the Huanan Seafood Market?",
+      "Under the lab leak hypothesis, how likely was the Huanan Seafood Market to be the location where SARS-CoV-2 emergence occurred?",
+      "Under the lab leak hypothesis, was the Huanan Seafood Market (HSM) a likely or plausible location for the outbreak to emerge?",
+      "Under zoonotic spillover, should we expect the initial COVID-19 cluster to occur at the Huanan Seafood Market (HSM), or would it more likely occur elsewhere first?",
+      "Was Huanan Seafood Market in Wuhan the plausible location for zoonotic spillover of SARS-CoV-2?",
+      "Was Huanan Seafood Market the location of the earliest COVID-19 cases or the primary site of initial cluster formation?",
+      "Was the Huanan Seafood Market (HSM) a likely epicenter for SARS-CoV-2 emergence, and do its environmental/epidemiological characteristics support market origin over lab leak origin?",
+      "Was the Huanan Seafood Market (HSM) the epidemiological epicenter where most early COVID-19 cases originated and clustered?",
+      "Was the Huanan Seafood Market (HSM) the origin point of early COVID-19 cases in Beijing/China, with clear epidemiological tracing to a specific market source?",
+      "Was the Huanan Seafood Market a plausible or prioritized location for zoonotic spillover of SARS-CoV-2?",
+      "Was the Huanan Seafood Market and Wuhan's wildlife market infrastructure a plausible epicenter for zoonotic spillover of SARS-CoV-2?",
+      "Was the Huanan Seafood Market case cluster an unusual/anomalous event requiring explanation, or a predictable pattern consistent with market outbreak epidemiology?",
+      "Was the Huanan Seafood Market cluster epidemiologically significant and/or coincidental as early evidence for the origin of SARS-CoV-2?",
+      "Was the Huanan Seafood Market connection to COVID-19 origin evidenced by genuine epidemiological patterns, or was it a conclusion reached first and then investigated retroactively?",
+      "Was the Huanan Seafood Market identified as a primary or expected zoonotic spillover interface prior to COVID-19, or was it only one unremarkable option among many?",
+      "Was the Huanan Seafood Market the actual infection site for early reported COVID cases, and does the early HSM case clustering constitute strong evidence for market origin?",
+      "Was the Huanan Seafood Market the epidemiological origin/epicenter of the initial COVID-19 cluster, or did cases originate elsewhere with market association being secondary?",
+      "Was the Huanan Seafood Market the true epicenter/location of the initial COVID-19 outbreak cluster?",
+      "Was the first documented COVID-19 case at the Huanan Seafood Wholesale Market, and is early patient testimony reliable for establishing outbreak origin?",
+      "Was the index case or early cluster of COVID-19 cases located at or connected to Huanan Market?",
+      "Were early COVID-19 cases concentrated at the Huanan Seafood Market, or did significant circulation occur before/outside the market?",
+      "Were early SARS-CoV-2 cases concentrated at or traceable to the Huanan Seafood Market, and what does this pattern indicate about the origin?",
+      "Were the earliest COVID-19 cases concentrated in or traceable to the Huanan Seafood Market?",
+      "Were the earliest COVID-19 cases genuinely concentrated at Huanan market, or does the apparent market cluster reflect detection/reporting bias rather than true epidemiological origin?",
+      "Were the earliest identified COVID-19 cases actually concentrated at or connected to the Huanan Seafood Market, or does early case data indicate infections originated elsewhere?",
+      "Were the earliest identified COVID-19 cases genuinely associated with Huanan Seafood Market, or do early cases show no reliable connection to the market?",
+      "Were the early HSM COVID-19 cases epidemiologically connected to the Huanan Seafood Market?",
+      "Were there isolated COVID cases occurring before and separate from the Huanan Seafood Market cluster?",
+      "Were wildlife hosts present at the Huanan Seafood Market, and does this presence/absence constitute evidence for or against zoonotic origin?",
+      "What date did the earliest known COVID-19 case occur, and was the first case connected to the Huanan Seafood Market?",
+      "What does the Huanan Seafood Market case clustering tell us about whether it was the site of zoonotic spillover in Wuhan?",
+      "What does the Huanan Seafood Market cluster pattern indicate about the origin of SARS-CoV-2 (zoonotic spillover vs. lab leak)?",
+      "What does the spatial distribution and localization of early infections and viral contamination at the Huanan Seafood Market indicate about the origin location and mechanism of initial spillover?",
+      "What evidential weight does the Huanan Seafood Market cluster carry in discriminating between zoonotic and lab leak hypotheses?",
+      "What evidential weight should the Huanan Seafood Market cluster carry in evaluating the lab leak versus zoonotic origin hypotheses?",
+      "What evidential weight should the Huanan Seafood Market cluster receive in evaluating the zoonosis versus lab leak hypotheses?",
+      "What explains the concentration of COVID-19 cases in the Huanan Seafood Market (HSM cluster)?",
+      "What explains the concentration of early COVID-19 cases at the Huanan Seafood Market?",
+      "What explains the early clustering of COVID-19 cases at the Huanan Seafood Market—natural market exposure or WIV-related leak through CDC proximity?",
+      "What is the appropriate evidential and probabilistic weight of the Huanan Seafood Market cluster and Wuhan's location (with WIV presence) in comparing lab-leak versus zoonotic origin hypotheses?",
+      "What is the appropriate evidential weight of the Huanan Seafood Market cluster in determining whether COVID-19 originated from zoonotic spillover versus lab leak?",
+      "What is the epistemic weight of the Huanan Seafood Market cluster as evidence for or against different SARS-CoV-2 origin hypotheses?",
+      "What is the evidential significance of the Huanan Seafood Market cluster for determining COVID-19's origin?",
+      "What is the evidential significance of the Huanan Seafood Market cluster for determining SARS-CoV-2 origin?",
+      "What is the evidential weight of the Huanan Seafood Market cluster and spatial analysis in determining whether SARS-CoV-2 had a zoonotic or lab origin?",
+      "What is the evidential weight of the Huanan Seafood Market cluster in determining COVID-19's origin?",
+      "What is the evidential weight of the Huanan Seafood Market cluster in determining SARS-CoV-2 origin: does it strongly support zoonosis or does it provide negligible/misinterpreted evidence that should not drive confidence in zoonotic origin?",
+      "What is the probability that a lab leak originating in Wuhan would first manifest as cases at the Huanan Seafood Market?",
+      "What is the proper evidential weight of the Huanan Seafood Market cluster in determining whether SARS-CoV-2 originated from zoonotic spillover or lab leak?",
+      "What is the relative probability of lab leak versus zoonotic origin as the source of SARS-CoV-2, and how much weight should the Huanan Seafood Market cluster and WIV location carry in this assessment?",
+      "What proportion of early COVID-19 cases in Wuhan had epidemiological connections to the Huanan Seafood Market?",
+      "What proportion of the earliest COVID-19 cases had demonstrable connections to the Huanan Seafood Market, and was the observed market cluster attributable to surveillance bias or genuine epidemiological clustering?",
+      "What proportion of the earliest confirmed COVID-19 cases had direct connection to Huanan Seafood Market?",
+      "What was the origin/source of the Huanan Seafood Market cluster—did it result from natural spillover via market exposure or from a nearby laboratory facility?",
+      "What was the temporal and epidemiological pattern of infection onset at the Huanan Seafood Market—was it an explosive clustered event concentrated near the index case, or a gradual accumulation over time?",
+      "When did COVID-19 cases first emerge, and was the Huanan market cluster the true origin of the outbreak or a biased detection artifact?",
+      "Whether the December Huanan Seafood Market cluster represents the true origin and timeline of early COVID-19 transmission in Wuhan, or whether it reflects detection bias toward market-connected cases",
+      "Whether the Huanan Seafood Market cluster represents genuine epidemiological evidence of market origin or is substantially an artifact of detection/reporting bias",
+      "Who was the index case or first ascertained COVID-19 case, and was that person connected to the Huanan Seafood Market?"
+    ],
+    "claim_ids": [
+      "244fadbb",
+      "ce564797",
+      "d9120745",
+      "1e6f230a",
+      "47bf0375",
+      "b1b57125",
+      "a89b90e3",
+      "efe129c2",
+      "fa216eb8",
+      "3d268a90",
+      "fe27bcee",
+      "8cd6926a",
+      "2bd95b58",
+      "c1f3eb33",
+      "d245f365",
+      "cbe5551d",
+      "8836d90b",
+      "961dc8df",
+      "3f227e4f",
+      "eda89776",
+      "cc1d01a7",
+      "2dfcd22a",
+      "64e9a7d6",
+      "0df45afe",
+      "55f3d10d",
+      "6d104cde",
+      "d6b1d84b",
+      "c0b36018",
+      "6b80cb96",
+      "97f7f3f0",
+      "56b0085d",
+      "8005023e",
+      "526d2cc3",
+      "388d6778",
+      "a077001d",
+      "8cb63230",
+      "ece2d1e5",
+      "dff85c8b",
+      "d45f0284",
+      "f2c90780",
+      "027e12eb",
+      "19886686",
+      "cf1b8a6e",
+      "96a03a89",
+      "13562825",
+      "a2c34481",
+      "cf6510fa",
+      "48ee7c1c",
+      "77586697",
+      "3f6737f1",
+      "e6fcf9b6",
+      "6aad9afd",
+      "078ce8e0",
+      "b75ac936",
+      "4940a28a",
+      "d60b3f9a",
+      "b327ecb3",
+      "f867ded0",
+      "13a078f3",
+      "b7be2897",
+      "0e0a497d",
+      "6892efec",
+      "251bb6de",
+      "24d3bd59",
+      "e1b35e84",
+      "059c537b",
+      "25a7d582",
+      "7efe6871",
+      "ee920406",
+      "0a12b054",
+      "510baa92",
+      "a0c36b5b",
+      "53153dcf",
+      "48872967",
+      "2d37d754",
+      "87d09b0d",
+      "f25a713b",
+      "56159dae",
+      "5bf8acb4",
+      "ae5f2069",
+      "318e168f",
+      "e467772e",
+      "395de7ed",
+      "71776e7a",
+      "306b7d23",
+      "c632b88f",
+      "446951d9",
+      "cda86093",
+      "d5f9d856",
+      "2b1199ff",
+      "ffdb3100",
+      "20b666bc",
+      "30cb2a81",
+      "d31f259d",
+      "37545060",
+      "ccb11477",
+      "b0e55300",
+      "50b62f67",
+      "e309f45e",
+      "590efd1b",
+      "54060d8c",
+      "902607aa",
+      "7f979621",
+      "a81636f1",
+      "fd241d85",
+      "f6a5b288",
+      "529a370f",
+      "39b2269a",
+      "67e46a05",
+      "fd0df406",
+      "66e06342",
+      "a3749ee1",
+      "5adf3a54",
+      "1467861d",
+      "830e6c4c",
+      "99699d0b",
+      "a4b1ff55",
+      "bfb750e0",
+      "223dcf2f",
+      "09d39600",
+      "7850c95c",
+      "1c7957d9",
+      "4e81dde6",
+      "e1480334",
+      "954cbcef",
+      "fd5d8adb",
+      "39e3f1f6",
+      "6db26f99",
+      "8595fa6d",
+      "d9b91bbf",
+      "0d55b76f",
+      "ab4e9ea5",
+      "08f075da",
+      "090c6cb3",
+      "07973e69",
+      "0341b25c",
+      "24eea744",
+      "c406041d",
+      "05261c1c",
+      "abea210d",
+      "6d44b03a",
+      "6c3e34dd",
+      "d25877d7",
+      "a4db24a8",
+      "921ad384",
+      "325d6337",
+      "13295ef5",
+      "804787e3",
+      "60d9f1ff",
+      "1f648476",
+      "15d3f72f",
+      "75622218",
+      "3b398b7c",
+      "04a9ecdb",
+      "d48ed51a",
+      "4d017e5e",
+      "16926484",
+      "e7a71069",
+      "4effd953",
+      "9b2d5b69",
+      "c577c6f6",
+      "ca35bf91",
+      "1befbcca",
+      "d1e0e244",
+      "7a1459a2",
+      "c826d25a"
+    ],
+    "edge_count": 756,
+    "edge_types": {
+      "contradicts": 410,
+      "weak_contradicts": 334,
+      "quantitative_divergence": 12
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_KdORmvU8MLI.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 8,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0001",
+    "question": "Does the early HSM cluster constitute strong or weak evidence for zoonotic versus lab-leak origin?",
+    "variants": [
+      "Can HSM's observed case pattern (timing, distribution, gradual onset) be explained by a single infected lab worker introduction?",
+      "Can a single infected lab worker visit adequately explain the HSM cluster pattern of cases?",
+      "Can the lab leak scenario plausibly explain the temporal and epidemiological pattern of cases observed at the HSM cluster?",
+      "Did HSM experience a superspreading event or explosive outbreak pattern at disease onset?",
+      "Did the HSM outbreak exhibit a superspreading event pattern or gradual case accumulation?",
+      "Did the HSM outbreak pattern show rapid/explosive transmission or gradual accumulation of cases?",
+      "Do the HSM cluster epicenter and WIV's DEFUSE-style capability constitute evidence favoring or disfavoring the lab-leak hypothesis?",
+      "Does HSM's characteristics (size, prominence) and the pattern of initial clusters support HSM as the probable origin point of the pandemic?",
+      "Does evidence about WIV's research practices and the HSM cluster's conditional probability meaningfully support or undermine the lab leak hypothesis?",
+      "Does the HSM cluster and early case distribution provide strong evidence supporting the zoonotic origin hypothesis?",
+      "Does the HSM cluster and its characteristics constitute evidence for lab leak origin versus natural zoonotic spillover?",
+      "Does the HSM cluster and its characteristics constitute strong evidence supporting zoonotic spillover origin?",
+      "Does the HSM cluster and its characteristics provide meaningful evidence supporting a zoonotic origin hypothesis?",
+      "Does the HSM cluster and its spatial/evidential characteristics provide strong support for zoonotic origin?",
+      "Does the HSM cluster and lack of prior circulation evidence constitute strong or meaningful evidence for discriminating between lab leak and zoonotic origins?",
+      "Does the HSM cluster and market evidence support zoonotic origin or lab leak origin as the dominant hypothesis?",
+      "Does the HSM cluster being an early epicenter in a wildlife market constitute strong evidence for zoonotic origin versus lab leak hypothesis?",
+      "Does the HSM cluster being an early epicenter provide strong evidence for zoonotic origin, or is it plausibly consistent with a lab leak scenario?",
+      "Does the HSM cluster concentration constitute strong evidence favoring zoonotic origin over lab leak origin?",
+      "Does the HSM cluster distribution constitute strong or adequate evidence supporting the zoonotic origin hypothesis?",
+      "Does the HSM cluster epicenter provide strong evidence that should shift probability away from the lab leak hypothesis?",
+      "Does the HSM cluster epidemiological pattern (timing, distribution, transmission dynamics) support lab leak or zoonotic origin?",
+      "Does the HSM cluster epidemiology (timing, lack of prior circulation, geographic concentration) constitute strong evidence for zoonotic origin versus lab leak?",
+      "Does the HSM cluster epidemiology (timing, location, lack of prior circulation) support zoonotic origin or contradict it?",
+      "Does the HSM cluster epidemiology and characteristics provide strong evidence supporting the zoonotic origin hypothesis?",
+      "Does the HSM cluster epidemiology and lack of wildlife infection evidence support or contradict the zoonotic origin hypothesis?",
+      "Does the HSM cluster epidemiology provide strong evidence discriminating between zoonotic and lab leak origins?",
+      "Does the HSM cluster evidence (and absence of pre-HSM circulation) support zoonotic or lab-leak origin?",
+      "Does the HSM cluster evidence (particularly the absence of wildlife infection evidence) support or undermine the zoonotic origin hypothesis?",
+      "Does the HSM cluster evidence and associated epidemiological patterns support zoonotic origin over lab leak?",
+      "Does the HSM cluster evidence support lab-leak or zoonotic origin?",
+      "Does the HSM cluster evidence support or undermine the zoonotic origin hypothesis for COVID-19?",
+      "Does the HSM cluster evidence support or undermine the zoonotic origin hypothesis?",
+      "Does the HSM cluster evidence support zoonotic origin or lab-leak origin?",
+      "Does the HSM cluster formation and early case concentration support zoonotic origin or lab leak origin?",
+      "Does the HSM cluster location and characteristics support or count against the lab leak hypothesis?",
+      "Does the HSM cluster location and pattern provide meaningful evidence for or against the lab leak hypothesis?",
+      "Does the HSM cluster location constitute significant evidence in the lab leak vs. zoonotic origin debate?",
+      "Does the HSM cluster location provide meaningful discriminatory evidence for or against the lab leak hypothesis?",
+      "Does the HSM cluster location provide meaningful evidence for or against the lab leak hypothesis?",
+      "Does the HSM cluster outbreak in Wuhan constitute strong evidence for natural zoonotic spillover origin rather than lab leak?",
+      "Does the HSM cluster pattern and absence of pre-market circulating virus constitute valid evidence for zoonotic origin, or is it an artifact of detection bias?",
+      "Does the HSM cluster pattern and characteristics provide evidence for or against the zoonotic origin hypothesis?",
+      "Does the HSM cluster pattern constitute strong evidence for zoonotic origin or does it equally support lab leak origins?",
+      "Does the HSM cluster pattern constitute strong evidence for zoonotic origin rather than lab leak?",
+      "Does the HSM cluster pattern constitute strong evidence for zoonotic origin?",
+      "Does the HSM cluster pattern pose an evidentiary problem for the zoonotic origin hypothesis, or does it support zoonosis over lab leak?",
+      "Does the HSM cluster pattern provide significant evidence that discriminates between lab leak and zoonotic origin hypotheses?",
+      "Does the HSM cluster pattern provide strong discriminatory evidence between zoonotic and lab leak hypotheses?",
+      "Does the HSM cluster provide meaningful discriminatory evidence between the zoonotic and lab-leak hypotheses?",
+      "Does the HSM cluster provide strong evidence against the lab leak hypothesis, or is it negligible/weak evidence for distinguishing between lab leak and zoonotic origins?",
+      "Does the HSM cluster provide strong/meaningful evidence supporting the zoonotic origin hypothesis?",
+      "Does the HSM cluster represent genuine evidence of zoonotic spillover at the market, or is it an artifact of biased detection/surveillance?",
+      "Does the HSM cluster's characteristics constitute meaningful evidence against or in favor of the lab leak origin hypothesis?",
+      "Does the HSM cluster's characteristics provide meaningful evidence discriminating between lab leak and zoonotic origin hypotheses?",
+      "Does the HSM cluster's concentration constitute significant evidence against the lab leak hypothesis?",
+      "Does the HSM cluster's role as an early epicenter support or undermine the zoonotic origin hypothesis?",
+      "Does the HSM clustering pattern constitute significant evidence against the laboratory origin hypothesis?",
+      "Does the HSM early cluster and associated evidence (furin cleavage site, animal sequences) support zoonotic origin or lab leak origin?",
+      "Does the HSM early cluster evidence favor zoonotic or lab leak origins, and which hypothesis is more likely overall?",
+      "Does the HSM early cluster pattern provide strong evidence discriminating between zoonotic and lab-leak hypotheses?",
+      "Does the HSM epicenter location and genetic evidence (DEFUSE) support or contradict the lab leak hypothesis?",
+      "Does the HSM market cluster constitute evidence supporting zoonotic origin or is it compatible with lab leak origin?",
+      "Does the HSM market cluster constitute strong evidence supporting the zoonotic origin hypothesis?",
+      "Does the HSM market cluster evidence support zoonotic spillover origin or is it compatible with lab leak origin despite reduced geographic significance?",
+      "Does the HSM market cluster pattern and characteristics support or undermine the zoonotic origin hypothesis?",
+      "Does the HSM market cluster pattern constitute strong evidence favoring zoonotic origin over lab leak origin?",
+      "Does the HSM market cluster pattern indicate zoonotic spillover origin versus non-zoonotic clustering independent of spillover?",
+      "Does the HSM market cluster provide strong evidence supporting the zoonotic origin hypothesis?",
+      "Does the HSM market cluster represent genuine evidence for zoonotic spillover origin, or is it an artifact of biased surveillance and screening protocols?",
+      "Does the HSM market's characteristics and early patient clustering provide strong evidence for zoonotic spillover versus lab leak origin?",
+      "Does the HSM wet market cluster location and timing constitute decisive evidence for zoonotic origin versus lab leak?",
+      "Does the absence of infected animals/lack of prior circulation evidence at HSM constitute significant evidence for or against the zoonotic origin hypothesis?",
+      "Does the absence of wildlife infection evidence at the HSM cluster strongly support or undermine the zoonotic origin hypothesis?",
+      "Does the absence or lack of animal/viral evidence at HSM support or undermine the zoonotic origin hypothesis?",
+      "Does the accumulated evidence, particularly the HSM cluster epicenter, support lab-leak origin or zoonotic origin as more probable?",
+      "Does the accumulated evidence, particularly the HSM cluster evidence, support lab-leak or zoonotic origin as more probable?",
+      "Does the association of early detected infections with the HSM market provide strong evidence for zoonotic origin?",
+      "Does the available evidence (WIV research practices, HSM epicenter location) support or refute the lab leak hypothesis?",
+      "Does the available evidence (particularly HSM cluster evidence) more strongly support zoonotic origin or lab-leak origin?",
+      "Does the available evidence (particularly regarding HSM epicenter location and WIV capabilities) support zoonotic origin more strongly than lab leak origin?",
+      "Does the available evidence, particularly the HSM cluster assessment, support lab leak or zoonotic origin as the more likely hypothesis?",
+      "Does the early HSM cluster and lack of pre-HSM circulating virus constitute significant evidence supporting zoonotic origin?",
+      "Does the early HSM cluster constitute strong or weak evidence for zoonotic versus lab-leak origin?",
+      "Does the early HSM cluster pattern constitute strong evidence for or against the zoonotic origin hypothesis?",
+      "Does the epidemiological and evidence profile of the HSM cluster support or undermine the zoonotic origin hypothesis?",
+      "Does the epidemiological evidence from HSM (clustering pattern and wildlife infection presence/absence) support or undermine the zoonotic origin hypothesis?",
+      "Does the epidemiological evidence from early COVID-19 cases support a market origin (HSM cluster) or argue against it?",
+      "Does the epidemiological pattern and data surrounding the HSM cluster support or contradict the zoonotic origin hypothesis?",
+      "Does the epidemiological pattern of the HSM cluster (early infections, lack of prior circulation, spatial distribution) support zoonotic origin or lab leak origin?",
+      "Does the evidence (particularly the HSM cluster and other accumulated evidence) support lab-leak or zoonotic origin as more probable?",
+      "Does the evidence better support the zoonosis hypothesis (with HSM cluster as key evidence) compared to the lab leak hypothesis?",
+      "Does the evidence from HSM market (wildlife presence, trading activity, infection patterns) support or undermine the zoonotic spillover hypothesis?",
+      "Does the evidence regarding HSM and other seafood market clusters support the hypothesis that HSM was the likely origin point for zoonotic spillover?",
+      "Does the geographic clustering of early HSM cases around WIV constitute strong evidence for zoonotic origin versus lab leak origin?",
+      "Does the geographic clustering of early confirmed cases around HSM (versus WIV) provide discriminative evidence between zoonotic and lab-leak origins?",
+      "Does the geographical distribution of early COVID cases (HSM cluster vs. WIV location) constitute valid evidence for or against the lab leak hypothesis?",
+      "Does the lack of documented COVID cases before the HSM cluster indicate that HSM infections represent the true origin/index case, or were there earlier undetected infections?",
+      "Does the lack of evidence for wildlife involvement at the HSM cluster support or undermine the zoonotic origin hypothesis?",
+      "Does the pattern of HSM cases (timing, distribution, and gradual spread) support zoonotic origin or lab leak origin?",
+      "Does the pattern of early HSM cases (their connection or lack thereof to the market location) support or undermine the zoonotic origin hypothesis?",
+      "Does the pattern of infection evidence at the HSM support zoonotic spillover or contradict it?",
+      "Does the physical evidence of high viral contamination at specific wet market locations (HSM cluster) constitute strong evidence for zoonotic spillover at that location?",
+      "Does the physical evidence of viral contamination at specific HSM locations (dog shop, drains) constitute strong evidence supporting the zoonotic origin hypothesis over the lab leak hypothesis?",
+      "Does the spatial clustering pattern of cases in seafood markets (HSM or comparative cases) provide strong evidence supporting the zoonotic spillover hypothesis?",
+      "Does the spatial distribution and location characteristics of early HSM infections indicate a zoonotic spillover origin at the market, or a localized superspreading event from a specific venue like the mahjong room?",
+      "Does the spatial distribution of early HSM infections reflect genuine epidemiological clustering or is it an artifact of detection bias?",
+      "Does the spatial distribution pattern of early HSM cases provide reliable evidence about the location of the initial spillover/infection source?",
+      "Does the spatial location of the HSM cluster provide strong, decisive evidence that supports the zoonotic origin hypothesis over the lab-leak hypothesis?",
+      "Does the totality of evidence (including proposals like DEFUSE and assessment of HSM) support lab origin or zoonotic origin as the dominant hypothesis?",
+      "Does the totality of evidence (particularly HSM emergence evidence) make zoonotic origin or lab-leak origin more likely?",
+      "Given HSM's environmental and epidemiological characteristics, was it a likely location for the initial COVID-19 outbreak to emerge?",
+      "How many COVID-19 cases occurred before or outside the HSM cluster, and what was the size and composition of the market-associated outbreak?",
+      "How much evidential support does the HSM cluster geographic epicenter provide for the zoonotic origin hypothesis relative to the lab leak hypothesis?",
+      "How much evidential weight does the HSM cluster carry in evaluating the zoonosis vs. lab leak hypothesis?",
+      "How significant is the HSM cluster as evidence for or against the zoonotic origin hypothesis?",
+      "How strong is the HSM cluster evidence for zoonotic origin, and what probability should it assign to zoonosis?",
+      "Is lab-leak or zoonotic origin more likely given the evidence, particularly the HSM cluster?",
+      "Is the HSM cluster evidence decisive/critical for establishing zoonotic origin over lab-leak origin?",
+      "Is the HSM cluster evidence pattern consistent with or supportive of the zoonotic origin hypothesis?",
+      "Is the HSM cluster location and formation a significant or ordinary occurrence in assessing zoonotic versus lab-leak origins?",
+      "Is the HSM cluster pattern consistent with or diagnostic evidence against the lab leak hypothesis?",
+      "Is the HSM cluster pattern strong evidence that discriminates between lab leak and zoonotic origins?",
+      "Is the HSM cluster sufficient/strong evidence for discriminating between lab leak and zoonotic hypotheses?",
+      "Is the HSM cluster's epidemiological proximity to wildlife/plausible animal sources strong or decisive evidence favoring zoonotic origin over lab leak?",
+      "Is the HSM early cluster strong evidence supporting the zoonotic origin hypothesis?",
+      "Is the HSM early cluster strong or meaningful evidence for zoonotic spillover origin?",
+      "Is the HSM market cluster a strong or weak piece of evidence supporting zoonotic origin?",
+      "Is the HSM market location plausible as the origin point of a zoonotic spillover cluster?",
+      "Is the geographic proximity (or lack thereof) between WIV and the HSM outbreak cluster epistemically significant for evaluating the lab leak hypothesis?",
+      "Is the lab-leak hypothesis or zoonotic origin hypothesis more strongly supported by available evidence, particularly regarding the HSM cluster and origin explanation?",
+      "Is the zoonotic origin or lab leak hypothesis better supported by the evidence, particularly regarding the HSM cluster's significance?",
+      "Under the lab leak hypothesis, can the HSM cluster be plausibly explained as the outbreak epicenter?",
+      "Under the lab leak hypothesis, how likely or probable was the HSM cluster as the site of initial outbreak emergence?",
+      "Under the lab leak hypothesis, how likely or probable would the HSM cluster be as a location for initial outbreak emergence?",
+      "Under the lab leak hypothesis, how likely was HSM to be the location where the outbreak emerged?",
+      "Under the lab leak hypothesis, is HSM a likely or plausible location for the outbreak to emerge?",
+      "Under the lab leak hypothesis, is HSM a probable or likely place for the outbreak to emerge?",
+      "Under the lab leak hypothesis, was HSM a plausible location for the initial outbreak cluster to emerge?",
+      "Under the lab leak hypothesis, was HSM a plausible or likely location for the outbreak to emerge?",
+      "Under the lab leak hypothesis, what spatial/epidemiological pattern of early cases should we expect, and does WIV's research practices/location explain the observed HSM cluster distribution?",
+      "Was HSM a likely or expected epicenter for the outbreak given the zoonotic origin hypothesis?",
+      "Were early HSM infections concentrated at a central, epidemiologically significant location, or were they uniformly distributed without a clear epicenter?",
+      "Were seafood/wet markets frequent or typical sites of zoonotic spillover events, and does the HSM cluster pattern align with or contradict expected zoonotic spillover epicenters?",
+      "What caused the HSM cluster to form as an early epicenter of COVID-19 cases?",
+      "What does the epidemiological and ecological evidence from the HSM cluster tell us about the likely origin location (market vs. laboratory)?",
+      "What explains the HSM cluster: natural zoonotic spillover at the market or an alternative cause (CDC relocation)?",
+      "What explains the formation of the HSM cluster in the early outbreak?",
+      "What explains why the HSM cluster appears as an early cluster in the outbreak—natural spillover at the market location, or a leak from nearby WIV-CDC facilities?",
+      "What is the appropriate baseline reasoning for evaluating zoonotic versus lab-leak origins—should it rely primarily on the specificity of the HSM cluster as discriminating evidence, or on the higher general probability of natural spillover events?",
+      "What is the appropriate prior probability of lab leak versus zoonotic origin, and how should evidence like the HSM cluster affect this comparison?",
+      "What is the evidential significance of the HSM cluster for evaluating the lab leak hypothesis?",
+      "What is the evidential strength of the HSM cluster for discriminating between lab leak and zoonotic origin hypotheses?",
+      "What is the evidential weight of the HSM cluster conditional on the lab leak hypothesis?",
+      "What is the posterior probability of lab leak versus zoonotic origin when the HSM cluster evidence is removed or deweighted in the analysis?",
+      "What is the quantitative relationship between lab leak hypothesis and HSM cluster evidence, expressed as probability or odds?",
+      "What is the relative prior probability of lab-leak versus zoonotic origins, and how decisive is the HSM cluster location as evidence for zoonosis?",
+      "What is the relative strength of evidence supporting lab leak versus zoonotic origin, and how do WIV's research practices and the HSM cluster factor into this assessment?",
+      "Whether the spatial distribution pattern of early HSM infections (uniform vs. concentrated) is consistent with or predictable from superspreading event dynamics",
+      "Which origin hypothesis (lab leak vs. zoonotic) is supported by the available evidence, particularly regarding the significance of HSM emergence and genetic/DEFUSE evidence?"
+    ],
+    "claim_ids": [
+      "446951d9",
+      "1f648476",
+      "52581838",
+      "5adf3a54",
+      "07ae254c",
+      "d245f365",
+      "a81636f1",
+      "b75ac936",
+      "358c38fe",
+      "cf1b8a6e",
+      "961dc8df",
+      "395de7ed",
+      "ab4e9ea5",
+      "07973e69",
+      "09d39600",
+      "8a96582c",
+      "590efd1b",
+      "ca35bf91",
+      "71776e7a",
+      "d45f0284",
+      "d9b91bbf",
+      "e6fcf9b6",
+      "4ade9c66",
+      "251bb6de",
+      "77586697",
+      "cda86093",
+      "78edd269",
+      "ece2d1e5",
+      "fa84cafd",
+      "f1a01086",
+      "fd241d85",
+      "30cb2a81",
+      "321c6fe2",
+      "15d3f72f",
+      "f0c50cba",
+      "20b666bc",
+      "e1b35e84",
+      "d5f9d856",
+      "6b80cb96",
+      "ce564797",
+      "af3437ef",
+      "306b7d23",
+      "f6a5b288",
+      "b0e55300",
+      "f3ec1753",
+      "902607aa",
+      "c826d25a",
+      "d48ed51a",
+      "e309f45e",
+      "cc132f83",
+      "388d6778",
+      "54060d8c",
+      "f2c90780",
+      "56159dae",
+      "8836d90b",
+      "238a48b1",
+      "dff85c8b",
+      "318e168f",
+      "ccb11477",
+      "53153dcf",
+      "027e12eb",
+      "d25877d7",
+      "72f3322c",
+      "48ee7c1c",
+      "50b62f67",
+      "6d104cde",
+      "39b2269a",
+      "1da344e5",
+      "0d55b76f",
+      "376abb78",
+      "26fe7b51",
+      "60d9f1ff",
+      "96a03a89",
+      "a1dae511",
+      "e7634ee9",
+      "8cd6926a",
+      "7a1459a2",
+      "612a9aec",
+      "cbe5551d",
+      "510baa92",
+      "0341b25c",
+      "a0c36b5b",
+      "a89b90e3",
+      "864a85bf",
+      "4d017e5e",
+      "97f7f3f0",
+      "5d51ea67",
+      "db2a8888",
+      "24d3bd59",
+      "6892efec",
+      "a6d41746",
+      "dd9e80b9",
+      "d31f259d",
+      "b531f0f4",
+      "e8f513b3",
+      "8ca9c020",
+      "c0b36018",
+      "059c537b",
+      "24eea744",
+      "ffdb3100",
+      "3f227e4f",
+      "fa216eb8",
+      "ae5f2069",
+      "cf6510fa",
+      "1e6f230a",
+      "2b1199ff"
+    ],
+    "edge_count": 320,
+    "edge_types": {
+      "contradicts": 246,
+      "weak_contradicts": 70,
+      "quantitative_divergence": 4
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_KdORmvU8MLI.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 8,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0002",
+    "question": "How strong is the evidence for zoonotic origin versus lab leak origin of SARS-CoV-2?",
+    "variants": [
+      "Can the absence of identified intermediate hosts or zoonotic pathways undermine the zoonotic origin hypothesis for SARS-CoV-2?",
+      "Did SARS-CoV-2 originate from a laboratory leak or natural zoonotic spillover, and which hypothesis is supported by Bayesian analysis of available evidence?",
+      "Did SARS-CoV-2 originate from natural zoonotic spillover or from a laboratory leak?",
+      "Did circulating SARS-CoV-2 infections exist before the documented HSM cluster cases, and what does this reveal about the origin?",
+      "Did the debate evidence and new information strengthen or weaken the case for lab-leak origin of SARS-CoV-2?",
+      "Do animal samples from HSM and surrounding areas show evidence of SARS-CoV-2 infection consistent with zoonotic spillover?",
+      "Do early case distributions (particularly non-market-connected cases) provide evidence for or against HSM as the origin site of SARS-CoV-2 spillover?",
+      "Do environmental and epidemiological patterns support zoonotic transmission of SARS-CoV-2 from animals to humans?",
+      "Do genetic/sequence features of SARS-CoV-2 provide stronger evidence for lab leak or zoonotic origin?",
+      "Do the early case distributions and serological/clinical samples provide strong evidence that HSM was the origin/epicenter of SARS-CoV-2?",
+      "Do the spatial clustering patterns of early COVID cases at wet markets provide strong evidence for market origin of SARS-CoV-2?",
+      "Do wet market conditions and documented market outbreak clusters provide strong evidence for zoonotic origin of SARS-CoV-2?",
+      "Does HSM's cluster of properties (ventilation, location characteristics) provide meaningful evidential support for identifying the origin location of SARS-CoV-2?",
+      "Does HSM's documented characteristics (environmental factors vs. wildlife trading activity) make it strong evidence for zoonotic spillover origin of SARS-CoV-2?",
+      "Does environmental and genetic evidence support zoonotic transmission pathways for SARS-CoV-2?",
+      "Does the HSM cluster and absence of prior circulation provide strong evidence for a zoonotic/market origin of SARS-CoV-2?",
+      "Does the HSM cluster and absence of wildlife spillover evidence at that location provide strong or weak support for determining the origin of SARS-CoV-2 (natural vs. lab spillover)?",
+      "Does the HSM cluster and lack of prior circulation evidence provide meaningful evidence regarding SARS-CoV-2's origin (natural spillover vs. lab leak)?",
+      "Does the HSM cluster evidence and overall case strength support zoonotic origin or lab-leak as the more likely hypothesis for SARS-CoV-2 origin?",
+      "Does the HSM cluster evidence and overall evidence base more strongly support zoonotic origin or lab-leak origin of SARS-CoV-2?",
+      "Does the HSM cluster evidence support the zoonotic origin or lab leak hypothesis for SARS-CoV-2?",
+      "Does the HSM cluster pattern and timing provide evidence supporting zoonotic origin of SARS-CoV-2?",
+      "Does the HSM cluster pattern constitute meaningful evidence regarding SARS-CoV-2's origin (zoonotic vs. lab leak)?",
+      "Does the HSM cluster pattern provide evidence supporting zoonotic origin of SARS-CoV-2?",
+      "Does the HSM cluster provide evidence for a zoonotic market origin of SARS-CoV-2, or can it be explained by non-market mechanisms like WIV-CDC cooperation during facility relocation?",
+      "Does the HSM cluster provide meaningful evidence regarding SARS-CoV-2's origin, and should it factor into the lab leak vs. zoonosis assessment?",
+      "Does the HSM cluster provide strong or meaningful evidential support for determining SARS-CoV-2's origin?",
+      "Does the accumulated evidence (particularly HSM cluster data) support zoonotic or lab-leak origin as the more probable hypothesis for SARS-CoV-2?",
+      "Does the accumulated evidence better support the lab-leak hypothesis or the zoonotic-origin hypothesis for SARS-CoV-2?",
+      "Does the accumulated evidence support lab-leak origin or zoonotic origin as more probable for SARS-CoV-2?",
+      "Does the available evidence (HSM cluster, sequence data) more strongly support zoonotic origin or laboratory origin of SARS-CoV-2?",
+      "Does the available evidence (expert opinion and environmental/genetic data) support zoonotic origin of SARS-CoV-2?",
+      "Does the available evidence (including China's disclosure practices and epidemiological patterns) support zoonotic origin or lab leak origin of SARS-CoV-2?",
+      "Does the available evidence (including HSM cluster data) support zoonotic or lab-leak origin of SARS-CoV-2?",
+      "Does the available evidence (including HSM epidemiology and other accumulated evidence) more strongly support zoonotic or lab-leak origin of SARS-CoV-2?",
+      "Does the available evidence (including analysis of early case clusters and HSM epicenter) support lab-leak or zoonotic origin as the more probable explanation for SARS-CoV-2?",
+      "Does the available evidence (particularly regarding furin cleavage site and animal sampling) better support zoonotic origin or lab leak origin of SARS-CoV-2?",
+      "Does the available evidence (particularly regarding wildlife involvement at HSM) support zoonotic origin as the more likely explanation for SARS-CoV-2?",
+      "Does the available evidence (particularly the HSM cluster) better support zoonotic origin or lab leak origin for SARS-CoV-2?",
+      "Does the available evidence (sequence data and HSM cluster assessment) support lab leak or zoonotic origin as the more probable explanation for SARS-CoV-2?",
+      "Does the available evidence (sequence data and priors) make laboratory origin or zoonotic origin more probable as the cause of SARS-CoV-2?",
+      "Does the available evidence and probabilistic reasoning support zoonosis as more likely than lab leak as the origin of SARS-CoV-2?",
+      "Does the available evidence better support the zoonotic origin hypothesis or the lab leak hypothesis for SARS-CoV-2?",
+      "Does the available evidence support lab-leak or zoonotic origin as the more probable explanation for SARS-CoV-2's origin?",
+      "Does the available evidence support or undermine the zoonotic origin hypothesis for SARS-CoV-2?",
+      "Does the available evidence support zoonotic origin or lab leak as the more likely explanation for SARS-CoV-2's origin?",
+      "Does the clustering of cases at the HSM market provide reliable evidence of the market's role in the origin/early transmission of SARS-CoV-2?",
+      "Does the clustering of cases in wet markets (HSM/Xinfadi) constitute strong evidence for the zoonotic origin of SARS-CoV-2?",
+      "Does the debate evidence and probabilistic analysis support zoonotic origin of SARS-CoV-2?",
+      "Does the epidemiological and evidential record better support the zoonotic origin hypothesis or the lab leak hypothesis for SARS-CoV-2?",
+      "Does the epidemiological and geographic evidence favor zoonotic origin over lab leak origin for SARS-CoV-2?",
+      "Does the epidemiological evidence (pre-2020 surveillance data and early case distribution relative to HSM) support or refute the hypothesis that SARS-CoV-2 originated from a wet market spillover event?",
+      "Does the evidence (historical spillover precedent and/or the HSM cluster detection pattern) support a zoonotic origin of SARS-CoV-2?",
+      "Does the evidence (particularly genetic characteristics and laboratory feasibility) support lab leak origin over zoonotic origin as the most likely explanation for SARS-CoV-2?",
+      "Does the evidence better support the zoonotic origin hypothesis or the lab leak hypothesis for SARS-CoV-2?",
+      "Does the presence or absence of appropriate lab capability at WIV support or argue against zoonotic origin as the explanation for SARS-CoV-2?",
+      "Does the spatial concentration of positive samples and cases at the HSM cluster constitute strong evidence for the market as the origin/transmission location of SARS-CoV-2?",
+      "Does the totality of evidence, particularly HSM cluster evidence, more strongly support lab leak or zoonotic origin of SARS-CoV-2?",
+      "Given WIV's research practices and the HSM cluster evidence, is lab leak or zoonotic origin more probable as the source of SARS-CoV-2?",
+      "Given the HSM cluster evidence and other accumulated evidence, is lab-leak or zoonotic origin more probable for SARS-CoV-2?",
+      "Given the available evidence (particularly the HSM cluster), is zoonotic origin or laboratory origin the more probable explanation for SARS-CoV-2's emergence?",
+      "How strong is the evidence for zoonotic origin versus lab leak origin of SARS-CoV-2?",
+      "How strong is the evidence that HSM market was the spillover location for SARS-CoV-2 zoonotic origin?",
+      "Is HSM a likely or unlikely place for SARS-CoV-2 to emerge under the lab leak hypothesis?",
+      "Is SARS-CoV-2 lab-leak origin or natural zoonotic origin more probable?",
+      "Is SARS-CoV-2 more likely to have originated from a lab leak or from natural zoonotic spillover?",
+      "Is SARS-CoV-2 more likely to have originated from a lab leak or from zoonotic spillover?",
+      "Is SARS-CoV-2 more likely to have originated from a lab leak or natural zoonotic spillover?",
+      "Is SARS-CoV-2 more likely to have originated from a laboratory accident or natural zoonotic spillover?",
+      "Is SARS-CoV-2 more likely to have originated from a laboratory or from zoonotic spillover, and what does the genetic and circumstantial evidence demonstrate?",
+      "Is SARS-CoV-2 more likely to have originated from a natural zoonotic spillover at a wet market or from a laboratory leak?",
+      "Is SARS-CoV-2 more likely to have originated from a zoonotic spillover or a lab leak, and what is the evidential weight of the HSM cluster pattern?",
+      "Is SARS-CoV-2 more likely to have originated from laboratory engineering or natural zoonotic spillover?",
+      "Is SARS-CoV-2 more likely to have originated from natural zoonotic spillover or from a laboratory leak?",
+      "Is SARS-CoV-2 more likely to have originated from natural zoonotic spillover or from a laboratory source?",
+      "Is SARS-CoV-2 more likely to have originated from zoonotic spillover at HSM or from a lab-leak?",
+      "Is SARS-CoV-2 more likely to have originated from zoonotic spillover or from a lab leak?",
+      "Is SARS-CoV-2 more likely to have originated from zoonotic spillover or from a laboratory leak?",
+      "Is SARS-CoV-2 more likely to have originated from zoonotic spillover or laboratory engineering?",
+      "Is SARS-CoV-2 more likely to have originated from zoonotic spillover or laboratory leak?",
+      "Is SARS-CoV-2 origin more likely to be from laboratory leak or natural zoonotic spillover?",
+      "Is SARS-CoV-2 origin more likely to be lab-leak or natural zoonotic spillover?",
+      "Is SARS-CoV-2 origin more likely to be lab-leak or zoonotic spillover?",
+      "Is SARS-CoV-2 origin more likely to be zoonotic or lab-leak based on accumulated evidence?",
+      "Is SARS-CoV-2 origin more likely to be zoonotic or lab-leak?",
+      "Is SARS-CoV-2 origin more likely zoonotic or lab-leak, and what is the evidential strength of key location/epidemiological data in resolving this question?",
+      "Is lab leak or zoonotic origin more likely to explain SARS-CoV-2's emergence?",
+      "Is lab-leak or natural zoonotic origin more probable as the source of SARS-CoV-2?",
+      "Is lab-leak or zoonotic origin more probable as the source of SARS-CoV-2?",
+      "Is lab-leak origin more or less probable than zoonotic origin for SARS-CoV-2?",
+      "Is lab-leak origin or natural zoonotic origin more probable as the source of SARS-CoV-2?",
+      "Is lab-leak origin or natural zoonotic origin more probable for SARS-CoV-2?",
+      "Is lab-leak origin or zoonotic origin more probable as the source of SARS-CoV-2?",
+      "Is laboratory leak or natural zoonotic spillage the more probable origin for SARS-CoV-2?",
+      "Is laboratory leak or zoonotic spillover the more probable origin of SARS-CoV-2?",
+      "Is market spillover or laboratory spillover the more likely origin of SARS-CoV-2, and how do prior probabilities and the HSM cluster evidence weigh in this comparison?",
+      "Is the HSM cluster and/or zoonotic spillover mechanisms strong evidence supporting a natural origin for SARS-CoV-2?",
+      "Is the HSM cluster evidence decisive in determining whether SARS-CoV-2 originated from zoonotic spillover versus lab leak, and what is the warranted conclusion on origins?",
+      "Is the HSM cluster pattern reliable evidence of the true origin of SARS-CoV-2, or is it an artifact of detection bias?",
+      "Is the HSM market (and similar wildlife trading venues) a plausible or likely origin point for SARS-CoV-2 via zoonotic spillover?",
+      "Is the Xinfadi/HSM cluster and early case distribution strong evidence for market spillover origin of SARS-CoV-2?",
+      "Is the evidence consistent with a market origin for SARS-CoV-2?",
+      "Is the lab-leak or zoonotic origin hypothesis more probable for SARS-CoV-2, and what is the evidential weight of the HSM cluster location?",
+      "Is the lab-leak or zoonotic origin hypothesis more probable for SARS-CoV-2?",
+      "Is the lab-leak origin hypothesis or the zoonotic origin hypothesis more probable for SARS-CoV-2?",
+      "Is the wet market (HSM) spillover interface the most probable or primary explanation for SARS-CoV-2 origins?",
+      "Is the wet market (HSM) the origin/epicenter of the earliest SARS-CoV-2 infections?",
+      "Is the zoonotic origin hypothesis or the lab-leak origin hypothesis more probable for SARS-CoV-2, given evidence from the HSM cluster?",
+      "Is zoonotic origin or lab leak origin more likely/probable as the source of SARS-CoV-2?",
+      "Is zoonotic origin or lab leak origin the more probable explanation for SARS-CoV-2's origins?",
+      "Is zoonotic origin or lab leak the more probable explanation for SARS-CoV-2's emergence?",
+      "Is zoonotic origin or laboratory leak more probable as the cause of SARS-CoV-2's emergence?",
+      "Is zoonotic origin the favored or default explanation for SARS-CoV-2, and what is the evidential weight of the HSM cluster in supporting it?",
+      "Is zoonotic spillover or laboratory leak the more probable origin of SARS-CoV-2?",
+      "Should lab-leak or zoonotic origin be considered the more likely hypothesis for SARS-CoV-2's origin, given Wuhan's laboratory presence and HSM cluster evidence?",
+      "Should prior probabilities about pandemic origins or the specific HSM early cluster pattern be considered decisive evidence for determining whether SARS-CoV-2 originated from zoonosis or lab leak?",
+      "Under the lab leak hypothesis, was the HSM cluster a plausible or likely site for SARS-CoV-2 emergence?",
+      "Was the HSM market a plausible location for SARS-CoV-2's initial emergence given its characteristics?",
+      "What best explains the HSM cluster and the origin of SARS-CoV-2's viral sequence: accidental spillover from a nearby CDC facility relocation, or intentional laboratory modification and leak?",
+      "What does the HSM cluster's formation and early cases tell us about whether SARS-CoV-2 originated from a lab leak versus zoonotic spillover?",
+      "What does the evidence (sequence data and HSM cluster patterns) reveal about whether SARS-CoV-2 originated from laboratory involvement versus natural zoonotic spillover?",
+      "What does the infection pattern among market workers and vendors reveal about whether HSM was the actual origin of the SARS-CoV-2 outbreak?",
+      "What does the spatial and temporal distribution of early HSM infections indicate about the origin of SARS-CoV-2 (lab leak vs. zoonotic spillover)?",
+      "What environmental and genetic evidence supports or undermines the zoonotic origin hypothesis for SARS-CoV-2?",
+      "What explains the formation of the HSM market as an early cluster in the SARS-CoV-2 outbreak?",
+      "What is the appropriate probability or likelihood assessment of lab leak versus zoonotic origin as explanations for SARS-CoV-2's emergence?",
+      "What is the comparative evidential and probabilistic standing of lab leak versus zoonotic origin hypotheses for SARS-CoV-2?",
+      "What is the evidential and probabilistic weight of zoonotic origin indicators (HSM cluster, prior frequencies) in evaluating the origins of SARS-CoV-2?",
+      "What is the most important or decisive evidence for determining whether SARS-CoV-2 originated from zoonotic spillover versus laboratory sources?",
+      "What is the probability that SARS-CoV-2 originated from a laboratory leak?",
+      "What is the probability that SARS-CoV-2 originated from zoonotic spillover versus lab leak?",
+      "What is the relative evidential support for wet market/zoonotic origin versus lab-leak origin of SARS-CoV-2?",
+      "What is the relative plausibility of lab leak versus zoonotic origin as explanations for SARS-CoV-2's emergence?",
+      "What is the relative plausibility or prior probability of lab leak versus zoonotic origin for SARS-CoV-2?",
+      "What is the relative prior probability of lab leak versus zoonotic origin for SARS-CoV-2, given WIV's location and research practices?",
+      "What is the relative probability of lab-leak versus zoonotic origin for SARS-CoV-2?",
+      "What is the relative probability or evidentiary support for lab leak versus zoonotic origin hypotheses for SARS-CoV-2?",
+      "What is the relative probability that SARS-CoV-2 originated from a lab leak versus zoonotic spillover?",
+      "What is the relative weight of epidemiological/priors evidence in evaluating zoonotic versus laboratory origins of SARS-CoV-2?",
+      "What should be the relative prior probability assigned to lab leak versus zoonotic origin for SARS-CoV-2?",
+      "Which origin hypothesis (lab-leak vs. zoonosis) is more probable for SARS-CoV-2?",
+      "Which origin hypothesis (lab-leak vs. zoonotic) for SARS-CoV-2 is more probable given the available evidence?",
+      "Which origin hypothesis (zoonotic vs. lab-leak) is most likely for SARS-CoV-2, given the strength of HSM cluster evidence?"
+    ],
+    "claim_ids": [
+      "a59856dd",
+      "1806cfb5",
+      "a6d41746",
+      "54060d8c",
+      "30cb2a81",
+      "50b62f67",
+      "15d3f72f",
+      "20b666bc",
+      "56159dae",
+      "376abb78",
+      "510baa92",
+      "d31f259d",
+      "6892efec",
+      "388d6778",
+      "e56fa56e",
+      "8836d90b",
+      "96a03a89",
+      "d245f365",
+      "60d9f1ff",
+      "97f7f3f0",
+      "cc132f83",
+      "5e67b483",
+      "dff85c8b",
+      "48fb3113",
+      "48ee7c1c",
+      "ccb11477",
+      "78edd269",
+      "a2c34481",
+      "39b2269a",
+      "ae5f2069",
+      "d260c5af",
+      "e4108e04",
+      "64e9a7d6",
+      "1e6f230a",
+      "ffdb3100",
+      "c632b88f",
+      "26fe7b51",
+      "7850c95c",
+      "abea210d",
+      "87d09b0d",
+      "907f5fc1",
+      "244dc979",
+      "91804db1",
+      "6b80cb96",
+      "1c7957d9",
+      "c1ce7483",
+      "5d51ea67",
+      "ab3337a8",
+      "4f977c05",
+      "68e8028f",
+      "4112dee9",
+      "856dc4af",
+      "b531f0f4",
+      "b08a14c1",
+      "d48ed51a",
+      "e8f513b3",
+      "8ca9c020",
+      "68894eb7",
+      "1da344e5",
+      "7824343c",
+      "ef79ed30",
+      "612a9aec",
+      "321c6fe2",
+      "e309f45e",
+      "084eb2b2",
+      "f6a5b288",
+      "cf6510fa",
+      "c0b36018",
+      "e467772e",
+      "71776e7a",
+      "4ade9c66",
+      "c1f3eb33",
+      "223dcf2f",
+      "db2a8888",
+      "6d104cde",
+      "d9b91bbf",
+      "8a96582c",
+      "b75ac936",
+      "e6fcf9b6",
+      "53153dcf",
+      "a81636f1",
+      "3d2ff9d8",
+      "ce564797",
+      "0f2015ae",
+      "cc1d01a7",
+      "48872967",
+      "027e12eb",
+      "2d37d754",
+      "a0c36b5b",
+      "446951d9",
+      "f2c90780",
+      "590efd1b",
+      "c826d25a",
+      "0df45afe",
+      "cda86093",
+      "c577c6f6",
+      "75fa7587",
+      "67c4bd89",
+      "961dc8df",
+      "0f545a5f",
+      "c406041d",
+      "3f227e4f",
+      "d9120745",
+      "24eea744",
+      "d7c36efa",
+      "b7be2897",
+      "f87245f7",
+      "090c6cb3",
+      "fa216eb8",
+      "fd5d8adb",
+      "f25a713b"
+    ],
+    "edge_count": 310,
+    "edge_types": {
+      "contradicts": 136,
+      "weak_contradicts": 168,
+      "quantitative_divergence": 4,
+      "self_inconsistency": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_KdORmvU8MLI.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 8,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0003",
+    "question": "Does the available evidence better support the zoonotic origin hypothesis over the lab leak hypothesis?",
+    "variants": [
+      "Did the debate evidence and analysis strengthen or weaken confidence in the lab-leak hypothesis?",
+      "Did the debate evidence and new information increase or decrease the relative probability of lab leak versus zoonotic origin?",
+      "Did the formal debate evidence strengthen or weaken support for the lab-leak hypothesis relative to the zoonotic origin hypothesis?",
+      "Do the available epidemiological clusters and genetic evidence point toward zoonotic origin or are they consistent with a lab leak scenario?",
+      "Does Bayesian analysis of the evidence support the zoonosis hypothesis over the lab leak hypothesis?",
+      "Does Scott Alexander's analysis validly support a strong conclusion favoring zoonosis over lab leak?",
+      "Does Wuhan's geographic and institutional characteristics (particularly the presence of WIV) meaningfully increase the prior probability of lab leak origin relative to zoonotic origin?",
+      "Does Wuhan's profile (lab concentration vs. natural spillover conditions) make it a more likely origin point for lab leak or zoonotic spillover?",
+      "Does the HSM (Huanan Seafood Market) cluster location and concentration of suspect lab work in Wuhan constitute strong or negligible evidence for discriminating between lab leak and zoonotic origin hypotheses?",
+      "Does the Wuhan location and HSM epicenter constitute strong evidence favoring zoonotic origin over lab leak, or does the presence of suspect lab work in Wuhan maintain comparable prior probabilities for both hypotheses?",
+      "Does the available evidence (including WIV capabilities and epidemiological data) better support the zoonotic origin hypothesis or the lab leak hypothesis?",
+      "Does the available evidence and contextual information (including WIV location and prior probability assessment) better support zoonotic origin or lab leak origin?",
+      "Does the available evidence and proper probabilistic analysis support the zoonotic origin hypothesis over the lab leak hypothesis?",
+      "Does the available evidence better support the zoonotic origin hypothesis over the lab leak hypothesis?",
+      "Does the available evidence or prior probability analysis better support the zoonotic origin hypothesis compared to the lab leak hypothesis?",
+      "Does the available evidence support a laboratory origin (whether through negligent leak or intentional modification) over natural zoonotic origin?",
+      "Does the available evidence support the zoonotic origin hypothesis over the lab leak hypothesis?",
+      "Does the available phylogenetic and epidemiological evidence support the zoonotic-origin hypothesis (specifically market origin) over the lab leak hypothesis?",
+      "Does the concentration of suspect lab work in Wuhan and the prior prevalence of zoonotic origins make lab leak and zoonotic origins comparably likely, or does it favor zoonosis?",
+      "Does the debate evidence support the zoonosis hypothesis over the lab leak hypothesis?",
+      "Does the epidemiological evidence and geographic context (Wuhan location, animal source proximity, lab presence) favor zoonotic or lab-leak origins as the more probable explanation?",
+      "Does the evidence overall support or refute the lab leak hypothesis?",
+      "Does the evidence presented in the debate better support the zoonotic origin hypothesis or the lab leak hypothesis?",
+      "Does the evidence presented in the debate decisively favor zoonotic origin over lab leak origin?",
+      "Does the geographic concentration of suspect laboratory work in Wuhan (relative to HSM epicenter) favor or disfavor the lab leak hypothesis?",
+      "Does the geographic location of early COVID cases and/or lab work in Wuhan constitute evidence favoring lab leak over zoonotic origin, or vice versa?",
+      "Does the presence of WIV and its capabilities make lab leak origin more or less probable relative to zoonotic origin?",
+      "Does the totality of debate evidence and updates increase or decrease the probability of lab-leak origin relative to zoonotic origin?",
+      "Does the totality of evidence (particularly Wuhan location and lab capabilities) support zoonotic origin more strongly than lab leak origin?",
+      "Has sufficient evidence accumulated to establish which COVID origin hypothesis (lab-leak vs. zoonotic) is more probable?",
+      "How much evidential weight should Wuhan's geographic location and proximity to WIV carry in evaluating lab leak versus zoonotic origin hypotheses?",
+      "How much should the geographic concentration of lab work in Wuhan increase the prior probability of lab leak origin relative to zoonotic origin?",
+      "How strongly does the available evidence (furin cleavage site, animal reservoir evidence, etc.) support zoonotic versus lab leak origin?",
+      "Is lab leak or zoonotic origin better supported by the evidence when using proper probabilistic reasoning?",
+      "Is the epidemiological evidence (proximity to animal sources vs. laboratory sources) stronger support for market/zoonotic origin or laboratory origin?",
+      "Is the evidential case for zoonotic origin (particularly via market spillover) robustly supported by phylogenetic and epidemiological data, or does it rest on misweighting or misinterpreting specific pieces of evidence like the HSM cluster?",
+      "Is the lab leak hypothesis or zoonotic origin more likely/supported by evidence?",
+      "Is the lab-leak hypothesis or the zoonotic-origin hypothesis more probable given the available evidence?",
+      "Is the zoonotic origin hypothesis or the lab-leak hypothesis better supported by the evidence presented in the formal debate?",
+      "Is there sufficient evidence to determine which COVID origin hypothesis (lab leak vs. zoonotic) is more probable?",
+      "Should lab leak and zoonotic origin hypotheses be weighted equally as priors in assessing Wuhan's pandemic origin, or did prior frameworks suggest labs were more likely spillover sources than markets?",
+      "Should the concentration of suspect lab work in Wuhan and epidemiological evidence shift prior probabilities substantially toward zoonosis, or should lab leak and zoonosis remain epistemically comparable as starting hypotheses?",
+      "Should the concentration of suspect lab work in Wuhan and the early HSM cluster pattern be treated as strong evidence favoring zoonosis over lab leak, or should lab leak and zoonosis start with comparable prior probabilities in the Wuhan context?",
+      "Should zoonotic origin or lab leak be considered more probable given the available evidence and contextual factors?",
+      "Was Wuhan a distinctively special or constrained location for the purposes of evaluating lab leak versus natural origin hypotheses?",
+      "What is the evidential significance of Wuhan being the outbreak location for evaluating the lab leak hypothesis?",
+      "What is the relative prior probability of lab leak versus zoonotic origin when accounting for Wuhan's specific characteristics (HSM location and WIV presence)?",
+      "Which hypothesis—lab leak or zoonotic origin—has stronger evidential support or should be assigned higher prior probability given the Wuhan context?",
+      "Which origin hypothesis (lab leak vs. zoonotic) is more likely to be true, and which side presented stronger evidence in the debate?",
+      "Which origin hypothesis (zoonotic vs. lab-leak) is more probable or better supported by evidence?",
+      "Which origin scenario (lab leak vs. zoonotic spillover) is more likely given the debate evidence?"
+    ],
+    "claim_ids": [
+      "1da344e5",
+      "c632b88f",
+      "612a9aec",
+      "321c6fe2",
+      "ee920406",
+      "8cb63230",
+      "56159dae",
+      "7824343c",
+      "dff85c8b",
+      "78edd269",
+      "e56fa56e",
+      "376abb78",
+      "027e12eb",
+      "15d3f72f",
+      "8ca9c020",
+      "ccb11477",
+      "ffdb3100",
+      "72f3322c",
+      "39b2269a",
+      "76949eaa",
+      "60d9f1ff",
+      "48ee7c1c",
+      "96a03a89",
+      "575b8f57",
+      "68894eb7",
+      "54060d8c",
+      "388d6778",
+      "26fe7b51",
+      "e8f513b3",
+      "50b62f67",
+      "e309f45e",
+      "e1b35e84",
+      "20b666bc",
+      "99699d0b",
+      "a59856dd",
+      "b1b57125",
+      "53153dcf",
+      "b0e55300",
+      "e7634ee9",
+      "00ce11a2",
+      "ce564797",
+      "f3ec1753"
+    ],
+    "edge_count": 102,
+    "edge_types": {
+      "contradicts": 86,
+      "weak_contradicts": 16
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_KdORmvU8MLI.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt"
+    ],
+    "source_count": 7,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0004",
+    "question": "Is Wuhan a significant locus of wildlife trade and zoonotic spillover exposure?",
+    "variants": [
+      "Did Wuhan's geographic and commercial characteristics make it a likely location for zoonotic spillover via wildlife trade?",
+      "Did Wuhan's wet market represent a significant source of wildlife-to-human contact for potential zoonotic spillover?",
+      "Did Wuhan's wildlife trade create significant conditions for zoonotic spillover of SARS-CoV-2 from animal sources?",
+      "Does Wuhan's geographic and infrastructural characteristics support it being the origin point of a natural zoonotic spillover?",
+      "Does Wuhan's role in the wildlife trade make it a likely location for natural spillover of SARS-CoV-2?",
+      "Does the HSM market cluster constitute meaningful evidence supporting zoonotic spillover origin in Wuhan?",
+      "How likely is Wuhan's Huanan market as a plausible spillover location given local wildlife availability and consumption patterns?",
+      "How likely or significant is Wuhan's wet market (HSM) as the location for a zoonotic SARS-CoV-2 spillover event?",
+      "How probable or likely is Huanan Seafood Market as the location of a zoonotic spillover event in Wuhan?",
+      "How significant is Wuhan's role as a wildlife trade hub relative to national spillover risk?",
+      "How significant was Wuhan's role in the wildlife trade as a potential source of zoonotic spillover?",
+      "How significant was Wuhan's wildlife market infrastructure and capacity as a potential spillover source for SARS-CoV-2?",
+      "How small is Wuhan's proportional share of zoonotic spillover risk relative to its population size or alternative spillover locations?",
+      "Is Huanan Seafood Market the most likely location for a zoonotic spillover event in Wuhan?",
+      "Is Wuhan a plausible geographic location for zoonotic spillover to have occurred?",
+      "Is Wuhan a significant locus of wildlife trade and zoonotic spillover exposure?",
+      "Is the HSM market a plausible or likely location for zoonotic spillover of SARS-CoV-2 in Wuhan?",
+      "What is the appropriate prior probability or risk share for zoonotic wildlife-market spillover occurring in Wuhan relative to other Chinese cities?",
+      "What is the conditional probability of a zoonotic spillover occurring at Wuhan's wildlife markets (specifically HSM or markets generally) given the zoonotic hypothesis?",
+      "What is the conditional probability that a zoonotic spillover event would occur at or originate from the Huanan Seafood Market in Wuhan?",
+      "What is the magnitude of HSM market's epidemiological significance as a spillover location relative to other wildlife exposure sources in Wuhan?",
+      "What is the probability that HSM would be the location of zoonotic spillover in Wuhan?",
+      "What is the probability that Wuhan specifically would be selected as the origin location for a zoonotic spillover event, conditioning on market-based transmission?",
+      "What is the proportional size or risk contribution of Wuhan's wildlife markets relative to the broader national or random baseline for zoonotic spillover?",
+      "What is the quantitative magnitude of HSM's expected involvement in zoonotic spillover scenarios in Wuhan?",
+      "What is the quantitative measure of zoonotic spillover risk exposure in Wuhan, expressed as a proportion or ratio?",
+      "What is the scale and significance of Wuhan's role in China's wildlife trade?"
+    ],
+    "claim_ids": [
+      "22287a94",
+      "27ecadb9",
+      "16926484",
+      "9b2d5b69",
+      "e7a71069",
+      "915c6d97",
+      "c654e0c0",
+      "d6b1d84b",
+      "6fb8ba04",
+      "c71261a0",
+      "722a4a7b",
+      "729653bb",
+      "4effd953",
+      "059c537b",
+      "edf21528",
+      "ed3ba0b7",
+      "c577c6f6",
+      "b75ac936",
+      "00ce11a2",
+      "1332539e",
+      "8807eb73",
+      "b1b57125",
+      "f867ded0",
+      "1befbcca"
+    ],
+    "edge_count": 54,
+    "edge_types": {
+      "weak_contradicts": 10,
+      "contradicts": 22,
+      "quantitative_divergence": 22
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt"
+    ],
+    "source_count": 6,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0005",
+    "question": "Does the spatial location of SARS-CoV-2's emergence in Wuhan provide strong discriminatory evidence between zoonotic and lab-leak hypotheses, or does it leave them comparably probable?",
+    "variants": [
+      "Does Wuhan's characteristics (lab presence vs. natural spillover likelihood) favor lab leak or zoonotic origin as the prior probability for SARS-CoV-2's emergence?",
+      "Does Wuhan's geographic and infrastructural characteristics support or reduce the conditional probability of a zoonotic SARS-CoV-2 spillover originating specifically in Wuhan?",
+      "Does the emergence of SARS-CoV-2 at the Huanan Seafood Market in Wuhan provide stronger support for zoonotic origin over lab leak, or do geographic coincidence factors (Wuhan location + WIV presence) make the two origins initially comparable in probability?",
+      "Does the geographic coincidence of SARS-CoV-2 emerging in Wuhan (a city with coronavirus research capability) constitute strong evidence against zoonotic origin, or does the HSM cluster explain the Wuhan location through natural epidemiological factors?",
+      "Does the geographic coincidence of SARS-CoV-2 emerging in Wuhan (home to WIV) support lab-leak or zoonotic origin as more probable?",
+      "Does the geographic coincidence of SARS-CoV-2's emergence in Wuhan (home to WIV) constitute strong evidence against zoonotic origin, or does it leave the two hypotheses with comparable prior probabilities?",
+      "Does the geographic coincidence of the pandemic starting in Wuhan (which hosts WIV) constitute strong evidence against zoonotic origin?",
+      "Does the geographic location of SARS-CoV-2's emergence (HSM market in Wuhan, where suspect lab work occurred) provide strong evidence favoring one origin hypothesis over the other?",
+      "Does the historical predominance of zoonotic spillover establish a decisive prior probability advantage for zoonotic origin of SARS-CoV-2, or does the Wuhan lab context sufficiently equalize the prior probabilities?",
+      "Does the spatial location of SARS-CoV-2's emergence in Wuhan provide strong discriminatory evidence between zoonotic and lab-leak hypotheses, or does it leave them comparably probable?",
+      "Given Wuhan's location and characteristics, how probable was the lab leak hypothesis as an origin scenario for SARS-CoV-2's emergence?",
+      "How significant is Wuhan's location and distinctive characteristics as evidence for or against lab-leak origin of SARS-CoV-2?",
+      "Is Wuhan a distinctive or relevant location for evaluating the origins of SARS-CoV-2, particularly regarding the concentration of lab work there?",
+      "Is Wuhan a likely location for natural zoonotic pandemic emergence?",
+      "Is Wuhan a location with significant human exposure to wildlife coronavirus sources?",
+      "Is Wuhan a plausible location for natural zoonotic emergence of SARS-CoV-2?",
+      "Is Wuhan a surprising or unlikely location for a zoonotic coronavirus pandemic to originate?",
+      "Is Wuhan an unusually distinctive or probabilistically significant location for pandemic emergence?",
+      "Is the occurrence of a zoonotic coronavirus pandemic in Wuhan a surprising or improbable geographic coincidence?",
+      "Should the geographic coincidence of pandemic origin in Wuhan (home to WIV) be considered surprising or probative evidence regarding the lab leak versus zoonotic origin hypotheses?",
+      "Should zoonotic origin be assigned substantially higher prior probability than lab leak as the cause of SARS-CoV-2, given historical pandemic frequencies and the Wuhan context?",
+      "Was Wuhan/these outbreak locations unusually distinctive or special as sites for zoonotic spillover or pandemic emergence?",
+      "What is the conditional probability of zoonotic SARS-CoV-2 emergence specifically in Wuhan?",
+      "What is the relative prior probability of lab leak versus zoonotic origin for SARS-CoV-2, considering Wuhan's location and WIV's proximity?"
+    ],
+    "claim_ids": [
+      "15d3f72f",
+      "48ee7c1c",
+      "027e12eb",
+      "8807eb73",
+      "6fb8ba04",
+      "e7634ee9",
+      "d31f259d",
+      "590efd1b",
+      "059c537b",
+      "388d6778",
+      "5e67b483",
+      "13562825",
+      "8836d90b",
+      "e309f45e",
+      "ece2d1e5",
+      "99699d0b",
+      "50b62f67",
+      "d9b91bbf",
+      "96a03a89",
+      "54060d8c",
+      "22287a94",
+      "c29db12a",
+      "c1ce7483",
+      "c577c6f6",
+      "915c6d97",
+      "ec12fcc5",
+      "00ce11a2"
+    ],
+    "edge_count": 48,
+    "edge_types": {
+      "contradicts": 28,
+      "weak_contradicts": 18,
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_KdORmvU8MLI.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt"
+    ],
+    "source_count": 7,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0006",
+    "question": "Were authorities biased toward detecting market-origin cases due to prior assumptions about zoonotic spillover, or were laboratories actually considered the more probable spillover location in pre-COVID epidemiological frameworks?",
+    "variants": [
+      "Do early COVID-19 cases with non-market connections and their detection patterns support the zoonotic origin (HSM epicenter) hypothesis or the lab leak hypothesis?",
+      "Do the early COVID-19 case patterns and onset locations in December 2019–January 2020 support lab leak or zoonotic market origin?",
+      "Does the spatial distribution and epidemiological pattern of earliest COVID cases at the HSM provide stronger evidence for zoonotic spillover or for laboratory origin?",
+      "Was there systematic bias toward detecting or prioritizing market-connected COVID cases in early surveillance and epidemiological investigation?",
+      "Were authorities biased toward detecting market-origin cases due to prior assumptions about zoonotic spillover, or were laboratories actually considered the more probable spillover location in pre-COVID epidemiological frameworks?",
+      "Were authorities biased toward detecting/presuming market-origin cases, or were laboratory spillovers actually considered more likely as a baseline prior to COVID-19?",
+      "Were laboratory settings or natural spillover sources (markets/zoonotic reservoirs) historically considered more probable as pandemic origins prior to COVID-19?",
+      "When were COVID-19 cases first detected and identified, and did detection bias toward the market distort the epidemiological record?"
+    ],
+    "claim_ids": [
+      "cf6510fa",
+      "7824343c",
+      "a81636f1",
+      "dff85c8b",
+      "961dc8df",
+      "090c6cb3",
+      "8ce4a083",
+      "15d3f72f",
+      "09d39600",
+      "19886686",
+      "cc1d01a7",
+      "87aa7517"
+    ],
+    "edge_count": 16,
+    "edge_types": {
+      "contradicts": 12,
+      "weak_contradicts": 4
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_KdORmvU8MLI.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 5,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0007",
+    "question": "Were there elevated or notable hospitalizations in Wuhan at the time COVID-19 cases first emerged?",
+    "variants": [
+      "Did COVID-19 cases circulate in Wuhan before the Huanan wet market cluster was identified?",
+      "Did COVID-19 circulate in Wuhan before early December 2019?",
+      "Does Wuhan's particular characteristics (hospitals, infrastructure, location) make it an unusual or expected epicenter for early COVID-19 cases under different origin hypotheses?",
+      "Was there detectable evidence of COVID-19 circulating in Wuhan before the official outbreak, as revealed by 2019 respiratory illness surveillance data?",
+      "Were there COVID-19 cases circulating in Wuhan before the wet market outbreak became known, and what is the evidence quality for such pre-market cases?",
+      "Were there documented hospitalized COVID-19 cases in Wuhan before December 2019?",
+      "Were there elevated or notable hospitalizations in Wuhan at the time COVID-19 cases first emerged?",
+      "What was the state of hospitalizations in Wuhan in the period immediately before/at the onset of COVID-19 in late 2019?"
+    ],
+    "claim_ids": [
+      "f87245f7",
+      "cccc1541",
+      "b327ecb3",
+      "189c4614",
+      "1aa0d278",
+      "b3c700eb",
+      "07973e69",
+      "af484824",
+      "a077001d",
+      "4e81dde6",
+      "f0c50cba",
+      "99699d0b"
+    ],
+    "edge_count": 16,
+    "edge_types": {
+      "contradicts": 14,
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 6,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0008",
+    "question": "Does WIV's capability to execute DEFUSE-style gain-of-function work constitute evidence supporting or evidence weighing against the lab leak hypothesis?",
+    "variants": [
+      "Does WIV's capability to execute DEFUSE-style gain-of-function work constitute evidence supporting or evidence weighing against the lab leak hypothesis?",
+      "Does WIV's demonstrated or assessed capability to conduct gain-of-function/DEFUSE-style work support or count against the lab-leak hypothesis?",
+      "Does WIV's research capabilities and conduct increase or decrease the probability of a lab leak origin?",
+      "Does evidence of WIV's gain-of-function research practices and capabilities make lab leak the more likely origin explanation?",
+      "Does the DEFUSE proposal and WIV's capability to execute such work support or undermine the lab leak hypothesis?",
+      "Does the available evidence (including WIV's demonstrated capability and debate feedback) support or argue against the lab leak hypothesis?",
+      "How significant is the DEFUSE proposal and WIV's capability to execute such work in evaluating the lab leak hypothesis?"
+    ],
+    "claim_ids": [
+      "68e8028f",
+      "321c6fe2",
+      "c632b88f",
+      "fa84cafd",
+      "78edd269",
+      "ccb11477",
+      "238a48b1",
+      "af3437ef"
+    ],
+    "edge_count": 14,
+    "edge_types": {
+      "weak_contradicts": 4,
+      "contradicts": 10
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 4,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0009",
+    "question": "Were wet markets identified and treated as a primary or priority interface/investigation target for COVID-19 spillover, or were they merely one among many potential spillover locations?",
+    "variants": [
+      "Are wet markets typical or evidentially significant sites of coronavirus spillover and outbreak clustering?",
+      "Do wet market clusters demonstrate a reliable, recurring pattern of spillover origins that can be validly compared across different zero-COVID periods?",
+      "How strongly does evidence support wet markets as the origin location for SARS-CoV-2 zoonotic spillover?",
+      "Were wet markets identified and treated as a primary or priority interface/investigation target for COVID-19 spillover, or were they merely one among many potential spillover locations?"
+    ],
+    "claim_ids": [
+      "fd5d8adb",
+      "1c7957d9",
+      "3f227e4f",
+      "2bd95b58",
+      "c1f3eb33",
+      "a6abd0f6",
+      "7850c95c",
+      "25a7d582"
+    ],
+    "edge_count": 8,
+    "edge_types": {
+      "contradicts": 6,
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 4,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0010",
+    "question": "Did SARS-CoV-2 circulate in Wuhan before December 2019?",
+    "variants": [
+      "Did SARS-CoV-2 circulate in Wuhan before December 2019?",
+      "Did SARS-CoV-2 circulate in Wuhan prior to the December 2019 Huanan market cluster?"
+    ],
+    "claim_ids": [
+      "29d4185c",
+      "cc1d01a7",
+      "af484824",
+      "87ec7d99"
+    ],
+    "edge_count": 6,
+    "edge_types": {
+      "weak_contradicts": 4,
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 3,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0011",
+    "question": "Does Rootclaim's market-based model adequately explain the HSM clustering pattern?",
+    "variants": [
+      "Does Rootclaim have an adequate explanation for the HSM cluster epidemiological patterns?",
+      "Does Rootclaim's market model adequately explain the HSM case clustering pattern?",
+      "Does Rootclaim's market-based model adequately explain the HSM clustering pattern?"
+    ],
+    "claim_ids": [
+      "0d55b76f",
+      "f2c90780",
+      "24d3bd59",
+      "3f6737f1"
+    ],
+    "edge_count": 6,
+    "edge_types": {
+      "contradicts": 6
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 3,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0012",
+    "question": "Does the observed geographic clustering of positive samples at Huanan Market represent genuine evidence of a market origin outbreak, or can it be explained by differential sampling intensity?",
+    "variants": [
+      "Does the clustering of cases at Huanan and similar markets constitute genuine evidence of market origin, or is it a biased detection artifact?",
+      "Does the observed geographic clustering of positive samples at Huanan Market represent genuine evidence of a market origin outbreak, or can it be explained by differential sampling intensity?",
+      "Does the spatial clustering of positive environmental samples at Huanan Market represent meaningful evidence of a market epicenter, or can it be explained by sampling artifact and non-uniform sampling/reporting patterns?"
+    ],
+    "claim_ids": [
+      "47bf0375",
+      "5bf8acb4",
+      "d9120745",
+      "7850c95c",
+      "961dc8df"
+    ],
+    "edge_count": 6,
+    "edge_types": {
+      "contradicts": 6
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 3,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0013",
+    "question": "Has Judge Eric encountered decisive evidence favoring one COVID origin hypothesis over the other?",
+    "variants": [
+      "Did the judges reach a decisive conclusion favoring one COVID origin hypothesis over the other?",
+      "Does the current evidence decisively support or favor one COVID origin hypothesis over the other?",
+      "Has Judge Eric encountered decisive evidence favoring one COVID origin hypothesis over the other?"
+    ],
+    "claim_ids": [
+      "76949eaa",
+      "dff85c8b",
+      "a40958df",
+      "5d51ea67"
+    ],
+    "edge_count": 6,
+    "edge_types": {
+      "contradicts": 4,
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt"
+    ],
+    "source_count": 4,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0014",
+    "question": "What does Mr. Chen's patient testimony reliably establish about his COVID-19 infection route and timing?",
+    "variants": [
+      "Is the Chen case credible evidence for establishing the actual route of Chen's COVID-19 infection (nosocomial vs. other)?",
+      "Was Mr. Chen's early December account a reliable, contemporaneous description of COVID-19 illness?",
+      "What does Mr. Chen's patient testimony reliably establish about his COVID-19 infection route and timing?"
+    ],
+    "claim_ids": [
+      "1ea50e49",
+      "189c4614",
+      "6db26f99",
+      "04a9ecdb"
+    ],
+    "edge_count": 6,
+    "edge_types": {
+      "contradicts": 6
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0015",
+    "question": "Would HSM's environmental properties make it the expected or most likely location for the first detected superspreading event?",
+    "variants": [
+      "Does the spatial suitability of a location (like HSM) for superspreading events meaningfully predict or constrain where an initial superspreading event would occur?",
+      "Is HSM the most likely location for a superspreading event to be detected based on its physical properties and epidemiological characteristics?",
+      "Would HSM's environmental properties make it the expected or most likely location for the first detected superspreading event?"
+    ],
+    "claim_ids": [
+      "966b60f0",
+      "358c38fe",
+      "c826d25a",
+      "01ebf934"
+    ],
+    "edge_count": 6,
+    "edge_types": {
+      "weak_contradicts": 2,
+      "contradicts": 4
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 4,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0016",
+    "question": "Does the Wuhan Institute of Virology's capability and conduct regarding gain-of-function research constitute evidence supporting or opposing the lab leak hypothesis?",
+    "variants": [
+      "Does the Wuhan Institute of Virology's capability and conduct regarding gain-of-function research constitute evidence supporting or opposing the lab leak hypothesis?",
+      "Does the Wuhan Institute of Virology's capacity and available strains support or argue against the lab leak hypothesis?"
+    ],
+    "claim_ids": [
+      "78edd269",
+      "321c6fe2",
+      "48fb3113",
+      "26fe7b51"
+    ],
+    "edge_count": 4,
+    "edge_types": {
+      "contradicts": 2,
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt"
+    ],
+    "source_count": 3,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0017",
+    "question": "Does the concentration of positive samples and cases near the raccoon-dog stall at HSM indicate the true transmission location/origin of the outbreak cluster?",
+    "variants": [
+      "Does the concentration of positive samples and cases near the raccoon-dog stall at HSM indicate the true transmission location/origin of the outbreak cluster?",
+      "Does the spatial concentration of positive samples near the raccoon-dog stall at HSM reflect the actual location of transmission/disease origin at the market?"
+    ],
+    "claim_ids": [
+      "1226ecf7",
+      "67c4bd89",
+      "78a9f078"
+    ],
+    "edge_count": 4,
+    "edge_types": {
+      "contradicts": 4
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0018",
+    "question": "How significant or validated are markets as zoonotic spillover interfaces and sources of pandemic origin?",
+    "variants": [
+      "How significant or validated are markets as zoonotic spillover interfaces and sources of pandemic origin?",
+      "Were authorities biased toward detecting market-origin cases due to market being the presumed or primary zoonotic spillover interface?"
+    ],
+    "claim_ids": [
+      "cf6510fa",
+      "fd5d8adb",
+      "7850c95c"
+    ],
+    "edge_count": 4,
+    "edge_types": {
+      "contradicts": 2,
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0019",
+    "question": "In a natural zoonotic spillover scenario, should we expect the first detectable cluster to occur at or near a wildlife market?",
+    "variants": [
+      "In a natural zoonotic spillover scenario, should we expect the first detectable cluster to occur at or near a wildlife market?",
+      "Would the first detectable cluster in a zoonotic spillover scenario originate at the wildlife contact location (market) or in a rural/unnoticed area before spreading to urban centers?"
+    ],
+    "claim_ids": [
+      "24eea744",
+      "2b1199ff",
+      "3f227e4f"
+    ],
+    "edge_count": 4,
+    "edge_types": {
+      "weak_contradicts": 2,
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 3,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0020",
+    "question": "Is the wet market origin (zoonotic spillover at HSM) or laboratory origin more strongly supported by available evidence?",
+    "variants": [
+      "Is the wet market origin (zoonotic spillover at HSM) or laboratory origin more strongly supported by available evidence?",
+      "What is the evidential significance of wet market locations (specifically HSM) as a zoonotic spillover source compared to other potential interfaces?"
+    ],
+    "claim_ids": [
+      "a89b90e3",
+      "fd5d8adb",
+      "96a03a89"
+    ],
+    "edge_count": 4,
+    "edge_types": {
+      "weak_contradicts": 2,
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 3,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0021",
+    "question": "Should the pre-COVID frequency/prominence of wet markets as zoonotic spillover interfaces influence how much evidential weight the Huanan market cluster receives for the zoonosis hypothesis?",
+    "variants": [
+      "Should the pre-COVID frequency/prominence of wet markets as zoonotic spillover interfaces influence how much evidential weight the Huanan market cluster receives for the zoonosis hypothesis?",
+      "Whether the presence of wildlife trading at Huanan wet market and documented poor conditions there constitutes credible evidence for zoonotic spillover as the origin of the COVID-19 cluster"
+    ],
+    "claim_ids": [
+      "3f227e4f",
+      "fd5d8adb",
+      "64e9a7d6",
+      "2b1199ff"
+    ],
+    "edge_count": 4,
+    "edge_types": {
+      "contradicts": 4
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0022",
+    "question": "Under the lab leak hypothesis, should we expect the early COVID cluster to be concentrated at HSM, or would such concentration be an extreme coincidence?",
+    "variants": [
+      "Under the lab leak hypothesis, is the concentration of early COVID cases at HSM an unlikely coincidence or an expected outcome?",
+      "Under the lab leak hypothesis, should we expect the early COVID cluster to be concentrated at HSM, or would such concentration be an extreme coincidence?"
+    ],
+    "claim_ids": [
+      "e309f45e",
+      "07ae254c",
+      "53153dcf"
+    ],
+    "edge_count": 4,
+    "edge_types": {
+      "contradicts": 4
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0023",
+    "question": "Was the virologist's raccoon-dog photograph at Huanan Market taken as deliberate documentation of pandemic risk, or was it incidental to other activities?",
+    "variants": [
+      "Was the virologist's raccoon-dog photograph at Huanan Market taken as deliberate documentation of pandemic risk, or was it incidental to other activities?",
+      "What does the virologist's 2014 photograph of a raccoon dog at Huanan market demonstrate about the origin and epidemiology of SARS-CoV-2?"
+    ],
+    "claim_ids": [
+      "1226ecf7",
+      "1b7a4720",
+      "f867ded0"
+    ],
+    "edge_count": 4,
+    "edge_types": {
+      "contradicts": 4
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0024",
+    "question": "Was there a confirmed COVID-19 case among non-market-connected individuals in the early outbreak period that was detected through hospital worker notification?",
+    "variants": [
+      "Was there a confirmed COVID-19 case among non-market-connected individuals in the early outbreak period that was detected through hospital worker notification?",
+      "Was there a confirmed early COVID case among non-market-connected individuals that was detected through a hospital worker's relative?"
+    ],
+    "claim_ids": [
+      "090c6cb3",
+      "189c4614",
+      "a4db24a8"
+    ],
+    "edge_count": 4,
+    "edge_types": {
+      "contradicts": 2,
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0025",
+    "question": "What is the appropriate posterior probability assignment to zoonosis versus lab leak after considering all debate evidence?",
+    "variants": [
+      "What are the posterior odds comparing lab leak versus zoonotic origin when combining prior probabilities with evidentiary updates?",
+      "What is the appropriate posterior probability assignment to zoonosis versus lab leak after considering all debate evidence?"
+    ],
+    "claim_ids": [
+      "ccb11477",
+      "612a9aec",
+      "e8f513b3"
+    ],
+    "edge_count": 4,
+    "edge_types": {
+      "contradicts": 2,
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 3,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0026",
+    "question": "Are market-associated disease clusters common enough to be predicted by the zoonotic spillover hypothesis?",
+    "variants": [
+      "Are market-associated disease clusters common enough to be predicted by the zoonotic spillover hypothesis?"
+    ],
+    "claim_ids": [
+      "3f227e4f",
+      "1e6f230a"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0027",
+    "question": "Are there numerous locations in Wuhan other than HSM that are equally or more suitable as superspreading sites for the early COVID-19 outbreak?",
+    "variants": [
+      "Are there numerous locations in Wuhan other than HSM that are equally or more suitable as superspreading sites for the early COVID-19 outbreak?"
+    ],
+    "claim_ids": [
+      "966b60f0",
+      "01ebf934"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0028",
+    "question": "Are there plausible alternative locations to Huanan Seafood Market in Wuhan capable of generating the observed early outbreak cluster?",
+    "variants": [
+      "Are there plausible alternative locations to Huanan Seafood Market in Wuhan capable of generating the observed early outbreak cluster?"
+    ],
+    "claim_ids": [
+      "966b60f0",
+      "a585ca6e"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0029",
+    "question": "Are there venues in Wuhan actually superior to Huanan Seafood Market for superspreading potential?",
+    "variants": [
+      "Are there venues in Wuhan actually superior to Huanan Seafood Market for superspreading potential?"
+    ],
+    "claim_ids": [
+      "6fef66c9",
+      "01ebf934"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0030",
+    "question": "Did China conduct and transparently disclose contact tracing and tracking of early COVID-19 cases?",
+    "variants": [
+      "Did China conduct and transparently disclose contact tracing and tracking of early COVID-19 cases?"
+    ],
+    "claim_ids": [
+      "149f9bb1",
+      "6d44b03a"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0031",
+    "question": "Did Rootclaim properly account for early case cluster data and epidemiological evidence in their analysis of COVID-19 origins?",
+    "variants": [
+      "Did Rootclaim properly account for early case cluster data and epidemiological evidence in their analysis of COVID-19 origins?"
+    ],
+    "claim_ids": [
+      "7d5b1bd5",
+      "ac8e57e1"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0032",
+    "question": "Did Wuhan hospitals observe and report a significant cluster of pneumonia cases (hospitalizations) in late December 2019, or did case numbers remain unremarkable until that point?",
+    "variants": [
+      "Did Wuhan hospitals observe and report a significant cluster of pneumonia cases (hospitalizations) in late December 2019, or did case numbers remain unremarkable until that point?"
+    ],
+    "claim_ids": [
+      "b3c700eb",
+      "2bb03a1d"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/judge_will_decision.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0033",
+    "question": "Did other locations in Wuhan experience initial disease clusters similar to the Huanan Seafood Market, or was HSM uniquely the epicenter of early clustering?",
+    "variants": [
+      "Did other locations in Wuhan experience initial disease clusters similar to the Huanan Seafood Market, or was HSM uniquely the epicenter of early clustering?"
+    ],
+    "claim_ids": [
+      "48872967",
+      "24eea744"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0034",
+    "question": "Did the December 2020 Thailand seafood market cluster represent the true origin/epicenter of that outbreak, or was it an artifact of detection bias?",
+    "variants": [
+      "Did the December 2020 Thailand seafood market cluster represent the true origin/epicenter of that outbreak, or was it an artifact of detection bias?"
+    ],
+    "claim_ids": [
+      "299b35bf",
+      "cc1d01a7"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0035",
+    "question": "Did the HSM cluster exhibit a super-spreader event or gradual incremental transmission?",
+    "variants": [
+      "Did the HSM cluster exhibit a super-spreader event or gradual incremental transmission?"
+    ],
+    "claim_ids": [
+      "5adf3a54",
+      "35ebbe19"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0036",
+    "question": "Did the Wuhan Institute of Virology possess the appropriate capabilities and conditions (backbone strain, research practices) to conduct gain-of-function research that could have resulted in SARS-CoV-2?",
+    "variants": [
+      "Did the Wuhan Institute of Virology possess the appropriate capabilities and conditions (backbone strain, research practices) to conduct gain-of-function research that could have resulted in SARS-CoV-2?"
+    ],
+    "claim_ids": [
+      "78edd269",
+      "48fb3113"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0037",
+    "question": "Did the physical layout and social structures at HSM facilitate rapid internal transmission and cluster formation?",
+    "variants": [
+      "Did the physical layout and social structures at HSM facilitate rapid internal transmission and cluster formation?"
+    ],
+    "claim_ids": [
+      "21c27d29",
+      "d19d6e5b"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0038",
+    "question": "Do early December cases (Reed/Chen) support lab leak or zoonotic origin?",
+    "variants": [
+      "Do early December cases (Reed/Chen) support lab leak or zoonotic origin?"
+    ],
+    "claim_ids": [
+      "8ce4a083",
+      "04a9ecdb"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0039",
+    "question": "Do early infection distribution patterns (market-connected vs. non-market-connected cases) reliably indicate the true origin location, or are they distorted by detection bias?",
+    "variants": [
+      "Do early infection distribution patterns (market-connected vs. non-market-connected cases) reliably indicate the true origin location, or are they distorted by detection bias?"
+    ],
+    "claim_ids": [
+      "cf1b8a6e",
+      "975c20fd"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0040",
+    "question": "Do market environmental samples show evidence of correlation between animal presence and SARS-CoV-2 viral positivity?",
+    "variants": [
+      "Do market environmental samples show evidence of correlation between animal presence and SARS-CoV-2 viral positivity?"
+    ],
+    "claim_ids": [
+      "87d09b0d",
+      "40d7053b"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0041",
+    "question": "Do the negative animal samples from the market and supplying farms validly demonstrate that wildlife was not involved in the HSM outbreak?",
+    "variants": [
+      "Do the negative animal samples from the market and supplying farms validly demonstrate that wildlife was not involved in the HSM outbreak?"
+    ],
+    "claim_ids": [
+      "526d2cc3",
+      "961dc8df"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0042",
+    "question": "Do the observed epidemiological patterns (clustering at wet markets) represent genuine evidence of market-origin spillover, or are they primarily artifacts of biased case detection and reporting?",
+    "variants": [
+      "Do the observed epidemiological patterns (clustering at wet markets) represent genuine evidence of market-origin spillover, or are they primarily artifacts of biased case detection and reporting?"
+    ],
+    "claim_ids": [
+      "d9120745",
+      "961dc8df"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0043",
+    "question": "Does Connor Reed's claim about his cat contracting coronavirus discredit his credibility as a witness to early COVID cases?",
+    "variants": [
+      "Does Connor Reed's claim about his cat contracting coronavirus discredit his credibility as a witness to early COVID cases?"
+    ],
+    "claim_ids": [
+      "1997824d",
+      "b5a87ae7"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0044",
+    "question": "Does HSM have exceptionally high superspreading potential compared to other Wuhan locations?",
+    "variants": [
+      "Does HSM have exceptionally high superspreading potential compared to other Wuhan locations?"
+    ],
+    "claim_ids": [
+      "358c38fe",
+      "01ebf934"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0045",
+    "question": "Does evidence of wildlife market conditions at Huanan (the 2014 photograph, HSM cluster) provide strong support for zoonotic origin, or is such evidence being overweighted/misinterpreted in favor of zoonosis?",
+    "variants": [
+      "Does evidence of wildlife market conditions at Huanan (the 2014 photograph, HSM cluster) provide strong support for zoonotic origin, or is such evidence being overweighted/misinterpreted in favor of zoonosis?"
+    ],
+    "claim_ids": [
+      "64e9a7d6",
+      "8cb63230"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0046",
+    "question": "Does the HSM's physical environment (crowded, wet surfaces) support rapid or slow transmission of SARS-CoV-2?",
+    "variants": [
+      "Does the HSM's physical environment (crowded, wet surfaces) support rapid or slow transmission of SARS-CoV-2?"
+    ],
+    "claim_ids": [
+      "5adf3a54",
+      "b531f0f4"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0047",
+    "question": "Does the available evidence (including GOF research capabilities and accumulated pandemic data) support lab-leak or zoonotic origin as more probable?",
+    "variants": [
+      "Does the available evidence (including GOF research capabilities and accumulated pandemic data) support lab-leak or zoonotic origin as more probable?"
+    ],
+    "claim_ids": [
+      "ab3337a8",
+      "54060d8c"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/youtube_KdORmvU8MLI.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0048",
+    "question": "Does the detection of early COVID-19 cases depend primarily on market connection, or on other factors like testing access and symptom recognition?",
+    "variants": [
+      "Does the detection of early COVID-19 cases depend primarily on market connection, or on other factors like testing access and symptom recognition?"
+    ],
+    "claim_ids": [
+      "090c6cb3",
+      "c2bb2d70"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0049",
+    "question": "Does the evidence regarding HSM's physical conditions (wet surfaces, crowding, cold-chain) support or undermine the zoonotic origin hypothesis centered on the Huanan Seafood Market?",
+    "variants": [
+      "Does the evidence regarding HSM's physical conditions (wet surfaces, crowding, cold-chain) support or undermine the zoonotic origin hypothesis centered on the Huanan Seafood Market?"
+    ],
+    "claim_ids": [
+      "a59856dd",
+      "b531f0f4"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0050",
+    "question": "Does the geographic centering of early COVID cases around WIV support or refute the lab leak hypothesis?",
+    "variants": [
+      "Does the geographic centering of early COVID cases around WIV support or refute the lab leak hypothesis?"
+    ],
+    "claim_ids": [
+      "ece2d1e5",
+      "26fe7b51"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0051",
+    "question": "Does the geographic concentration of positive environmental samples at the Huanan Market raccoon-dog stall represent genuine evidence of a viral epicenter, or is it an artifact of differential sampling intensity?",
+    "variants": [
+      "Does the geographic concentration of positive environmental samples at the Huanan Market raccoon-dog stall represent genuine evidence of a viral epicenter, or is it an artifact of differential sampling intensity?"
+    ],
+    "claim_ids": [
+      "47bf0375",
+      "7efe6871"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 3,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0052",
+    "question": "Does the human seafood market (HSM) cluster pattern provide strong evidence for natural zoonotic origin versus being explicable by detection bias and market-independent transmission?",
+    "variants": [
+      "Does the human seafood market (HSM) cluster pattern provide strong evidence for natural zoonotic origin versus being explicable by detection bias and market-independent transmission?"
+    ],
+    "claim_ids": [
+      "090c6cb3",
+      "ae5f2069"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0053",
+    "question": "Does the observed clustering at Huanan market reflect a meaningful epidemiological signal beyond what population density would predict?",
+    "variants": [
+      "Does the observed clustering at Huanan market reflect a meaningful epidemiological signal beyond what population density would predict?"
+    ],
+    "claim_ids": [
+      "4fecfcfc",
+      "5bf8acb4"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0054",
+    "question": "Does the outcompeting of Lineage A by Lineage B and the pattern of intermediate sequences constitute valid evidence for determining SARS-CoV-2's origin?",
+    "variants": [
+      "Does the outcompeting of Lineage A by Lineage B and the pattern of intermediate sequences constitute valid evidence for determining SARS-CoV-2's origin?"
+    ],
+    "claim_ids": [
+      "68ade21f",
+      "4613cf8b"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0055",
+    "question": "Does the pattern of infections among animal vendors and market-connected persons at HSM constitute strong evidence for or against a market-origin spillover event?",
+    "variants": [
+      "Does the pattern of infections among animal vendors and market-connected persons at HSM constitute strong evidence for or against a market-origin spillover event?"
+    ],
+    "claim_ids": [
+      "c0b36018",
+      "961dc8df"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0056",
+    "question": "Does the spatial distribution of early COVID-19 cases in Wuhan align with or diverge from the city's population density distribution?",
+    "variants": [
+      "Does the spatial distribution of early COVID-19 cases in Wuhan align with or diverge from the city's population density distribution?"
+    ],
+    "claim_ids": [
+      "921ad384",
+      "395de7ed"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0057",
+    "question": "Does the zoonotic market spillover hypothesis deserve significant evidential weight (high Bayes factor / meaningful conditional probability) given historical spillover patterns and wildlife trade data?",
+    "variants": [
+      "Does the zoonotic market spillover hypothesis deserve significant evidential weight (high Bayes factor / meaningful conditional probability) given historical spillover patterns and wildlife trade data?"
+    ],
+    "claim_ids": [
+      "3f227e4f",
+      "6fb8ba04"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 4,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0058",
+    "question": "How many people with sustained presence at HSM could have amplified and clustered cases?",
+    "variants": [
+      "How many people with sustained presence at HSM could have amplified and clustered cases?"
+    ],
+    "claim_ids": [
+      "d13323d2",
+      "264440ac"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "divergent"
+  },
+  {
+    "id": "prop_0059",
+    "question": "How many unusual pneumonia cases of unknown cause were identified in Wuhan before or around the wet market outbreak, and what did testing reveal about them?",
+    "variants": [
+      "How many unusual pneumonia cases of unknown cause were identified in Wuhan before or around the wet market outbreak, and what did testing reveal about them?"
+    ],
+    "claim_ids": [
+      "b327ecb3",
+      "2dae6478"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "divergent"
+  },
+  {
+    "id": "prop_0060",
+    "question": "How much evidential weight should the failure to detect a wildlife spillover source at HSM carry in likelihood calculations?",
+    "variants": [
+      "How much evidential weight should the failure to detect a wildlife spillover source at HSM carry in likelihood calculations?"
+    ],
+    "claim_ids": [
+      "c0824ca3",
+      "13a078f3"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "divergent"
+  },
+  {
+    "id": "prop_0061",
+    "question": "Is Wuhan's geographic and demographic characteristics (particularly the HSM cluster location) distinctive or constraining in ways that favor or disfavor the market origin hypothesis?",
+    "variants": [
+      "Is Wuhan's geographic and demographic characteristics (particularly the HSM cluster location) distinctive or constraining in ways that favor or disfavor the market origin hypothesis?"
+    ],
+    "claim_ids": [
+      "4fecfcfc",
+      "99699d0b"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt"
+    ],
+    "source_count": 3,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0062",
+    "question": "Is the Huanan Seafood Market (HSM) a naturally expected location for a superspreading event to first occur, given market characteristics and spatial randomness of such events?",
+    "variants": [
+      "Is the Huanan Seafood Market (HSM) a naturally expected location for a superspreading event to first occur, given market characteristics and spatial randomness of such events?"
+    ],
+    "claim_ids": [
+      "358c38fe",
+      "6fef66c9"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0063",
+    "question": "Is the Huanan market a meaningful/significant super-spreader location that supports the market-origin hypothesis?",
+    "variants": [
+      "Is the Huanan market a meaningful/significant super-spreader location that supports the market-origin hypothesis?"
+    ],
+    "claim_ids": [
+      "a4b1ff55",
+      "7efe6871"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0064",
+    "question": "Is the Huanan market's characteristics particularly conducive to superspreading events compared to other large venues?",
+    "variants": [
+      "Is the Huanan market's characteristics particularly conducive to superspreading events compared to other large venues?"
+    ],
+    "claim_ids": [
+      "966b60f0",
+      "7efe6871"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0065",
+    "question": "Is the evidence of unusual genetic characteristics and laboratory creation capability sufficient to support a lab origin over zoonotic origin?",
+    "variants": [
+      "Is the evidence of unusual genetic characteristics and laboratory creation capability sufficient to support a lab origin over zoonotic origin?"
+    ],
+    "claim_ids": [
+      "510baa92",
+      "a59856dd"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 4,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0066",
+    "question": "Is the phylogenetic relationship between market-linked SARS-CoV-2 sequences and wild relatives consistent with a market origin?",
+    "variants": [
+      "Is the phylogenetic relationship between market-linked SARS-CoV-2 sequences and wild relatives consistent with a market origin?"
+    ],
+    "claim_ids": [
+      "b7be2897",
+      "40d7053b"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0067",
+    "question": "Should early pandemic cases be expected to cluster geographically at a specific location (high-density population centers for zoonosis vs. residential/social locations of infected lab workers for lab leak)?",
+    "variants": [
+      "Should early pandemic cases be expected to cluster geographically at a specific location (high-density population centers for zoonosis vs. residential/social locations of infected lab workers for lab leak)?"
+    ],
+    "claim_ids": [
+      "bc1a07b4",
+      "ece2d1e5"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0068",
+    "question": "Should the baseline prior probability favor zoonotic or lab-origin scenarios for SARS-CoV-2?",
+    "variants": [
+      "Should the baseline prior probability favor zoonotic or lab-origin scenarios for SARS-CoV-2?"
+    ],
+    "claim_ids": [
+      "ab3337a8",
+      "cc132f83"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/youtube_KdORmvU8MLI.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0069",
+    "question": "Should the zoonotic origin hypothesis receive high Bayesian support from wet market epidemiology and prior pandemic statistics?",
+    "variants": [
+      "Should the zoonotic origin hypothesis receive high Bayesian support from wet market epidemiology and prior pandemic statistics?"
+    ],
+    "claim_ids": [
+      "3f227e4f",
+      "15d3f72f"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_KdORmvU8MLI.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0070",
+    "question": "Should zoonotic origin be treated as the appropriate default prior/null hypothesis for COVID-19's origins?",
+    "variants": [
+      "Should zoonotic origin be treated as the appropriate default prior/null hypothesis for COVID-19's origins?"
+    ],
+    "claim_ids": [
+      "cc132f83",
+      "e4108e04"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/youtube_KdORmvU8MLI.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0071",
+    "question": "Was Wuhan's wet market pandemic risk lower than would be expected from its population share and geographic characteristics?",
+    "variants": [
+      "Was Wuhan's wet market pandemic risk lower than would be expected from its population share and geographic characteristics?"
+    ],
+    "claim_ids": [
+      "c577c6f6",
+      "99699d0b"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt"
+    ],
+    "source_count": 3,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0072",
+    "question": "Was the Chen case an early infection originating from or linked to the Huanan Seafood Market?",
+    "variants": [
+      "Was the Chen case an early infection originating from or linked to the Huanan Seafood Market?"
+    ],
+    "claim_ids": [
+      "1ea50e49",
+      "223dcf2f"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0073",
+    "question": "Were markets a common or repeated location for disease spillover/early outbreak clustering?",
+    "variants": [
+      "Were markets a common or repeated location for disease spillover/early outbreak clustering?"
+    ],
+    "claim_ids": [
+      "3f227e4f",
+      "efe129c2"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0074",
+    "question": "What does the absence or presence of animal products/samples at wet markets indicate about the market's role as a source of the HSM cluster outbreak?",
+    "variants": [
+      "What does the absence or presence of animal products/samples at wet markets indicate about the market's role as a source of the HSM cluster outbreak?"
+    ],
+    "claim_ids": [
+      "526d2cc3",
+      "7850c95c"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0075",
+    "question": "What explains the HSM superspreading cluster: lab-related spillover (CDC facility move) or natural zoonotic spillover from a contained index case?",
+    "variants": [
+      "What explains the HSM superspreading cluster: lab-related spillover (CDC facility move) or natural zoonotic spillover from a contained index case?"
+    ],
+    "claim_ids": [
+      "f6a5b288",
+      "d245f365"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0076",
+    "question": "What explains the difference in outbreak patterns between Huanan Seafood Market and other markets (Xinfadi), and how much does market size versus intrinsic market properties account for outbreak risk?",
+    "variants": [
+      "What explains the difference in outbreak patterns between Huanan Seafood Market and other markets (Xinfadi), and how much does market size versus intrinsic market properties account for outbreak risk?"
+    ],
+    "claim_ids": [
+      "66e06342",
+      "77586697"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_d1dbfoK8nSE.txt"
+    ],
+    "source_count": 3,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0077",
+    "question": "What is Peter Miller's confidence level in the zoonotic origin hypothesis for COVID-19?",
+    "variants": [
+      "What is Peter Miller's confidence level in the zoonotic origin hypothesis for COVID-19?"
+    ],
+    "claim_ids": [
+      "e8f513b3",
+      "26fe7b51"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/scott_alexander_covid_debate.txt",
+      "cases/covid/files/youtube_Y1vaooTKHCM.txt"
+    ],
+    "source_count": 2,
+    "status": "divergent"
+  },
+  {
+    "id": "prop_0078",
+    "question": "What is the appropriate prior probability assignment between lab leak and zoonotic origin hypotheses for the COVID-19 pandemic?",
+    "variants": [
+      "What is the appropriate prior probability assignment between lab leak and zoonotic origin hypotheses for the COVID-19 pandemic?"
+    ],
+    "claim_ids": [
+      "15d3f72f",
+      "50b62f67"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/youtube_KdORmvU8MLI.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0079",
+    "question": "What is the appropriate prior probability baseline when comparing lab leak versus zoonotic spillover origins: should historical lab leak frequencies or historical zoonotic spillover frequencies be given greater weight?",
+    "variants": [
+      "What is the appropriate prior probability baseline when comparing lab leak versus zoonotic spillover origins: should historical lab leak frequencies or historical zoonotic spillover frequencies be given greater weight?"
+    ],
+    "claim_ids": [
+      "72f3322c",
+      "15d3f72f"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/youtube_KdORmvU8MLI.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0080",
+    "question": "What is the appropriate probability of observing the HSM cluster epicenter given a lab leak origin in Wuhan, and is the calculation based on treating the market as a random location among 10 million residents valid?",
+    "variants": [
+      "What is the appropriate probability of observing the HSM cluster epicenter given a lab leak origin in Wuhan, and is the calculation based on treating the market as a random location among 10 million residents valid?"
+    ],
+    "claim_ids": [
+      "1332539e",
+      "f895f884"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0081",
+    "question": "What is the credibility and evidentiary value of early infection reports and diagnostic evidence for establishing the timing and origin of COVID-19?",
+    "variants": [
+      "What is the credibility and evidentiary value of early infection reports and diagnostic evidence for establishing the timing and origin of COVID-19?"
+    ],
+    "claim_ids": [
+      "85c057c0",
+      "975c20fd"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0082",
+    "question": "What is the estimated probability or likelihood that an HSM cluster would occur if SARS-CoV-2 originated from lab engineering at WIV?",
+    "variants": [
+      "What is the estimated probability or likelihood that an HSM cluster would occur if SARS-CoV-2 originated from lab engineering at WIV?"
+    ],
+    "claim_ids": [
+      "0341b25c",
+      "612a9aec"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "divergent"
+  },
+  {
+    "id": "prop_0083",
+    "question": "What is the probability that a significant zoonotic pathogen emerges in China/Wuhan in a given year or timeframe?",
+    "variants": [
+      "What is the probability that a significant zoonotic pathogen emerges in China/Wuhan in a given year or timeframe?"
+    ],
+    "claim_ids": [
+      "8807eb73",
+      "d2528dcc"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/michael.txt"
+    ],
+    "source_count": 2,
+    "status": "divergent"
+  },
+  {
+    "id": "prop_0084",
+    "question": "What is the probability that the HSM cluster could have occurred by chance at that specific Wuhan location given various epidemiological and geographic factors?",
+    "variants": [
+      "What is the probability that the HSM cluster could have occurred by chance at that specific Wuhan location given various epidemiological and geographic factors?"
+    ],
+    "claim_ids": [
+      "8807eb73",
+      "eb5175d8"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "divergent"
+  },
+  {
+    "id": "prop_0085",
+    "question": "What is the probative force and validity of the lab leak hypothesis's evidential foundation and prior probability reasoning?",
+    "variants": [
+      "What is the probative force and validity of the lab leak hypothesis's evidential foundation and prior probability reasoning?"
+    ],
+    "claim_ids": [
+      "72f3322c",
+      "20b666bc"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0086",
+    "question": "What is the relative probability or odds of lab-related versus zoonotic coronavirus emergence in Wuhan?",
+    "variants": [
+      "What is the relative probability or odds of lab-related versus zoonotic coronavirus emergence in Wuhan?"
+    ],
+    "claim_ids": [
+      "c29db12a",
+      "135cc3d2"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/michael.txt"
+    ],
+    "source_count": 2,
+    "status": "divergent"
+  },
+  {
+    "id": "prop_0087",
+    "question": "What is the size of the vendor population at HSM that should be used in calculating the probability of the HSM cluster under lab leak hypothesis?",
+    "variants": [
+      "What is the size of the vendor population at HSM that should be used in calculating the probability of the HSM cluster under lab leak hypothesis?"
+    ],
+    "claim_ids": [
+      "f895f884",
+      "264440ac"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "divergent"
+  },
+  {
+    "id": "prop_0088",
+    "question": "What proportion or number of COVID-19 cases in wet market outbreaks had direct epidemiological links to the market?",
+    "variants": [
+      "What proportion or number of COVID-19 cases in wet market outbreaks had direct epidemiological links to the market?"
+    ],
+    "claim_ids": [
+      "a6c49508",
+      "09d39600"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "divergent"
+  },
+  {
+    "id": "prop_0089",
+    "question": "What type of evidence (genomic signatures vs. epidemiological proximity to animal/lab sources) is most important and sufficient for determining SARS-CoV-2's origin?",
+    "variants": [
+      "What type of evidence (genomic signatures vs. epidemiological proximity to animal/lab sources) is most important and sufficient for determining SARS-CoV-2's origin?"
+    ],
+    "claim_ids": [
+      "db2a8888",
+      "dff85c8b"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/michael.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0090",
+    "question": "What was the prior probability (or baseline expectation) that labs versus markets would be the spillover location for a novel coronavirus, before evidence specific to SARS-CoV-2?",
+    "variants": [
+      "What was the prior probability (or baseline expectation) that labs versus markets would be the spillover location for a novel coronavirus, before evidence specific to SARS-CoV-2?"
+    ],
+    "claim_ids": [
+      "7824343c",
+      "48ee7c1c"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0091",
+    "question": "What was the scale and significance of live animal trade in Wuhan markets?",
+    "variants": [
+      "What was the scale and significance of live animal trade in Wuhan markets?"
+    ],
+    "claim_ids": [
+      "9b2d5b69",
+      "722a4a7b"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt",
+      "cases/covid/files/michael.txt"
+    ],
+    "source_count": 2,
+    "status": "divergent"
+  },
+  {
+    "id": "prop_0092",
+    "question": "What was the scale/capacity of human exposure at the Huanan Seafood Market?",
+    "variants": [
+      "What was the scale/capacity of human exposure at the Huanan Seafood Market?"
+    ],
+    "claim_ids": [
+      "db295993",
+      "729653bb"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "quantitative_divergence": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_eric_decision.txt"
+    ],
+    "source_count": 1,
+    "status": "divergent"
+  },
+  {
+    "id": "prop_0093",
+    "question": "Whether wet markets in Wuhan represent the primary or most probable spillover interface for SARS-CoV-2 origin",
+    "variants": [
+      "Whether wet markets in Wuhan represent the primary or most probable spillover interface for SARS-CoV-2 origin"
+    ],
+    "claim_ids": [
+      "fd5d8adb",
+      "60d9f1ff"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/michael.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0094",
+    "question": "Which location type in Wuhan was most plausible as the site of the first detected superspreading event: HSM or large hospitals?",
+    "variants": [
+      "Which location type in Wuhan was most plausible as the site of the first detected superspreading event: HSM or large hospitals?"
+    ],
+    "claim_ids": [
+      "a585ca6e",
+      "c826d25a"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0095",
+    "question": "Which locations in Wuhan besides HSM are plausible sites for a SARS-CoV-2 superspreading event?",
+    "variants": [
+      "Which locations in Wuhan besides HSM are plausible sites for a SARS-CoV-2 superspreading event?"
+    ],
+    "claim_ids": [
+      "a585ca6e",
+      "6fef66c9"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "weak_contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "weak_tension"
+  },
+  {
+    "id": "prop_0096",
+    "question": "Why did the virologist photograph the raccoon-dog shop at HSM in 2014—was it incidental/opportunistic or deliberate/risk-focused?",
+    "variants": [
+      "Why did the virologist photograph the raccoon-dog shop at HSM in 2014—was it incidental/opportunistic or deliberate/risk-focused?"
+    ],
+    "claim_ids": [
+      "1226ecf7",
+      "4c85ec57"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/response_to_scott_alexander.txt",
+      "cases/covid/files/scott_alexander_covid_debate.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  },
+  {
+    "id": "prop_0097",
+    "question": "Would the first identified cluster of a zoonotic spillover be expected to occur in Wuhan (or another major city) versus a rural unnoticed area, and do geographic factors like rail lines and population density determine spillover probability?",
+    "variants": [
+      "Would the first identified cluster of a zoonotic spillover be expected to occur in Wuhan (or another major city) versus a rural unnoticed area, and do geographic factors like rail lines and population density determine spillover probability?"
+    ],
+    "claim_ids": [
+      "8807eb73",
+      "2b1199ff"
+    ],
+    "edge_count": 2,
+    "edge_types": {
+      "contradicts": 2
+    },
+    "sources": [
+      "cases/covid/files/judge_will_decision.txt",
+      "cases/covid/files/response_to_scott_alexander.txt"
+    ],
+    "source_count": 2,
+    "status": "contested"
+  }
+]

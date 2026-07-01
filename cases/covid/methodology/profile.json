@@ -1,59 +1,139 @@
 {
-  "case": "covid",
   "inquiry_type": "probabilistic_debate",
-  "domain_summary": "Case: covid",
+  "domain_summary": "Structured adversarial Bayesian reasoning about pandemic origins, requiring explicit likelihood ratio calculations, prior justification, conditional probability decomposition, and evidence independence assessment across epidemiology, virology, and biosafety domains.",
   "standardization_level": "low",
-  "applicable_guidelines": [],
-  "guidelines_missing": "No field-wide CONSORT/PRISMA equivalent — criteria from inquiry-type template",
-  "confidence_ceiling": 0.5,
+  "applicable_guidelines": [
+    "None formally established for adversarial Bayesian debates",
+    "Partial relevance: STROBE (observational epidemiology components)",
+    "Partial relevance: Good Practices in Bayesian Analysis (pharmaceutical context)",
+    "Partial relevance: PRISMA (for evidence synthesis portions)"
+  ],
+  "guidelines_missing": "No consensus standards exist for: converting epidemiological/virological evidence into likelihood ratios; establishing base rates for rare events with sparse historical data; adjudicating conditional independence claims across evidence streams; validating reference class selection for prior estimation; or handling model uncertainty in multi-hypothesis Bayesian debates.",
+  "confidence_ceiling": 0.65,
   "criteria": [
     {
-      "id": "base_rate_justification",
+      "id": "base_rate_reference_class",
       "category": "reasoning",
       "severity": "FATAL",
-      "question": "Are prior probabilities and base rates explicitly justified?",
-      "expert_rationale": "Debate conclusions hinge on priors; unanchored priors make likelihood ratios uninterpretable."
+      "question": "Is the reference class for establishing prior probabilities P0(H1)/P0(H2) explicitly defined, justified against alternative reference classes, and empirically grounded in count data?",
+      "expert_rationale": "Bayesian analysis is highly sensitive to priors. For rare events (lab leaks, zoonotic pandemics), the choice between reference classes (e.g., 'all BSL-4 labs globally' vs. 'labs conducting coronavirus research in Wuhan' vs. 'pandemic origins in any city') can shift posterior odds by orders of magnitude. Transparent justification with denominator counts is essential."
     },
     {
-      "id": "likelihood_ratio_validity",
-      "category": "statistics",
+      "id": "likelihood_ratio_conditional_specification",
+      "category": "inferential",
       "severity": "FATAL",
-      "question": "Are likelihood ratios supported by cited evidence, not assertion?",
-      "expert_rationale": "Bayesian updates require defensible likelihoods tied to observable data."
+      "question": "Are likelihood ratios expressed as fully conditional probabilities P(E|H,Background) with Background explicitly stated, rather than unconditional P(E|H)?",
+      "expert_rationale": "In debates like pandemic origins, evidence is never evaluated in a vacuum. The probability of observing a market cluster given zoonosis depends critically on whether 'Wuhan' is already conditioned on. Failure to specify conditioning variables leads to double-counting evidence and invalid Bayes factors."
     },
     {
-      "id": "conditional_independence",
-      "category": "reasoning",
-      "severity": "MAJOR",
-      "question": "Are conditional independence assumptions stated where composite updates are used?",
-      "expert_rationale": "Double-counting correlated evidence inflates confidence."
-    },
-    {
-      "id": "evidence_traceability",
+      "id": "evidence_stream_independence",
       "category": "inferential",
       "severity": "MAJOR",
-      "question": "Can each key evidentiary claim be traced to a primary source?",
-      "expert_rationale": "Debate rhetoric without traceable evidence should not drive scores."
+      "question": "Is conditional independence between evidence streams (e.g., HSM cluster, furin site, WIV capabilities) explicitly argued or empirically demonstrated, rather than assumed?",
+      "expert_rationale": "Bayesian updating requires multiplying likelihood ratios only when evidence is conditionally independent given hypotheses. Many pieces of pandemic evidence are causally linked (e.g., market location and early case geography). Unstated independence assumptions can inflate or deflate combined Bayes factors by 10-100x."
     },
     {
-      "id": "conflict_of_interest",
-      "category": "other",
-      "severity": "MINOR",
-      "question": "Are conflicts of interest or institutional stakes disclosed?",
-      "expert_rationale": "Adversarial debate contexts require transparency on incentives."
-    },
-    {
-      "id": "uncertainty_acknowledgment",
+      "id": "null_hypothesis_enumeration",
       "category": "reasoning",
       "severity": "MAJOR",
-      "question": "Are limits of evidence and model uncertainty explicitly acknowledged?",
-      "expert_rationale": "Overconfident verdicts without uncertainty bounds are methodological failures."
+      "question": "Are all materially plausible alternative hypotheses enumerated (not just two), with explicit justification for exclusions or aggregations?",
+      "expert_rationale": "Binary framing (lab vs. zoonosis) can hide crucial distinctions (accidental vs. intentional leak; intermediate hosts vs. direct spillover). Probabilistic debates must either exhaustively partition hypothesis space or justify aggregation. Posterior probabilities must sum to ≤1 across all considered hypotheses."
+    },
+    {
+      "id": "likelihood_ratio_sensitivity_bounds",
+      "category": "statistics",
+      "severity": "MAJOR",
+      "question": "For each claimed likelihood ratio, are uncertainty bounds or sensitivity ranges provided, with analysis of how alternative reasonable values affect final posterior odds?",
+      "expert_rationale": "Point estimates for likelihoods (e.g., 'HSM cluster is 100x more likely under zoonosis') conceal model uncertainty and parameter uncertainty. Expert Bayesian practice requires sensitivity analysis showing whether conclusions hold across the plausible range, especially when likelihoods rest on sparse data or modeling assumptions."
+    },
+    {
+      "id": "cited_evidence_match",
+      "category": "reasoning",
+      "severity": "MAJOR",
+      "question": "Does each empirical claim (case counts, phylogenetic topology, laboratory capabilities) cite primary sources, and do those sources actually support the quantitative claim at the stated precision?",
+      "expert_rationale": "Debates often involve telephone-game degradation of evidence through secondary sources. Rigorous probabilistic arguments require tracing claims to primary data. Mismatches (e.g., citing a paper that reports X±Y as if it reports X with certainty) undermine the entire likelihood ratio calculation downstream."
+    },
+    {
+      "id": "counterfactual_consistency",
+      "category": "reasoning",
+      "severity": "MAJOR",
+      "question": "Are arguments evaluated for internal consistency under counterfactual scenarios (e.g., 'Would this evidence pattern be cited as decisive if it pointed the opposite direction?')?",
+      "expert_rationale": "Adversarial debates incentivize motivated reasoning. A key quality check is whether debaters apply symmetric skepticism: would absence of a market cluster be cited as evidence of concealment? Would presence of a furin site in a natural virus be dismissed? Asymmetric standards indicate bias rather than evidence-driven updating."
+    },
+    {
+      "id": "rare_event_probability_calibration",
+      "category": "statistics",
+      "severity": "MAJOR",
+      "question": "For probabilities <1% or >99%, is the estimate calibrated against known frequencies of analogous rare events, rather than derived purely from intuition or theoretical models?",
+      "expert_rationale": "Humans and models are poorly calibrated at probability extremes. Claims like '0.3% prior for lab leak' or '99.9% likelihood ratio' require empirical anchoring (e.g., historical base rates of lab accidents, observed frequency of market clusters) rather than uncalibrated subjective judgment or model output."
+    },
+    {
+      "id": "temporal_sequence_exploitation",
+      "category": "inferential",
+      "severity": "MAJOR",
+      "question": "Is there explicit acknowledgment of whether evidence was selected post-hoc vs. predicted a priori, with appropriate penalty for researcher degrees of freedom?",
+      "expert_rationale": "In probabilistic debates about past events, all evidence is technically 'known', but some was used to generate hypotheses and some to test them. Treating hypothesis-generating observations (e.g., 'there's a virology lab in Wuhan') as if they were confirmatory tests inflates apparent likelihood ratios. Bayesian analysis should discount for look-elsewhere effects."
+    },
+    {
+      "id": "model_class_uncertainty",
+      "category": "modeling",
+      "severity": "MAJOR",
+      "question": "Is uncertainty about the modeling approach itself (not just parameter uncertainty within a model) acknowledged and quantified?",
+      "expert_rationale": "Different reasonable Bayesian models for the same problem can yield posteriors differing by 10-100x depending on choices about: how to discretize hypothesis space, whether to model evidence hierarchically, which variables to condition on. Single-model results presented as 'the' Bayesian answer conceal this model uncertainty."
+    },
+    {
+      "id": "debate_scope_boundary",
+      "category": "reasoning",
+      "severity": "MINOR",
+      "question": "Are the boundaries of what evidence is in-scope vs. out-of-scope explicitly defined and consistently enforced across both sides?",
+      "expert_rationale": "Adversarial debates require symmetric rules. If one side introduces evidence from classified intelligence leaks or non-peer-reviewed preprints while the other is held to published papers only, likelihood ratios become non-comparable. Scope rules should be stated upfront and violations flagged."
+    },
+    {
+      "id": "judge_expertise_match",
+      "category": "other",
+      "severity": "MINOR",
+      "question": "Do judges possess demonstrable expertise in both Bayesian inference methods AND the relevant domain (virology/epidemiology/biosafety), with potential conflicts of interest disclosed?",
+      "expert_rationale": "Probabilistic debates require judges who can both evaluate technical claims and assess whether Bayesian calculations are valid. A judge expert in probability but naive to virology may accept invalid likelihood ratios; a virologist naive to Bayesian methods may reject valid but counterintuitive probability arguments."
+    },
+    {
+      "id": "posterior_concentration_diagnostic",
+      "category": "statistics",
+      "severity": "MINOR",
+      "question": "Are final posteriors checked for concentration of probability mass (e.g., does 95% credible interval span <1 order of magnitude in odds ratio), and if so, is this concentration justified by evidence strength?",
+      "expert_rationale": "Inappropriately narrow posteriors signal overconfident likelihood ratios or neglected model uncertainty. For complex real-world questions with limited data, posteriors should typically be fairly diffuse unless truly decisive evidence exists. Concentration diagnostics help identify unjustified precision."
+    },
+    {
+      "id": "alternative_explanation_steel_manning",
+      "category": "reasoning",
+      "severity": "MINOR",
+      "question": "Does each side present the strongest version of opposing evidence (steel-manning) rather than only rebutting weak formulations?",
+      "expert_rationale": "Truth-seeking debates should engage the best version of opposing arguments. Straw-manning (e.g., addressing only accidental leak when intentional engineering is the main claim, or only direct-spillover when intermediate host is more plausible) leads to invalid likelihood comparisons because the hypothesis being evaluated differs from the hypothesis being defended."
+    },
+    {
+      "id": "replication_transparency",
+      "category": "other",
+      "severity": "MINOR",
+      "question": "Are all calculations (prior probabilities, likelihood ratios, posterior updates) presented with sufficient detail that an independent analyst could replicate the numerical results?",
+      "expert_rationale": "Bayesian debates produce quantitative conclusions that should be fully reproducible. This requires not just stating 'LR=50' but showing the calculation: P(E|H1)=0.5 and P(E|H2)=0.01 because [specific reasoning/data]. Opacity prevents error detection and undermines claims of rigor."
     }
   ],
   "red_flags": [
-    "certainty without cited evidence",
-    "prior assumed without justification",
-    "double-counting the same observation"
+    "Likelihood ratio presented without explicit numerator and denominator probabilities",
+    "Prior probability stated without reference class justification or historical base rate",
+    "Claim that evidence streams are 'independent' without conditional independence argument",
+    "Posterior probability >95% or <5% without sensitivity analysis",
+    "Citation to secondary source when primary data exists",
+    "Different standards applied to evidence favoring each hypothesis (asymmetric skepticism)",
+    "Phrase 'extreme coincidence' without quantification of base rate",
+    "Conditioning variables omitted from probability statements (writing P(E|H) when P(E|H,Background) is meant)",
+    "Model assumptions stated as facts rather than assumptions",
+    "Hypothesis space limited to two options without justification for exclusion of alternatives",
+    "Post-hoc evidence treated as confirmatory without look-elsewhere penalty",
+    "Debate rules changed mid-debate or applied asymmetrically",
+    "Judge decision based on 'persuasiveness' rather than explicit probability calculations",
+    "Round-number likelihood ratios (10x, 100x) without uncertainty bounds",
+    "Claim of 'Bayesian analysis' that lacks explicit prior, likelihood, and posterior calculation"
   ],
-  "profile_source": "fallback_template"
+  "profile_source": "llm",
+  "case": "covid"
 }

@@ -1,75 +1,535 @@
 {
   "case": "covid",
-  "compiled_at": "2026-06-20T01:19:51.606330+00:00",
+  "compiled_at": "2026-06-29T15:26:27.596774+00:00",
   "stats": {
-    "total": 592,
+    "total": 1327,
     "by_type": {
-      "claim": 153,
-      "evidence": 121,
-      "presupposition": 308,
-      "question": 7,
-      "gap": 3
+      "claim": 273,
+      "evidence": 212,
+      "presupposition": 820,
+      "question": 8,
+      "gap": 5,
+      "question_disambiguation": 9
     }
   },
   "themes": [
     {
       "id": "theme_00",
-      "label": "There are at least two distinct methods for evaluating whether HSM has special properties making it a more likely early cluster location under lab leak.",
-      "medoid_id": "c1b1d8fd",
+      "label": "The HSM cluster would indeed be an extreme coincidence under lab leak rather than a moderately expected outcome.",
+      "medoid_id": "7b42d60c",
       "member_ids": [
         "c1b1d8fd",
         "1453d67b",
         "559e1b09",
-        "ceb0a6b6"
+        "ceb0a6b6",
+        "7b42d60c",
+        "1bf1ca4d",
+        "569001cf",
+        "4e1bd43e",
+        "e514429f"
       ],
-      "member_count": 4,
+      "member_count": 9,
       "claim_ids": [
+        "a0c36b5b",
+        "e309f45e",
         "53153dcf",
-        "306b7d23",
-        "52581838"
+        "7a1459a2",
+        "0341b25c",
+        "8a96582c",
+        "52581838",
+        "6d104cde",
+        "67e46a05",
+        "dd9e80b9",
+        "fd67efd2",
+        "b75ac936"
       ],
       "needs_review": true,
       "impact": "FATAL"
     },
     {
       "id": "theme_01",
-      "label": "Environmental viral concentration correlates reliably with the spatial origin point of zoonotic spillover events.",
-      "medoid_id": "07c3216f",
+      "label": "The probability of natural pandemic origins in specific locations can be meaningfully assessed.",
+      "medoid_id": "533c65e0",
       "member_ids": [
-        "07c3216f",
-        "35436fbd",
-        "7369142d"
+        "533c65e0",
+        "1ae4a67a",
+        "1070e77c",
+        "a7c7c5e6",
+        "31d58b05"
       ],
-      "member_count": 3,
+      "member_count": 5,
       "claim_ids": [
-        "47bf0375",
-        "a81636f1",
-        "db2a8888"
+        "17e41316",
+        "99699d0b",
+        "e7634ee9"
       ],
       "needs_review": false,
       "impact": "MAJOR"
     },
     {
       "id": "theme_02",
-      "label": "The probability of natural pandemic origins in specific locations can be meaningfully assessed.",
-      "medoid_id": "533c65e0",
+      "label": "Identification of the earliest case provides probative evidence distinguishing between lab leak and zoonotic origin scenarios.",
+      "medoid_id": "8b6af9b0",
       "member_ids": [
-        "533c65e0",
-        "1ae4a67a",
-        "1070e77c"
+        "8b6af9b0",
+        "68f418c3",
+        "1b532e07",
+        "54bb0ca2"
       ],
-      "member_count": 3,
+      "member_count": 4,
       "claim_ids": [
-        "082ae6b9",
-        "581084af",
-        "00ce11a2",
-        "15d3f72f"
+        "5882c240",
+        "75622218"
       ],
       "needs_review": false,
       "impact": "MAJOR"
     },
     {
       "id": "theme_03",
+      "label": "Environmental viral concentration correlates reliably with the spatial origin point of zoonotic spillover events.",
+      "medoid_id": "07c3216f",
+      "member_ids": [
+        "07c3216f",
+        "35436fbd",
+        "7369142d",
+        "90fd151e"
+      ],
+      "member_count": 4,
+      "claim_ids": [
+        "526d2cc3",
+        "c0b36018",
+        "97f7f3f0"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_04",
+      "label": "Case clustering at a location constitutes strong evidence for that location being the origin point rather than merely an early amplification site.",
+      "medoid_id": "bd104d9c",
+      "member_ids": [
+        "bd104d9c",
+        "25b0b8d5",
+        "9454c18e",
+        "80e9d86b"
+      ],
+      "member_count": 4,
+      "claim_ids": [
+        "d6b1d84b",
+        "e76a6661",
+        "13562825",
+        "8a2cd23c",
+        "b1b57125"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_05",
+      "label": "The 'remaining evidence' collectively favors lab leak with sufficient strength to dominate the prior probability distribution.",
+      "medoid_id": "e3643811",
+      "member_ids": [
+        "193364d7",
+        "e3643811",
+        "1cb7e993",
+        "be28e20e"
+      ],
+      "member_count": 4,
+      "claim_ids": [
+        "20b666bc",
+        "f7224628",
+        "54060d8c",
+        "60d9f1ff"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_06",
+      "label": "These are the primary competing hypotheses for SARS-CoV-2 origins worthy of consideration.",
+      "medoid_id": "20fde430",
+      "member_ids": [
+        "e335f306",
+        "20fde430",
+        "18563d16"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "68e8028f"
+      ],
+      "needs_review": true,
+      "impact": "FATAL"
+    },
+    {
+      "id": "theme_07",
+      "label": "The growth rate parameters used in exponential growth calculations accurately reflect early COVID-19 transmission dynamics.",
+      "medoid_id": "81c6ee43",
+      "member_ids": [
+        "81c6ee43",
+        "4c7e6de5",
+        "84e6ec99"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "e1537996"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_08",
+      "label": "The absence of identified superspreading is evidentially significant for distinguishing between origin scenarios.",
+      "medoid_id": "8319b97f",
+      "member_ids": [
+        "8319b97f",
+        "424a4330",
+        "4d3ca38b"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "529a370f",
+        "c826d25a",
+        "a1dae511"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_09",
+      "label": "Seafood markets possess characteristics relevant to zoonotic spillover or superspreading that supermarkets and open air markets lack.",
+      "medoid_id": "562b8742",
+      "member_ids": [
+        "562b8742",
+        "611c982d",
+        "f50494b8"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "35d1c5de",
+        "244fadbb",
+        "cbe5551d"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_10",
+      "label": "The coincidence of a lab leak first appearing at a wet market can be meaningfully assigned a precise numerical probability.",
+      "medoid_id": "cd1bf30f",
+      "member_ids": [
+        "cd1bf30f",
+        "905f36db",
+        "7d60cd30"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "6b80cb96",
+        "d1e0e244"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_11",
+      "label": "The available evidence is sufficiently complete and reliable to distinguish between the hypotheses using Bayesian analysis.",
+      "medoid_id": "6a0fec1b",
+      "member_ids": [
+        "6a0fec1b",
+        "2f15c138",
+        "862c5b4a"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "56159dae",
+        "510baa92",
+        "30cb2a81",
+        "388d6778",
+        "084eb2b2",
+        "96a03a89"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_12",
+      "label": "COVID-19 origin hypotheses are appropriately evaluated through multiple independent lines of evidence rather than holistically.",
+      "medoid_id": "1e3e584c",
+      "member_ids": [
+        "47bdd6d0",
+        "1e3e584c",
+        "e6291af1"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "4112dee9",
+        "699aee46",
+        "95023f6d"
+      ],
+      "needs_review": true,
+      "impact": "FATAL"
+    },
+    {
+      "id": "theme_13",
+      "label": "The HSM cluster evidence can be cleanly separated from other pieces of evidence without affecting the interpretation or weight of remaining evidence.",
+      "medoid_id": "6ae78e17",
+      "member_ids": [
+        "6ae78e17",
+        "6cfe6571",
+        "c58df303"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "39b2269a",
+        "20b666bc"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_14",
+      "label": "Zero-COVID period outbreaks are representative or informative about the probability of market clusters in the pre-detection phase of the original outbreak.",
+      "medoid_id": "6e193c66",
+      "member_ids": [
+        "907a29f5",
+        "6e193c66",
+        "bc9c3b4c"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "c1ce7483"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_15",
+      "label": "Under zoonosis, each wildlife market in Wuhan had roughly equal probability of being the spillover location.",
+      "medoid_id": "de864636",
+      "member_ids": [
+        "de864636",
+        "99c0686b",
+        "8ea7f141"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "059c537b",
+        "a2c9b778",
+        "ed3ba0b7"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_16",
+      "label": "The conditional probability framework can validly separate location-specific factors from origin mechanism in outbreak analysis.",
+      "medoid_id": "257b64ee",
+      "member_ids": [
+        "257b64ee",
+        "1adff492",
+        "1b89208e"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "2c99e608"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_17",
+      "label": "There exists an opposing account that makes specific claims about Reed's drug overdose timing and location.",
+      "medoid_id": "c88fef98",
+      "member_ids": [
+        "c88fef98",
+        "cbaa1ae7",
+        "9fe92e83"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "dd5cbc8c"
+      ],
+      "needs_review": true,
+      "impact": "FATAL"
+    },
+    {
+      "id": "theme_18",
+      "label": "Available evidence allows for distinguishing between intentional engineering and other lab leak scenarios.",
+      "medoid_id": "53e96d93",
+      "member_ids": [
+        "53e96d93",
+        "96a1d21e",
+        "ee3c1d84"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "510baa92",
+        "084eb2b2",
+        "96a03a89"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_19",
+      "label": "The probability space is appropriately constructed with lab leak and zoonosis as the relevant (possibly exhaustive) hypotheses.",
+      "medoid_id": "fe08b9b6",
+      "member_ids": [
+        "fe08b9b6",
+        "dc6e1952",
+        "f3e3af5c"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "510baa92",
+        "d31f259d",
+        "084eb2b2",
+        "96a03a89"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_20",
+      "label": "Under a lab leak scenario, the initial outbreak location would be determined by community transmission patterns rather than proximity to the lab itself.",
+      "medoid_id": "0aa2506d",
+      "member_ids": [
+        "b151cf81",
+        "0aa2506d",
+        "40812da7"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "902607aa",
+        "f1a01086",
+        "f3ec1753"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_21",
+      "label": "The available evidence is sufficient to decisively adjudicate between the competing origin hypotheses.",
+      "medoid_id": "13b66a92",
+      "member_ids": [
+        "7d3b286f",
+        "13b66a92",
+        "2477e90e"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "5d51ea67",
+        "68ade21f"
+      ],
+      "needs_review": true,
+      "impact": "FATAL"
+    },
+    {
+      "id": "theme_22",
+      "label": "Geographic location constitutes relevant evidence for discriminating between origin hypotheses.",
+      "medoid_id": "92323079",
+      "member_ids": [
+        "92323079",
+        "3108ee8d",
+        "da9faa53"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "5e67b483",
+        "3f6737f1"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_23",
+      "label": "Probabilistic reasoning about COVID-19 origins requires incorporation of spatiotemporal evidence as a foundational input rather than as peripheral information.",
+      "medoid_id": "ff0456dd",
+      "member_ids": [
+        "ff0456dd",
+        "b8c12a11",
+        "cd34cb0e"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "2c99e608",
+        "68894eb7"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_24",
+      "label": "Whether a cluster 'matures' into a super-spreader event depends on location-specific features rather than random chance or timing of detection.",
+      "medoid_id": "aa62d097",
+      "member_ids": [
+        "aa62d097",
+        "90ee041b",
+        "4dff338a"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "24eea744",
+        "d45f0284"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_25",
+      "label": "The debate format and judging criteria were capable of adjudicating between competing scientific hypotheses about COVID origins.",
+      "medoid_id": "ecc7b06d",
+      "member_ids": [
+        "c4ce8396",
+        "ef4ff45e",
+        "ecc7b06d"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "8ca9c020",
+        "cfe0f2a5",
+        "a40958df"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_26",
+      "label": "The Huanan Seafood Market cluster does not constitute strong evidence for zoonotic origin once properly weighted.",
+      "medoid_id": "bba11cfc",
+      "member_ids": [
+        "6f2883b2",
+        "bba11cfc",
+        "78c4d4ff"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "f4825f47",
+        "8cb63230",
+        "eb5175d8"
+      ],
+      "needs_review": true,
+      "impact": "FATAL"
+    },
+    {
+      "id": "theme_27",
+      "label": "The prior probability of lab leak can be meaningfully decomposed such that the Wuhan location evidence contributes only 2 percentage points to the 94% estimate.",
+      "medoid_id": "bd5e64c7",
+      "member_ids": [
+        "fc5269a8",
+        "bd5e64c7",
+        "0adc9635"
+      ],
+      "member_count": 3,
+      "claim_ids": [
+        "10fa43d4",
+        "b0e55300",
+        "48ee7c1c"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_28",
       "label": "The mechanism causing seafood market clusters during zero-COVID periods is relevantly similar to the mechanism that would cause the initial HSM cluster under a lab leak scenario.",
       "medoid_id": "fb9a0255",
       "member_ids": [
@@ -77,46 +537,104 @@
         "fb9a0255"
       ],
       "member_count": 2,
-      "claim_ids": [
-        "eda89776"
-      ],
+      "claim_ids": [],
       "needs_review": false,
       "impact": "MAJOR"
     },
     {
-      "id": "theme_04",
-      "label": "SARS-CoV-2 features that are unusually well-adapted to humans would constitute evidence requiring explanation under competing origin hypotheses.",
-      "medoid_id": "e335f306",
+      "id": "theme_29",
+      "label": "Wildlife markets are not the only or most likely spillover location for zoonotic events, contrary to pre-2020 expert warnings which focused on different animal-human interfaces.",
+      "medoid_id": "0ca29e88",
       "member_ids": [
-        "e335f306",
-        "20fde430"
+        "0ca29e88",
+        "764f4bf7"
       ],
       "member_count": 2,
       "claim_ids": [
-        "510baa92",
-        "68e8028f"
+        "6fb8ba04"
       ],
       "needs_review": false,
       "impact": "MAJOR"
     },
     {
-      "id": "theme_05",
-      "label": "Identification of the earliest case provides probative evidence distinguishing between lab leak and zoonotic origin scenarios.",
-      "medoid_id": "8b6af9b0",
+      "id": "theme_30",
+      "label": "The conventional starting assumption is that lab leak probability is substantially lower than natural zoonotic spillover probability for pandemic origin.",
+      "medoid_id": "e69b89cc",
       "member_ids": [
-        "8b6af9b0",
-        "68f418c3"
+        "e69b89cc",
+        "af7c1ecd"
       ],
       "member_count": 2,
       "claim_ids": [
-        "39e3f1f6",
-        "510baa92"
+        "ccb11477"
       ],
       "needs_review": false,
       "impact": "MAJOR"
     },
     {
-      "id": "theme_06",
+      "id": "theme_31",
+      "label": "An individual investigator's confidence trajectory provides epistemically relevant evidence about the underlying truth of competing hypotheses.",
+      "medoid_id": "3693faa5",
+      "member_ids": [
+        "3693faa5",
+        "4a015406"
+      ],
+      "member_count": 2,
+      "claim_ids": [
+        "1da344e5"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_32",
+      "label": "Peter Miller's investigation was sufficiently comprehensive and methodologically sound to justify high confidence conclusions.",
+      "medoid_id": "3b79881b",
+      "member_ids": [
+        "3b79881b",
+        "095f33e6"
+      ],
+      "member_count": 2,
+      "claim_ids": [
+        "26fe7b51"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_33",
+      "label": "The prior probability of a zoonotic coronavirus pandemic emerging specifically in Wuhan was sufficiently low to make this geographic coincidence evidentially significant.",
+      "medoid_id": "c645a0c8",
+      "member_ids": [
+        "c645a0c8",
+        "31e92251"
+      ],
+      "member_count": 2,
+      "claim_ids": [
+        "5e67b483",
+        "cc01804c"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_34",
+      "label": "Correcting for the alleged surveillance bias would significantly alter the evidential landscape regarding market versus non-market case distributions.",
+      "medoid_id": "0e0fc694",
+      "member_ids": [
+        "0e0fc694",
+        "014b6bea"
+      ],
+      "member_count": 2,
+      "claim_ids": [
+        "cf6510fa",
+        "961dc8df"
+      ],
+      "needs_review": false,
+      "impact": "MAJOR"
+    },
+    {
+      "id": "theme_35",
       "label": "The laboratory testing methods applied to the 92 cases had sufficient sensitivity to detect COVID-19 infections if present.",
       "medoid_id": "d840c62d",
       "member_ids": [
@@ -131,457 +649,62 @@
       "impact": "MAJOR"
     },
     {
-      "id": "theme_07",
-      "label": "Early COVID-19 transmission followed consistent exponential growth rather than exhibiting stochastic or subcritical dynamics initially.",
-      "medoid_id": "4c7e6de5",
-      "member_ids": [
-        "81c6ee43",
-        "4c7e6de5"
-      ],
-      "member_count": 2,
-      "claim_ids": [
-        "e1537996"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_08",
-      "label": "The characteristics that make a location suitable for superspreader events can be identified and assessed independently of knowing whether a pandemic originated naturally or from a lab.",
-      "medoid_id": "b3f8482c",
-      "member_ids": [
-        "b3f8482c",
-        "6d6f3367"
-      ],
-      "member_count": 2,
-      "claim_ids": [
-        "529a370f"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_09",
-      "label": "The HSM cluster evidence can be cleanly separated from other pieces of evidence without affecting the interpretation or weight of remaining evidence.",
-      "medoid_id": "6ae78e17",
-      "member_ids": [
-        "6ae78e17",
-        "6cfe6571"
-      ],
-      "member_count": 2,
-      "claim_ids": [
-        "39b2269a",
-        "a0c36b5b",
-        "e309f45e"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_10",
-      "label": "The conditional probability framework can validly separate location-specific factors from origin mechanism in outbreak analysis.",
-      "medoid_id": "257b64ee",
-      "member_ids": [
-        "257b64ee",
-        "1adff492"
-      ],
-      "member_count": 2,
-      "claim_ids": [
-        "902607aa",
-        "2c99e608"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_11",
-      "label": "The observed spatial distribution accurately represents the true pattern of initial infections rather than sampling or reporting artifacts.",
-      "medoid_id": "cf4b61b0",
-      "member_ids": [
-        "cf4b61b0",
-        "22b75321"
-      ],
-      "member_count": 2,
-      "claim_ids": [
-        "a81636f1",
-        "5bf8acb4"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_12",
-      "label": "Connor Reed was an early COVID-19 patient whose testimony is relevant to determining the origins of the pandemic.",
-      "medoid_id": "c95f030f",
-      "member_ids": [
-        "c95f030f",
-        "a9d07241"
-      ],
-      "member_count": 2,
-      "claim_ids": [
-        "b5bc3952",
-        "e26a701b"
-      ],
-      "needs_review": true,
-      "impact": "FATAL"
-    },
-    {
-      "id": "theme_13",
-      "label": "Available evidence allows for distinguishing between intentional engineering and other lab leak scenarios.",
-      "medoid_id": "53e96d93",
-      "member_ids": [
-        "53e96d93",
-        "96a1d21e"
-      ],
-      "member_count": 2,
-      "claim_ids": [
-        "510baa92",
-        "a59856dd"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_14",
-      "label": "The specifics of the DEFUSE proposal are sufficiently similar to SARS-CoV-2 characteristics to constitute meaningful evidence about origins.",
-      "medoid_id": "8fa0966b",
-      "member_ids": [
-        "8fa0966b",
-        "79d3a3d7"
-      ],
-      "member_count": 2,
-      "claim_ids": [
-        "238a48b1",
-        "68e8028f"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_15",
-      "label": "The COVID origin question can be meaningfully framed as a binary choice between two competing hypotheses.",
-      "medoid_id": "81a58c35",
-      "member_ids": [
-        "3f376a03",
-        "81a58c35"
-      ],
-      "member_count": 2,
-      "claim_ids": [
-        "ee920406",
-        "76949eaa"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_16",
-      "label": "The statistical techniques used to analyze spatial clustering are appropriate for and capable of distinguishing market-centered outbreak patterns from other spatial distributions.",
-      "medoid_id": "88ae0d0c",
-      "member_ids": [
-        "88ae0d0c",
-        "0d45b096"
-      ],
-      "member_count": 2,
-      "claim_ids": [
-        "0f545a5f"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_17",
-      "label": "The actual index case was likely an asymptomatic or mild case from the raccoon-dog shop at Huanan Market.",
-      "medoid_id": "4a4e0d43",
-      "member_ids": [
-        "4a4e0d43"
-      ],
-      "member_count": 1,
-      "claim_ids": [],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_18",
-      "label": "Certain facilities including restaurants, markets, and schools with young people are characterized by unlikely mutual infection among young people",
-      "medoid_id": "bae85e1e",
-      "member_ids": [
-        "bae85e1e"
-      ],
-      "member_count": 1,
-      "claim_ids": [],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_19",
-      "label": "Forming a noticeable early cluster requires many permanent residents concentrated in one specific location rather than dispersed throughout the city.",
-      "medoid_id": "61bee052",
-      "member_ids": [
-        "61bee052"
-      ],
-      "member_count": 1,
-      "claim_ids": [],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_20",
-      "label": "Wildlife markets are not the only or most likely spillover location for zoonotic events, contrary to pre-2020 expert warnings which focused on different animal-human interfaces.",
-      "medoid_id": "0ca29e88",
-      "member_ids": [
-        "0ca29e88"
-      ],
-      "member_count": 1,
-      "claim_ids": [],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_21",
-      "label": "There was an alternative narrative claiming the first patient regularly shopped at HSM, which is being challenged here.",
-      "medoid_id": "8e62e4ca",
-      "member_ids": [
-        "8e62e4ca"
-      ],
-      "member_count": 1,
-      "claim_ids": [],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_22",
-      "label": "The lab leak argument presupposes that abortive transmission events occurred prior to the HSM outbreak but were not detected or recorded.",
-      "medoid_id": "63cc9d8b",
-      "member_ids": [
-        "63cc9d8b"
-      ],
-      "member_count": 1,
-      "claim_ids": [],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_23",
-      "label": "Both debate sides agree that none of the publicly known WIV viruses could have served as the backbone for SARS-CoV-2.",
-      "medoid_id": "dc9ccbf3",
-      "member_ids": [
-        "dc9ccbf3"
-      ],
-      "member_count": 1,
-      "claim_ids": [],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_24",
-      "label": "Infected animals could have been transported to Wuhan and remained infectious during transit via train or truck, including during loading and unloading operations.",
-      "medoid_id": "1e99a04d",
-      "member_ids": [
-        "1e99a04d"
-      ],
-      "member_count": 1,
-      "claim_ids": [],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_25",
-      "label": "The judge assumes that certain genomic features would be expected to be absent from early spillover versions of the virus if it had natural zoonotic origin.",
-      "medoid_id": "a8b94167",
-      "member_ids": [
-        "a8b94167"
-      ],
-      "member_count": 1,
-      "claim_ids": [],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_26",
-      "label": "The conventional starting assumption is that lab leak probability is substantially lower than natural zoonotic spillover probability for pandemic origin.",
-      "medoid_id": "e69b89cc",
-      "member_ids": [
-        "e69b89cc"
-      ],
-      "member_count": 1,
-      "claim_ids": [],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_27",
-      "label": "The specific market spillover hypothesis faces major difficulties that strengthen the case for alternative explanations.",
-      "medoid_id": "c97a9e3e",
-      "member_ids": [
-        "c97a9e3e"
-      ],
-      "member_count": 1,
-      "claim_ids": [],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_28",
-      "label": "The comparison case (Xinfadi) occurred during China's zero-COVID period after lockdown, establishing controlled background transmission conditions.",
-      "medoid_id": "5e210cfc",
-      "member_ids": [
-        "5e210cfc"
-      ],
-      "member_count": 1,
-      "claim_ids": [],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_29",
-      "label": "An individual investigator's confidence trajectory provides epistemically relevant evidence about the underlying truth of competing hypotheses.",
-      "medoid_id": "3693faa5",
-      "member_ids": [
-        "3693faa5"
-      ],
-      "member_count": 1,
-      "claim_ids": [
-        "1da344e5"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_30",
-      "label": "Peter Miller's investigation was sufficiently comprehensive and methodologically sound to justify high confidence conclusions.",
-      "medoid_id": "3b79881b",
-      "member_ids": [
-        "3b79881b"
-      ],
-      "member_count": 1,
-      "claim_ids": [
-        "1da344e5"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_31",
-      "label": "The evidence available to Miller was sufficient to distinguish between lab leak and zoonosis hypotheses with 90%+ confidence.",
-      "medoid_id": "e2e111fb",
-      "member_ids": [
-        "e2e111fb"
-      ],
-      "member_count": 1,
-      "claim_ids": [
-        "1da344e5"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_32",
-      "label": "There exists a determinate rational probability that an ideal epistemic agent should assign given a fixed body of evidence.",
-      "medoid_id": "63ad5e80",
-      "member_ids": [
-        "63ad5e80"
-      ],
-      "member_count": 1,
-      "claim_ids": [
-        "e8f513b3"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_33",
-      "label": "The debate evidence available constitutes a representative and sufficient sample of the total relevant evidence.",
-      "medoid_id": "733f8e9f",
-      "member_ids": [
-        "733f8e9f"
-      ],
-      "member_count": 1,
-      "claim_ids": [
-        "e8f513b3"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_34",
-      "label": "Smart and unbiased persons would converge on similar probability assessments when examining the same evidence.",
-      "medoid_id": "604e58e2",
-      "member_ids": [
-        "604e58e2"
-      ],
-      "member_count": 1,
-      "claim_ids": [
-        "e8f513b3"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
-      "id": "theme_35",
-      "label": "The prior probability of a zoonotic coronavirus pandemic emerging specifically in Wuhan was sufficiently low to make this geographic coincidence evidentially significant.",
-      "medoid_id": "c645a0c8",
-      "member_ids": [
-        "c645a0c8"
-      ],
-      "member_count": 1,
-      "claim_ids": [
-        "5e67b483"
-      ],
-      "needs_review": false,
-      "impact": "MAJOR"
-    },
-    {
       "id": "theme_36",
-      "label": "Geographic proximity between a virology institute and pandemic origin location constitutes meaningful evidence for causal connection.",
-      "medoid_id": "c86ed9a5",
+      "label": "The WHO investigation had access to complete and accurate records of all unusual pneumonia cases in the relevant timeframe.",
+      "medoid_id": "a48bdb44",
       "member_ids": [
-        "c86ed9a5"
+        "a48bdb44",
+        "6cbbd8de"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "claim_ids": [
-        "5e67b483"
+        "3b398b7c"
       ],
       "needs_review": false,
       "impact": "MAJOR"
     },
     {
       "id": "theme_37",
-      "label": "The WIV's presence in Wuhan was not itself a response to the region's elevated baseline risk for coronavirus emergence.",
-      "medoid_id": "7ec0e1b3",
+      "label": "The dating of early COVID-19 cases in December 2020 is sufficiently reliable to establish a meaningful pandemic timeline.",
+      "medoid_id": "ca099e44",
       "member_ids": [
-        "7ec0e1b3"
+        "ca099e44",
+        "cb752a0e"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "claim_ids": [
-        "5e67b483"
+        "b31fe2e0"
       ],
       "needs_review": false,
       "impact": "MAJOR"
     },
     {
       "id": "theme_38",
-      "label": "The evidence regarding Mr. Chen's case is sufficiently reliable to draw inferences about the pandemic's actual origin point.",
-      "medoid_id": "10150c33",
+      "label": "The sample of 'first 40 cases' represents an unbiased or systematically understood subset of actual early infections.",
+      "medoid_id": "2376e092",
       "member_ids": [
-        "10150c33"
+        "2376e092",
+        "55c0b3c2"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "claim_ids": [
-        "39e3f1f6"
+        "cf1b8a6e",
+        "23c45cda"
       ],
       "needs_review": false,
       "impact": "MAJOR"
     },
     {
       "id": "theme_39",
-      "label": "The surveillance protocols applied were causally influenced by presumptions about zoonotic origin rather than being hypothesis-neutral.",
-      "medoid_id": "005231f7",
+      "label": "A superspreading event would have been detectable and distinguishable from other clustering patterns given available epidemiological data.",
+      "medoid_id": "a252a31b",
       "member_ids": [
-        "005231f7"
+        "a252a31b",
+        "e4f98c66"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "claim_ids": [
-        "cf6510fa"
+        "078ce8e0"
       ],
       "needs_review": false,
       "impact": "MAJOR"
@@ -589,66 +712,120 @@
   ],
   "ranked_claims": [
     {
-      "id": "510baa92",
-      "content": "SARS-CoV-2 is substantially more likely to have zoonotic origin than to result from intentional engineering or lab leak.",
+      "id": "027e12eb",
+      "content": "The Huanan Seafood Market cluster is plausibly consistent with a lab leak scenario rather than requiring zoonotic origin.",
+      "source_author": "Michael Weissman",
+      "evidential_weight": 0.4,
+      "centrality": 59.2,
+      "relation_count": 50,
+      "needs_review": true
+    },
+    {
+      "id": "d245f365",
+      "content": "The lack of evidence of circulating virus prior to the HSM superspreading event implies early HSM infections contained or were close to the index case, supporting zoonotic origin.",
       "source_author": "Judge Will",
-      "evidential_weight": 0.95,
-      "centrality": 11.85,
-      "relation_count": 3,
+      "evidential_weight": 0.82,
+      "centrality": 51.46,
+      "relation_count": 43,
       "needs_review": false
     },
     {
-      "id": "ccb11477",
-      "content": "Final posterior odds ratio of lab leak to zoonosis is approximately 3.6E-3 (roughly 1 in 300), representing combined effect of prior and evidential updates.",
+      "id": "96a03a89",
+      "content": "The lab-leak origin hypothesis for SARS-CoV-2 has become more probable than natural zoonotic origin based on accumulated evidence since the pandemic's start.",
+      "source_author": "Michael Weissman",
+      "evidential_weight": 0.75,
+      "centrality": 50.25,
+      "relation_count": 40,
+      "needs_review": true
+    },
+    {
+      "id": "388d6778",
+      "content": "Zoonotic origin is more likely than lab leak based on key factors evaluated in the debate",
       "source_author": "Judge Will",
-      "evidential_weight": 0.95,
-      "centrality": 11.85,
-      "relation_count": 3,
+      "evidential_weight": 0.75,
+      "centrality": 47.25,
+      "relation_count": 39,
       "needs_review": false
     },
     {
-      "id": "a0c36b5b",
-      "content": "The HSM cluster provides negligible evidence for zoonosis and requires multi-level explanation to understand why.",
-      "source_author": "Jonathan (Rootclaim)",
-      "evidential_weight": 0.9,
-      "centrality": 11.7,
-      "relation_count": 3,
-      "needs_review": false
-    },
-    {
-      "id": "306b7d23",
-      "content": "Rootclaim conservatively assigns 1% to p(HSM|Lab Leak,Wuhan), which is sufficient to render the HSM cluster evidence negligible.",
-      "source_author": "Jonathan (Rootclaim)",
-      "evidential_weight": 0.9,
-      "centrality": 11.7,
-      "relation_count": 3,
-      "needs_review": false
-    },
-    {
-      "id": "fa84cafd",
-      "content": "WIV's capability to execute DEFUSE-style research is lower than claimed by Rootclaim and constitutes a major factor against lab leak hypothesis.",
+      "id": "b75ac936",
+      "content": "The HSM market was a plausible location for zoonotic spillover due to its wildlife trading activity and presence of relevant animal species.",
       "source_author": "Judge Will",
-      "evidential_weight": 0.9,
-      "centrality": 11.7,
-      "relation_count": 3,
+      "evidential_weight": 0.6,
+      "centrality": 45.8,
+      "relation_count": 38,
       "needs_review": false
     },
     {
-      "id": "48fb3113",
-      "content": "Whether the Wuhan Institute of Virology had an appropriate backbone strain for gain-of-function research that could have resulted in SARS-CoV-2 is a factor supporting zoonotic origin.",
-      "source_author": "Judge Will",
-      "evidential_weight": 0.88,
-      "centrality": 11.64,
-      "relation_count": 3,
-      "needs_review": false
-    },
-    {
-      "id": "d6b1d84b",
-      "content": "The finding that the first case and half of the first 40 cases had wet market connections constitutes genuine and persuasive evidence for zoonotic origin at Huanan Seafood Market.",
+      "id": "3f227e4f",
+      "content": "Markets were not frequently involved in SARS1 spillover, so the zoonosis hypothesis should not receive a high Bayes factor for predicting the Huanan market cluster.",
       "source_author": "Scott Alexander",
+      "evidential_weight": 0.65,
+      "centrality": 43.95,
+      "relation_count": 36,
+      "needs_review": false
+    },
+    {
+      "id": "48ee7c1c",
+      "content": "Although zoonotic origins have historically been more common for pandemics, the location of SARS-CoV-2's emergence in Wuhan—where suspect lab work was concentrated—made lab leak and zoonotic origins initially comparable in prior probability.",
+      "source_author": "Michael Weissman",
+      "evidential_weight": 0.6,
+      "centrality": 41.8,
+      "relation_count": 34,
+      "needs_review": false
+    },
+    {
+      "id": "ce564797",
+      "content": "The location of the outbreak epicenter at Huanan Seafood Market provides major evidence against lab leak hypothesis.",
+      "source_author": "Judge Will",
+      "evidential_weight": 0.9,
+      "centrality": 41.7,
+      "relation_count": 33,
+      "needs_review": false
+    },
+    {
+      "id": "56159dae",
+      "content": "The evidence does not better support the zoonosis hypothesis over lab leak when properly analyzed using Bayesian methods.",
+      "source_author": "Jonathan (Rootclaim)",
+      "evidential_weight": 0.35,
+      "centrality": 39.05,
+      "relation_count": 32,
+      "needs_review": false
+    },
+    {
+      "id": "e1b35e84",
+      "content": "The Huanan Seafood Market epicenter constitutes a major factor weighing against lab leak hypothesis.",
+      "source_author": "Judge Will",
       "evidential_weight": 0.85,
-      "centrality": 11.55,
-      "relation_count": 3,
+      "centrality": 37.55,
+      "relation_count": 29,
+      "needs_review": false
+    },
+    {
+      "id": "20b666bc",
+      "content": "Once HSM is correctly assessed as providing negligible discriminatory power, lab leak becomes the dominant hypothesis because all remaining evidence favors it.",
+      "source_author": "Jonathan (Rootclaim)",
+      "evidential_weight": 0.7,
+      "centrality": 37.1,
+      "relation_count": 29,
+      "needs_review": false
+    },
+    {
+      "id": "a2c34481",
+      "content": "Scott Alexander's conclusion that zoonosis is more probable than lab leak depends entirely on overweighting the Huanan Seafood Market cluster as evidence",
+      "source_author": "Jonathan (Rootclaim)",
+      "evidential_weight": 0.75,
+      "centrality": 35.25,
+      "relation_count": 25,
+      "needs_review": true
+    },
+    {
+      "id": "97f7f3f0",
+      "content": "The absence of wildlife infection evidence at HSM is difficult to reconcile with the zoonosis hypothesis",
+      "source_author": "Jonathan (Rootclaim)",
+      "evidential_weight": 0.75,
+      "centrality": 34.25,
+      "relation_count": 26,
       "needs_review": false
     },
     {
@@ -656,116 +833,62 @@
       "content": "The zoonosis hypothesis depends entirely on treating the HSM early cluster as an extreme coincidence that would be unlikely under lab leak",
       "source_author": "Jonathan (Rootclaim)",
       "evidential_weight": 0.85,
-      "centrality": 11.55,
-      "relation_count": 3,
+      "centrality": 33.55,
+      "relation_count": 25,
       "needs_review": false
     },
     {
-      "id": "318e168f",
-      "content": "The commonly claimed 10,000x Bayes factor for HSM evidence supporting zoonosis is actually less than 5x when comparing the two conditional probabilities (5% and 1%).",
-      "source_author": "Jonathan (Rootclaim)",
-      "evidential_weight": 0.85,
-      "centrality": 11.55,
-      "relation_count": 3,
+      "id": "590efd1b",
+      "content": "Under the lab leak hypothesis, HSM was not a likely place for the outbreak to emerge.",
+      "source_author": "Judge Will",
+      "evidential_weight": 0.75,
+      "centrality": 33.25,
+      "relation_count": 27,
       "needs_review": false
     },
     {
-      "id": "7a1459a2",
-      "content": "Multiple independent methods yield a conditional probability p(HSM|Lab Leak,Wuhan) exceeding 1%, with reasonable final estimates of 5-10%.",
-      "source_author": "Jonathan (Rootclaim)",
-      "evidential_weight": 0.85,
-      "centrality": 11.55,
-      "relation_count": 3,
-      "needs_review": false
-    },
-    {
-      "id": "eda89776",
-      "content": "Seafood markets are not uniquely coincidental as early cluster locations because they repeatedly formed early clusters across multiple countries during zero-COVID periods.",
-      "source_author": "Jonathan (Rootclaim)",
-      "evidential_weight": 0.78,
-      "centrality": 11.34,
-      "relation_count": 3,
-      "needs_review": false
-    },
-    {
-      "id": "db2a8888",
-      "content": "Viral signatures would be similar between natural wildlife spillover and lab sampling spillover, requiring evidence differentiation based on wildlife hosts, lab practices, and case locations rather than genomic features alone.",
+      "id": "50b62f67",
+      "content": "The prior probability of lab leak and zoonotic origin hypotheses should be assessed as initially comparable in the specific context of a Wuhan pandemic start due to concentrated suspect lab work there.",
       "source_author": "Michael Weissman",
-      "evidential_weight": 0.78,
-      "centrality": 11.34,
-      "relation_count": 3,
+      "evidential_weight": 0.65,
+      "centrality": 32.95,
+      "relation_count": 23,
+      "needs_review": true
+    },
+    {
+      "id": "6b80cb96",
+      "content": "Peter Miller's zoonosis case depends critically on the improbability that a lab leak pandemic would first appear at a wet market location",
+      "source_author": "Scott Alexander",
+      "evidential_weight": 0.75,
+      "centrality": 32.25,
+      "relation_count": 24,
       "needs_review": false
     },
     {
-      "id": "d9120745",
-      "content": "Beijing Xinfadi and Huanan markets exhibit identical epidemiological patterns: animal products entering markets followed by spatial clustering and human transmission.",
+      "id": "15d3f72f",
+      "content": "Zoonotic spillover is statistically more common as a cause of pandemics than laboratory leaks when examining prior probabilities.",
       "source_author": "Rootclaim",
-      "evidential_weight": 0.78,
-      "centrality": 11.34,
-      "relation_count": 3,
+      "evidential_weight": 0.55,
+      "centrality": 31.65,
+      "relation_count": 24,
       "needs_review": false
     },
     {
-      "id": "2c99e608",
-      "content": "Determining when and where the outbreak started is essential for proper probabilistic reasoning about COVID-19 origins.",
+      "id": "30cb2a81",
+      "content": "If the claim that HSM evidence strongly supports zoonosis is mistaken, then lab-leak becomes the most likely hypothesis overall.",
+      "source_author": "Jonathan (Rootclaim)",
+      "evidential_weight": 0.75,
+      "centrality": 31.25,
+      "relation_count": 23,
+      "needs_review": false
+    },
+    {
+      "id": "26fe7b51",
+      "content": "After extensive investigation, Peter Miller concluded with 99% confidence that COVID-19 had zoonotic origin and that the lab leak hypothesis lacked supporting evidence.",
       "source_author": "Rootclaim",
-      "evidential_weight": 0.78,
-      "centrality": 11.34,
-      "relation_count": 3,
-      "needs_review": false
-    },
-    {
-      "id": "7850c95c",
-      "content": "The Xinfadi-Huanan comparison demonstrates that market-origin patterns recur in different zero-COVID contexts with imported animal products as the traceable source.",
-      "source_author": "Rootclaim",
-      "evidential_weight": 0.76,
-      "centrality": 11.28,
-      "relation_count": 3,
-      "needs_review": false
-    },
-    {
-      "id": "e8f513b3",
-      "content": "Peter Miller expected a smart and unbiased person would assign approximately 80% probability to zoonosis after seeing all debate evidence",
-      "source_author": "Scott Alexander",
-      "evidential_weight": 0.75,
-      "centrality": 11.25,
-      "relation_count": 3,
-      "needs_review": false
-    },
-    {
-      "id": "5e67b483",
-      "content": "The geographic coincidence of a coronavirus pandemic starting in Wuhan (which hosts the WIV) is viewed by some as surprising if the origin was zoonotic.",
-      "source_author": "Scott Alexander",
-      "evidential_weight": 0.75,
-      "centrality": 11.25,
-      "relation_count": 3,
-      "needs_review": false
-    },
-    {
-      "id": "3b398b7c",
-      "content": "The 92 unusual pneumonia cases identified by WHO investigation prior to the wet market cluster were definitively ruled out as COVID-19 cases through subsequent laboratory testing",
-      "source_author": "Scott Alexander",
-      "evidential_weight": 0.75,
-      "centrality": 11.25,
-      "relation_count": 3,
-      "needs_review": false
-    },
-    {
-      "id": "b885fb4d",
-      "content": "All purported pre-market COVID cases are artifacts of misreporting, misdiagnosis, or nosocomial transmission rather than genuine community cases predating the Huanan cluster",
-      "source_author": "Scott Alexander",
-      "evidential_weight": 0.75,
-      "centrality": 11.25,
-      "relation_count": 3,
-      "needs_review": false
-    },
-    {
-      "id": "e1537996",
-      "content": "COVID-19 could not have been circulating substantially before early December 2019 based on exponential growth calculations.",
-      "source_author": "Scott Alexander",
-      "evidential_weight": 0.75,
-      "centrality": 11.25,
-      "relation_count": 3,
+      "evidential_weight": 0.3,
+      "centrality": 30.9,
+      "relation_count": 24,
       "needs_review": false
     }
   ],
@@ -814,14 +937,15 @@
     },
     {
       "cluster_id": "claim_cluster_03",
-      "representative_id": "39e3f1f6",
+      "representative_id": "372527d3",
       "member_ids": [
-        "39e3f1f6"
+        "39e3f1f6",
+        "372527d3"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "representative": {
-        "id": "39e3f1f6",
-        "content": "The identification of the first COVID-19 case is uncertain, with evidence suggesting a person named Mr. Chen who had no connection to Huanan Seafood Market may have been an earlier case than those associated with the market.",
+        "id": "372527d3",
+        "content": "The first COVID-19 case may not have been at the Huanan wet market, as Mr. Chen with no market connection appears to have fallen sick on December 8",
         "source_type": "essay_reflection",
         "claim_type": "empirical_finding"
       }
@@ -830,9 +954,10 @@
       "cluster_id": "claim_cluster_04",
       "representative_id": "cf6510fa",
       "member_ids": [
-        "cf6510fa"
+        "cf6510fa",
+        "961dc8df"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "representative": {
         "id": "cf6510fa",
         "content": "Surveillance bias led to overdetection of market-connected cases because authorities presumed the market was the origin and applied zoonosis-focused screening protocols based on SARS1 precedent.",
@@ -842,20 +967,6 @@
     },
     {
       "cluster_id": "claim_cluster_05",
-      "representative_id": "e1ee4beb",
-      "member_ids": [
-        "e1ee4beb"
-      ],
-      "member_count": 1,
-      "representative": {
-        "id": "e1ee4beb",
-        "content": "Selective screening practices based on market connection led to differential detection rates, with non-market cases being systematically underdiagnosed in early surveillance.",
-        "source_type": "essay_reflection",
-        "claim_type": "methodological_critique"
-      }
-    },
-    {
-      "cluster_id": "claim_cluster_06",
       "representative_id": "47bf0375",
       "member_ids": [
         "47bf0375"
@@ -869,7 +980,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_07",
+      "cluster_id": "claim_cluster_06",
       "representative_id": "d60b3f9a",
       "member_ids": [
         "d60b3f9a"
@@ -883,7 +994,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_08",
+      "cluster_id": "claim_cluster_07",
       "representative_id": "3b398b7c",
       "member_ids": [
         "3b398b7c"
@@ -897,7 +1008,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_09",
+      "cluster_id": "claim_cluster_08",
       "representative_id": "3a4fa882",
       "member_ids": [
         "3a4fa882"
@@ -911,7 +1022,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_10",
+      "cluster_id": "claim_cluster_09",
       "representative_id": "b885fb4d",
       "member_ids": [
         "b885fb4d",
@@ -926,7 +1037,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_11",
+      "cluster_id": "claim_cluster_10",
       "representative_id": "e1537996",
       "member_ids": [
         "e1537996"
@@ -940,7 +1051,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_12",
+      "cluster_id": "claim_cluster_11",
       "representative_id": "03569133",
       "member_ids": [
         "03569133"
@@ -954,12 +1065,13 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_13",
+      "cluster_id": "claim_cluster_12",
       "representative_id": "d6b1d84b",
       "member_ids": [
-        "d6b1d84b"
+        "d6b1d84b",
+        "8a2cd23c"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "representative": {
         "id": "d6b1d84b",
         "content": "The finding that the first case and half of the first 40 cases had wet market connections constitutes genuine and persuasive evidence for zoonotic origin at Huanan Seafood Market.",
@@ -968,7 +1080,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_14",
+      "cluster_id": "claim_cluster_13",
       "representative_id": "078ce8e0",
       "member_ids": [
         "078ce8e0"
@@ -982,7 +1094,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_15",
+      "cluster_id": "claim_cluster_14",
       "representative_id": "a89b90e3",
       "member_ids": [
         "a89b90e3"
@@ -996,7 +1108,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_16",
+      "cluster_id": "claim_cluster_15",
       "representative_id": "78edd269",
       "member_ids": [
         "78edd269"
@@ -1010,7 +1122,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_17",
+      "cluster_id": "claim_cluster_16",
       "representative_id": "6b80cb96",
       "member_ids": [
         "6b80cb96"
@@ -1024,7 +1136,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_18",
+      "cluster_id": "claim_cluster_17",
       "representative_id": "529a370f",
       "member_ids": [
         "529a370f"
@@ -1038,7 +1150,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_19",
+      "cluster_id": "claim_cluster_18",
       "representative_id": "a4b1ff55",
       "member_ids": [
         "a4b1ff55"
@@ -1052,12 +1164,13 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_20",
+      "cluster_id": "claim_cluster_19",
       "representative_id": "966b60f0",
       "member_ids": [
-        "966b60f0"
+        "966b60f0",
+        "6fef66c9"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "representative": {
         "id": "966b60f0",
         "content": "Most of the 1600 locations identified as larger than Huanan market are not suitable environments for superspreading events.",
@@ -1066,7 +1179,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_21",
+      "cluster_id": "claim_cluster_20",
       "representative_id": "35d1c5de",
       "member_ids": [
         "35d1c5de"
@@ -1080,7 +1193,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_22",
+      "cluster_id": "claim_cluster_21",
       "representative_id": "3f227e4f",
       "member_ids": [
         "3f227e4f"
@@ -1094,7 +1207,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_23",
+      "cluster_id": "claim_cluster_22",
       "representative_id": "dba2b11e",
       "member_ids": [
         "dba2b11e"
@@ -1108,7 +1221,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_24",
+      "cluster_id": "claim_cluster_23",
       "representative_id": "85c057c0",
       "member_ids": [
         "85c057c0"
@@ -1122,7 +1235,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_25",
+      "cluster_id": "claim_cluster_24",
       "representative_id": "4a08bece",
       "member_ids": [
         "4a08bece"
@@ -1136,7 +1249,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_26",
+      "cluster_id": "claim_cluster_25",
       "representative_id": "2b8613e8",
       "member_ids": [
         "2b8613e8"
@@ -1150,7 +1263,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_27",
+      "cluster_id": "claim_cluster_26",
       "representative_id": "892a81af",
       "member_ids": [
         "892a81af"
@@ -1164,7 +1277,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_28",
+      "cluster_id": "claim_cluster_27",
       "representative_id": "8ca9c020",
       "member_ids": [
         "8ca9c020"
@@ -1178,7 +1291,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_29",
+      "cluster_id": "claim_cluster_28",
       "representative_id": "d1e0e244",
       "member_ids": [
         "d1e0e244"
@@ -1192,7 +1305,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_30",
+      "cluster_id": "claim_cluster_29",
       "representative_id": "1a311927",
       "member_ids": [
         "1a311927"
@@ -1206,12 +1319,14 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_31",
+      "cluster_id": "claim_cluster_30",
       "representative_id": "56159dae",
       "member_ids": [
-        "56159dae"
+        "56159dae",
+        "30cb2a81",
+        "388d6778"
       ],
-      "member_count": 1,
+      "member_count": 3,
       "representative": {
         "id": "56159dae",
         "content": "The evidence does not better support the zoonosis hypothesis over lab leak when properly analyzed using Bayesian methods.",
@@ -1220,7 +1335,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_32",
+      "cluster_id": "claim_cluster_31",
       "representative_id": "39b2269a",
       "member_ids": [
         "39b2269a"
@@ -1234,13 +1349,14 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_33",
+      "cluster_id": "claim_cluster_32",
       "representative_id": "e309f45e",
       "member_ids": [
         "a0c36b5b",
-        "e309f45e"
+        "e309f45e",
+        "dd9e80b9"
       ],
-      "member_count": 2,
+      "member_count": 3,
       "representative": {
         "id": "e309f45e",
         "content": "The zoonosis hypothesis depends entirely on treating the HSM early cluster as an extreme coincidence that would be unlikely under lab leak",
@@ -1249,12 +1365,14 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_34",
+      "cluster_id": "claim_cluster_33",
       "representative_id": "53153dcf",
       "member_ids": [
-        "53153dcf"
+        "53153dcf",
+        "6d104cde",
+        "b75ac936"
       ],
-      "member_count": 1,
+      "member_count": 3,
       "representative": {
         "id": "53153dcf",
         "content": "The HSM cluster being an early epicenter in a market with wildlife is framed as requiring explanation specifically under the lab leak hypothesis",
@@ -1263,7 +1381,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_35",
+      "cluster_id": "claim_cluster_34",
       "representative_id": "c1ce7483",
       "member_ids": [
         "c1ce7483"
@@ -1277,21 +1395,24 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_36",
-      "representative_id": "eda89776",
+      "cluster_id": "claim_cluster_35",
+      "representative_id": "25a7d582",
       "member_ids": [
-        "eda89776"
+        "eda89776",
+        "efe129c2",
+        "7f979621",
+        "25a7d582"
       ],
-      "member_count": 1,
+      "member_count": 4,
       "representative": {
-        "id": "eda89776",
-        "content": "Seafood markets are not uniquely coincidental as early cluster locations because they repeatedly formed early clusters across multiple countries during zero-COVID periods.",
+        "id": "25a7d582",
+        "content": "The ratio of seafood market clusters to all identified early clusters in COVID-zero periods exceeds 4%.",
         "source_type": "essay_reflection",
-        "claim_type": "empirical_pattern"
+        "claim_type": "empirical_finding"
       }
     },
     {
-      "cluster_id": "claim_cluster_37",
+      "cluster_id": "claim_cluster_36",
       "representative_id": "059c537b",
       "member_ids": [
         "059c537b"
@@ -1305,7 +1426,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_38",
+      "cluster_id": "claim_cluster_37",
       "representative_id": "318e168f",
       "member_ids": [
         "318e168f"
@@ -1319,7 +1440,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_39",
+      "cluster_id": "claim_cluster_38",
       "representative_id": "24d3bd59",
       "member_ids": [
         "24d3bd59"
@@ -1333,13 +1454,14 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_40",
+      "cluster_id": "claim_cluster_39",
       "representative_id": "7a1459a2",
       "member_ids": [
         "7a1459a2",
-        "0341b25c"
+        "0341b25c",
+        "67e46a05"
       ],
-      "member_count": 2,
+      "member_count": 3,
       "representative": {
         "id": "7a1459a2",
         "content": "Multiple independent methods yield a conditional probability p(HSM|Lab Leak,Wuhan) exceeding 1%, with reasonable final estimates of 5-10%.",
@@ -1348,12 +1470,13 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_41",
+      "cluster_id": "claim_cluster_40",
       "representative_id": "306b7d23",
       "member_ids": [
-        "306b7d23"
+        "306b7d23",
+        "fd241d85"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "representative": {
         "id": "306b7d23",
         "content": "Rootclaim conservatively assigns 1% to p(HSM|Lab Leak,Wuhan), which is sufficient to render the HSM cluster evidence negligible.",
@@ -1362,7 +1485,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_42",
+      "cluster_id": "claim_cluster_41",
       "representative_id": "8a96582c",
       "member_ids": [
         "8a96582c"
@@ -1376,21 +1499,22 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_43",
-      "representative_id": "902607aa",
+      "cluster_id": "claim_cluster_42",
+      "representative_id": "f3ec1753",
       "member_ids": [
-        "902607aa"
+        "902607aa",
+        "f3ec1753"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "representative": {
-        "id": "902607aa",
-        "content": "The conditional probability p(HSM|Lab Leak,Wuhan) must account for HSM's environmental features that make it prone to early cluster formation regardless of origin mechanism",
+        "id": "f3ec1753",
+        "content": "The total number of plausible early cluster locations in Wuhan that could produce an HSM-like cluster under lab leak should be at most a few thousand places.",
         "source_type": "essay_reflection",
-        "claim_type": "probabilistic_assertion"
+        "claim_type": "quantitative_estimate"
       }
     },
     {
-      "cluster_id": "claim_cluster_44",
+      "cluster_id": "claim_cluster_43",
       "representative_id": "a6d41746",
       "member_ids": [
         "a6d41746"
@@ -1404,12 +1528,13 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_45",
+      "cluster_id": "claim_cluster_44",
       "representative_id": "a529224d",
       "member_ids": [
-        "a529224d"
+        "a529224d",
+        "01ebf934"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "representative": {
         "id": "a529224d",
         "content": "A study claiming 1676 Wuhan sites were superior to HSM in superspreading potential relied on false assumptions and failed to identify any truly superior location.",
@@ -1418,7 +1543,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_46",
+      "cluster_id": "claim_cluster_45",
       "representative_id": "a585ca6e",
       "member_ids": [
         "a585ca6e"
@@ -1432,12 +1557,13 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_47",
+      "cluster_id": "claim_cluster_46",
       "representative_id": "d25877d7",
       "member_ids": [
-        "d25877d7"
+        "d25877d7",
+        "c406041d"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "representative": {
         "id": "d25877d7",
         "content": "The Xinfadi outbreak differs markedly from HSM in that most early HSM cases could not be connected to the market.",
@@ -1446,21 +1572,22 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_48",
-      "representative_id": "244fadbb",
+      "cluster_id": "claim_cluster_47",
+      "representative_id": "cbe5551d",
       "member_ids": [
-        "244fadbb"
+        "244fadbb",
+        "cbe5551d"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "representative": {
-        "id": "244fadbb",
-        "content": "The Thailand seafood market outbreak bears several eerie similarities to HSM, including the earliest case being a shrimp vendor.",
+        "id": "cbe5551d",
+        "content": "The Thailand outbreak index case being a shrimp vendor at a seafood market parallels the HSM pattern and demonstrates that seafood market environments produce early clusters independent of zoonotic spillover.",
         "source_type": "essay_reflection",
-        "claim_type": "comparative_observation"
+        "claim_type": "causal_interpretation"
       }
     },
     {
-      "cluster_id": "claim_cluster_49",
+      "cluster_id": "claim_cluster_48",
       "representative_id": "48872967",
       "member_ids": [
         "d5f9d856",
@@ -1476,12 +1603,14 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_50",
+      "cluster_id": "claim_cluster_49",
       "representative_id": "f6a5b288",
       "member_ids": [
-        "f6a5b288"
+        "f6a5b288",
+        "d9b91bbf",
+        "f2c90780"
       ],
-      "member_count": 1,
+      "member_count": 3,
       "representative": {
         "id": "f6a5b288",
         "content": "The CDC facility move to a location adjacent to HSM provides an alternative explanation for the HSM cluster under the lab leak hypothesis.",
@@ -1490,7 +1619,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_51",
+      "cluster_id": "claim_cluster_50",
       "representative_id": "52581838",
       "member_ids": [
         "52581838"
@@ -1504,7 +1633,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_52",
+      "cluster_id": "claim_cluster_51",
       "representative_id": "4fecfcfc",
       "member_ids": [
         "4fecfcfc"
@@ -1518,7 +1647,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_53",
+      "cluster_id": "claim_cluster_52",
       "representative_id": "bfb750e0",
       "member_ids": [
         "bfb750e0"
@@ -1532,7 +1661,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_54",
+      "cluster_id": "claim_cluster_53",
       "representative_id": "8dcf878d",
       "member_ids": [
         "8dcf878d"
@@ -1546,7 +1675,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_55",
+      "cluster_id": "claim_cluster_54",
       "representative_id": "84943bc0",
       "member_ids": [
         "84943bc0"
@@ -1560,7 +1689,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_56",
+      "cluster_id": "claim_cluster_55",
       "representative_id": "fd5d8adb",
       "member_ids": [
         "fd5d8adb",
@@ -1576,7 +1705,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_57",
+      "cluster_id": "claim_cluster_56",
       "representative_id": "a2c9b778",
       "member_ids": [
         "a2c9b778"
@@ -1590,7 +1719,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_58",
+      "cluster_id": "claim_cluster_57",
       "representative_id": "ed3ba0b7",
       "member_ids": [
         "ed3ba0b7"
@@ -1604,27 +1733,14 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_59",
-      "representative_id": "c3e10a7a",
-      "member_ids": [
-        "c3e10a7a"
-      ],
-      "member_count": 1,
-      "representative": {
-        "id": "c3e10a7a",
-        "content": "Wuhan's zoonotic spillover interfaces (farms, wildlife markets) are significantly less numerous than other Chinese locations, reducing the conditional probability of a zoonotic spillover originating specifically in Wuhan.",
-        "source_type": "essay_reflection",
-        "claim_type": "empirical_assertion"
-      }
-    },
-    {
-      "cluster_id": "claim_cluster_60",
+      "cluster_id": "claim_cluster_58",
       "representative_id": "526d2cc3",
       "member_ids": [
         "526d2cc3",
-        "c0b36018"
+        "c0b36018",
+        "97f7f3f0"
       ],
-      "member_count": 2,
+      "member_count": 3,
       "representative": {
         "id": "526d2cc3",
         "content": "The absence of positive animal samples from the market or supplying farms is inconsistent with wildlife involvement in the HSM outbreak",
@@ -1633,7 +1749,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_61",
+      "cluster_id": "claim_cluster_59",
       "representative_id": "a81636f1",
       "member_ids": [
         "a81636f1"
@@ -1647,7 +1763,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_62",
+      "cluster_id": "claim_cluster_60",
       "representative_id": "6130d981",
       "member_ids": [
         "6130d981"
@@ -1661,7 +1777,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_63",
+      "cluster_id": "claim_cluster_61",
       "representative_id": "c632b88f",
       "member_ids": [
         "c632b88f"
@@ -1675,7 +1791,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_64",
+      "cluster_id": "claim_cluster_62",
       "representative_id": "e0afa3a0",
       "member_ids": [
         "e0afa3a0"
@@ -1689,7 +1805,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_65",
+      "cluster_id": "claim_cluster_63",
       "representative_id": "4d017e5e",
       "member_ids": [
         "4d017e5e"
@@ -1703,7 +1819,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_66",
+      "cluster_id": "claim_cluster_64",
       "representative_id": "b5bc3952",
       "member_ids": [
         "b5bc3952"
@@ -1717,21 +1833,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_67",
-      "representative_id": "3edd9f02",
-      "member_ids": [
-        "3edd9f02"
-      ],
-      "member_count": 1,
-      "representative": {
-        "id": "3edd9f02",
-        "content": "Connor Reed's initial belief that his cat contracted coronavirus does not discredit him because he was not a coronavirus expert and later corrected his statement to feline coronavirus.",
-        "source_type": "essay_reflection",
-        "claim_type": "dismissal"
-      }
-    },
-    {
-      "cluster_id": "claim_cluster_68",
+      "cluster_id": "claim_cluster_65",
       "representative_id": "dd5cbc8c",
       "member_ids": [
         "dd5cbc8c"
@@ -1745,7 +1847,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_69",
+      "cluster_id": "claim_cluster_66",
       "representative_id": "e26a701b",
       "member_ids": [
         "e26a701b"
@@ -1759,7 +1861,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_70",
+      "cluster_id": "claim_cluster_67",
       "representative_id": "f4825f47",
       "member_ids": [
         "f4825f47"
@@ -1773,12 +1875,14 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_71",
+      "cluster_id": "claim_cluster_68",
       "representative_id": "510baa92",
       "member_ids": [
-        "510baa92"
+        "510baa92",
+        "084eb2b2",
+        "96a03a89"
       ],
-      "member_count": 1,
+      "member_count": 3,
       "representative": {
         "id": "510baa92",
         "content": "SARS-CoV-2 is substantially more likely to have zoonotic origin than to result from intentional engineering or lab leak.",
@@ -1787,22 +1891,21 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_72",
-      "representative_id": "23bcba76",
+      "cluster_id": "claim_cluster_69",
+      "representative_id": "5d51ea67",
       "member_ids": [
-        "23bcba76",
         "5d51ea67"
       ],
-      "member_count": 2,
+      "member_count": 1,
       "representative": {
-        "id": "23bcba76",
-        "content": "Peter Miller presented the superior case for zoonotic origin in the debate.",
+        "id": "5d51ea67",
+        "content": "The zoonotic origin hypothesis presented the superior case and is the winner of the debate.",
         "source_type": "essay_reflection",
-        "claim_type": "evaluative"
+        "claim_type": "evaluative_conclusion"
       }
     },
     {
-      "cluster_id": "claim_cluster_73",
+      "cluster_id": "claim_cluster_70",
       "representative_id": "ccb11477",
       "member_ids": [
         "ccb11477"
@@ -1816,7 +1919,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_74",
+      "cluster_id": "claim_cluster_71",
       "representative_id": "d31f259d",
       "member_ids": [
         "d31f259d"
@@ -1830,12 +1933,13 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_75",
+      "cluster_id": "claim_cluster_72",
       "representative_id": "fa84cafd",
       "member_ids": [
-        "fa84cafd"
+        "fa84cafd",
+        "321c6fe2"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "representative": {
         "id": "fa84cafd",
         "content": "WIV's capability to execute DEFUSE-style research is lower than claimed by Rootclaim and constitutes a major factor against lab leak hypothesis.",
@@ -1844,12 +1948,15 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_76",
+      "cluster_id": "claim_cluster_73",
       "representative_id": "ce564797",
       "member_ids": [
-        "ce564797"
+        "ce564797",
+        "a2c34481",
+        "e1b35e84",
+        "027e12eb"
       ],
-      "member_count": 1,
+      "member_count": 4,
       "representative": {
         "id": "ce564797",
         "content": "The location of the outbreak epicenter at Huanan Seafood Market provides major evidence against lab leak hypothesis.",
@@ -1858,7 +1965,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_77",
+      "cluster_id": "claim_cluster_74",
       "representative_id": "48fb3113",
       "member_ids": [
         "48fb3113"
@@ -1872,14 +1979,16 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_78",
+      "cluster_id": "claim_cluster_75",
       "representative_id": "d245f365",
       "member_ids": [
         "d245f365",
         "07ae254c",
-        "e6fcf9b6"
+        "e6fcf9b6",
+        "35ebbe19",
+        "4dfc351d"
       ],
-      "member_count": 3,
+      "member_count": 5,
       "representative": {
         "id": "d245f365",
         "content": "The lack of evidence of circulating virus prior to the HSM superspreading event implies early HSM infections contained or were close to the index case, supporting zoonotic origin.",
@@ -1888,7 +1997,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_79",
+      "cluster_id": "claim_cluster_76",
       "representative_id": "c826d25a",
       "member_ids": [
         "c826d25a",
@@ -1903,7 +2012,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_80",
+      "cluster_id": "claim_cluster_77",
       "representative_id": "af7c3388",
       "member_ids": [
         "af7c3388"
@@ -1917,7 +2026,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_81",
+      "cluster_id": "claim_cluster_78",
       "representative_id": "0a9e9aa1",
       "member_ids": [
         "0a9e9aa1"
@@ -1931,7 +2040,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_82",
+      "cluster_id": "claim_cluster_79",
       "representative_id": "ef79ed30",
       "member_ids": [
         "ef79ed30"
@@ -1945,7 +2054,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_83",
+      "cluster_id": "claim_cluster_80",
       "representative_id": "72f3322c",
       "member_ids": [
         "72f3322c"
@@ -1959,7 +2068,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_84",
+      "cluster_id": "claim_cluster_81",
       "representative_id": "91804db1",
       "member_ids": [
         "91804db1"
@@ -1973,7 +2082,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_85",
+      "cluster_id": "claim_cluster_82",
       "representative_id": "4f977c05",
       "member_ids": [
         "4f977c05"
@@ -1987,21 +2096,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_86",
-      "representative_id": "5796d944",
-      "member_ids": [
-        "5796d944"
-      ],
-      "member_count": 1,
-      "representative": {
-        "id": "5796d944",
-        "content": "The zoonotic origin side won the argument regarding lack of evidence for SARS-CoV-2 circulation prior to the HSM superspreading event.",
-        "source_type": "essay_reflection",
-        "claim_type": "evaluative_conclusion"
-      }
-    },
-    {
-      "cluster_id": "claim_cluster_87",
+      "cluster_id": "claim_cluster_83",
       "representative_id": "3b59e5c9",
       "member_ids": [
         "3b59e5c9"
@@ -2015,7 +2110,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_88",
+      "cluster_id": "claim_cluster_84",
       "representative_id": "94946add",
       "member_ids": [
         "94946add"
@@ -2029,7 +2124,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_89",
+      "cluster_id": "claim_cluster_85",
       "representative_id": "8807eb73",
       "member_ids": [
         "8807eb73"
@@ -2043,7 +2138,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_90",
+      "cluster_id": "claim_cluster_86",
       "representative_id": "376abb78",
       "member_ids": [
         "376abb78"
@@ -2057,7 +2152,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_91",
+      "cluster_id": "claim_cluster_87",
       "representative_id": "81db84e2",
       "member_ids": [
         "81db84e2"
@@ -2071,7 +2166,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_92",
+      "cluster_id": "claim_cluster_88",
       "representative_id": "cfe0f2a5",
       "member_ids": [
         "cfe0f2a5"
@@ -2085,7 +2180,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_93",
+      "cluster_id": "claim_cluster_89",
       "representative_id": "a59856dd",
       "member_ids": [
         "a59856dd"
@@ -2099,7 +2194,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_94",
+      "cluster_id": "claim_cluster_90",
       "representative_id": "8836d90b",
       "member_ids": [
         "8836d90b"
@@ -2113,7 +2208,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_95",
+      "cluster_id": "claim_cluster_91",
       "representative_id": "cda86093",
       "member_ids": [
         "cda86093"
@@ -2127,7 +2222,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_96",
+      "cluster_id": "claim_cluster_92",
       "representative_id": "358c38fe",
       "member_ids": [
         "358c38fe"
@@ -2141,7 +2236,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_97",
+      "cluster_id": "claim_cluster_93",
       "representative_id": "0d55b76f",
       "member_ids": [
         "0d55b76f"
@@ -2155,7 +2250,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_98",
+      "cluster_id": "claim_cluster_94",
       "representative_id": "238a48b1",
       "member_ids": [
         "238a48b1"
@@ -2169,7 +2264,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_99",
+      "cluster_id": "claim_cluster_95",
       "representative_id": "864a85bf",
       "member_ids": [
         "864a85bf"
@@ -2183,7 +2278,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_100",
+      "cluster_id": "claim_cluster_96",
       "representative_id": "c96c4667",
       "member_ids": [
         "c96c4667"
@@ -2197,7 +2292,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_101",
+      "cluster_id": "claim_cluster_97",
       "representative_id": "4112dee9",
       "member_ids": [
         "4112dee9"
@@ -2211,7 +2306,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_102",
+      "cluster_id": "claim_cluster_98",
       "representative_id": "68ade21f",
       "member_ids": [
         "68ade21f"
@@ -2225,7 +2320,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_103",
+      "cluster_id": "claim_cluster_99",
       "representative_id": "37545060",
       "member_ids": [
         "37545060"
@@ -2239,7 +2334,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_104",
+      "cluster_id": "claim_cluster_100",
       "representative_id": "68e8028f",
       "member_ids": [
         "68e8028f"
@@ -2253,7 +2348,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_105",
+      "cluster_id": "claim_cluster_101",
       "representative_id": "d3f58622",
       "member_ids": [
         "d3f58622"
@@ -2267,7 +2362,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_106",
+      "cluster_id": "claim_cluster_102",
       "representative_id": "a156e65b",
       "member_ids": [
         "a156e65b"
@@ -2281,7 +2376,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_107",
+      "cluster_id": "claim_cluster_103",
       "representative_id": "db2a8888",
       "member_ids": [
         "db2a8888"
@@ -2295,7 +2390,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_108",
+      "cluster_id": "claim_cluster_104",
       "representative_id": "e56fa56e",
       "member_ids": [
         "e56fa56e"
@@ -2309,7 +2404,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_109",
+      "cluster_id": "claim_cluster_105",
       "representative_id": "c577c6f6",
       "member_ids": [
         "c577c6f6"
@@ -2323,7 +2418,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_110",
+      "cluster_id": "claim_cluster_106",
       "representative_id": "edf21528",
       "member_ids": [
         "edf21528"
@@ -2337,7 +2432,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_111",
+      "cluster_id": "claim_cluster_107",
       "representative_id": "612a9aec",
       "member_ids": [
         "612a9aec"
@@ -2351,7 +2446,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_112",
+      "cluster_id": "claim_cluster_108",
       "representative_id": "bf501d95",
       "member_ids": [
         "bf501d95"
@@ -2365,7 +2460,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_113",
+      "cluster_id": "claim_cluster_109",
       "representative_id": "46399e3a",
       "member_ids": [
         "46399e3a"
@@ -2379,7 +2474,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_114",
+      "cluster_id": "claim_cluster_110",
       "representative_id": "ee920406",
       "member_ids": [
         "ee920406"
@@ -2393,7 +2488,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_115",
+      "cluster_id": "claim_cluster_111",
       "representative_id": "43c41bb5",
       "member_ids": [
         "43c41bb5"
@@ -2407,7 +2502,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_116",
+      "cluster_id": "claim_cluster_112",
       "representative_id": "76949eaa",
       "member_ids": [
         "76949eaa"
@@ -2421,26 +2516,13 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_117",
-      "representative_id": "082ae6b9",
-      "member_ids": [
-        "082ae6b9"
-      ],
-      "member_count": 1,
-      "representative": {
-        "id": "082ae6b9",
-        "content": "Wuhan is not an improbable location for a pandemic to originate naturally, contrary to lab leak proponents' geographic arguments.",
-        "source_type": "debate_transcript",
-        "claim_type": "dismissal"
-      }
-    },
-    {
-      "cluster_id": "claim_cluster_118",
+      "cluster_id": "claim_cluster_113",
       "representative_id": "a675d573",
       "member_ids": [
-        "a675d573"
+        "a675d573",
+        "654a8b07"
       ],
-      "member_count": 1,
+      "member_count": 2,
       "representative": {
         "id": "a675d573",
         "content": "The alleged evidence of three sick WIV researchers lacks credible foundation.",
@@ -2449,22 +2531,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_119",
-      "representative_id": "581084af",
-      "member_ids": [
-        "581084af",
-        "00ce11a2"
-      ],
-      "member_count": 2,
-      "representative": {
-        "id": "581084af",
-        "content": "The probability of a pandemic starting in Wuhan is not extremely unlikely and should be quantified rather than dismissed as coincidental.",
-        "source_type": "debate_transcript",
-        "claim_type": "probabilistic_assertion"
-      }
-    },
-    {
-      "cluster_id": "claim_cluster_120",
+      "cluster_id": "claim_cluster_114",
       "representative_id": "f1a01086",
       "member_ids": [
         "f1a01086"
@@ -2478,7 +2545,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_121",
+      "cluster_id": "claim_cluster_115",
       "representative_id": "bc1a07b4",
       "member_ids": [
         "bc1a07b4"
@@ -2492,12 +2559,27 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_122",
-      "representative_id": "ab3337a8",
+      "cluster_id": "claim_cluster_116",
+      "representative_id": "00ce11a2",
       "member_ids": [
-        "ab3337a8"
+        "00ce11a2"
       ],
       "member_count": 1,
+      "representative": {
+        "id": "00ce11a2",
+        "content": "If pandemic emergence requires a top-20 city, the prior probability of Wuhan being the origin could be approximately 5%.",
+        "source_type": "debate_transcript",
+        "claim_type": "probabilistic_assertion"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_117",
+      "representative_id": "ab3337a8",
+      "member_ids": [
+        "ab3337a8",
+        "e4108e04"
+      ],
+      "member_count": 2,
       "representative": {
         "id": "ab3337a8",
         "content": "Recent advancements in gain-of-function research have substantially increased pandemic risk, which should update the prior probability away from baseline zoonotic rates.",
@@ -2506,7 +2588,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_123",
+      "cluster_id": "claim_cluster_118",
       "representative_id": "e76a6661",
       "member_ids": [
         "e76a6661"
@@ -2520,7 +2602,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_124",
+      "cluster_id": "claim_cluster_119",
       "representative_id": "15d3f72f",
       "member_ids": [
         "15d3f72f"
@@ -2534,7 +2616,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_125",
+      "cluster_id": "claim_cluster_120",
       "representative_id": "2bd95b58",
       "member_ids": [
         "2bd95b58"
@@ -2548,7 +2630,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_126",
+      "cluster_id": "claim_cluster_121",
       "representative_id": "0f545a5f",
       "member_ids": [
         "0f545a5f"
@@ -2562,7 +2644,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_127",
+      "cluster_id": "claim_cluster_122",
       "representative_id": "d9120745",
       "member_ids": [
         "d9120745"
@@ -2576,7 +2658,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_128",
+      "cluster_id": "claim_cluster_123",
       "representative_id": "66e06342",
       "member_ids": [
         "66e06342"
@@ -2590,7 +2672,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_129",
+      "cluster_id": "claim_cluster_124",
       "representative_id": "7850c95c",
       "member_ids": [
         "7850c95c"
@@ -2604,7 +2686,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_130",
+      "cluster_id": "claim_cluster_125",
       "representative_id": "699aee46",
       "member_ids": [
         "699aee46"
@@ -2618,7 +2700,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_131",
+      "cluster_id": "claim_cluster_126",
       "representative_id": "2c99e608",
       "member_ids": [
         "2c99e608"
@@ -2632,7 +2714,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_132",
+      "cluster_id": "claim_cluster_127",
       "representative_id": "81871d8a",
       "member_ids": [
         "81871d8a"
@@ -2646,7 +2728,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_133",
+      "cluster_id": "claim_cluster_128",
       "representative_id": "5bf8acb4",
       "member_ids": [
         "5bf8acb4"
@@ -2660,7 +2742,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_134",
+      "cluster_id": "claim_cluster_129",
       "representative_id": "3f6737f1",
       "member_ids": [
         "3f6737f1"
@@ -2674,7 +2756,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_135",
+      "cluster_id": "claim_cluster_130",
       "representative_id": "4dd8273f",
       "member_ids": [
         "4dd8273f"
@@ -2688,7 +2770,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_136",
+      "cluster_id": "claim_cluster_131",
       "representative_id": "7efe6871",
       "member_ids": [
         "7efe6871"
@@ -2702,7 +2784,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_137",
+      "cluster_id": "claim_cluster_132",
       "representative_id": "24eea744",
       "member_ids": [
         "24eea744"
@@ -2716,7 +2798,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_138",
+      "cluster_id": "claim_cluster_133",
       "representative_id": "830e6c4c",
       "member_ids": [
         "830e6c4c"
@@ -2730,7 +2812,7 @@
       }
     },
     {
-      "cluster_id": "claim_cluster_139",
+      "cluster_id": "claim_cluster_134",
       "representative_id": "8378b846",
       "member_ids": [
         "8378b846"
@@ -2742,19 +2824,1297 @@
         "source_type": "debate_transcript",
         "claim_type": "evidential_interpretation"
       }
+    },
+    {
+      "cluster_id": "claim_cluster_135",
+      "representative_id": "f12f6bcb",
+      "member_ids": [
+        "f12f6bcb"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "f12f6bcb",
+        "content": "Peter Miller assessed his financial risk as low because he calculated that both judges voting for lab origin would require uncorrelated 20% probabilities squared, given his 80% confidence after reviewing evidence",
+        "source_type": "essay_reflection",
+        "claim_type": "risk_assessment"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_136",
+      "representative_id": "64e9a7d6",
+      "member_ids": [
+        "64e9a7d6"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "64e9a7d6",
+        "content": "The 2014 photograph of the raccoon-dog shop provides independent verification of the wildlife market conditions at Huanan that made zoonotic spillover plausible.",
+        "source_type": "essay_reflection",
+        "claim_type": "interpretive"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_137",
+      "representative_id": "cc01804c",
+      "member_ids": [
+        "cc01804c"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "cc01804c",
+        "content": "Some argue that it would be a surprising coincidence if a zoonotic coronavirus pandemic happened to start in a city with a major coronavirus research facility.",
+        "source_type": "essay_reflection",
+        "claim_type": "interpretive"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_138",
+      "representative_id": "10fa43d4",
+      "member_ids": [
+        "10fa43d4"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "10fa43d4",
+        "content": "A lab-leak pandemic being first detected at a raccoon-dog stall in a wet market would be an even more surprising coincidence than a pandemic starting in a city with a major coronavirus research lab",
+        "source_type": "essay_reflection",
+        "claim_type": "probabilistic_inference"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_139",
+      "representative_id": "cf1b8a6e",
+      "member_ids": [
+        "cf1b8a6e"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "cf1b8a6e",
+        "content": "The observation that half of early universally-agreed-upon cases lacked market connections is consistent with ascertainment bias obscuring the true distribution of early infections.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_140",
+      "representative_id": "ef7fcadc",
+      "member_ids": [
+        "ef7fcadc"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "ef7fcadc",
+        "content": "COVID spread quietly for weeks to months before first market-related detection, accounting for 92 earlier cases and non-market cases",
+        "source_type": "essay_reflection",
+        "claim_type": "interpretive"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_141",
+      "representative_id": "d45f0284",
+      "member_ids": [
+        "d45f0284"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "d45f0284",
+        "content": "HSM cluster resulted from super-spreader event by infected person visiting market, not market origin",
+        "source_type": "essay_reflection",
+        "claim_type": "interpretive"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_142",
+      "representative_id": "a25dd32d",
+      "member_ids": [
+        "a25dd32d"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "a25dd32d",
+        "content": "Detection bias caused market association to appear stronger than reality because doctors specifically looked for market-linked cases",
+        "source_type": "essay_reflection",
+        "claim_type": "methodological_critique"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_143",
+      "representative_id": "dd75e7af",
+      "member_ids": [
+        "dd75e7af"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "dd75e7af",
+        "content": "China suppressed evidence of lab research similar to previous lab leak coverups like USSR incidents",
+        "source_type": "essay_reflection",
+        "claim_type": "interpretive"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_144",
+      "representative_id": "b676c6f2",
+      "member_ids": [
+        "b676c6f2"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "b676c6f2",
+        "content": "COVID could not have been circulating much before December 11 because the pandemic's 3.5-day doubling time would have produced 256x more cases by the observed detection date if it had started a month earlier.",
+        "source_type": "essay_reflection",
+        "claim_type": "methodological_critique"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_145",
+      "representative_id": "e1480334",
+      "member_ids": [
+        "e1480334"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "e1480334",
+        "content": "The first reported COVID case—a Huanan wet market vendor on December 11—was very early in the pandemic timeline.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_146",
+      "representative_id": "4ade9c66",
+      "member_ids": [
+        "4ade9c66"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "4ade9c66",
+        "content": "The first documented COVID case was unlikely to have been literally the first infection, but rather an early case that came to medical attention while earlier mild cases went undetected",
+        "source_type": "essay_reflection",
+        "claim_type": "interpretive"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_147",
+      "representative_id": "1c7957d9",
+      "member_ids": [
+        "1c7957d9"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "1c7957d9",
+        "content": "Authorities did not initially investigate wet market connections but only began deliberately looking for them after deciding COVID spread through a wet market",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_148",
+      "representative_id": "23c45cda",
+      "member_ids": [
+        "23c45cda"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "23c45cda",
+        "content": "The earliest COVID-19 cases including the first 40 cases were not subject to surveillance bias through the December 30 notification route",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_149",
+      "representative_id": "4940a28a",
+      "member_ids": [
+        "4940a28a"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "4940a28a",
+        "content": "The observation that the first case and half of the first 40 cases had Huanan wet market connections represents genuine epidemiological evidence rather than detection artifact",
+        "source_type": "essay_reflection",
+        "claim_type": "interpretive_claim"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_150",
+      "representative_id": "5adf3a54",
+      "member_ids": [
+        "5adf3a54"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "5adf3a54",
+        "content": "The HSM outbreak pattern showed gradual progression rather than an explosive super-spreader event, with cases accumulating incrementally over successive days.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_151",
+      "representative_id": "446951d9",
+      "member_ids": [
+        "446951d9"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "446951d9",
+        "content": "A single visit from an infected lab worker cannot explain the gradual slow-burn pattern of cases observed at HSM.",
+        "source_type": "essay_reflection",
+        "claim_type": "explanatory_dismissal"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_152",
+      "representative_id": "b3208c7e",
+      "member_ids": [
+        "b3208c7e"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "b3208c7e",
+        "content": "Peter Miller took significant personal financial risk by betting $100,000 representing a large fraction of his net worth",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_153",
+      "representative_id": "c85ec9bf",
+      "member_ids": [
+        "c85ec9bf"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "c85ec9bf",
+        "content": "Wet markets start outbreaks because infected goods are sold there, not because the markets themselves are inherently high-transmission environments",
+        "source_type": "essay_reflection",
+        "claim_type": "mechanistic_explanation"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_154",
+      "representative_id": "1997824d",
+      "member_ids": [
+        "1997824d"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "1997824d",
+        "content": "Connor Reed's report should be dismissed because it appeared only in tabloid media months after the fact, lacked peer-reviewed documentation, and included implausible claims about his cat dying of coronavirus.",
+        "source_type": "essay_reflection",
+        "claim_type": "dismissal"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_155",
+      "representative_id": "ba190230",
+      "member_ids": [
+        "ba190230"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "ba190230",
+        "content": "The source claiming inside knowledge of WIV activities was likely fabricating his account rather than providing genuine insider testimony",
+        "source_type": "essay_reflection",
+        "claim_type": "credibility_dismissal"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_156",
+      "representative_id": "e2646431",
+      "member_ids": [
+        "e2646431"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "e2646431",
+        "content": "The claim of a drug addict patient being symptomatic in November lacks credibility given multiple implausibilities in his story and his statement that he got his case at a market 'like in the media'",
+        "source_type": "essay_reflection",
+        "claim_type": "dismissal"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_157",
+      "representative_id": "a40958df",
+      "member_ids": [
+        "a40958df"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "a40958df",
+        "content": "Peter Miller won a decisive victory in the Rootclaim debate on COVID origins, with both judges ruling in favor of the zoonosis hypothesis.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_158",
+      "representative_id": "575b8f57",
+      "member_ids": [
+        "575b8f57"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "575b8f57",
+        "content": "Scott Alexander shifted from 50-50 priors before the debate to 90-10 favoring zoonosis after the debate.",
+        "source_type": "essay_reflection",
+        "claim_type": "posterior_probability_assessment"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_159",
+      "representative_id": "17e41316",
+      "member_ids": [
+        "17e41316"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "17e41316",
+        "content": "Peter assigned only a 1/10,000 probability that a lab leak pandemic would first appear at the Huanan Seafood Market, which Saar considered too extreme",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_160",
+      "representative_id": "68894eb7",
+      "member_ids": [
+        "68894eb7"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "68894eb7",
+        "content": "Scott Alexander's analysis contains multiple errors in probabilistic inference that undermine his zoonosis conclusion.",
+        "source_type": "essay_reflection",
+        "claim_type": "methodological_critique"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_161",
+      "representative_id": "0df45afe",
+      "member_ids": [
+        "0df45afe"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "0df45afe",
+        "content": "The Huanan Seafood Market cluster provides negligible evidential weight for discriminating between zoonosis and lab leak hypotheses.",
+        "source_type": "essay_reflection",
+        "claim_type": "interpretation"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_162",
+      "representative_id": "20b666bc",
+      "member_ids": [
+        "20b666bc"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "20b666bc",
+        "content": "Once HSM is correctly assessed as providing negligible discriminatory power, lab leak becomes the dominant hypothesis because all remaining evidence favors it.",
+        "source_type": "essay_reflection",
+        "claim_type": "methodological_critique"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_163",
+      "representative_id": "0a12b054",
+      "member_ids": [
+        "0a12b054"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "0a12b054",
+        "content": "Seafood market clusters do not require the zoonosis hypothesis to explain because they occur in non-spillover contexts.",
+        "source_type": "essay_reflection",
+        "claim_type": "inferential"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_164",
+      "representative_id": "77586697",
+      "member_ids": [
+        "55f3d10d",
+        "77586697"
+      ],
+      "member_count": 2,
+      "representative": {
+        "id": "77586697",
+        "content": "Whatever special property causes market outbreaks during COVID-zero periods likely also applies to Huanan Seafood Market since it is the largest seafood market in central China.",
+        "source_type": "essay_reflection",
+        "claim_type": "interpretive"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_165",
+      "representative_id": "e458ed3f",
+      "member_ids": [
+        "e458ed3f"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "e458ed3f",
+        "content": "Opponents justify their 0.1% to 0.01% coincidence estimate for HSM by noting the first confirmed case was one of 1000 HSM vendors out of 10 million Wuhan residents",
+        "source_type": "essay_reflection",
+        "claim_type": "methodological_critique"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_166",
+      "representative_id": "1e6f230a",
+      "member_ids": [
+        "1e6f230a"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "1e6f230a",
+        "content": "The frequency of seafood market clusters in China (2 out of 5 large outbreaks in 2020) demonstrates that such patterns are not rare events requiring zoonotic explanation.",
+        "source_type": "essay_reflection",
+        "claim_type": "causal_inference"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_167",
+      "representative_id": "f25a713b",
+      "member_ids": [
+        "f25a713b"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "f25a713b",
+        "content": "HSM was not the only wildlife market in Wuhan, reducing its uniqueness as a spillover candidate location.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_168",
+      "representative_id": "13562825",
+      "member_ids": [
+        "13562825",
+        "b1b57125"
+      ],
+      "member_count": 2,
+      "representative": {
+        "id": "13562825",
+        "content": "Huanan Seafood Market has multiple environmental factors that significantly increase its likelihood of forming an early COVID cluster compared to other busy locations in Wuhan.",
+        "source_type": "essay_reflection",
+        "claim_type": "causal_explanation"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_169",
+      "representative_id": "1f648476",
+      "member_ids": [
+        "1f648476"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "1f648476",
+        "content": "HSM environmental factors have exponential contribution to transmission, meaning mild advantages could cause HSM to host a large portion of total Wuhan cases within weeks.",
+        "source_type": "essay_reflection",
+        "claim_type": "causal_mechanism"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_170",
+      "representative_id": "c3bfcce8",
+      "member_ids": [
+        "c3bfcce8"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "c3bfcce8",
+        "content": "Locations with even a mild transmission advantage over others could host a disproportionately large share of total cases within weeks due to exponential growth dynamics.",
+        "source_type": "essay_reflection",
+        "claim_type": "theoretical_principle"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_171",
+      "representative_id": "8cb63230",
+      "member_ids": [
+        "8cb63230"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "8cb63230",
+        "content": "Scott Alexander's high confidence in zoonotic origin depends entirely on overweighting the Huanan Seafood Market cluster as evidence",
+        "source_type": "essay_reflection",
+        "claim_type": "methodological_critique"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_172",
+      "representative_id": "f0c50cba",
+      "member_ids": [
+        "f0c50cba"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "f0c50cba",
+        "content": "Hospitals in Wuhan have minimal impact on estimating p(HSM|Lab Leak,Wuhan) because although they receive early cases and have permanent staff/patients, they are trained in hygiene and disease control and are few in number.",
+        "source_type": "essay_reflection",
+        "claim_type": "boundary_condition"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_173",
+      "representative_id": "eb5175d8",
+      "member_ids": [
+        "eb5175d8"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "eb5175d8",
+        "content": "After accounting for factors limiting candidate locations in Wuhan, there should be at most 100 locations where an initial cluster could occur, yielding a probability exceeding 1% for HSM.",
+        "source_type": "essay_reflection",
+        "claim_type": "probabilistic_assessment"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_174",
+      "representative_id": "8595fa6d",
+      "member_ids": [
+        "8595fa6d"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "8595fa6d",
+        "content": "Cold wet surfaces abundant in seafood markets provide a major transmission advantage compared to other crowded locations, explaining cluster formation independent of zoonotic spillover.",
+        "source_type": "essay_reflection",
+        "claim_type": "mechanistic"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_175",
+      "representative_id": "7e068f9e",
+      "member_ids": [
+        "7e068f9e"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "7e068f9e",
+        "content": "The cold-chain explanation for COVID-zero market outbreaks fails to explain why markets form early clusters rather than other cold-chain delivery locations",
+        "source_type": "essay_reflection",
+        "claim_type": "dismissal"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_176",
+      "representative_id": "b531f0f4",
+      "member_ids": [
+        "b531f0f4"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "b531f0f4",
+        "content": "Cold-chain explanations actually strengthen the hypothesis that HSM's crowded location with wet surfaces is highly conducive to rapid SARS-CoV-2 spread",
+        "source_type": "essay_reflection",
+        "claim_type": "inference"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_177",
+      "representative_id": "b0e55300",
+      "member_ids": [
+        "b0e55300"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "b0e55300",
+        "content": "If the HSM outbreak was caused by cold-chain products, the significance of Wuhan as outbreak location would be reduced but lab leak would remain highly likely at 92% instead of 94%",
+        "source_type": "essay_reflection",
+        "claim_type": "inference"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_178",
+      "representative_id": "24492379",
+      "member_ids": [
+        "24492379"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "24492379",
+        "content": "HSM's proximity to the CDC provides at least a 10x advantage relative to other cluster-formation locations in Wuhan.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_inference"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_179",
+      "representative_id": "fd67efd2",
+      "member_ids": [
+        "fd67efd2"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "fd67efd2",
+        "content": "The combination of 10% location constraint and 10x CDC proximity advantage converts the supposed 1/10,000 coincidence into a 1/100 probability, supporting the 1% conditional probability estimate for p(HSM|Lab Leak,Wuhan).",
+        "source_type": "essay_reflection",
+        "claim_type": "probabilistic_inference"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_180",
+      "representative_id": "7824343c",
+      "member_ids": [
+        "7824343c"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "7824343c",
+        "content": "Prior to COVID-19, laboratory settings were considered a more likely spillover location than markets according to the PREDICT framework.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_181",
+      "representative_id": "2b1199ff",
+      "member_ids": [
+        "2b1199ff"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "2b1199ff",
+        "content": "In most zoonotic spillover scenarios, the first cluster would not occur at the wildlife spillover location itself but rather in some rural area that goes unnoticed before spreading to cities through human contact.",
+        "source_type": "essay_reflection",
+        "claim_type": "causal_mechanism"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_182",
+      "representative_id": "1befbcca",
+      "member_ids": [
+        "1befbcca"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "1befbcca",
+        "content": "Even if SARS-CoV-2 had zoonotic origin, the spillover event may not have occurred at Huanan Seafood Market because Wuhan has fewer human-wildlife interfaces than other regions of China.",
+        "source_type": "essay_reflection",
+        "claim_type": "dismissal"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_183",
+      "representative_id": "3c0e8363",
+      "member_ids": [
+        "3c0e8363"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "3c0e8363",
+        "content": "Scott Alexander presents spatial mapping of HSM environmental samples as evidence supporting zoonotic origin.",
+        "source_type": "essay_reflection",
+        "claim_type": "reported_position"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_184",
+      "representative_id": "ece2d1e5",
+      "member_ids": [
+        "ece2d1e5"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "ece2d1e5",
+        "content": "Under lab leak hypothesis, early confirmed cases would not be expected to center geographically on WIV because infected lab workers spread virus at their residential and social locations rather than at the lab itself",
+        "source_type": "essay_reflection",
+        "claim_type": "explanatory"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_185",
+      "representative_id": "6892efec",
+      "member_ids": [
+        "6892efec"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "6892efec",
+        "content": "China's failure to publish contact tracing of early cases, despite likely conducting such tracing, suggests the results did not support the zoonosis narrative.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_186",
+      "representative_id": "9a458ffc",
+      "member_ids": [
+        "9a458ffc"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "9a458ffc",
+        "content": "The scattered cases showing intermediate sequences are sequencing errors rather than genuine evolutionary intermediates supporting double spillover.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_187",
+      "representative_id": "4613cf8b",
+      "member_ids": [
+        "4613cf8b"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "4613cf8b",
+        "content": "Both T/T and C/C intermediate sequences between Lineage A and Lineage B were artifacts of a software bug, not real evolutionary intermediates",
+        "source_type": "essay_reflection",
+        "claim_type": "methodological_critique"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_188",
+      "representative_id": "fdff1e82",
+      "member_ids": [
+        "fdff1e82"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "fdff1e82",
+        "content": "The T/T sequences are likely real evolutionary intermediates, contradicting the HSM spillover hypothesis",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_189",
+      "representative_id": "f7224628",
+      "member_ids": [
+        "f7224628"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "f7224628",
+        "content": "Scott Alexander incorrectly calculates the probability that WIV would have collected BANAL-52 by assuming they needed that exact virus rather than a related strain",
+        "source_type": "essay_reflection",
+        "claim_type": "methodological_critique"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_190",
+      "representative_id": "95023f6d",
+      "member_ids": [
+        "95023f6d"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "95023f6d",
+        "content": "Connor Reed's claim of November 2019 COVID-19 infection in Wuhan is false, based on his account appearing only in tabloid media, implausible details including cat infection, and lack of hospitalization despite claiming positive hospital test.",
+        "source_type": "essay_reflection",
+        "claim_type": "dismissal"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_191",
+      "representative_id": "b5a87ae7",
+      "member_ids": [
+        "b5a87ae7"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "b5a87ae7",
+        "content": "Reed's initial belief that his cat contracted coronavirus does not discredit him, as he was not an expert and cats can in fact be infected by COVID-19.",
+        "source_type": "essay_reflection",
+        "claim_type": "dismissal"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_192",
+      "representative_id": "b5815585",
+      "member_ids": [
+        "b5815585"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "b5815585",
+        "content": "Reed's hospital experience of seeking treatment, receiving medicine, and being dismissed was typical for young people with pre-Omicron COVID-19, especially expatriates, and unremarkable.",
+        "source_type": "essay_reflection",
+        "claim_type": "contextualization"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_193",
+      "representative_id": "f6e83ee3",
+      "member_ids": [
+        "f6e83ee3"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "f6e83ee3",
+        "content": "Connor Reed's drug overdose occurred a year after infection when he returned to the UK with his university flatmate, not shortly after infection and not alone under a bridge as implied by opposing accounts",
+        "source_type": "essay_reflection",
+        "claim_type": "factual_correction"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_194",
+      "representative_id": "fd0df406",
+      "member_ids": [
+        "fd0df406"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "fd0df406",
+        "content": "Connor Reed did not claim to have been infected at Huanan Seafood Market, but rather mentioned a different fish market where he did regular shopping that others mistakenly assumed was HSM",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_195",
+      "representative_id": "ffdb3100",
+      "member_ids": [
+        "ffdb3100"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "ffdb3100",
+        "content": "The zoonotic origin hypothesis presented superior evidence-based reasoning in the formal debate compared to the lab leak hypothesis.",
+        "source_type": "essay_reflection",
+        "claim_type": "evaluative_conclusion"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_196",
+      "representative_id": "05261c1c",
+      "member_ids": [
+        "05261c1c"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "05261c1c",
+        "content": "Wei Guixian, an HSM seafood vendor, was the index case or first ascertained case, infected on December 10th, 2019.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_197",
+      "representative_id": "25e8ffb6",
+      "member_ids": [
+        "25e8ffb6"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "25e8ffb6",
+        "content": "The zoonosis side argued that HSM was the location of the first superspreading event of SARS-CoV-2.",
+        "source_type": "essay_reflection",
+        "claim_type": "position_summary"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_198",
+      "representative_id": "d48ed51a",
+      "member_ids": [
+        "d48ed51a"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "d48ed51a",
+        "content": "The author directs readers to a specific update factor cell in the Bayesian analysis for the extended discussion of HSM as first superspreader event conditional on lab leak.",
+        "source_type": "essay_reflection",
+        "claim_type": "methodological_reference"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_199",
+      "representative_id": "99699d0b",
+      "member_ids": [
+        "99699d0b",
+        "e7634ee9"
+      ],
+      "member_count": 2,
+      "representative": {
+        "id": "99699d0b",
+        "content": "The author concludes that Wuhan was not an unusually distinctive location for the purposes of evaluating where a pandemic might emerge.",
+        "source_type": "essay_reflection",
+        "claim_type": "probability_assessment"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_200",
+      "representative_id": "3d2ff9d8",
+      "member_ids": [
+        "3d2ff9d8"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "3d2ff9d8",
+        "content": "The lab leak arguments that HSM had unique physical properties facilitating spread were not convincing.",
+        "source_type": "essay_reflection",
+        "claim_type": "dismissal"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_201",
+      "representative_id": "590efd1b",
+      "member_ids": [
+        "590efd1b"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "590efd1b",
+        "content": "Under the lab leak hypothesis, HSM was not a likely place for the outbreak to emerge.",
+        "source_type": "essay_reflection",
+        "claim_type": "conditional_probability_assessment"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_202",
+      "representative_id": "51a1849c",
+      "member_ids": [
+        "51a1849c"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "51a1849c",
+        "content": "The lab leak side could not point to any data showing sequences of SARS-like viruses in WIV's possession",
+        "source_type": "essay_reflection",
+        "claim_type": "dismissal"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_203",
+      "representative_id": "06564eb7",
+      "member_ids": [
+        "06564eb7"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "06564eb7",
+        "content": "The absence of seropositivity in retrospective surveillance outweighs anecdotal evidence of early cases like Connor Reed.",
+        "source_type": "essay_reflection",
+        "claim_type": "comparative_assessment"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_204",
+      "representative_id": "975c20fd",
+      "member_ids": [
+        "975c20fd"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "975c20fd",
+        "content": "US blood bank seropositivity reports have higher credibility than other early infection claims",
+        "source_type": "essay_reflection",
+        "claim_type": "credibility_assessment"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_205",
+      "representative_id": "1b35f966",
+      "member_ids": [
+        "1b35f966"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "1b35f966",
+        "content": "Lab leak proponents claim that several molecular features of SARS-CoV-2 (high ACE2 binding, FCS, FCS genetic context, FCS nucleotides, evolution rate, N-glycan pattern) are unusual and would not be expected in a randomly selected sarbecovirus.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_206",
+      "representative_id": "856dc4af",
+      "member_ids": [
+        "856dc4af"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "856dc4af",
+        "content": "Lab leak proponents claim that SARS-CoV-2 shows a lower early mutation rate in humans than expected under zoonotic origin, based on comparison to higher mutation rates observed in immunologically naive deer and mink populations.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_207",
+      "representative_id": "dff85c8b",
+      "member_ids": [
+        "dff85c8b"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "dff85c8b",
+        "content": "The epidemiological proximity of earliest COVID indicators to plausible animal sources rather than laboratory sources is the most important basis for the zoonotic conclusion",
+        "source_type": "essay_reflection",
+        "claim_type": "evaluative_conclusion"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_208",
+      "representative_id": "1806cfb5",
+      "member_ids": [
+        "1806cfb5"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "1806cfb5",
+        "content": "Rootclaim represented the position that SARS-CoV-2 was the artificial consequence of gain-of-function laboratory research",
+        "source_type": "essay_reflection",
+        "claim_type": "reported_position"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_209",
+      "representative_id": "68344f05",
+      "member_ids": [
+        "68344f05"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "68344f05",
+        "content": "Genetic characteristics and laboratory capability evidence are insufficient to overcome epidemiological proximity evidence and prior probability against lab origin",
+        "source_type": "essay_reflection",
+        "claim_type": "dismissal"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_210",
+      "representative_id": "b31fe2e0",
+      "member_ids": [
+        "b31fe2e0"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "b31fe2e0",
+        "content": "The author was actively monitoring COVID-19 case counts and disease spread from mid-January 2020 when the outbreak began receiving major media attention.",
+        "source_type": "essay_reflection",
+        "claim_type": "contextual_background"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_211",
+      "representative_id": "af3437ef",
+      "member_ids": [
+        "af3437ef"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "af3437ef",
+        "content": "Genetic analysis topics including the DEFUSE proposal constitute the centerpiece evidence for the lab leak hypothesis.",
+        "source_type": "essay_reflection",
+        "claim_type": "characterization"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_212",
+      "representative_id": "e6d4db73",
+      "member_ids": [
+        "e6d4db73"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "e6d4db73",
+        "content": "The multi-dimensional evidence approach addresses the depth across dimensions to overcome counterarguments about unusual genetic features of the virus.",
+        "source_type": "essay_reflection",
+        "claim_type": "integrative_synthesis"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_213",
+      "representative_id": "6ca17240",
+      "member_ids": [
+        "6ca17240"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "6ca17240",
+        "content": "The spike protein cleavage process will become relevant to evaluating coronavirus phylogenetics in the context of the debate.",
+        "source_type": "essay_reflection",
+        "claim_type": "methodological_setup"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_214",
+      "representative_id": "48ee7c1c",
+      "member_ids": [
+        "48ee7c1c"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "48ee7c1c",
+        "content": "Although zoonotic origins have historically been more common for pandemics, the location of SARS-CoV-2's emergence in Wuhan—where suspect lab work was concentrated—made lab leak and zoonotic origins initially comparable in prior probability.",
+        "source_type": "essay_reflection",
+        "claim_type": "probabilistic_assessment"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_215",
+      "representative_id": "648e7c60",
+      "member_ids": [
+        "648e7c60"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "648e7c60",
+        "content": "Official US government attribution of lab origin would harm cooperation with China on critical global issues including climate change and pathogen safety regulation.",
+        "source_type": "essay_reflection",
+        "claim_type": "policy_recommendation"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_216",
+      "representative_id": "5882c240",
+      "member_ids": [
+        "5882c240"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "5882c240",
+        "content": "Suspicion about zoonotic origin should not be associated with opposition to public health measures, which the author explicitly rejects.",
+        "source_type": "essay_reflection",
+        "claim_type": "position_distancing"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_217",
+      "representative_id": "ac283c07",
+      "member_ids": [
+        "ac283c07"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "ac283c07",
+        "content": "Estimating lab-associated pandemic risk is the primary practical motivation for investigating SARS-CoV-2 origins.",
+        "source_type": "essay_reflection",
+        "claim_type": "methodological_framing"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_218",
+      "representative_id": "694efbd1",
+      "member_ids": [
+        "694efbd1"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "694efbd1",
+        "content": "The basic epidemiological facts are that SARS-CoV-2 is a sarbecovirus that initiated a pandemic in Wuhan in 2019.",
+        "source_type": "essay_reflection",
+        "claim_type": "empirical_finding"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_219",
+      "representative_id": "d2528dcc",
+      "member_ids": [
+        "d2528dcc",
+        "cc132f83"
+      ],
+      "member_count": 2,
+      "representative": {
+        "id": "d2528dcc",
+        "content": "The annual probability of a significant new pathogen emerging in China via zoonosis in 2019 can be estimated at approximately 1/3 based on historical emergence rates.",
+        "source_type": "essay_reflection",
+        "claim_type": "quantitative_estimate"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_220",
+      "representative_id": "60d9f1ff",
+      "member_ids": [
+        "54060d8c",
+        "60d9f1ff"
+      ],
+      "member_count": 2,
+      "representative": {
+        "id": "60d9f1ff",
+        "content": "The reassessment of COVID origins toward lab-leak probability warrants serious attention despite political polarization surrounding the issue.",
+        "source_type": "essay_reflection",
+        "claim_type": "normative"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_221",
+      "representative_id": "50b62f67",
+      "member_ids": [
+        "50b62f67"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "50b62f67",
+        "content": "The prior probability of lab leak and zoonotic origin hypotheses should be assessed as initially comparable in the specific context of a Wuhan pandemic start due to concentrated suspect lab work there.",
+        "source_type": "essay_reflection",
+        "claim_type": "methodological_assessment"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_222",
+      "representative_id": "6fb8ba04",
+      "member_ids": [
+        "6fb8ba04"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "6fb8ba04",
+        "content": "The conditional probability P(Wuhan|ZWM) for a zoonotic market spillover occurring specifically in Wuhan is much less than 1/100, likely around 1/1000.",
+        "source_type": "essay_reflection",
+        "claim_type": "probability_estimate"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_223",
+      "representative_id": "75622218",
+      "member_ids": [
+        "75622218"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "75622218",
+        "content": "The Proximal Origins paper contains no information that should cause us to update our probability estimates in either direction regarding lab leak versus zoonotic origin.",
+        "source_type": "essay_reflection",
+        "claim_type": "dismissal"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_224",
+      "representative_id": "26fe7b51",
+      "member_ids": [
+        "26fe7b51"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "26fe7b51",
+        "content": "After extensive investigation, Peter Miller concluded with 99% confidence that COVID-19 had zoonotic origin and that the lab leak hypothesis lacked supporting evidence.",
+        "source_type": "debate_transcript",
+        "claim_type": "interpretive"
+      }
+    },
+    {
+      "cluster_id": "claim_cluster_225",
+      "representative_id": "de6c9ba2",
+      "member_ids": [
+        "de6c9ba2"
+      ],
+      "member_count": 1,
+      "representative": {
+        "id": "de6c9ba2",
+        "content": "Lab leak proponents argue the pandemic started at the location of China's premier virology laboratory.",
+        "source_type": "debate_transcript",
+        "claim_type": "reported_speech"
+      }
     }
   ],
   "chains": [
     {
-      "id": "chain_hsm_cluster_evidential_value",
-      "conclusion": "The Huanan Seafood Market cluster provides strong evidence for zoonotic origin rather than negligible evidence as Rootclaim claims.",
+      "id": "chain_hsm_zoonosis",
+      "conclusion": "The Huanan Seafood Market cluster constitutes strong evidence for zoonotic origin over lab leak.",
       "conclusion_claim_ids": [
-        "d6b1d84b",
-        "a0c36b5b",
-        "e309f45e",
-        "306b7d23",
-        "318e168f",
-        "7a1459a2"
+        "d245f365",
+        "388d6778",
+        "ce564797",
+        "e1b35e84",
+        "b75ac936"
       ],
       "conditions": [
         {
@@ -2763,92 +4123,7 @@
           "impact": "FATAL"
         },
         {
-          "theme_id": "theme_03",
-          "role": "necessary",
-          "impact": "MAJOR"
-        },
-        {
-          "theme_id": "theme_08",
-          "role": "supporting",
-          "impact": "MAJOR"
-        },
-        {
-          "theme_id": "theme_09",
-          "role": "necessary",
-          "impact": "MAJOR"
-        },
-        {
-          "theme_id": "theme_11",
-          "role": "supporting",
-          "impact": "MAJOR"
-        },
-        {
-          "theme_id": "theme_16",
-          "role": "supporting",
-          "impact": "MAJOR"
-        }
-      ],
-      "gap_ids": [
-        "38fb5538"
-      ],
-      "narrative": "This chain represents the central evidential dispute in the debate. The zoonosis side argues that the HSM cluster—where the first case and half of the first 40 cases had wet market connections—constitutes genuine and persuasive evidence for natural spillover. This depends critically on being able to distinguish HSM's special properties that make it unlikely under lab leak (theme_00), and on the validity of comparing HSM to other seafood market clusters during zero-COVID periods (theme_03). Rootclaim challenges this by claiming p(HSM|Lab Leak, Wuhan) exceeds 1% and could reasonably be 5-10%, making the actual Bayes factor less than 5x rather than the claimed 10,000x. The chain's validity requires that HSM evidence can be cleanly separated from other evidence (theme_09), that the observed spatial distribution represents true infection patterns rather than artifacts (theme_11), and that the statistical clustering techniques validly distinguish market-centered patterns (theme_16). The resolution of this chain largely determines the final posterior odds ratio."
-    },
-    {
-      "id": "chain_wiv_capability_backbone",
-      "conclusion": "The Wuhan Institute of Virology lacked the capability and appropriate viral backbone to engineer SARS-CoV-2, supporting zoonotic origin.",
-      "conclusion_claim_ids": [
-        "fa84cafd",
-        "48fb3113",
-        "510baa92"
-      ],
-      "conditions": [
-        {
-          "theme_id": "theme_13",
-          "role": "necessary",
-          "impact": "MAJOR"
-        },
-        {
-          "theme_id": "theme_14",
-          "role": "supporting",
-          "impact": "MAJOR"
-        },
-        {
-          "theme_id": "theme_23",
-          "role": "supporting",
-          "impact": "MAJOR"
-        },
-        {
           "theme_id": "theme_04",
-          "role": "supporting",
-          "impact": "MAJOR"
-        }
-      ],
-      "gap_ids": [
-        "6f5f3aab"
-      ],
-      "narrative": "This chain argues that lab leak becomes implausible when examining WIV's actual technical capabilities and available viral strains. The judge found WIV's capability to execute DEFUSE-style research lower than Rootclaim claimed, and that WIV lacked an appropriate backbone strain for gain-of-function research that could produce SARS-CoV-2. Both sides agree that no publicly known WIV viruses could serve as the backbone (theme_23). The argument presupposes that available evidence can distinguish intentional engineering from other lab leak scenarios (theme_13), and that the similarity between DEFUSE proposal specifics and SARS-CoV-2 characteristics provides meaningful evidence (theme_14). However, this chain has a significant weakness: it doesn't adequately address environmental release scenarios as an alternative to laboratory-acquired infection (gap_6f5f3aab), meaning the focus on engineering capability may be insufficient to rule out all lab leak pathways."
-    },
-    {
-      "id": "chain_early_case_timing",
-      "conclusion": "The absence of confirmed COVID-19 cases before early December 2019 and the tight temporal clustering around HSM supports zoonotic spillover at the market rather than earlier lab leak with cryptic spread.",
-      "conclusion_claim_ids": [
-        "3b398b7c",
-        "b885fb4d",
-        "e1537996"
-      ],
-      "conditions": [
-        {
-          "theme_id": "theme_05",
-          "role": "necessary",
-          "impact": "MAJOR"
-        },
-        {
-          "theme_id": "theme_06",
-          "role": "necessary",
-          "impact": "MAJOR"
-        },
-        {
-          "theme_id": "theme_07",
           "role": "necessary",
           "impact": "MAJOR"
         },
@@ -2858,154 +4133,251 @@
           "impact": "MAJOR"
         },
         {
-          "theme_id": "theme_22",
+          "theme_id": "theme_15",
+          "role": "supporting",
+          "impact": "MAJOR"
+        },
+        {
+          "theme_id": "theme_20",
           "role": "supporting",
           "impact": "MAJOR"
         }
       ],
       "gap_ids": [
+        "3eb653b5",
+        "9edbcbf8",
+        "2033a130"
+      ],
+      "narrative": "This chain argues that the HSM cluster provides decisive evidence for zoonotic origin because such a cluster would be an extreme coincidence under lab leak (theme_00) while being expected under zoonosis. The argument critically depends on treating the case clustering at HSM as evidence of origin rather than merely amplification (theme_04), and on the assumption that under lab leak, community transmission patterns would make HSM an unlikely epicenter (theme_20). The chain assigns low probability to a lab leak scenario producing its first detected cluster at a wet market (theme_10), partly because zoonotic events could occur at any of Wuhan's wildlife markets with roughly equal probability (theme_15). However, the absence of identified intermediate host species or bat sales at HSM (gaps) weakens the mechanistic support for this conclusion."
+    },
+    {
+      "id": "chain_hsm_neutral",
+      "conclusion": "Once HSM evidence is properly weighted as providing negligible discriminatory power, all remaining evidence favors lab leak.",
+      "conclusion_claim_ids": [
+        "20b666bc",
+        "30cb2a81",
+        "a2c34481",
+        "e309f45e",
+        "027e12eb"
+      ],
+      "conditions": [
+        {
+          "theme_id": "theme_00",
+          "role": "necessary",
+          "impact": "FATAL"
+        },
+        {
+          "theme_id": "theme_26",
+          "role": "necessary",
+          "impact": "FATAL"
+        },
+        {
+          "theme_id": "theme_05",
+          "role": "necessary",
+          "impact": "MAJOR"
+        },
+        {
+          "theme_id": "theme_13",
+          "role": "supporting",
+          "impact": "MAJOR"
+        },
+        {
+          "theme_id": "theme_12",
+          "role": "supporting",
+          "impact": "FATAL"
+        }
+      ],
+      "gap_ids": [
+        "38fb5538",
+        "9edbcbf8",
+        "6f5f3aab"
+      ],
+      "narrative": "This counter-chain argues that the zoonosis case depends entirely on treating HSM as an improbable coincidence under lab leak (theme_00), but when properly analyzed, HSM does not constitute strong evidence for zoonosis (theme_26). The argument requires that the HSM cluster would NOT be an extreme coincidence under lab leak—directly contradicting the presupposition in theme_00. If HSM evidence can be cleanly separated from other evidence (theme_13), and if COVID origins can be evaluated through independent lines of evidence (theme_12), then removing HSM's discriminatory power allows the remaining evidence to dominate (theme_05). This chain's validity fundamentally depends on successfully challenging the presupposition that HSM represents an extreme coincidence under lab leak, making theme_00 a necessary but disputed condition."
+    },
+    {
+      "id": "chain_wuhan_location",
+      "conclusion": "The concentration of relevant lab work in Wuhan makes lab leak and zoonotic origins comparable in prior probability for a Wuhan-origin pandemic.",
+      "conclusion_claim_ids": [
+        "48ee7c1c",
+        "50b62f67",
+        "96a03a89"
+      ],
+      "conditions": [
+        {
+          "theme_id": "theme_30",
+          "role": "necessary",
+          "impact": "MAJOR"
+        },
+        {
+          "theme_id": "theme_33",
+          "role": "supporting",
+          "impact": "MAJOR"
+        },
+        {
+          "theme_id": "theme_22",
+          "role": "supporting",
+          "impact": "MAJOR"
+        },
+        {
+          "theme_id": "theme_27",
+          "role": "supporting",
+          "impact": "MAJOR"
+        }
+      ],
+      "gap_ids": [
+        "6f5f3aab",
         "38fb5538"
       ],
-      "narrative": "This chain establishes timeline constraints that favor zoonotic origin. The argument holds that all purported pre-market COVID cases are artifacts rather than genuine community cases, that the 92 unusual pneumonia cases identified by WHO were definitively ruled out through laboratory testing (theme_06), and that exponential growth calculations preclude substantial circulation before early December 2019 (theme_07). This requires that earliest case identification provides probative evidence distinguishing origin scenarios (theme_05), that early transmission followed consistent exponential rather than stochastic dynamics (theme_07), and that the conditional probability framework validly separates location from mechanism (theme_10). The lab leak scenario must posit undetected abortive transmission events (theme_22). However, the chain leaves unresolved the question of seropositivity rates in the broader population outside HSM (gap_38fb5538), which could potentially reveal earlier undetected circulation that would undermine the timeline argument."
+      "narrative": "This chain challenges the conventional starting assumption that lab leak has substantially lower prior probability than zoonosis (theme_30) by incorporating geographic evidence. The argument holds that geographic location constitutes relevant discriminating evidence (theme_22), and specifically that the prior probability of a natural zoonotic coronavirus pandemic in Wuhan was sufficiently low to make this coincidence significant (theme_33). When the concentration of risky coronavirus research in Wuhan is factored in, the location-adjusted priors become comparable rather than heavily favoring zoonosis. The chain's coherence depends on how the Wuhan location evidence is decomposed and weighted (theme_27), ultimately supporting the conclusion that lab leak has become more probable than zoonosis when all accumulated evidence is considered."
     }
   ],
   "cruxes": [
     {
-      "id": "hsm_conditional_probability",
-      "question": "Is the conditional probability p(HSM cluster | Lab Leak, Wuhan) closer to 1% (making HSM evidence negligible) or closer to 0.01% (making HSM evidence decisive)?",
-      "stakes": "If p(HSM|LL,W) ≥ 1-5%, the claimed 10,000x Bayes factor collapses to <5x, eliminating HSM as decisive evidence and potentially flipping the overall posterior. If p(HSM|LL,W) << 0.1%, the HSM cluster remains the dominant evidence supporting zoonosis with a multi-thousand-fold Bayes factor.",
+      "id": "hsm_coincidence_probability",
+      "question": "Would a lab leak scenario make the HSM cluster an extreme coincidence (probability ~1%) or a moderately expected outcome (probability ~10-30%)?",
+      "stakes": "If extreme coincidence: the HSM cluster becomes decisive evidence for zoonosis and the debate is essentially settled. If moderately expected: HSM provides minimal discriminatory power and other evidence must dominate, likely favoring lab leak.",
       "claim_ids": [
-        "306b7d23",
-        "318e168f",
-        "7a1459a2",
-        "a0c36b5b",
+        "027e12eb",
         "e309f45e",
-        "d6b1d84b"
+        "ce564797",
+        "e1b35e84",
+        "590efd1b",
+        "6b80cb96",
+        "20b666bc",
+        "a2c34481"
       ],
       "theme_ids": [
         "theme_00",
-        "theme_03",
-        "theme_08",
-        "theme_09"
+        "theme_10",
+        "theme_20",
+        "theme_26"
       ],
       "gap_ids": [
         "38fb5538"
       ],
-      "resolution_path": "Requires rigorous analysis of: (1) base rates of early cluster formation at different location types in Wuhan; (2) whether seafood market clusters in zero-COVID periods (Xinfadi) genuinely share causal mechanisms with hypothetical lab-leak HSM clustering; (3) independent assessment of HSM's superspreader properties; (4) formal probability model comparing HSM to all other Wuhan locations under both hypotheses."
+      "resolution_path": "Empirical analysis of where infection clusters emerged in other contexts (zero-COVID outbreaks, other respiratory diseases in Wuhan), modeling of community transmission patterns from various lab locations, and systematic assessment of market characteristics that could concentrate early detection or transmission."
     },
     {
-      "id": "pre_market_circulation",
-      "question": "Did COVID-19 circulate in Wuhan before the HSM cluster emerged in early December 2019, or does exponential growth modeling plus absence of confirmed earlier cases establish that HSM was truly the origin point?",
-      "stakes": "If pre-market circulation occurred, it breaks the tight temporal association between HSM and pandemic origin, opening space for lab leak scenarios with cryptic spread. If circulation before early December is definitively ruled out, it strongly constrains lab leak scenarios and supports HSM as the actual spillover location.",
+      "id": "clustering_vs_origin",
+      "question": "Does case clustering at a specific location constitute strong evidence for that location being the spillover origin point rather than merely an early amplification or detection site?",
+      "stakes": "If clustering indicates origin: HSM evidence strongly supports zoonosis. If clustering can result from amplification/detection: the spatial pattern of early cases loses most discriminatory power between hypotheses.",
       "claim_ids": [
-        "3b398b7c",
-        "b885fb4d",
-        "e1537996"
+        "d245f365",
+        "ce564797",
+        "e1b35e84",
+        "027e12eb"
       ],
       "theme_ids": [
-        "theme_05",
-        "theme_06",
-        "theme_07",
-        "theme_22"
-      ],
-      "gap_ids": [
-        "38fb5538"
-      ],
-      "resolution_path": "Requires: (1) comprehensive seropositivity surveys in Wuhan population outside HSM connections; (2) validation that laboratory testing methods applied to the 92 WHO-investigated cases had sufficient sensitivity; (3) examination of whether early transmission could have followed stochastic/subcritical dynamics rather than consistent exponential growth; (4) analysis of whether abortive transmission chains are epidemiologically plausible."
-    },
-    {
-      "id": "wiv_technical_capability",
-      "question": "Did WIV possess both the technical capability to execute DEFUSE-style furin cleavage site insertion and an appropriate backbone virus sufficiently similar to SARS-CoV-2, or did they lack one or both of these requirements?",
-      "stakes": "If WIV lacked either capability or backbone, it makes intentional engineering implausible and shifts probability toward zoonosis (though leaves other lab leak scenarios partially open). If WIV possessed both, it substantially increases the plausibility of lab-origin scenarios involving gain-of-function research.",
-      "claim_ids": [
-        "fa84cafd",
-        "48fb3113",
-        "510baa92"
-      ],
-      "theme_ids": [
-        "theme_13",
-        "theme_14",
-        "theme_23",
-        "theme_04"
-      ],
-      "gap_ids": [
-        "6f5f3aab"
-      ],
-      "resolution_path": "Requires: (1) detailed technical assessment of WIV's documented capabilities circa 2019 for furin cleavage site insertion; (2) comprehensive catalog of viral strains in WIV collections (including unpublished/undisclosed strains); (3) analysis of whether SARS-CoV-2 features are unusually well-adapted to humans in ways requiring explanation; (4) explicit consideration of environmental release scenarios as distinct from laboratory-acquired infection."
-    },
-    {
-      "id": "xinfadi_hsm_analogy",
-      "question": "Does the Beijing Xinfadi outbreak provide a valid mechanistic parallel for how HSM could become an early cluster location under lab leak, or are the scenarios too dissimilar to support meaningful inference?",
-      "stakes": "If Xinfadi validly parallels HSM, it demonstrates that market-origin patterns recur through imported contamination mechanisms, supporting p(HSM|LL,W) ≥ 1%. If the analogy fails (different zero-COVID contexts, different viral stages, different transmission dynamics), then HSM remains a unique signature of zoonotic spillover at that location.",
-      "claim_ids": [
-        "eda89776",
-        "d9120745",
-        "7850c95c"
-      ],
-      "theme_ids": [
-        "theme_03",
+        "theme_04",
+        "theme_24",
         "theme_28"
       ],
       "gap_ids": [
-        "6f5f3aab"
-      ],
-      "resolution_path": "Requires: (1) detailed epidemiological comparison of Xinfadi and HSM outbreak patterns; (2) assessment of whether zero-COVID background conditions at Xinfadi versus endemic spread conditions at HSM undermine the comparison; (3) analysis of transmission dynamics for established virus (Xinfadi) versus novel spillover (HSM); (4) examination of whether animal product contamination mechanisms are relevantly similar between the scenarios."
-    },
-    {
-      "id": "geographic_coincidence",
-      "question": "Is the occurrence of a coronavirus pandemic in Wuhan (home to WIV) a striking coincidence favoring lab leak, or does Wuhan's baseline coronavirus spillover risk (which motivated WIV's location) nullify this coincidence?",
-      "stakes": "If the geographic coincidence is probatively significant, it provides substantial prior weight favoring lab leak that other evidence must overcome. If WIV's presence was itself a response to elevated regional risk, the coincidence disappears and the prior probability shifts toward zoonosis.",
-      "claim_ids": [
-        "5e67b483"
-      ],
-      "theme_ids": [
-        "theme_35",
-        "theme_36",
-        "theme_37"
-      ],
-      "gap_ids": [
-        "6f5f3aab",
+        "38fb5538",
+        "9edbcbf8",
         "3eb653b5"
       ],
-      "resolution_path": "Requires: (1) quantitative assessment of Wuhan region's baseline coronavirus spillover risk relative to other Chinese regions; (2) historical analysis of WIV's founding rationale and site selection; (3) comparison with global distribution of coronavirus virology labs versus spillover risk zones; (4) formal prior probability calculation incorporating both lab presence and background zoonotic risk."
+      "resolution_path": "Comparative analysis of outbreak patterns for known origins (SARS-1, MERS, other zoonoses) examining whether spillover sites consistently show early case clustering; modeling of how superspreading events versus gradual community transmission produce different spatial signatures; analysis of detection bias effects on apparent clustering."
     },
     {
-      "id": "sampling_versus_reality",
-      "question": "Does the observed spatial clustering of early cases around HSM reflect the true geographic pattern of initial infections, or is it a surveillance artifact from hypothesis-driven case finding focused on market connections?",
-      "stakes": "If the spatial pattern accurately represents true infections, it constitutes powerful evidence for market origin. If the pattern reflects sampling bias from surveillance focused on market connections due to presumptions about zoonotic origin, the evidential value collapses and alternative origin locations become plausible.",
+      "id": "evidence_independence",
+      "question": "Can the HSM cluster evidence be cleanly separated from other evidence without this separation affecting how the remaining evidence should be interpreted?",
+      "stakes": "If cleanly separable: removing HSM allows independent evaluation of furin cleavage site, sequence features, lab proximity, etc. If not separable: the evidential items form an interconnected web where HSM interpretation affects how other evidence is weighted.",
       "claim_ids": [
-        "d6b1d84b",
-        "a81636f1"
+        "20b666bc",
+        "30cb2a81",
+        "56159dae"
       ],
       "theme_ids": [
-        "theme_11",
+        "theme_12",
+        "theme_13",
+        "theme_23"
+      ],
+      "gap_ids": [
+        "38fb5538"
+      ],
+      "resolution_path": "Methodological analysis of whether Bayesian networks with conditional dependencies versus independent likelihood ratios better model pandemic origin evidence; examination of whether geographic, temporal, and molecular evidence have meaningful conditional dependencies; expert judgment on appropriate evidence decomposition strategies."
+    },
+    {
+      "id": "wuhan_location_prior",
+      "question": "Should the prior probability of lab leak versus zoonosis be assessed globally (making zoonosis 10-100x more likely a priori) or locally conditional on Wuhan location (making them roughly comparable)?",
+      "stakes": "If global priors apply: lab leak starts with heavy burden of proof requiring overwhelming evidence. If Wuhan-conditional priors apply: hypotheses begin near-equal and current evidence tips the balance toward lab leak.",
+      "claim_ids": [
+        "48ee7c1c",
+        "50b62f67",
+        "15d3f72f",
+        "96a03a89"
+      ],
+      "theme_ids": [
         "theme_01",
-        "theme_39"
+        "theme_19",
+        "theme_22",
+        "theme_27",
+        "theme_30",
+        "theme_33"
+      ],
+      "gap_ids": [
+        "6f5f3aab"
+      ],
+      "resolution_path": "Formal Bayesian analysis determining whether location evidence should update priors or condition hypothesis space; assessment of base rates for pandemic origins in cities with/without BSL-4 coronavirus research facilities; evaluation of whether 'a pandemic started' and 'the pandemic started in Wuhan' constitute separable observations."
+    },
+    {
+      "id": "missing_zoonotic_evidence",
+      "question": "Does the absence of identified intermediate hosts, infected wildlife at HSM, and animal virus samples constitute strong evidence against zoonosis, or is this expected given investigation limitations and China's lack of cooperation?",
+      "stakes": "If absence is evidentially significant: zoonosis case is severely weakened despite HSM clustering. If absence is expected under both scenarios: the HSM spatial/temporal pattern remains the primary discriminator.",
+      "claim_ids": [
+        "97f7f3f0",
+        "b75ac936"
+      ],
+      "theme_ids": [
+        "theme_03",
+        "theme_35",
+        "theme_36"
       ],
       "gap_ids": [
         "3eb653b5",
-        "38fb5538",
-        "6f5f3aab"
+        "9edbcbf8",
+        "2033a130"
       ],
-      "resolution_path": "Requires: (1) documentation of case-finding protocols and whether they were hypothesis-neutral versus market-focused; (2) analysis of surveillance effort distribution across Wuhan geography; (3) examination of whether environmental viral concentration reliably traces back to spillover origin points; (4) assessment of whether early cases without market connections received equivalent diagnostic attention."
+      "resolution_path": "Analysis of SARS-1 and other zoonotic outbreaks to establish base rates for identifying intermediate hosts and environmental samples; assessment of what sampling was realistically possible given investigation timing and Chinese government control; expert judgment on whether absence of evidence should be weighted as evidence of absence in this context."
     },
     {
-      "id": "evidence_separability",
-      "question": "Can the HSM cluster evidence be validly evaluated in isolation from other evidence, or does proper Bayesian analysis require joint evaluation where HSM's evidential weight depends on the strength of other factors?",
-      "stakes": "If HSM evidence is separable, the debate can focus on calculating p(HSM|LL) versus p(HSM|Zoo) independently. If evidence is interdependent, then weaknesses in other zoonosis evidence (lack of intermediate host, absence of wildlife at market) may reduce HSM's evidential weight, while strengths in other lab leak evidence may increase the conditional probability p(HSM|LL).",
+      "id": "case_ascertainment_bias",
+      "question": "Were early COVID-19 cases systematically more likely to be detected if they had HSM connections, and if so, does correcting for this bias eliminate HSM's evidential value?",
+      "stakes": "If strong ascertainment bias existed: the observed HSM clustering is an artifact of surveillance, providing minimal evidence for either hypothesis. If cases were detected without substantial location bias: the HSM pattern represents genuine epidemiological signal favoring zoonosis.",
       "claim_ids": [
-        "a0c36b5b",
-        "e309f45e"
+        "d245f365"
       ],
       "theme_ids": [
-        "theme_09",
-        "theme_10",
-        "theme_15"
+        "theme_02",
+        "theme_34",
+        "theme_37",
+        "theme_38"
       ],
       "gap_ids": [
-        "3eb653b5"
+        "38fb5538"
       ],
-      "resolution_path": "Requires: (1) formal Bayesian network analysis examining conditional independence assumptions; (2) examination of whether location evidence and mechanism evidence are informationally separable; (3) analysis of how absence of identified intermediate host affects interpretation of HSM cluster; (4) assessment of whether the binary hypothesis framing (lab vs. zoonosis) adequately captures the hypothesis space."
+      "resolution_path": "Detailed reconstruction of case detection protocols in December 2019-January 2020; analysis of symptom severity and healthcare-seeking patterns for HSM-connected versus non-connected cases; examination of whether surveillance was triggered by the HSM cluster itself (creating circular evidence); serology studies to estimate true infection rates in HSM-connected versus general Wuhan population."
+    },
+    {
+      "id": "remaining_evidence_strength",
+      "question": "If HSM cluster evidence is set aside, does the totality of remaining evidence (furin cleavage site, lab proximity, specific research activities, lack of intermediate host) favor lab leak strongly enough to overcome any reasonable prior?",
+      "stakes": "If remaining evidence strongly favors lab leak: the debate outcome depends entirely on HSM assessment. If remaining evidence is mixed or weak: even neutralizing HSM leaves the question unresolved.",
+      "claim_ids": [
+        "20b666bc",
+        "30cb2a81",
+        "56159dae",
+        "96a03a89"
+      ],
+      "theme_ids": [
+        "theme_05",
+        "theme_11",
+        "theme_21"
+      ],
+      "gap_ids": [
+        "6f5f3aab"
+      ],
+      "resolution_path": "Systematic Bayesian analysis of each piece of non-HSM evidence with explicit likelihood ratios; expert elicitation on strength of molecular biology evidence (furin cleavage site, receptor binding domain, backbone choice); investigation of what specific research was conducted at WIV and how closely it matches SARS-CoV-2 characteristics; assessment of whether evidence quality and completeness support confident conclusions."
     }
   ],
   "gaps": [
@@ -3022,6 +4394,76 @@
     {
       "id": "3eb653b5",
       "content": "While SARS-CoV-2 originated in bats, it is unknown whether any bats were sold at the market, and the identity of any intermediate host species remains unidentified.",
+      "needs_review": false
+    },
+    {
+      "id": "9edbcbf8",
+      "content": "The intermediate species between bats and humans that would have facilitated SARS-CoV-2 transmission at HSM remains unknown.",
+      "needs_review": false
+    },
+    {
+      "id": "2033a130",
+      "content": "It is not established that bats, the known reservoir species for SARS-CoV-2, were sold at Huanan Seafood Market.",
+      "needs_review": false
+    },
+    {
+      "id": "d1a61c6c",
+      "content": "No systematic analysis of transmission dynamics required for a lab leak to plausibly reach HSM before detection elsewhere, including modeling of infected lab worker movement patterns, community transmission chains, and probability of first detected cluster appearing at various location types.",
+      "needs_review": true
+    },
+    {
+      "id": "cc253bb7",
+      "content": "The debate assumes that HSM was the actual spillover/origin location rather than merely the first detected cluster, without establishing criteria for distinguishing between these scenarios or examining whether detection timing could create this appearance.",
+      "needs_review": true
+    },
+    {
+      "id": "d2d4643a",
+      "content": "Missing quantitative analysis of what proportion of early COVID-19 cases would need HSM connection under each hypothesis, accounting for factors like testing bias, symptom severity distribution, and healthcare-seeking behavior.",
+      "needs_review": false
+    },
+    {
+      "id": "cd2be5c8",
+      "content": "The analysis lacks consideration of how much market clustering would be expected under lab leak specifically if the leak occurred during routine surveillance activities at wildlife markets or involved lab workers who frequently visited markets.",
+      "needs_review": false
+    },
+    {
+      "id": "aa7a4ab2",
+      "content": "The evidential weight assigned to HSM clustering may be circular: if surveillance was intensified at HSM because of the initial cluster, then finding more cases there could be an artifact of where investigators looked rather than where infections actually concentrated.",
+      "needs_review": true
+    },
+    {
+      "id": "40d237fb",
+      "content": "What is the base rate for early pandemic clusters appearing at markets or public gathering spaces generally, independent of origin mechanism? Are markets simply high-detection environments or genuine transmission amplifiers?",
+      "needs_review": false
+    },
+    {
+      "id": "2a4af902",
+      "content": "The debate assumes that December 2019 case data represents a reliable and complete sample of early infections, without adequately addressing potential missing cases from October-November 2019 that could shift geographic and temporal patterns.",
+      "needs_review": false
+    },
+    {
+      "id": "ebe648b7",
+      "content": "No systematic comparison of HSM characteristics versus other Wuhan markets to establish whether HSM had unique features making it more likely as either a spillover site or a detection site.",
+      "needs_review": false
+    },
+    {
+      "id": "7647ab58",
+      "content": "What is the expected lag time between actual spillover/index case and first detected cluster under each hypothesis, and how does this affect interpretation of where the first cluster appears?",
+      "needs_review": false
+    },
+    {
+      "id": "d0410e63",
+      "content": "The analysis treats 'lab leak' as a single hypothesis without adequately distinguishing between scenarios (infected researcher, contaminated waste, environmental release, field sampling accident) that would have different geographic implications.",
+      "needs_review": false
+    },
+    {
+      "id": "7831d8e1",
+      "content": "Missing data on whether any WIV-affiliated personnel or their family members were among the early HSM-connected cases, which would dramatically change the evidential interpretation.",
+      "needs_review": true
+    },
+    {
+      "id": "4d8b94b7",
+      "content": "The debate lacks consideration of selection effects in what evidence is available: Chinese government control over information access may have systematically filtered evidence in ways that affect both hypotheses differently.",
       "needs_review": false
     }
   ]

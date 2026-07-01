@@ -1,104 +1,165 @@
 {
   "evaluations": [
     {
-      "criterion_id": "general_methodological_transparency",
+      "criterion_id": "base_rate_reference_class",
       "status": "red_flag",
-      "evidence_quote": "what we do is is we go through a very careful methodology where we go we steal man each hypothesis find the best explanation look for dep pendencies look for the best uh numbers give give a low range and a high range and uh and integrate all the numbers to something that is uh that is robust",
-      "reviewer_note": "Methodology is described only in vague terms ('very careful methodology', 'integrate all the numbers') without concrete specification of how probabilistic calculations are performed, how dependencies are identified, or how ranges are determined. Claims robustness without demonstrating it.",
-      "quote_verified": true
+      "evidence_quote": "I would say five to 10 times more so five to 10 times five so it's 25 to 50 cases or 25 to 50 hospitalizations... I would say if you want I say five hospitalizations in addition to the five in the market but really you're you're you're trying to get something that I'm not claiming to have the entire model of the outbreak in my head",
+      "reviewer_note": "When pressed for specific prior estimates needed for Bayesian calculation (case counts on December 13th), Rootclaim spokesperson explicitly states he doesn't have the model in his head and provides inconsistent ad-hoc estimates (50-100 cases, then 5 hospitalizations). No reference class justification or empirical grounding is provided. [quote not verified in source text]",
+      "quote_verified": false
     },
     {
-      "criterion_id": "data_collection_procedures",
-      "status": "red_flag",
-      "evidence_quote": "I don't have a specific estimate but probably um mid December I don't know probably it's probably 10 20% of the cases are in the market maybe less I don't I need I need to think if you need an exact I do need an exact number... I would say five to 10 times more so five to 10 times five so it's 25 to 50 cases... if you want I say five hospitalizations in addition to the five in the market but really you're you're you're trying to get something that I'm not claiming to have the entire model of the outbreak in my head",
-      "reviewer_note": "Critical numerical estimates are improvised on the spot without reference to systematic data collection. When pressed for specifics, the debater admits to not having 'the entire model in my head,' indicating key claims lack documented evidentiary foundation.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "uncertainty_quantification",
-      "status": "red_flag",
-      "evidence_quote": "the result we have was I don't remember it's 99% that's one in 100 the one in 100,000 is how much you need to shift the data in order to pass 50%... at this point we the the amount of evidence is so strong I can't see that happening",
-      "reviewer_note": "Expresses extreme certainty (99%, 1 in 100,000) while simultaneously not remembering exact figures and admitting potential for factual errors. No discussion of uncertainty bounds, sensitivity analysis, or probabilistic reasoning validation.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "error_acknowledgment",
-      "status": "declared",
-      "evidence_quote": "yeah we're we're perfectly perfectly fine in getting some facts wrong uh we corrected some numbers based on your analysis and perfectly fine that we will will correct more numbers and eventually concede that um um zunos is most likely we don't have a problem with this method just uh point out any mistakes you see and we will correct",
-      "reviewer_note": "Explicitly acknowledges willingness to correct factual errors when identified, though this occurs in the context of multiple errors being pointed out during the debate.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "bias_handling",
-      "status": "red_flag",
-      "evidence_quote": "what we the data we brought about wi being in the center we explicitly said this is not something we believe in this is just showing you how easy it is to uh ch iic data we we're agreeing with you this that's sharpshoot a fallacy to claim that WBA supports wi the idea was to show how much you can play with the data",
-      "reviewer_note": "Acknowledges cherry-picking as a problem but simultaneously presents data that opponent identifies as suffering from selection bias (Weibo data, Texas Sharpshooter fallacy in their own analyses). Claims to recognize bias while engaging in contested selective use of evidence.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "fact_checking_verification",
-      "status": "red_flag",
-      "evidence_quote": "you don't do factchecking and there's a bunch of cases where you messed up here you said that this December 8th case was happened before the market outbreak both sides of the debate disagree with that you you got the two visitors wrong... you talked about this Texas Sharpshooter fallacy... but then two slides later you're talking about Mr Chen on December 16th that's the same guy but you didn't notice that you've double labeled the same case",
-      "reviewer_note": "Opponent identifies multiple factual errors including misidentification of cases, incorrect dates, double-counting individuals, and mischaracterization of data. These errors indicate inadequate fact-checking prior to presentation.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "probabilistic_reasoning_documentation",
+      "criterion_id": "likelihood_ratio_conditional_specification",
       "status": "not_declared",
       "evidence_quote": null,
-      "reviewer_note": "Despite making extreme probabilistic claims (1 in 100,000), no documentation is provided of how these probabilities were calculated, which priors were used, how independence assumptions were validated, or how the multiplication of probabilities was justified.",
+      "reviewer_note": "The debate discussion does not present likelihood ratios with explicit conditioning variables P(E|H,Background). References to 'one in 100,000' and 'billion' probabilities lack conditional probability specification.",
       "quote_verified": null
     },
     {
-      "criterion_id": "source_quality_assessment",
+      "criterion_id": "evidence_stream_independence",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No explicit argument about conditional independence between evidence streams (market cluster, early cases, geographic distribution). The discussion treats evidence pieces separately but does not address whether they can be validly multiplied.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "null_hypothesis_enumeration",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "This excerpt focuses on lab vs. zoonosis binary framing without discussing alternative hypotheses or justifying the binary partition of hypothesis space.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "likelihood_ratio_sensitivity_bounds",
+      "status": "red_flag",
+      "evidence_quote": "the one in 100,000 is how much you need to shift the data in order to pass 50%... the the amount of evidence is so strong I can't see that happening",
+      "reviewer_note": "Point estimate of '1 in 100,000' is presented without uncertainty bounds or sensitivity analysis. The statement that evidence is 'so strong' suggests no exploration of how alternative reasonable parameter values would affect conclusions.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "cited_evidence_match",
       "status": "red_flag",
       "evidence_quote": "about Chen if you go back to the recording I said specifically that some say eight some say 16 this is not settled it's not 16 is not settled it's based on an interview with that is not clear who who they're talking about uh translated we F saying 16",
-      "reviewer_note": "Relies on unclear, untranslated interview sources without apparent quality assessment. Acknowledges uncertainty about source reliability ('not clear who they're talking about') but still incorporates into analysis.",
+      "reviewer_note": "Rootclaim acknowledges uncertainty about basic factual claims (December 8th vs 16th case) based on unclear translation and interview source, yet these facts are being used in probabilistic calculations. Peter identifies multiple factual errors that Rootclaim accepts ('perfectly fine in getting some facts wrong').",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "counterfactual_consistency",
+      "status": "red_flag",
+      "evidence_quote": "we explicitly said this is not something we believe in this is just showing you how easy it is to uh ch iic data we we're agreeing with you this that's sharpshoot a fallacy to claim that WBA supports wi the idea was to show how much you can play with the data",
+      "reviewer_note": "Rootclaim admits using Weibo geographic data to show 'how easy it is to cherry pick' while simultaneously relying on other geographic analyses (Mahjong room theory). This suggests asymmetric application of skepticism—dismissing geographic evidence when it contradicts their hypothesis while accepting it when supportive.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "rare_event_probability_calibration",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "The '1 in 100,000' and 'billion' probabilities mentioned are not calibrated against historical base rates of analogous events (lab leaks, market-origin outbreaks, etc.).",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "temporal_sequence_exploitation",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No discussion of whether evidence was hypothesis-generating vs. confirmatory, or appropriate penalties for researcher degrees of freedom in post-hoc analysis.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "model_class_uncertainty",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "No acknowledgment of uncertainty about the modeling approach itself, only parameter uncertainty within their chosen framework.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "debate_scope_boundary",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "This excerpt does not define what evidence is in-scope vs. out-of-scope for the debate.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "judge_expertise_match",
+      "status": "not_applicable",
+      "evidence_quote": null,
+      "reviewer_note": "This is part 3 focusing on discussion and judges' questions, but judge qualifications are not discussed in this excerpt.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "posterior_concentration_diagnostic",
+      "status": "red_flag",
+      "evidence_quote": "the result we have was I don't remember it's 99% that's one in 100 the one in 100,000 is how much you need to shift the data in order to pass 50%",
+      "reviewer_note": "Extremely concentrated posterior (99%) with no diagnostic check of whether this concentration is justified. The claim that data would need to shift by 100,000x to change conclusion suggests inappropriate certainty given acknowledged factual errors and estimation uncertainty.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "alternative_explanation_steel_manning",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "The debate format involves adversarial exchange, but this excerpt doesn't demonstrate systematic steel-manning of opposing arguments.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "replication_transparency",
+      "status": "red_flag",
+      "evidence_quote": "what we do is is we go through a very careful methodology where we go we still man each hypothesis find the best explanation look for dep pendencies look for the best uh numbers give give a low range and a high range and uh and integrate all the numbers to something that is uh uh that is robust",
+      "reviewer_note": "General description of methodology is provided but no explicit calculations showing how '99%' or '1 in 100,000' were derived. When pressed for specific numbers (December 13th case counts), spokesperson cannot provide them and gives inconsistent estimates, making replication impossible.",
       "quote_verified": true
     }
   ],
   "red_flag_hits": [
     {
-      "pattern": "extreme_certainty_without_documentation",
-      "evidence_quote": "the result we have was I don't remember it's 99% that's one in 100 the one in 100,000 is how much you need to shift the data in order to pass 50%... at this point we the the amount of evidence is so strong I can't see that happening",
-      "reviewer_note": "Expresses extreme probabilistic certainty (99%, 1:100,000 odds) while simultaneously unable to recall exact figures and lacking documented methodology for these calculations in the transcript.",
+      "pattern": "Posterior probability >95% or <5% without sensitivity analysis",
+      "evidence_quote": "the result we have was I don't remember it's 99%",
+      "reviewer_note": "99% posterior claimed without any sensitivity analysis presented in this discussion.",
       "quote_verified": true
     },
     {
-      "pattern": "improvised_estimates_on_critical_parameters",
-      "evidence_quote": "I don't have a specific estimate but probably um mid December I don't know probably it's probably 10 20% of the cases are in the market maybe less... I would say five to 10 times more... it's just a guess",
-      "reviewer_note": "When questioned on fundamental parameters (number of cases at specific dates), provides improvised estimates admittedly not based on documented analysis, describing them as guesses.",
+      "pattern": "Claim of 'Bayesian analysis' that lacks explicit prior, likelihood, and posterior calculation",
+      "evidence_quote": "what we do is is we go through a very careful methodology where we go we still man each hypothesis find the best explanation look for dep pendencies look for the best uh numbers give give a low range and a high range and uh and integrate all the numbers to something that is uh uh that is robust",
+      "reviewer_note": "Methodology described in general terms but no explicit prior, likelihood, and posterior calculations shown or replicated in this exchange.",
       "quote_verified": true
     },
     {
-      "pattern": "motivated_reasoning_admission",
-      "evidence_quote": "there's a huge possibility for confirmation bias there where you get attached to one Theory and you only pick uh the numbers for that theory",
-      "reviewer_note": "Opponent directly identifies confirmation bias as a problem in the probabilistic approach, noting selective multiplication of numbers that support preferred theory.",
+      "pattern": "Different standards applied to evidence favoring each hypothesis (asymmetric skepticism)",
+      "evidence_quote": "we explicitly said this is not something we believe in this is just showing you how easy it is to uh ch iic data... about Majong being uh Sharpshooter uh no maang starts from lots of testimonies of people saying it starts from the evidence",
+      "reviewer_note": "Weibo geographic data dismissed as cherry-picked when it doesn't support their case, while Mahjong room geographic theory accepted based on testimonies. This demonstrates asymmetric standards for geographic evidence.",
       "quote_verified": true
     },
     {
-      "pattern": "factual_errors_undermining_claims",
-      "evidence_quote": "you don't do factchecking and there's a bunch of cases where you messed up here... you've double labeled the same case as far as I could tell",
-      "reviewer_note": "Multiple substantive factual errors identified including case misidentification, incorrect dates, and double-counting, indicating inadequate verification procedures despite making strong probabilistic claims dependent on factual accuracy.",
+      "pattern": "Round-number likelihood ratios (10x, 100x) without uncertainty bounds",
+      "evidence_quote": "the one in 100,000 is how much you need to shift the data in order to pass 50%",
+      "reviewer_note": "Round number (100,000x) presented as a single point estimate with no uncertainty bounds despite acknowledged factual uncertainties.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "Model assumptions stated as facts rather than assumptions",
+      "evidence_quote": "we are not claiming the market is a random place we're saying it's a significant super spal location due to the its feature... we're saying it's one of the main super spread locations",
+      "reviewer_note": "Market characterized definitively as 'one of the main super spread locations' rather than as one possible model among alternatives.",
+      "quote_verified": true
+    },
+    {
+      "pattern": "Citation to secondary source when primary data exists",
+      "evidence_quote": "it's based on an interview with that is not clear who who they're talking about uh translated",
+      "reviewer_note": "Key factual claim (December 8th vs 16th case date) based on unclear translated interview rather than primary epidemiological data.",
       "quote_verified": true
     }
   ],
   "source_id": "cases/covid/files/youtube_d1dbfoK8nSE.txt",
   "source_label": "First Rootclaim Debate on Covid Origins, part 3 — discussion and judges' questions",
-  "methodology_score": 0.085,
-  "score_rationale": "Score 0.085 (deterministic): weighted declared 1.0/8.0 (base 0.125); 1/8 criteria declared, 1 not_declared, 6 red_flag; 4 pattern hits (penalty capped); ceiling 0.5.",
+  "methodology_score": 0.0,
+  "score_rationale": "Score 0.000 (deterministic): weighted declared 0.0/26.0 (base 0.0); 0/14 criteria declared, 8 not_declared, 6 red_flag; 6 pattern hits (penalty capped); ceiling 0.65.",
   "score_breakdown": {
-    "applicable": 8,
-    "not_applicable": 0,
-    "declared": 1,
-    "not_declared": 1,
+    "applicable": 14,
+    "not_applicable": 1,
+    "declared": 0,
+    "not_declared": 8,
     "red_flag_criteria": 6,
-    "red_flag_hits": 4,
-    "weighted_declared": 1.0,
-    "weighted_total": 8.0,
-    "base_ratio": 0.125,
-    "confidence_ceiling": 0.5,
-    "methodology_score": 0.085
+    "red_flag_hits": 6,
+    "weighted_declared": 0.0,
+    "weighted_total": 26.0,
+    "base_ratio": 0.0,
+    "confidence_ceiling": 0.65,
+    "methodology_score": 0.0
   },
   "score_computed_by": "deterministic_v1"
 }

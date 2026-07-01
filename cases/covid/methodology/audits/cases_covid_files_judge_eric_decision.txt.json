@@ -1,118 +1,153 @@
 {
   "evaluations": [
     {
-      "criterion_id": "general_transparency",
-      "status": "declared",
-      "evidence_quote": "This decision was made independently of any decision reached by the other judge; the debate outcome will be determined by the consensus of both judges.",
-      "reviewer_note": "The judge explicitly declares independence and decision-making structure, though this is a judicial decision format rather than empirical research.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "conflict_of_interest",
+      "criterion_id": "base_rate_reference_class",
       "status": "not_declared",
       "evidence_quote": null,
-      "reviewer_note": "No declaration of potential conflicts of interest, financial relationships, or prior positions on the topic is provided.",
+      "reviewer_note": "The document discusses prior probabilities and mentions 'the prior against a laboratory origin' but does not explicitly define the reference class for establishing P0(H1)/P0(H2), nor provide empirical count data or justify against alternative reference classes.",
       "quote_verified": null
     },
     {
-      "criterion_id": "data_sources",
-      "status": "declared",
-      "evidence_quote": "On the basis of the evidence and arguments presented during the debate, I find with high confidence that zoonotic spillover is the more likely origin of sars-cov-2... per the rules of the debate I could not independently research.",
-      "reviewer_note": "Judge explicitly states evidence base is limited to debate presentations only, creating a methodological constraint not typical of scientific inquiry.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "analysis_method",
-      "status": "declared",
-      "evidence_quote": "In section 2 I will explain and demonstrate how Bayesian updating can be used to estimate the probability of a hypothesis conditioned on observations... While I do ultimately compute a numerical confidence level in the competing hypotheses, the resulting number should not be taken in earnest.",
-      "reviewer_note": "Bayesian framework is explicitly declared, but the judge simultaneously undermines confidence in quantitative results due to speculative parameter assignments.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "uncertainty_acknowledgment",
-      "status": "declared",
-      "evidence_quote": "I have grounded my analysis in the facts and evidence, but it was performed under acute time pressure on a subject which I am not an expert in, did not have a strong pre-existing opinion... May the reader be understanding of any errors in fact or judgement that follow.",
-      "reviewer_note": "Extensive acknowledgment of limitations including time pressure, lack of expertise, restricted research scope, and potential errors.",
-      "quote_verified": true
-    },
-    {
-      "criterion_id": "peer_review",
-      "status": "not_applicable",
+      "criterion_id": "likelihood_ratio_conditional_specification",
+      "status": "not_declared",
       "evidence_quote": null,
-      "reviewer_note": "This is a judicial decision document in a debate format, not academic research subject to peer review processes.",
+      "reviewer_note": "While the document promises Bayesian analysis in Section 2 and mentions 'Bayesian updating' and 'conditioned on observations', the provided excerpt does not show explicit conditioning variable specifications in probability statements (e.g., P(E|H,Background) vs P(E|H)).",
       "quote_verified": null
     },
     {
-      "criterion_id": "preregistration",
-      "status": "not_applicable",
+      "criterion_id": "evidence_stream_independence",
+      "status": "not_declared",
       "evidence_quote": null,
-      "reviewer_note": "Not applicable to judicial decision-making format.",
+      "reviewer_note": "The document mentions multiple evidence types (epidemiological proximity, genetics, market cluster) but does not explicitly argue for or demonstrate conditional independence between these evidence streams in the provided excerpt.",
       "quote_verified": null
     },
     {
-      "criterion_id": "reproducibility",
+      "criterion_id": "null_hypothesis_enumeration",
       "status": "red_flag",
-      "evidence_quote": "if you plan on verifying my calculations you will have some work ahead of you, as I usually only gave the minimum information needed to infer how each calculation was performed... To get to this quantitative conclusion required assigning numbers to many speculative or unknowable processes for which there are a wide range of believable values.",
-      "reviewer_note": "Judge explicitly states calculations are difficult to verify and involve arbitrary parameter assignments, undermining reproducibility of quantitative conclusions.",
+      "evidence_quote": "Rootclaim, represented by Saar Wilf, claimed that sars-cov-2 was the artificial consequence of gain-of-function laboratory research; challenger Peter Miller contended that sars-cov-2 transferred from an animal host without laboratory involvement.",
+      "reviewer_note": "The debate explicitly frames only two hypotheses (lab origin vs. zoonotic spillover) without enumeration of alternative hypotheses (e.g., intermediate scenarios, non-gain-of-function lab accident, intentional release, different zoonotic pathways) or justification for binary framing.",
       "quote_verified": true
     },
     {
-      "criterion_id": "sample_selection",
-      "status": "not_applicable",
+      "criterion_id": "likelihood_ratio_sensitivity_bounds",
+      "status": "not_declared",
       "evidence_quote": null,
-      "reviewer_note": "Not applicable; this is analysis of debate evidence, not empirical data collection.",
+      "reviewer_note": "The provided excerpt does not show uncertainty bounds or sensitivity analysis for likelihood ratios. Section 3 is titled about 'how to get large numbers' suggesting skepticism of others' calculations, but actual sensitivity analysis is not evident in the excerpt.",
       "quote_verified": null
     },
     {
-      "criterion_id": "funding_disclosure",
+      "criterion_id": "cited_evidence_match",
+      "status": "declared",
+      "evidence_quote": "in early January, before there existed adequate capacity for testing for covid, having an epidemiological link to the market was one component of a diagnosis of covid. In the time from 2019 December 10, when the earliest known covid case, Wei Guixian, became ill, and the market closure on January 1, approximately 200 people are known to have had onset of covid, of which 62 or 63 were vendors at the market [citations to sources 22, 12, 32]",
+      "reviewer_note": "The document provides specific citations to numbered references for empirical claims (e.g., [22, 12, 32, 35]) with specific quantitative details. Citations appear appropriately matched to claims, though full verification requires access to the complete reference list.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "counterfactual_consistency",
       "status": "not_declared",
       "evidence_quote": null,
-      "reviewer_note": "No information provided about compensation, sponsorship, or funding for the judicial role.",
+      "reviewer_note": "The excerpt does not contain explicit counterfactual reasoning or symmetric skepticism tests (e.g., 'would absence of market cluster be cited as evidence of concealment?').",
       "quote_verified": null
+    },
+    {
+      "criterion_id": "rare_event_probability_calibration",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "While the document discusses probabilities and mentions 'the prior against a laboratory origin', there is no evidence in the excerpt of calibration against known frequencies of analogous rare events (e.g., historical lab accident rates).",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "temporal_sequence_exploitation",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "The excerpt does not explicitly address whether evidence was selected post-hoc versus predicted a priori, nor does it discuss researcher degrees of freedom or look-elsewhere penalties.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "model_class_uncertainty",
+      "status": "declared",
+      "evidence_quote": "While I do ultimately compute a numerical confidence level in the competing hypotheses, the resulting number should not be taken in earnest. To get to this quantitative conclusion required assigning numbers to many speculative or unknowable processes for which there are a wide range of believable values. I expect the reader to favor different numbers or choices than I made.",
+      "reviewer_note": "The author explicitly acknowledges model uncertainty and the arbitrariness of specific numerical choices, recognizing that different reasonable modeling decisions could yield different results.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "debate_scope_boundary",
+      "status": "declared",
+      "evidence_quote": "per the rules of the debate) I could not independently research",
+      "reviewer_note": "The document explicitly mentions debate rules constraining the judge's ability to conduct independent research, indicating awareness of scope boundaries, though the complete boundary definition is not provided in this excerpt.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "judge_expertise_match",
+      "status": "red_flag",
+      "evidence_quote": "it was performed under acute time pressure on a subject which I am not an expert in, did not have a strong pre-existing opinion, and (per the rules of the debate) I could not independently research",
+      "reviewer_note": "The judge explicitly states they are not an expert in the subject matter (pandemic origins, virology, epidemiology). While Bayesian methodology expertise may be present, domain expertise is explicitly disclaimed.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "posterior_concentration_diagnostic",
+      "status": "declared",
+      "evidence_quote": "I find with high confidence that zoonotic spillover is the more likely origin of sars-cov-2... While I do ultimately compute a numerical confidence level in the competing hypotheses, the resulting number should not be taken in earnest.",
+      "reviewer_note": "The judge claims 'high confidence' but then cautions against taking the numerical result earnestly due to wide ranges of plausible values, showing some awareness of concentration issues, though formal diagnostics are not presented.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "alternative_explanation_steel_manning",
+      "status": "declared",
+      "evidence_quote": "In the following, I will be writing at length about my disagreements with the argument presented by Rootclaim, which may create the illusion that I think they were wrong about everything (or conversely that I agree with Peter's claims, by absence of discussion of them). This is not true; rather, this document is plenty long even without any discussion of points of agreement.",
+      "reviewer_note": "The judge explicitly acknowledges that focus on disagreements does not imply rejection of all arguments, showing awareness of the need to engage with strong versions of opposing arguments, though actual steel-manning is not demonstrated in this excerpt.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "replication_transparency",
+      "status": "declared",
+      "evidence_quote": "if you plan on verifying my calculations you will have some work ahead of you, as I usually only gave the minimum information needed to infer how each calculation was performed",
+      "reviewer_note": "The judge acknowledges providing minimal information for calculation replication, which is transparent about limited replicability but falls short of full computational transparency. Calculations are at least documented to some degree.",
+      "quote_verified": true
     }
   ],
   "red_flag_hits": [
     {
-      "pattern": "expertise_mismatch",
-      "evidence_quote": "it was performed under acute time pressure on a subject which I am not an expert in",
-      "reviewer_note": "Judge explicitly acknowledges lack of domain expertise in virology, epidemiology, or relevant scientific fields.",
+      "pattern": "Hypothesis space limited to two options without justification for exclusion of alternatives",
+      "evidence_quote": "Rootclaim, represented by Saar Wilf, claimed that sars-cov-2 was the artificial consequence of gain-of-function laboratory research; challenger Peter Miller contended that sars-cov-2 transferred from an animal host without laboratory involvement.",
+      "reviewer_note": "The debate structure explicitly limits consideration to two hypotheses (lab origin vs. zoonotic), with no discussion of other materially plausible alternatives such as non-gain-of-function lab accidents, intermediate scenarios, or different zoonotic pathways.",
       "quote_verified": true
     },
     {
-      "pattern": "restricted_evidence_base",
-      "evidence_quote": "per the rules of the debate I could not independently research. Much of the analysis involves conflicting tertiary sources, so that I must critically assess claims made by people with greater expertise or experience than I, and with access to primary or secondary sources that I lack.",
-      "reviewer_note": "Severe methodological constraint: judge prohibited from independent research and relies on tertiary debate sources rather than primary scientific literature.",
+      "pattern": "Claim of 'Bayesian analysis' that lacks explicit prior, likelihood, and posterior calculation",
+      "evidence_quote": "On the basis of the evidence and arguments presented during the debate, I find with high confidence that zoonotic spillover is the more likely origin of sars-cov-2... I found this insufficient to overcome the proximity evidence and the prior against a laboratory origin.",
+      "reviewer_note": "In the abstract/introduction, the judge invokes Bayesian reasoning and mentions 'the prior against a laboratory origin' but does not present explicit prior probabilities, likelihood ratios, or posterior calculations in the provided excerpt, though these may appear in later sections.",
       "quote_verified": true
     },
     {
-      "pattern": "arbitrary_quantification",
-      "evidence_quote": "To get to this quantitative conclusion required assigning numbers to many speculative or unknowable processes for which there are a wide range of believable values. I expect the reader to favor different numbers or choices than I made.",
-      "reviewer_note": "Judge explicitly acknowledges that numerical confidence estimates rest on subjective, arbitrary parameter choices with wide uncertainty ranges.",
+      "pattern": "Posterior probability >95% or <5% without sensitivity analysis",
+      "evidence_quote": "I find with high confidence that zoonotic spillover is the more likely origin of sars-cov-2",
+      "reviewer_note": "'High confidence' suggests posterior >90%, potentially >95%, but the excerpt does not contain sensitivity analysis showing robustness of this conclusion to alternative parameter values, though the author does caveat the numerical result.",
       "quote_verified": true
     },
     {
-      "pattern": "time_pressure_compromise",
-      "evidence_quote": "it was performed under acute time pressure on a subject which I am not an expert in",
-      "reviewer_note": "Explicit acknowledgment that analysis was conducted under acute time constraints, potentially compromising thoroughness.",
+      "pattern": "Model assumptions stated as facts rather than assumptions",
+      "evidence_quote": "The most important basis for this decision is the relative epidemiological proximity of the earliest indicators of covid to a plausible animal source rather than a potential laboratory source.",
+      "reviewer_note": "The characterization of HSM as 'a plausible animal source' appears to be stated as fact rather than as a modeling assumption that could be questioned (e.g., no animals tested positive at HSM).",
       "quote_verified": true
     }
   ],
   "source_id": "cases/covid/files/judge_eric_decision.txt",
   "source_label": "Judge Eric Stansifer",
-  "methodology_score": 0.5,
-  "score_rationale": "Score 0.500 (deterministic): weighted declared 5.0/8.0 (base 0.625); 4/7 criteria declared, 2 not_declared, 1 red_flag; 4 pattern hits (penalty capped); ceiling 0.5.",
+  "methodology_score": 0.256,
+  "score_rationale": "Score 0.256 (deterministic): weighted declared 8.0/27.0 (base 0.296); 6/15 criteria declared, 7 not_declared, 2 red_flag; 4 pattern hits (penalty capped); ceiling 0.65.",
   "score_breakdown": {
-    "applicable": 7,
-    "not_applicable": 3,
-    "declared": 4,
-    "not_declared": 2,
-    "red_flag_criteria": 1,
+    "applicable": 15,
+    "not_applicable": 0,
+    "declared": 6,
+    "not_declared": 7,
+    "red_flag_criteria": 2,
     "red_flag_hits": 4,
-    "weighted_declared": 5.0,
-    "weighted_total": 8.0,
-    "base_ratio": 0.625,
-    "confidence_ceiling": 0.5,
-    "methodology_score": 0.5
+    "weighted_declared": 8.0,
+    "weighted_total": 27.0,
+    "base_ratio": 0.296,
+    "confidence_ceiling": 0.65,
+    "methodology_score": 0.256
   },
   "score_computed_by": "deterministic_v1"
 }

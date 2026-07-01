@@ -1,144 +1,165 @@
 {
   "evaluations": [
     {
-      "criterion_id": "general_methodological_transparency",
+      "criterion_id": "base_rate_reference_class",
       "status": "red_flag",
-      "evidence_quote": "We use three independent methods to estimate this probability more accurately, all pointing to this number being larger than 1%. As this is the short version, here is the simplest way to see it",
-      "reviewer_note": "The source claims to use 'three independent methods' but provides incomplete specification of these methods. The probabilistic framework is asserted but key analytical decisions (e.g., choice of denominators, selection criteria for comparison cases) lack transparent justification.",
+      "evidence_quote": "To estimate this probabilistically we place these four cases in the numerator of a fraction, where the denominator represents all identified early clusters following zero Covid periods. Such a denominator is not accurately known, as early clusters are not always identified or documented. Given that not many countries achieved zero Covid, and often the early cluster is not easy to find, we place an upper limit of 100, for a ratio of over 4%.",
+      "reviewer_note": "Reference class is acknowledged as 'not accurately known' and uses an arbitrary 'upper limit of 100' without empirical justification. The selection of 'early clusters following zero Covid periods' as the reference class is not defended against alternative reference classes (e.g., all superspreading events, all pandemic origins).",
       "quote_verified": true
     },
     {
-      "criterion_id": "data_sources_specification",
-      "status": "not_declared",
-      "evidence_quote": null,
-      "reviewer_note": "No systematic specification of data sources for outbreak counts, market characteristics, or zero-COVID periods. Claims like '2 out of 5 large outbreaks in China in 2020' lack source attribution or inclusion/exclusion criteria.",
-      "quote_verified": null
-    },
-    {
-      "criterion_id": "sampling_strategy",
-      "status": "red_flag",
-      "evidence_quote": "Such a denominator is not accurately known, as early clusters are not always identified or documented. Given that not many countries achieved zero Covid, and often the early cluster is not easy to find, we place an upper limit of 100",
-      "reviewer_note": "The denominator selection ('upper limit of 100') is acknowledged as guesswork without systematic sampling framework. This arbitrary ceiling directly affects the calculated probability ratios.",
+      "criterion_id": "likelihood_ratio_conditional_specification",
+      "status": "declared",
+      "evidence_quote": "We will examine the conditional probability of an HSM early cluster given that we already know a pandemic has started in Wuhan. In shorthand, we are comparing p(HSM|Zoonosis,Wuhan) to p(HSM|Lab Leak,Wuhan).",
+      "reviewer_note": "The source explicitly states conditioning on 'Wuhan' and uses proper conditional probability notation throughout. Background variables are clearly specified in the probability statements.",
       "quote_verified": true
     },
     {
-      "criterion_id": "case_definition",
+      "criterion_id": "evidence_stream_independence",
       "status": "not_declared",
       "evidence_quote": null,
-      "reviewer_note": "No explicit definition of what constitutes an 'early cluster,' 'large outbreak,' or 'zero COVID period.' These undefined terms are central to the comparative analysis but lack operational criteria.",
+      "reviewer_note": "The document focuses solely on the HSM cluster evidence and does not address whether this evidence stream is conditionally independent from other evidence (furin site, WIV capabilities, etc.) mentioned as supporting lab leak.",
       "quote_verified": null
     },
     {
-      "criterion_id": "comparison_group_specification",
+      "criterion_id": "null_hypothesis_enumeration",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "The analysis maintains a binary comparison (lab leak vs. zoonosis) without enumerating sub-hypotheses (accidental vs. intentional leak, intermediate host vs. direct spillover) or justifying why these can be aggregated.",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "likelihood_ratio_sensitivity_bounds",
       "status": "red_flag",
-      "evidence_quote": "To estimate this probabilistically we place these four cases in the numerator of a fraction, where the denominator represents all identified early clusters following zero Covid periods.",
-      "reviewer_note": "Comparison logic is circular: uses market clusters to argue markets aren't special, but denominator selection and case inclusion criteria are post-hoc and incompletely specified.",
+      "evidence_quote": "We provide three methods to estimate this number, all of them supporting a conclusion that this conditional probability is over 1%. Given that each of these provides a minimum estimate, and some are independent alternative explanations for an HSM cluster, a reasonable final estimate would be 5-10%. We still conservatively assign it 1%, which is enough to make this evidence negligible.",
+      "reviewer_note": "While ranges are mentioned (5-10%, then conservatively 1%), there is no systematic sensitivity analysis showing how variations in these estimates affect final posterior odds. The jump from 5-10% to 1% appears arbitrary rather than analytical.",
       "quote_verified": true
     },
     {
-      "criterion_id": "statistical_assumptions",
+      "criterion_id": "cited_evidence_match",
       "status": "red_flag",
-      "evidence_quote": "we need to divide the two conditional probabilities, which are at best 5% and 1%, giving a ratio lower than 5x",
-      "reviewer_note": "Critical statistical assumptions are asserted without justification: independence of methods, distributional assumptions for Bayes factors, and the validity of treating estimates as independent bounds. The 'integration' formula 1−∏(1−pi) is mentioned but not applied.",
+      "evidence_quote": "2 out of 5 large outbreaks in China in 2020, as well as outbreaks in Thailand and Singapore, started in markets. Most notable among them is the December 2020 outbreak in Thailand, following a long period of zero Covid (i.e. forming an early cluster just like HSM). That too happened in a seafood market, and the index case there was also a shrimp vendor!",
+      "reviewer_note": "Empirical claims about outbreaks in Thailand, Singapore, and China are made without any primary source citations. The claimed numerator (4 cases) and denominator (100 early clusters) cannot be verified or traced to data.",
       "quote_verified": true
     },
     {
-      "criterion_id": "uncertainty_quantification",
-      "status": "red_flag",
-      "evidence_quote": "We still conservatively assign it 1%, which is enough to make this evidence negligible",
-      "reviewer_note": "Uncertainty is acknowledged rhetorically but not quantified. The jump from 'over 4%' or '5-10%' to 'conservatively 1%' lacks methodological justification. No confidence intervals or sensitivity analyses provided.",
+      "criterion_id": "counterfactual_consistency",
+      "status": "not_declared",
+      "evidence_quote": null,
+      "reviewer_note": "The document does not explicitly test whether the reasoning would be applied symmetrically if evidence pointed in the opposite direction (e.g., would absence of market clusters be cited as evidence of concealment?).",
+      "quote_verified": null
+    },
+    {
+      "criterion_id": "rare_event_probability_calibration",
+      "status": "declared",
+      "evidence_quote": "To estimate this probabilistically we place these four cases in the numerator of a fraction, where the denominator represents all identified early clusters following zero Covid periods... we place an upper limit of 100, for a ratio of over 4%.",
+      "reviewer_note": "The source attempts to calibrate the rare event probability against observed frequencies (market clusters after zero-COVID periods), though the empirical grounding is weak due to denominator uncertainty.",
       "quote_verified": true
     },
     {
-      "criterion_id": "prior_specification_bayesian",
+      "criterion_id": "temporal_sequence_exploitation",
+      "status": "declared",
+      "evidence_quote": "The 'we told you so' statements about markets are mostly hindsight bias. When examining data prior to 2020 (more below), we see that scientists warned of interfaces where people dealt much more closely with animals, such as in farms, restaurants and labs.",
+      "reviewer_note": "The source explicitly acknowledges hindsight bias and attempts to distinguish between pre-2020 predictions and post-hoc interpretations of market significance.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "model_class_uncertainty",
+      "status": "declared",
+      "evidence_quote": "Furthermore, it's important to not only find the best explanation but honestly think about how well we understand the issue and estimate how likely it is there is some best explanation that still evades us (i.e. that we are currently estimating the 2nd best explanation or worse)... Note that these are just the three methods we identified. To continue to believe the extreme p=1/10000 or p=1/000, you also need to be very confident there aren't other explanations that were not yet identified.",
+      "reviewer_note": "The source explicitly discusses model uncertainty and the possibility that better explanations exist that have not been identified, treating this as a systematic consideration rather than an afterthought.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "debate_scope_boundary",
       "status": "not_declared",
       "evidence_quote": null,
-      "reviewer_note": "Despite extensive discussion of Bayes factors, the analysis never specifies prior probabilities for the lab-leak vs zoonosis hypotheses. The conditional probabilities are discussed in isolation from the full Bayesian framework.",
+      "reviewer_note": "The document does not define what types of evidence are in-scope vs. out-of-scope for the analysis, or whether symmetric rules were applied to both sides in the debate.",
       "quote_verified": null
     },
     {
-      "criterion_id": "sensitivity_analysis",
+      "criterion_id": "judge_expertise_match",
+      "status": "red_flag",
+      "evidence_quote": "I'm focusing on this because Saar's opinion is that the debate went wrong (for his side) because he didn't realize the judges were going to use Bayesian math, they did the math wrong (because Saar hadn't done enough work explaining how to do it right), and so they got the wrong answer. I want to discuss the math errors he thinks the judges made, but this discussion would be incomplete without mentioning that the judges themselves say the numbers were only a supplement for their intuitive reasoning.",
+      "reviewer_note": "The source reveals that judges used 'intuitive reasoning' rather than explicit probability calculations as primary method, and that there was confusion about whether Bayesian math would be used, suggesting potential expertise mismatch.",
+      "quote_verified": true
+    },
+    {
+      "criterion_id": "posterior_concentration_diagnostic",
       "status": "not_declared",
       "evidence_quote": null,
-      "reviewer_note": "No systematic sensitivity analysis despite acknowledged uncertainty in key parameters (denominator count, market characteristics, cluster definitions). The rhetorical acknowledgment of uncertainty does not substitute for formal sensitivity testing.",
+      "reviewer_note": "No discussion of final posterior distributions, credible intervals, or diagnostic checks for inappropriate concentration of probability mass.",
       "quote_verified": null
     },
     {
-      "criterion_id": "model_validation",
-      "status": "not_declared",
-      "evidence_quote": null,
-      "reviewer_note": "The probabilistic reasoning framework is advocated but never validated against known outcomes or alternative analytical approaches. No external validation or cross-checking of probability estimates.",
-      "quote_verified": null
+      "criterion_id": "alternative_explanation_steel_manning",
+      "status": "declared",
+      "evidence_quote": "This is the 'best explanation' – the explanation that maximizes the likelihood of the hypothesis – and making a serious effort to find it is steelmanning. A mistake in this step, even just choosing the 2nd best explanation, could easily result in orders-of-magnitude errors. To reduce such mistakes, it is crucial to seriously meet the requirement above of 'assuming H is true'.",
+      "reviewer_note": "The source explicitly defines and advocates for steelmanning, with methodological discussion of how to find the best explanation under each hypothesis. However, whether this is actually implemented symmetrically is unclear.",
+      "quote_verified": true
     },
     {
-      "criterion_id": "conflicts_of_interest",
-      "status": "not_declared",
-      "evidence_quote": null,
-      "reviewer_note": "No disclosure of conflicts, funding sources, or institutional affiliations that might relate to the COVID origins debate.",
-      "quote_verified": null
-    },
-    {
-      "criterion_id": "reproducibility_materials",
-      "status": "not_declared",
-      "evidence_quote": null,
-      "reviewer_note": "No indication of data sharing, code availability, or supplementary materials that would enable independent verification of the probability calculations.",
-      "quote_verified": null
+      "criterion_id": "replication_transparency",
+      "status": "red_flag",
+      "evidence_quote": "we place an upper limit of 100, for a ratio of over 4%... The proximity to the CDC should account for at least a 10x advantage for HSM, relative to these other locations. This makes the supposed 1/10,000 coincidence a 1/100",
+      "reviewer_note": "Key numerical claims lack sufficient detail for replication. The 'upper limit of 100' and '10x advantage' appear as assertions without showing underlying calculations or data sources. Independent replication would be difficult.",
+      "quote_verified": true
     }
   ],
   "red_flag_hits": [
     {
-      "pattern": "Strong claims with weak uncertainty acknowledgment",
-      "evidence_quote": "we promise that those who make the effort will be rewarded with a glimpse of how much better we can all be at reasoning about the world, and will be able to reach high confidence that Covid originated from a lab",
-      "reviewer_note": "Opening makes strong epistemological claims ('high confidence') while subsequent analysis reveals substantial acknowledged uncertainties in key parameters, creating a mismatch between rhetorical certainty and analytical uncertainty.",
+      "pattern": "Prior probability stated without reference class justification or historical base rate",
+      "evidence_quote": "Such a denominator is not accurately known, as early clusters are not always identified or documented. Given that not many countries achieved zero Covid, and often the early cluster is not easy to find, we place an upper limit of 100",
+      "reviewer_note": "The denominator for base rate calculation is acknowledged as unknown and replaced with an arbitrary upper bound rather than empirical count data.",
       "quote_verified": true
     },
     {
-      "pattern": "Arbitrary parameter selection presented as conservative",
-      "evidence_quote": "we place an upper limit of 100, for a ratio of over 4%. There could be some differences between HSM and these markets (one possibility discussed below), leaving us enough leeway to confidently claim the conditional probability is above 1%",
-      "reviewer_note": "Multiple parameters (denominator=100, final estimate reduced from 4-10% to 1%) are selected without systematic justification, yet presented as 'conservative' bounds that supposedly strengthen conclusions.",
+      "pattern": "Citation to secondary source when primary data exists",
+      "evidence_quote": "2 out of 5 large outbreaks in China in 2020, as well as outbreaks in Thailand and Singapore, started in markets.",
+      "reviewer_note": "Empirical claims about specific outbreaks are made without citing any sources, primary or secondary, making verification impossible.",
       "quote_verified": true
     },
     {
-      "pattern": "Methodological tutorial substituting for empirical rigor",
-      "evidence_quote": "Our goal in a probabilistic analysis is to estimate Bayes factors. A Bayes factor is the ratio of conditional probabilities... [extensive methodological discussion follows]",
-      "reviewer_note": "Extended pedagogical sections on Bayesian reasoning and 'steelmanning' serve to establish methodological authority but do not compensate for incomplete specification of the actual analytical implementation.",
+      "pattern": "Claim that evidence streams are 'independent' without conditional independence argument",
+      "evidence_quote": "Given that each of these provides a minimum estimate, and some are independent alternative explanations for an HSM cluster",
+      "reviewer_note": "Independence between the three estimation methods is claimed ('some are independent') without demonstrating conditional independence or providing argumentation.",
       "quote_verified": true
     },
     {
-      "pattern": "Dismissal of competing analysis as error",
-      "evidence_quote": "The mistake everyone makes here is thinking this is a 0.1% to 0.01% coincidence... I'm focusing on this because Saar's opinion is that the debate went wrong (for his side) because he didn't realize the judges were going to use Bayesian math, they did the math wrong",
-      "reviewer_note": "Frames alternative probability estimates as categorical errors rather than differences in analytical judgment, despite the source's own estimates relying on incompletely justified assumptions.",
+      "pattern": "Round-number likelihood ratios (10x, 100x) without uncertainty bounds",
+      "evidence_quote": "The proximity to the CDC should account for at least a 10x advantage for HSM",
+      "reviewer_note": "The '10x advantage' is stated as a round number without derivation, uncertainty bounds, or sensitivity analysis.",
       "quote_verified": true
     },
     {
-      "pattern": "Post-hoc case selection",
-      "evidence_quote": "2 out of 5 large outbreaks in China in 2020, as well as outbreaks in Thailand and Singapore, started in markets. Most notable among them is the December 2020 outbreak in Thailand",
-      "reviewer_note": "Cases appear selected to support the conclusion (markets as non-special locations) without pre-specification of selection criteria, temporal bounds, or geographic scope. The Thailand case is highlighted for similarity but selection process is opaque.",
+      "pattern": "Model assumptions stated as facts rather than assumptions",
+      "evidence_quote": "Remember we still need many permanent residents in one space for a noticeable cluster to form – such locations should not account for more than 10% of Wuhan residents.",
+      "reviewer_note": "The '10% of Wuhan residents' claim is stated as if factual ('should not account for') rather than as a modeling assumption requiring justification.",
       "quote_verified": true
     },
     {
-      "pattern": "Confidence exceeds data quality",
-      "evidence_quote": "Given that there are not that many early clusters after zero Covid (different from just any superspreader event!), having one so similar is enough to understand HSM is not some random location",
-      "reviewer_note": "Draws strong conclusions ('enough to understand') from small, incompletely enumerated sample of events with undefined inclusion criteria. Claims of understanding exceed what the acknowledged data limitations would support.",
+      "pattern": "Judge decision based on 'persuasiveness' rather than explicit probability calculations",
+      "evidence_quote": "the judges themselves say the numbers were only a supplement for their intuitive reasoning",
+      "reviewer_note": "The source explicitly states that judges relied on intuitive reasoning with probabilistic calculations as mere supplements, contrary to rigorous Bayesian debate standards.",
       "quote_verified": true
     }
   ],
   "source_id": "cases/covid/files/response_to_scott_alexander.txt",
   "source_label": "Jonathan (Rootclaim)",
-  "methodology_score": 0.0,
-  "score_rationale": "Score 0.000 (deterministic): weighted declared 0.0/12.0 (base 0.0); 0/12 criteria declared, 7 not_declared, 5 red_flag; 6 pattern hits (penalty capped); ceiling 0.5.",
+  "methodology_score": 0.32,
+  "score_rationale": "Score 0.320 (deterministic): weighted declared 10.0/27.0 (base 0.37); 5/15 criteria declared, 5 not_declared, 5 red_flag; 6 pattern hits (penalty capped); ceiling 0.65.",
   "score_breakdown": {
-    "applicable": 12,
+    "applicable": 15,
     "not_applicable": 0,
-    "declared": 0,
-    "not_declared": 7,
+    "declared": 5,
+    "not_declared": 5,
     "red_flag_criteria": 5,
     "red_flag_hits": 6,
-    "weighted_declared": 0.0,
-    "weighted_total": 12.0,
-    "base_ratio": 0.0,
-    "confidence_ceiling": 0.5,
-    "methodology_score": 0.0
+    "weighted_declared": 10.0,
+    "weighted_total": 27.0,
+    "base_ratio": 0.37,
+    "confidence_ceiling": 0.65,
+    "methodology_score": 0.32
   },
   "score_computed_by": "deterministic_v1"
 }

@@ -1,0 +1,29 @@
+{
+  "case": "covid",
+  "hypotheses_count": 0,
+  "study_parameters": {
+    "total": 0,
+    "breakdown": {
+      "from_evidence": 0,
+      "external_standard": 0,
+      "ungrounded": 0,
+      "other": 0
+    },
+    "grounded_pct": null
+  },
+  "verifier_overrides": {
+    "total": 0,
+    "details": []
+  },
+  "corpus_truncated_cruxes": [],
+  "zero_claim_evidence_cruxes": [],
+  "self_reported_invented_or_unverified": [],
+  "verification_scope": {
+    "verified": [
+      "study_parameters grounding: from_evidence quotes are checked literally against the source corpus; external_standard references are checked for a specific title and edition/year."
+    ],
+    "not_verified": [
+      "Crux stakes and resolution_path are LLM synthesis produced by crystallize and are not checked against the source corpus by any process in this pipeline. Treat them as framing, not as verified fact."
+    ]
+  }
+}

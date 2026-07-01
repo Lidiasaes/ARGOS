@@ -208,8 +208,6 @@ class GraphStore:
                 return False
 
         node["attestations"].append(attestation)
-        conf = coerce_score(node.get("confidence"), 0.5)
-        node["confidence"] = min(conf + 0.1, 0.95)
         if len(node["attestations"]) > 1:
             node["status"] = "corroborated"
         self._save()
@@ -287,7 +285,6 @@ class GraphStore:
                     rel["target"] = canonical_id
             node["relations"] = self._dedupe_relations(node.get("relations", []))
 
-        canon["confidence"] = min(max(canon.get("confidence", 0.5), absorbed.get("confidence", 0.5)) + 0.05, 0.95)
         if len(canon.get("attestations", [])) > 1:
             canon["status"] = "corroborated"
 

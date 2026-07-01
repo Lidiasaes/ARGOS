@@ -90,8 +90,6 @@ def normalize_extracted_node(node_data: dict) -> tuple[dict, str | None]:
     if out.get("type") == "claim":
         out["is_rhetorical_move"] = infer_is_rhetorical_move(out)
 
-    if "confidence" in out:
-        out["confidence"] = coerce_score(out.get("confidence"))
     if "evidential_weight" in out:
         out["evidential_weight"] = coerce_score(out.get("evidential_weight"), default=0.5)
 

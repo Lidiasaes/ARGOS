@@ -38,7 +38,6 @@ class EpistemicNode:
     claim_type: str
     argument_level: str
     abstraction_level: str
-    confidence: float
     agent_generated: bool
     human_reviewed: bool
     needs_review: bool
@@ -83,7 +82,6 @@ def make_attestation(
     date: str = "",
     source_url: str = "",
     quote: str | None = None,
-    confidence: float = 0.5,
     source_type: str = "unknown",
 ) -> dict:
     sid = (source_id or "").strip()
@@ -101,7 +99,6 @@ def make_attestation(
         "date": date,
         "source_url": source_url,
         "quote": quote,
-        "confidence": confidence,
         "source_type": source_type,
     }
 
@@ -119,7 +116,6 @@ def ensure_attestations(node: dict) -> list[dict]:
                 date=node.get("source_date", ""),
                 source_url=node.get("source_url", ""),
                 quote=node.get("textual_evidence") or node.get("quote_exact"),
-                confidence=node.get("confidence", 0.5),
                 source_type=node.get("source_type", "unknown"),
             )
         ]
@@ -449,7 +445,6 @@ def make_node(type: str, content: str, source_url: str = "", **kwargs) -> Episte
         "claim_type": "unknown",
         "argument_level": "direct",
         "abstraction_level": "empirical",
-        "confidence": 0.5,
         "evidential_weight": None,
         "agent_generated": False,
         "human_reviewed": False,
@@ -482,7 +477,6 @@ def make_node(type: str, content: str, source_url: str = "", **kwargs) -> Episte
     }
     valid_fields = {f.name for f in EpistemicNode.__dataclass_fields__.values()}
     merged = {**defaults, **kwargs}
-    merged["confidence"] = coerce_score(merged.get("confidence"), 0.5)
     if merged.get("evidential_weight") is not None:
         merged["evidential_weight"] = coerce_score(merged.get("evidential_weight"), 0.5)
     filtered = {k: v for k, v in merged.items() if k in valid_fields}
@@ -497,7 +491,6 @@ def make_node(type: str, content: str, source_url: str = "", **kwargs) -> Episte
                     date=filtered.get("source_date", ""),
                     source_url=source_url,
                     quote=quote,
-                    confidence=filtered.get("confidence", 0.5),
                     source_type=filtered.get("source_type", "unknown"),
                 )
             ]

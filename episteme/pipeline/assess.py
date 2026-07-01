@@ -53,7 +53,6 @@ def run_assessment(case: str, cache: Cache, store: GraphStore):
             type="gap",
             content=gap["content"],
             source_url="agent:assessor",
-            confidence=0.6,
             agent_generated=True,
             needs_review=gap.get("impact") == "CRITICAL",
             case=case,

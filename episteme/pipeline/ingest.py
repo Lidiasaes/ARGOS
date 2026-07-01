@@ -185,7 +185,6 @@ def run_ingestion(
                     date=source.get("date", ""),
                     source_url=source.get("url") or source.get("local_path", ""),
                     quote=quote,
-                    confidence=node_data.get("confidence", 0.5),
                     source_type=trust.get("source_type", "unknown"),
                 )
                 if similar_id:
@@ -205,7 +204,6 @@ def run_ingestion(
                         claim_type=node_data.get("claim_type", "unknown"),
                         argument_level=node_data.get("argument_level", "direct"),
                         abstraction_level=node_data.get("abstraction_level", "empirical"),
-                        confidence=node_data.get("confidence", 0.5),
                         evidential_weight=node_data.get("evidential_weight") or None,
                         # Extractor-proposed relations reference IDs that don't exist yet
                         # (extractor sees a chunk in isolation, not the graph). These produce

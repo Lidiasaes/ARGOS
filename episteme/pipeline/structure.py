@@ -72,7 +72,6 @@ def run_structure(case: str, cache: Cache, store: GraphStore):
                         type="presupposition",
                         content=p["content"],
                         source_url=f"agent:philosopher_batch::{batch_idx}",
-                        confidence=0.8,
                         agent_generated=True,
                         needs_review=p.get("status") == "PREMISE_OF_THIS_WORK",
                         case=case,
@@ -117,7 +116,6 @@ def run_structure(case: str, cache: Cache, store: GraphStore):
                     type="question_disambiguation",
                     content=narrative,
                     source_url="agent:philosopher",
-                    confidence=0.7,
                     agent_generated=True,
                     case=case,
                 )
